@@ -1,0 +1,238 @@
+<dialogue id="B1-A44-C16-1523036004645">
+  <utterance participant="builder">
+    <!--Mission has started .-->
+    <markable id="markable_2" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" min_ids="word_0" min_words="mission" mmax_level="phrase" number="undersp-num" order_id="2" person="per1" ref_type="phrase" reference="new" related_object="no" span="(0, 1)">
+      <t>Mission</t>
+    </markable>
+    <t>has started .</t>
+  </utterance>
+  <utterance participant="builder">hello<!--hello-->
+  </utterance>
+  <utterance participant="architect">
+    <!--hello-->
+    <markable id="markable_40" gender="unmarked" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="unmarked" person="unmarked" reference="unmarked" span="(5, 6)">
+      <t>hello</t>
+    </markable>
+  </utterance>
+  <utterance participant="architect">
+    <!--. ok same procedure as last time-->
+    <t>. ok</t>
+    <markable id="markable_3" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" min_ids="word_9" min_words="procedure" mmax_level="phrase" number="undersp-num" order_id="3" person="per1" ref_type="phrase" reference="new" related_object="no" span="(8, 10)">
+      <t>same procedure</t>
+    </markable>
+    <t>as</t>
+    <markable id="markable_4" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" min_ids="word_12" min_words="time" mmax_level="phrase" number="undersp-num" order_id="4" person="per1" ref_type="phrase" reference="new" related_object="no" span="(11, 13)">
+      <t>last time</t>
+    </markable>
+  </utterance>
+  <utterance participant="architect">purple , empty , orange<!--purple , empty , orange-->
+  </utterance>
+  <utterance participant="architect">
+    <!--2nd column : empty , orange , yellow-->
+    <markable id="markable_47" gender="unmarked" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="unmarked" person="unmarked" reference="unmarked" span="(18, 20)">
+      <t>2nd column</t>
+    </markable>
+    <t>: empty , orange , yellow</t>
+  </utterance>
+  <utterance participant="builder">added purple@5,0,-1 added purple@5,1,-1 added orange@5,2,-1 removed purple@5,1,-1<!--added purple@5,0,-1 added purple@5,1,-1 added orange@5,2,-1 removed purple@5,1,-1-->
+  </utterance>
+  <utterance participant="architect">
+    <!--3rd column : orange , 3 yellow-->
+    <markable id="markable_48" gender="unmarked" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="unmarked" person="unmarked" reference="unmarked" span="(30, 32)">
+      <t>3rd column</t>
+    </markable>
+    <t>: orange , 3 yellow</t>
+  </utterance>
+  <utterance participant="builder">added orange@4,2,-1 added orange@4,1,-1 removed orange@4,2,-1 added yellow@4,2,-1 added yellow@4,3,-1 removed yellow@4,2,-1 added orange@3,0,-1 added yellow@3,1,-1 added yellow@3,2,-1 added yellow@3,3,-1<!--added orange@4,2,-1 added orange@4,1,-1 removed orange@4,2,-1 added yellow@4,2,-1 added yellow@4,3,-1 removed yellow@4,2,-1 added orange@3,0,-1 added yellow@3,1,-1 added yellow@3,2,-1 added yellow@3,3,-1-->
+  </utterance>
+  <utterance participant="architect">
+    <!--4th column : empty , red , 3 yellow-->
+    <markable id="markable_49" gender="unmarked" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="unmarked" person="unmarked" reference="unmarked" span="(47, 49)">
+      <t>4th column</t>
+    </markable>
+    <t>: empty , red , 3 yellow</t>
+  </utterance>
+  <utterance participant="builder">added red@2,1,-1 added yellow@2,2,-1 added yellow@2,3,-1 added yellow@2,3,-2 removed yellow@2,3,-2 added yellow@2,4,-1<!--added red@2,1,-1 added yellow@2,2,-1 added yellow@2,3,-1 added yellow@2,3,-2 removed yellow@2,3,-2 added yellow@2,4,-1-->
+  </utterance>
+  <utterance participant="architect">
+    <!--ok on the second column the yellow and orange are touching , there s no space between them move the yellow down by 1-->
+    <t>ok on</t>
+    <markable id="markable_8" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_ids="word_64" min_words="orange" mmax_level="phrase" number="undersp-num" order_id="8" person="per1" ref_type="phrase" reference="new" related_object="no" span="(64, 67)">
+      <t>the second column</t>
+    </markable>
+    <markable id="markable_42" gender="unmarked" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="unmarked" person="unmarked" reference="unmarked" span="(67, 71)">
+      <t>the</t>
+      <markable id="markable_43" gender="unmarked" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="unmarked" person="unmarked" reference="unmarked" span="(68, 69)">
+        <t>yellow</t>
+      </markable>
+      <t>and</t>
+      <markable id="markable_44" gender="unmarked" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="unmarked" person="unmarked" reference="unmarked" span="(70, 71)">
+        <t>orange</t>
+      </markable>
+    </markable>
+    <t>are touching ,</t>
+    <markable id="markable_45" gender="unmarked" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="unmarked" person="unmarked" reference="unmarked" span="(74, 75)">
+      <t>there</t>
+    </markable>
+    <t>s no</t>
+    <markable id="markable_10" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" min_ids="word_77" min_words="them" mmax_level="phrase" number="undersp-num" order_id="10" person="per1" ref_type="phrase" reference="new" related_object="no" span="(77, 78)">
+      <t>space</t>
+    </markable>
+    <t>between</t>
+    <markable id="markable_46" gender="unmarked" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="unmarked" person="unmarked" reference="unmarked" span="(79, 80)">
+      <t>them</t>
+    </markable>
+    <t>move</t>
+    <markable id="markable_11" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" min_ids="word_82" min_words="yellow" mmax_level="phrase" number="undersp-num" order_id="11" person="per1" ref_type="phrase" reference="new" related_object="no" span="(81, 83)">
+      <t>the yellow</t>
+    </markable>
+    <t>down by</t>
+    <markable id="markable_12" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_ids="word_86" min_words="ok" mmax_level="phrase" number="undersp-num" order_id="12" person="per1" ref_type="phrase" reference="new" related_object="no" span="(85, 86)">
+      <t>1</t>
+    </markable>
+  </utterance>
+  <utterance participant="builder">ok<!--ok-->
+  </utterance>
+  <utterance participant="builder">removed yellow@4,3,-1 added yellow@4,2,-1<!--removed yellow@4,3,-1 added yellow@4,2,-1-->
+  </utterance>
+  <utterance participant="builder">
+    <!--here ?-->
+    <markable id="markable_13" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_ids="word_90" min_words="column" mmax_level="phrase" number="undersp-num" order_id="13" person="per1" ref_type="phrase" reference="new" related_object="no" span="(89, 90)">
+      <t>here</t>
+    </markable>
+    <t>?</t>
+  </utterance>
+  <utterance participant="architect">
+    <!--5th column , red , empty , red , 3 yellow . yep you made the correction properly-->
+    <markable id="markable_50" gender="unmarked" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="unmarked" person="unmarked" reference="unmarked" span="(91, 93)">
+      <t>5th column</t>
+    </markable>
+    <t>, red , empty , red , 3 yellow . yep</t>
+    <markable id="markable_15" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_ids="word_105" min_words="correction" mmax_level="phrase" number="undersp-num" order_id="15" person="per1" ref_type="phrase" reference="new" related_object="no" span="(104, 105)">
+      <t>you</t>
+    </markable>
+    <t>made</t>
+    <markable id="markable_51" gender="unmarked" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="unmarked" person="unmarked" reference="unmarked" span="(106, 108)">
+      <t>the correction</t>
+    </markable>
+    <t>properly</t>
+  </utterance>
+  <utterance participant="builder">added red@1,0,-1 added red@1,2,-1 added yellow@1,3,-1 added yellow@1,4,-1 added yellow@1,5,-1<!--added red@1,0,-1 added red@1,2,-1 added yellow@1,3,-1 added yellow@1,4,-1 added yellow@1,5,-1-->
+  </utterance>
+  <utterance participant="builder">
+    <!--is the yellow stairs continuing ?-->
+    <t>is</t>
+    <markable id="markable_17" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_ids="word_116" min_words="sorta" mmax_level="phrase" number="undersp-num" order_id="17" person="per1" ref_type="phrase" reference="new" related_object="no" span="(115, 118)">
+      <t>the yellow stairs</t>
+    </markable>
+    <t>continuing ?</t>
+  </utterance>
+  <utterance participant="architect">
+    <!--yeah sorta but we 're done with the stair formation-->
+    <t>yeah sorta but</t>
+    <markable id="markable_18" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_ids="word_124" min_words="formation" mmax_level="phrase" number="undersp-num" order_id="18" person="per1" ref_type="phrase" reference="new" related_object="no" span="(123, 124)">
+      <t>we</t>
+    </markable>
+    <t>'re done with</t>
+    <markable id="markable_19" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_ids="word_127" min_words="column" mmax_level="phrase" number="undersp-num" order_id="19" person="per1" ref_type="phrase" reference="new" related_object="no" span="(127, 130)">
+      <t>the</t>
+      <markable id="markable_52" gender="unmarked" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="unmarked" person="unmarked" reference="unmarked" span="(128, 129)">
+        <t>stair</t>
+      </markable>
+      <t>formation</t>
+    </markable>
+  </utterance>
+  <utterance participant="architect">
+    <!--anyways 6th column : red , 2 empty , red , 2 yellow-->
+    <t>anyways</t>
+    <markable id="markable_53" gender="unmarked" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="unmarked" person="unmarked" reference="unmarked" span="(131, 133)">
+      <t>6th column</t>
+    </markable>
+    <t>: red , 2 empty , red , 2 yellow</t>
+  </utterance>
+  <utterance participant="builder">added red@0,0,-1 added red@0,3,-1 added yellow@0,4,-1 added yellow@0,5,-1<!--added red@0,0,-1 added red@0,3,-1 added yellow@0,4,-1 added yellow@0,5,-1-->
+  </utterance>
+  <utterance participant="architect">last column : 1 red<!--last column : 1 red-->
+  </utterance>
+  <utterance participant="builder">added red@-1,0,-1<!--added red@-1,0,-1-->
+  </utterance>
+  <utterance participant="architect">
+    <!--ok and we have more-->
+    <t>ok and</t>
+    <markable id="markable_54" gender="unmarked" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="unmarked" person="unmarked" reference="unmarked" span="(155, 156)">
+      <t>we</t>
+    </markable>
+    <t>have</t>
+    <markable id="markable_21" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_ids="word_160" min_words="block" mmax_level="phrase" number="undersp-num" order_id="21" person="per1" ref_type="phrase" reference="new" related_object="no" span="(157, 158)">
+      <t>more</t>
+    </markable>
+  </utterance>
+  <utterance participant="builder">ok<!--ok-->
+  </utterance>
+  <utterance participant="architect">
+    <!--the second to last column red block has a block in front and behind it-->
+    <markable id="markable_22" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_ids="word_163" min_words="block" mmax_level="phrase" number="undersp-num" order_id="22" person="per1" ref_type="phrase" reference="new" related_object="no" span="(159, 164)">
+      <t>the second to last column</t>
+    </markable>
+    <markable id="markable_23" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_ids="word_165" min_words="front" mmax_level="phrase" number="undersp-num" order_id="23" person="per1" ref_type="phrase" reference="new" related_object="no" span="(164, 166)">
+      <t>red block</t>
+    </markable>
+    <t>has</t>
+    <markable id="markable_24" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_ids="word_168" min_words="it" mmax_level="phrase" number="undersp-num" order_id="24" person="per1" ref_type="phrase" reference="new" related_object="no" span="(167, 169)">
+      <t>a block</t>
+    </markable>
+    <t>in front and behind</t>
+    <markable id="markable_55" gender="unmarked" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="unmarked" person="unmarked" reference="unmarked" span="(173, 174)">
+      <t>it</t>
+    </markable>
+  </utterance>
+  <utterance participant="architect">
+    <!--the second to last column bottom red block *-->
+    <t>the</t>
+    <markable id="markable_25" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_ids="word_180" min_words="block" mmax_level="phrase" number="undersp-num" order_id="25" person="per1" ref_type="phrase" reference="new" related_object="no" span="(175, 182)">
+      <t>second to last column bottom red block</t>
+    </markable>
+    <t>*</t>
+  </utterance>
+  <utterance participant="builder">added red@-1,0,-2 added red@-1,0,0<!--added red@-1,0,-2 added red@-1,0,0-->
+  </utterance>
+  <utterance participant="builder">
+    <!--here ?-->
+    <markable id="markable_56" gender="unmarked" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="unmarked" person="unmarked" reference="unmarked" span="(185, 186)">
+      <t>here</t>
+    </markable>
+    <t>?</t>
+  </utterance>
+  <utterance participant="architect">
+    <!--no move those 2 red blocks left by 1-->
+    <t>no move</t>
+    <markable id="markable_26" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_ids="word_190" min_words="blocks" mmax_level="phrase" number="undersp-num" order_id="26" person="per1" ref_type="phrase" reference="new" related_object="no" span="(189, 193)">
+      <t>those 2 red blocks</t>
+    </markable>
+    <t>left by 1</t>
+  </utterance>
+  <utterance participant="builder">removed red@-1,0,-2 added red@0,0,-2<!--removed red@-1,0,-2 added red@0,0,-2-->
+  </utterance>
+  <utterance participant="architect">
+    <!--the 2 you just placed-->
+    <markable id="markable_57" gender="unmarked" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="unmarked" person="unmarked" reference="unmarked" span="(198, 203)">
+      <t>the 2</t>
+      <markable id="markable_58" gender="unmarked" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="unmarked" person="unmarked" reference="unmarked" span="(200, 201)">
+        <t>you</t>
+      </markable>
+      <t>just placed</t>
+    </markable>
+  </utterance>
+  <utterance participant="builder">added red@-1,1,0 removed red@-1,1,0 added red@0,0,0 removed red@-1,0,0<!--added red@-1,1,0 removed red@-1,1,0 added red@0,0,0 removed red@-1,0,0-->
+  </utterance>
+  <utterance participant="architect">
+    <!--ok wer're done !-->
+    <t>ok</t>
+    <markable id="markable_59" gender="unmarked" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="unmarked" person="unmarked" reference="unmarked" span="(208, 209)">
+      <t>wer're</t>
+    </markable>
+    <t>done !</t>
+  </utterance>
+  <utterance participant="builder">good job<!--good job-->
+  </utterance>
+</dialogue>

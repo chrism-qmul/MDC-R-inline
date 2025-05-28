@@ -1,0 +1,126 @@
+<dialogue id="B12-A26-C12-1522941391204">
+  <utterance participant="builder">
+    <!--Mission has started .-->
+    <markable id="markable_2" ambiguity="unambiguous" category="abstract" disagreement_type="no_disagreement" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_ids="word_0" min_words="mission" mmax_level="phrase" number="sing" order_id="2" person="per3" reference="new" related_object="no" span="(0, 1)">
+      <t>Mission</t>
+    </markable>
+    <t>has started .</t>
+  </utterance>
+  <utterance participant="architect">
+    <!--Okay , this time we 'll start with a diagonal line from the left corner to the center . It will be purple , blue , green , yellow , orange , and then red-->
+    <t>Okay ,</t>
+    <markable id="markable_24" ambiguity="unambiguous" category="time" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_words="time" mmax_level="phrase" number="sing" person="per3" reference="new" related_object="no" span="(6, 8)">
+      <t>this time</t>
+    </markable>
+    <markable id="markable_3" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_ids="word_8" min_words="we" mmax_level="phrase" number="plur" order_id="3" person="per1" reference="new" related_object="no" span="(8, 9)">
+      <t>we</t>
+    </markable>
+    <t>'ll start with</t>
+    <markable id="markable_4" ambiguity="unambiguous" category="concrete" disagreement_type="no_disagreement" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_ids="word_14" min_words="line" mmax_level="phrase" number="sing" order_id="4" person="per3" reference="new" related_object="no" span="(12, 15)">
+      <t>a diagonal line</t>
+    </markable>
+    <t>from</t>
+    <markable id="markable_5" ambiguity="unambiguous" category="space" disagreement_type="no_disagreement" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_ids="word_18" min_words="corner" mmax_level="phrase" number="sing" order_id="5" person="per3" reference="new" related_object="no" span="(16, 19)">
+      <t>the left corner</t>
+    </markable>
+    <t>to</t>
+    <markable id="markable_6" ambiguity="unambiguous" category="space" disagreement_type="no_disagreement" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_ids="word_21" min_words="center" mmax_level="phrase" number="sing" order_id="6" person="per3" reference="new" related_object="no" span="(20, 22)">
+      <t>the center</t>
+    </markable>
+    <t>.</t>
+    <markable id="markable_7" disagreement_type="no_disagreement" gender="neuter" gram_fnc="unmarked" mark_type="phrase" min_ids="word_23" min_words="it" mmax_level="phrase" non_ref_type="expletive" number="sing" order_id="7" person="per3" reference="non_referring" span="(23, 24)">
+      <t>It</t>
+    </markable>
+    <t>will be purple , blue , green , yellow , orange , and then red</t>
+  </utterance>
+  <utterance participant="builder">added purple@4,0,5 added purple@5,0,5 added purple@5,1,5 removed purple@4,0,5 removed purple@5,0,5 removed purple@5,1,5<!--added purple@4,0,5 added purple@5,0,5 added purple@5,1,5 removed purple@4,0,5 removed purple@5,0,5 removed purple@5,1,5-->
+  </utterance>
+  <utterance participant="architect">
+    <!--You can actually keep the L you made-->
+    <t>You can actually keep</t>
+    <markable id="markable_9" ambiguity="unambiguous" category="concrete" disagreement_type="no_disagreement" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_ids="word_50" min_words="l" mmax_level="phrase" number="sing" order_id="9" person="per3" reference="new" related_object="no" span="(49, 53)" single_phrase_antecedent_cluster="single_phrase_antecedent_2">
+      <t>the L</t>
+      <markable id="markable_10" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_ids="word_51" min_words="you" mmax_level="phrase" number="undersp-num" object="nb:builder" objectFull="nb:builder" order_id="10" person="per2" reference="new" related_object="no" span="(51, 52)" single_phrase_antecedent_cluster="single_phrase_antecedent_1">
+        <t>you</t>
+      </markable>
+      <t>made</t>
+    </markable>
+  </utterance>
+  <utterance participant="builder">
+    <!--no more L 's ?-->
+    <markable id="markable_0" disagreement_type="no_disagreement" gender="neuter" gram_fnc="unmarked" mark_type="phrase" min_words="l" mmax_level="phrase" non_ref_type="quantifier" number="plur" order_id="0" person="per3" reference="non_referring" span="(53, 56)">
+      <t>no more L</t>
+    </markable>
+    <t>'s ?</t>
+  </utterance>
+  <utterance participant="builder">added purple@4,0,5 added purple@5,0,5 added purple@5,1,5 added blue@4,0,4 added green@3,0,3 added yellow@2,0,2<!--added purple@4,0,5 added purple@5,0,5 added purple@5,1,5 added blue@4,0,4 added green@3,0,3 added yellow@2,0,2-->
+  </utterance>
+  <utterance participant="architect">
+    <!--So you make the diagonal starting from the corner of the purple L-->
+    <t>So</t>
+    <markable id="markable_25" ambiguity="unambiguous" category="person" gender="unspecified" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_words="you" mmax_level="phrase" number="undersp-num" person="per2" phrase_antecedent="single_phrase" ref_type="phrase" reference="old" related_object="no" single_phrase_antecedent="markable_10" span="(65, 66)" single_phrase_antecedent_cluster="single_phrase_antecedent_1">
+      <t>you</t>
+    </markable>
+    <t>make</t>
+    <markable id="markable_12" ambiguity="unambiguous" category="concrete" disagreement_type="no_disagreement" gender="neuter" generic="operator-instruction" gram_fnc="unmarked" mark_type="phrase" min_ids="word_69" min_words="diagonal" mmax_level="phrase" number="sing" order_id="12" person="per3" reference="new" related_object="no" span="(67, 69)">
+      <t>the diagonal</t>
+    </markable>
+    <t>starting from</t>
+    <markable id="markable_1" ambiguity="unambiguous" category="space" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_words="corner" mmax_level="phrase" number="undersp-num" order_id="1" person="per1" reference="new" related_object="no" span="(71, 77)">
+      <t>the corner of</t>
+      <markable id="markable_26" ambiguity="unambiguous" category="concrete" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_words="l" mmax_level="phrase" number="sing" person="per3" phrase_antecedent="single_phrase" ref_type="phrase" reference="old" related_object="no" single_phrase_antecedent="markable_9" span="(74, 77)" single_phrase_antecedent_cluster="single_phrase_antecedent_2">
+        <t>the purple L</t>
+      </markable>
+    </markable>
+  </utterance>
+  <utterance participant="builder">
+    <!--added orange@1,0,1 added red@0,0,0-->
+    <t>added orange@1,0,1</t>
+    <markable id="markable_30" mark_type="segment" mmax_level="phrase" span="(78, 79)" segment_antecedent_cluster="segment_antecedent_1">
+      <t>added red@0,0,0</t>
+    </markable>
+  </utterance>
+  <utterance participant="builder">
+    <!--like that ?-->
+    <t>like</t>
+    <markable id="markable_13" ambiguity="unambiguous" category="abstract" disagreement_type="no_disagreement" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_ids="word_81" min_words="that" mmax_level="phrase" number="sing" order_id="13" person="per3" ref_type="segment" reference="old" related_object="no" segment_antecedent="markable_30" span="(80, 82)" related_phrase_cluster="related_phrase_1" segment_antecedent_cluster="segment_antecedent_1">
+      <t>that ?</t>
+    </markable>
+  </utterance>
+  <utterance participant="architect">
+    <!--Good job . Now repeat the same thing on the second level-->
+    <t>Good job .</t>
+    <markable id="markable_27" ambiguity="unambiguous" category="time" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_words="now" mmax_level="phrase" number="sing" person="per3" reference="new" related_object="no" span="(85, 86)">
+      <t>Now</t>
+    </markable>
+    <t>repeat</t>
+    <markable id="markable_14" ambiguity="unambiguous" category="abstract" disagreement_type="no_disagreement" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_ids="word_87" min_words="thing" mmax_level="phrase" number="sing" order_id="14" person="per3" reference="new" related_object="yes" related_phrase="markable_13" related_rel="unmarked" span="(87, 90)" related_phrase_cluster="related_phrase_1">
+      <t>the same thing</t>
+    </markable>
+    <t>on</t>
+    <markable id="markable_15" ambiguity="unambiguous" category="space" disagreement_type="no_disagreement" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_ids="word_93" min_words="level" mmax_level="phrase" number="sing" order_id="15" person="per3" reference="new" related_object="no" span="(91, 94)">
+      <t>the second level</t>
+    </markable>
+  </utterance>
+  <utterance participant="builder">added blue@4,1,4 added green@3,1,3 added yellow@2,1,2 added orange@1,1,1 added red@0,1,0<!--added blue@4,1,4 added green@3,1,3 added yellow@2,1,2 added orange@1,1,1 added red@0,1,0-->
+  </utterance>
+  <utterance participant="architect">
+    <!--Great . Now make a diagonal eminating from the remaining purple block-->
+    <t>Great .</t>
+    <markable id="markable_28" ambiguity="unambiguous" category="time" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_words="now" mmax_level="phrase" number="sing" person="per3" reference="new" related_object="no" span="(101, 102)">
+      <t>Now</t>
+    </markable>
+    <t>make</t>
+    <markable id="markable_17" ambiguity="unambiguous" category="concrete" disagreement_type="no_disagreement" gender="neuter" generic="operator-instruction" gram_fnc="unmarked" mark_type="phrase" min_ids="word_107" min_words="diagonal" mmax_level="phrase" number="sing" order_id="17" person="per3" reference="new" related_object="no" span="(103, 105)">
+      <t>a diagonal</t>
+    </markable>
+    <t>eminating from</t>
+    <markable id="markable_29" ambiguity="unambiguous" category="concrete" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_words="block" mmax_level="phrase" number="sing" object="a3" objectFull="[[&quot;a3&quot;, [131, 474, 824, 1260], [4, 0, 5], &quot;purple&quot;, &quot;B12-A26-C12-1522941391204_26.png&quot;]]" person="per3" reference="new" related_object="no" span="(107, 111)">
+      <t>the remaining purple block</t>
+    </markable>
+  </utterance>
+  <utterance participant="builder">added blue@3,0,4 added green@2,0,3 added yellow@1,0,2 added orange@0,0,1 added red@-1,0,0<!--added blue@3,0,4 added green@2,0,3 added yellow@1,0,2 added orange@0,0,1 added red@-1,0,0-->
+  </utterance>
+  <utterance participant="architect">Good job !<!--Good job !-->
+  </utterance>
+</dialogue>

@@ -1,0 +1,315 @@
+<dialogue id="B27-A1-C128-1524163632822">
+  <utterance participant="Builder">
+    <!--Mission has started .-->
+    <markable id="markable_8" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" min_ids="word_0" min_words="Mission" mmax_level="phrase" number="undersp-num" order_id="8" person="per1" ref_type="phrase" reference="new" related_object="no" span="(0, 1)">
+      <t>Mission</t>
+    </markable>
+    <t>has started .</t>
+  </utterance>
+  <utterance participant="Architect">
+    <!--lets start with green-->
+    <markable id="markable_9" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" min_ids="word_4" min_words="lets" mmax_level="phrase" number="undersp-num" order_id="9" person="per1" ref_type="phrase" reference="new" related_object="no" span="(4, 5)">
+      <t>lets</t>
+    </markable>
+    <t>start with green</t>
+  </utterance>
+  <utterance participant="Architect">
+    <!--place two blocks flat on the floor towards the middle-->
+    <t>place two blocks flat on</t>
+    <markable id="markable_11" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" min_ids="word_14" min_words="floor" mmax_level="phrase" number="undersp-num" order_id="11" person="per1" ref_type="phrase" reference="new" related_object="no" span="(13, 15)">
+      <t>the floor</t>
+    </markable>
+    <t>towards</t>
+    <markable id="markable_12" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" min_ids="word_17" min_words="middle" mmax_level="phrase" number="undersp-num" order_id="12" person="per1" ref_type="phrase" reference="new" related_object="no" span="(16, 18)">
+      <t>the middle</t>
+    </markable>
+  </utterance>
+  <utterance participant="builder">added green@0,0,1 added green@0,0,0<!--added green@0,0,1 added green@0,0,0-->
+  </utterance>
+  <utterance participant="Architect">
+    <!--can you stand on the wide side ? or roate it 90-->
+    <t>can</t>
+    <markable id="markable_13" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" min_ids="word_21" min_words="you" mmax_level="phrase" number="undersp-num" order_id="13" person="per1" ref_type="phrase" reference="new" related_object="no" span="(21, 22)">
+      <t>you</t>
+    </markable>
+    <t>stand on</t>
+    <markable id="markable_14" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" min_ids="word_26" min_words="side" mmax_level="phrase" number="undersp-num" order_id="14" person="per1" ref_type="phrase" reference="new" related_object="no" span="(24, 27)">
+      <t>the wide side</t>
+    </markable>
+    <t>? or roate</t>
+    <markable id="markable_15" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" min_ids="word_30" min_words="it" mmax_level="phrase" number="undersp-num" order_id="15" person="per1" ref_type="phrase" reference="new" related_object="no" span="(30, 31)">
+      <t>it</t>
+    </markable>
+    <t>90</t>
+  </utterance>
+  <utterance participant="Architect">
+    <!--okay add two blocks on the for but diagonally connected making a smiling mouth from where you are-->
+    <t>okay add</t>
+    <markable id="markable_16" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" min_ids="word_35" min_words="blocks" mmax_level="phrase" number="undersp-num" order_id="16" person="per1" ref_type="phrase" reference="new" related_object="no" span="(34, 36)">
+      <t>two blocks</t>
+    </markable>
+    <t>on</t>
+    <markable id="markable_17" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" min_ids="word_38" min_words="for" mmax_level="phrase" number="undersp-num" order_id="17" person="per1" ref_type="phrase" reference="new" related_object="no" span="(37, 39)">
+      <t>the for</t>
+    </markable>
+    <t>but diagonally connected making</t>
+    <markable id="markable_18" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" min_ids="word_45" min_words="mouth" mmax_level="phrase" number="undersp-num" order_id="18" person="per1" ref_type="phrase" reference="new" related_object="no" span="(43, 46)">
+      <t>a smiling mouth</t>
+    </markable>
+    <t>from where</t>
+    <markable id="markable_19" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" min_ids="word_48" min_words="you" mmax_level="phrase" number="undersp-num" order_id="19" person="per1" ref_type="phrase" reference="new" related_object="no" span="(48, 49)">
+      <t>you</t>
+    </markable>
+    <t>are</t>
+  </utterance>
+  <utterance participant="Builder">how close to the original two ?<!--how close to the original two ?-->
+  </utterance>
+  <utterance participant="builder">added green@1,0,2<!--added green@1,0,2-->
+  </utterance>
+  <utterance participant="Architect">touching the original two<!--touching the original two-->
+  </utterance>
+  <utterance participant="builder">added green@1,0,-1<!--added green@1,0,-1-->
+  </utterance>
+  <utterance participant="Architect">that s good<!--that s good-->
+  </utterance>
+  <utterance participant="Architect">
+    <!--okay we are going to repeat this same structure a bunch of times , but with different colors , lets start with orange-->
+    <t>okay</t>
+    <markable id="markable_20" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" min_ids="word_67" min_words="we" mmax_level="phrase" number="undersp-num" order_id="20" person="per1" ref_type="phrase" reference="new" related_object="no" span="(67, 68)">
+      <t>we</t>
+    </markable>
+    <t>are going to repeat</t>
+    <markable id="markable_21" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" min_ids="word_74" min_words="structure" mmax_level="phrase" number="undersp-num" order_id="21" person="per1" ref_type="phrase" reference="new" related_object="no" span="(72, 75)">
+      <t>this same structure</t>
+    </markable>
+    <markable id="markable_22" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" min_ids="word_76" min_words="bunch" mmax_level="phrase" number="undersp-num" order_id="22" person="per1" ref_type="phrase" reference="new" related_object="no" span="(75, 77)">
+      <t>a bunch</t>
+    </markable>
+    <t>of</t>
+    <markable id="markable_23" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" min_ids="word_78" min_words="times" mmax_level="phrase" number="undersp-num" order_id="23" person="per1" ref_type="phrase" reference="new" related_object="no" span="(78, 79)">
+      <t>times</t>
+    </markable>
+    <t>, but with</t>
+    <markable id="markable_24" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" min_ids="word_83" min_words="colors" mmax_level="phrase" number="undersp-num" order_id="24" person="per1" ref_type="phrase" reference="new" related_object="no" span="(82, 84)">
+      <t>different colors</t>
+    </markable>
+    <t>, lets start with orange</t>
+  </utterance>
+  <utterance participant="Architect">
+    <!--place one orange block on top of the right most green block-->
+    <t>place one orange block on</t>
+    <markable id="markable_26" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" min_ids="word_94" min_words="top" mmax_level="phrase" number="undersp-num" order_id="26" person="per1" ref_type="phrase" reference="new" related_object="no" span="(94, 95)">
+      <t>top</t>
+    </markable>
+    <t>of</t>
+    <markable id="markable_27" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" min_ids="word_100" min_words="block" mmax_level="phrase" number="undersp-num" order_id="27" person="per1" ref_type="phrase" reference="new" related_object="no" span="(96, 101)">
+      <t>the right most green block</t>
+    </markable>
+  </utterance>
+  <utterance participant="builder">added orange@1,1,-1<!--added orange@1,1,-1-->
+  </utterance>
+  <utterance participant="Architect">
+    <!--so that s the left side of the smile structure-->
+    <t>so that</t>
+    <markable id="markable_28" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" min_ids="word_107" min_words="side" mmax_level="phrase" number="undersp-num" order_id="28" person="per1" ref_type="phrase" reference="new" related_object="no" span="(104, 108)">
+      <t>s the left side</t>
+    </markable>
+    <t>of</t>
+    <markable id="markable_0" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" mmax_level="phrase" number="undersp-num" order_id="0" person="per1" ref_type="phrase" reference="new" related_object="no" span="(109, 112)" single_phrase_antecedent_cluster="single_phrase_antecedent_1">
+      <t>the smile structure</t>
+    </markable>
+  </utterance>
+  <utterance participant="builder">
+    <!--added orange@2,0,-2 added orange@3,0,-2 added orange@2,1,-2 added orange@3,1,-2 added orange@4,0,-1 added orange@4,1,-1 removed orange@3,0,-2 removed orange@2,0,-2 removed orange@4,0,-1-->
+    <t>added orange@2,0,-2 added orange@3,0,-2 added orange@2,1,-2</t>
+    <markable id="markable_29" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" min_ids="word_115" min_words="it" mmax_level="phrase" number="undersp-num" order_id="29" person="per1" ref_type="phrase" reference="new" related_object="no" span="(115, 116)">
+      <t>added orange@3,1,-2</t>
+    </markable>
+    <t>added orange@4,0,-1 added orange@4,1,-1 removed orange@3,0,-2 removed orange@2,0,-2 removed orange@4,0,-1</t>
+  </utterance>
+  <utterance participant="Architect">
+    <!--almost , so it should look like a smile and frown-->
+    <t>almost</t>
+    <markable id="markable_30" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" min_ids="word_124" min_words="smile" mmax_level="phrase" number="undersp-num" order_id="30" person="per1" ref_type="phrase" reference="new" related_object="no" span="(122, 125)">
+      <t>, so it</t>
+    </markable>
+    <t>should look like a smile and frown</t>
+  </utterance>
+  <utterance participant="builder">
+    <!--removed orange@2,1,-2 removed orange@3,1,-2 removed orange@4,1,-1 added orange@2,0,0 added orange@3,0,0 added orange@4,0,0 removed orange@4,0,0 added orange@4,0,-1 added orange@4,1,-1 added orange@3,1,0 added orange@2,1,0 removed orange@2,0,0 removed orange@3,0,0 removed orange@4,0,-1-->
+    <t>removed orange@2,1,-2 removed orange@3,1,-2 removed orange@4,1,-1 added orange@2,0,0 added orange@3,0,0 added orange@4,0,0</t>
+    <markable id="markable_32" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" min_ids="word_139" min_words="place" mmax_level="phrase" number="undersp-num" order_id="32" person="per1" ref_type="phrase" reference="new" related_object="no" span="(138, 140)">
+      <t>removed orange@4,0,0 added orange@4,0,-1</t>
+    </markable>
+    <markable id="markable_33" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" min_ids="word_142" min_words="block" mmax_level="phrase" number="undersp-num" order_id="33" person="per1" ref_type="phrase" reference="new" related_object="no" span="(140, 143)">
+      <t>added orange@4,1,-1 added orange@3,1,0 added orange@2,1,0</t>
+    </markable>
+    <t>removed orange@2,0,0 removed orange@3,0,0 removed orange@4,0,-1</t>
+  </utterance>
+  <utterance participant="Architect">not quite lets go step by step<!--not quite lets go step by step-->
+  </utterance>
+  <utterance participant="builder">removed orange@2,1,0 removed orange@3,1,0 removed orange@4,1,-1<!--removed orange@2,1,0 removed orange@3,1,0 removed orange@4,1,-1-->
+  </utterance>
+  <utterance participant="Architect">
+    <!--place an orange block touching the green block to the right and down-->
+    <t>place an orange</t>
+    <markable id="markable_36" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" min_ids="word_159" min_words="i" mmax_level="phrase" number="undersp-num" order_id="36" person="per1" ref_type="phrase" reference="new" related_object="no" span="(159, 160)">
+      <t>block</t>
+    </markable>
+    <t>touching the green</t>
+    <markable id="markable_37" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" min_ids="word_163" min_words="i" mmax_level="phrase" number="undersp-num" order_id="37" person="per1" ref_type="phrase" reference="new" related_object="no" span="(163, 164)">
+      <t>block</t>
+    </markable>
+    <t>to the right</t>
+    <markable id="markable_38" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" min_ids="word_167" min_words="it" mmax_level="phrase" number="undersp-num" order_id="38" person="per1" ref_type="phrase" reference="new" related_object="no" span="(167, 168)">
+      <t>and</t>
+    </markable>
+    <t>down</t>
+  </utterance>
+  <utterance participant="Builder">i think i got it<!--i think i got it-->
+  </utterance>
+  <utterance participant="builder">added orange@1,0,-2 removed orange@1,0,-2 added orange@2,0,-2 added orange@2,0,-3<!--added orange@1,0,-2 removed orange@1,0,-2 added orange@2,0,-2 added orange@2,0,-3-->
+  </utterance>
+  <utterance participant="Architect">lets go slowly<!--lets go slowly-->
+  </utterance>
+  <utterance participant="builder">added orange@1,0,-4<!--added orange@1,0,-4-->
+  </utterance>
+  <utterance participant="Architect">okay that s right<!--okay that s right-->
+  </utterance>
+  <utterance participant="builder">added orange@2,1,-2 added orange@2,1,-3 added orange@1,1,-4<!--added orange@2,1,-2 added orange@2,1,-3 added orange@1,1,-4-->
+  </utterance>
+  <utterance participant="Builder">raised ?<!--raised ?-->
+  </utterance>
+  <utterance participant="Architect">yes<!--yes-->
+  </utterance>
+  <utterance participant="builder">
+    <!--removed orange@2,0,-2 removed orange@2,0,-3 removed orange@1,0,-4-->
+    <markable id="markable_40" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" min_ids="word_192" min_words="we" mmax_level="phrase" number="undersp-num" order_id="40" person="per1" ref_type="phrase" reference="new" related_object="no" span="(192, 193)">
+      <t>removed orange@2,0,-2</t>
+    </markable>
+    <t>removed orange@2,0,-3 removed orange@1,0,-4</t>
+  </utterance>
+  <utterance participant="Architect">
+    <!--okay now on the right most orange block we are making two red steps going away from where you are-->
+    <markable id="markable_41" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" min_ids="word_197" min_words="steps" mmax_level="phrase" number="undersp-num" order_id="41" person="per1" ref_type="phrase" reference="new" related_object="no" span="(195, 198)">
+      <t>okay now on</t>
+    </markable>
+    <t>the right most orange</t>
+    <markable id="markable_42" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" min_ids="word_202" min_words="you" mmax_level="phrase" number="undersp-num" order_id="42" person="per1" ref_type="phrase" reference="new" related_object="no" span="(202, 203)">
+      <t>block</t>
+    </markable>
+    <t>we are making two red steps going away from where you are</t>
+  </utterance>
+  <utterance participant="builder">added red@0,0,-4<!--added red@0,0,-4-->
+  </utterance>
+  <utterance participant="Architect">going up<!--going up-->
+  </utterance>
+  <utterance participant="builder">added red@0,1,-4 added red@0,2,-4 added red@-1,2,-4 added red@-1,3,-4 removed red@-1,2,-4 removed red@0,1,-4 removed red@0,0,-4<!--added red@0,1,-4 added red@0,2,-4 added red@-1,2,-4 added red@-1,3,-4 removed red@-1,2,-4 removed red@0,1,-4 removed red@0,0,-4-->
+  </utterance>
+  <utterance participant="Architect">
+    <!--okay now add one more block touching the top most block-->
+    <t>okay now</t>
+    <markable id="markable_44" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" min_ids="word_227" min_words="top" mmax_level="phrase" number="undersp-num" order_id="44" person="per1" ref_type="phrase" reference="new" related_object="no" span="(227, 228)">
+      <t>add</t>
+    </markable>
+    <t>one more block touching the top most block</t>
+  </utterance>
+  <utterance participant="builder">added red@-1,4,-4<!--added red@-1,4,-4-->
+  </utterance>
+  <utterance participant="Architect">not on top<!--not on top-->
+  </utterance>
+  <utterance participant="builder">removed red@-1,4,-4 added red@-2,3,-4<!--removed red@-1,4,-4 added red@-2,3,-4-->
+  </utterance>
+  <utterance participant="Architect">yes<!--yes-->
+  </utterance>
+  <utterance participant="Architect">
+    <!--now complete the smile structure-->
+    <markable id="markable_2" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" mmax_level="phrase" number="undersp-num" order_id="2" person="per1" ref_type="phrase" reference="new" related_object="no" span="(243, 246)" single_phrase_antecedent_cluster="single_phrase_antecedent_2">
+      <t>now complete the</t>
+    </markable>
+    <t>smile structure</t>
+  </utterance>
+  <utterance participant="Builder">
+    <!--is that the leftmost block-->
+    <t>is that the leftmost</t>
+    <markable id="markable_47" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" min_ids="word_252" min_words="you" mmax_level="phrase" number="undersp-num" order_id="47" person="per1" ref_type="phrase" reference="new" related_object="no" span="(252, 253)">
+      <t>block</t>
+    </markable>
+  </utterance>
+  <utterance participant="Architect">
+    <!--yeah so a step down-->
+    <t>yeah so</t>
+    <markable id="markable_4" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" mmax_level="phrase" number="undersp-num" order_id="4" person="per1" ref_type="phrase" reference="new" related_object="no" span="(255, 257)" single_phrase_antecedent_cluster="single_phrase_antecedent_3">
+      <t>a step</t>
+    </markable>
+    <t>down</t>
+  </utterance>
+  <utterance participant="builder">
+    <!--added red@-2,3,-3 added red@-3,3,-3 removed red@-2,3,-3-->
+    <t>added red@-2,3,-3 added red@-3,3,-3</t>
+    <markable id="markable_5" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" mmax_level="phrase" number="undersp-num" order_id="5" person="per1" phrase_antecedent="single_phrase" ref_type="phrase" reference="old" related_object="no" single_phrase_antecedent="markable_4" span="(260, 261)" single_phrase_antecedent_cluster="single_phrase_antecedent_3">
+      <t>removed red@-2,3,-3</t>
+    </markable>
+  </utterance>
+  <utterance participant="Builder">this direction ?<!--this direction ?-->
+  </utterance>
+  <utterance participant="builder">added red@-3,3,-2 added red@-2,3,-2 added red@-2,3,-1 removed red@-2,3,-2<!--added red@-3,3,-2 added red@-2,3,-2 added red@-2,3,-1 removed red@-2,3,-2-->
+  </utterance>
+  <utterance participant="Architect">
+    <!--no sorry you just needed one block to complete it-->
+    <t>no sorry you just</t>
+    <markable id="markable_48" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" min_ids="word_274" min_words="yellow" mmax_level="phrase" number="undersp-num" order_id="48" person="per1" ref_type="phrase" reference="new" related_object="no" span="(272, 275)">
+      <t>needed one block</t>
+    </markable>
+    <t>to complete it</t>
+  </utterance>
+  <utterance participant="builder">
+    <!--removed red@-2,3,-1 removed red@-3,3,-2 removed red@-3,3,-3-->
+    <t>removed red@-2,3,-1 removed red@-3,3,-2</t>
+    <markable id="markable_50" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" min_ids="word_280" min_words="you" mmax_level="phrase" number="undersp-num" order_id="50" person="per1" ref_type="phrase" reference="new" related_object="no" span="(280, 281)">
+      <t>removed red@-3,3,-3</t>
+    </markable>
+  </utterance>
+  <utterance participant="Builder">gotcha<!--gotcha-->
+  </utterance>
+  <utterance participant="builder">
+    <!--removed red@-2,3,-4 added red@-2,3,-4 added red@-2,2,-4 added red@-3,2,-4-->
+    <t>removed red@-2,3,-4 added red@-2,3,-4</t>
+    <markable id="markable_6" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" mmax_level="phrase" number="undersp-num" order_id="6" person="per1" ref_type="phrase" reference="new" related_object="no" span="(284, 286)" single_phrase_antecedent_cluster="single_phrase_antecedent_4">
+      <t>added red@-2,2,-4 added red@-3,2,-4</t>
+    </markable>
+  </utterance>
+  <utterance participant="Architect">great<!--great-->
+  </utterance>
+  <utterance participant="builder">removed red@-2,2,-4<!--removed red@-2,2,-4-->
+  </utterance>
+  <utterance participant="Architect">
+    <!--okay so for the yellow add one diagonal step towards you going down from the red-->
+    <t>okay so for the</t>
+    <markable id="markable_51" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" min_ids="word_294" min_words="ground" mmax_level="phrase" number="undersp-num" order_id="51" person="per1" ref_type="phrase" reference="new" related_object="no" span="(292, 295)">
+      <t>yellow add one</t>
+    </markable>
+    <t>diagonal step towards</t>
+    <markable id="markable_3" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" mmax_level="phrase" number="undersp-num" order_id="3" person="per1" phrase_antecedent="single_phrase" ref_type="phrase" reference="old" related_object="no" single_phrase_antecedent="markable_2" span="(298, 300)" single_phrase_antecedent_cluster="single_phrase_antecedent_2">
+      <t>you going</t>
+    </markable>
+    <t>down from the</t>
+    <markable id="markable_52" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" min_ids="word_303" min_words="you" mmax_level="phrase" number="undersp-num" order_id="52" person="per1" ref_type="phrase" reference="new" related_object="no" span="(303, 304)">
+      <t>red</t>
+    </markable>
+  </utterance>
+  <utterance participant="builder">added yellow@-3,1,-4 added yellow@-3,1,-3 removed yellow@-3,1,-4<!--added yellow@-3,1,-4 added yellow@-3,1,-3 removed yellow@-3,1,-4-->
+  </utterance>
+  <utterance participant="Builder">is this one touching the ground ?<!--is this one touching the ground ?-->
+  </utterance>
+  <utterance participant="Architect">yeah but the step is closer to you , like only one pixel is touching the red<!--yeah but the step is closer to you , like only one pixel is touching the red-->
+  </utterance>
+  <utterance participant="builder">removed yellow@-3,1,-3 added yellow@-3,1,-4 added yellow@-4,1,-4 added yellow@-4,1,-3 removed yellow@-4,1,-4 removed yellow@-3,1,-4 added yellow@-4,0,-2 added yellow@-4,0,-1 added yellow@-4,0,0 added yellow@-4,1,0 removed yellow@-4,0,0<!--removed yellow@-3,1,-3 added yellow@-3,1,-4 added yellow@-4,1,-4 added yellow@-4,1,-3 removed yellow@-4,1,-4 removed yellow@-3,1,-4 added yellow@-4,0,-2 added yellow@-4,0,-1 added yellow@-4,0,0 added yellow@-4,1,0 removed yellow@-4,0,0-->
+  </utterance>
+  <utterance participant="Builder">?<!--?-->
+  </utterance>
+  <utterance participant="Architect">that s good<!--that s good-->
+  </utterance>
+  <utterance participant="Architect">nice<!--nice-->
+  </utterance>
+</dialogue>

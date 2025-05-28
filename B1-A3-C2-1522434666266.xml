@@ -1,0 +1,671 @@
+<dialogue id="B1-A3-C2-1522434666266">
+  <utterance participant="builder">
+    <!--Mission has started .-->
+    <markable id="markable_27" ambiguity="unambiguous" category="abstract" disagreement_type="no_disagreement" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_ids="word_0" min_words="mission" mmax_level="phrase" number="sing" order_id="27" person="per1" reference="new" related_object="no" span="(0, 1)">
+      <t>Mission</t>
+    </markable>
+    <t>has started .</t>
+  </utterance>
+  <utterance participant="builder">hello<!--hello-->
+  </utterance>
+  <utterance participant="builder">
+    <!--. What are we building this time ?-->
+    <t>.</t>
+    <markable id="markable_28" disagreement_type="no_disagreement" gender="neuter" gram_fnc="unmarked" mark_type="phrase" min_ids="word_6" min_words="what" mmax_level="phrase" non_ref_type="quantifier" number="undersp-num" order_id="28" person="per3" reference="non_referring" span="(6, 7)">
+      <t>What</t>
+    </markable>
+    <t>are</t>
+    <markable id="markable_0" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_words="we" mmax_level="phrase" number="plur" object="architect" objectFull="architect" order_id="0" person="per1" reference="new" related_object="no" span="(8, 9)" single_phrase_antecedent_cluster="single_phrase_antecedent_7" related_phrase_cluster="related_phrase_9">
+      <t>we</t>
+    </markable>
+    <t>building</t>
+    <markable id="markable_116" ambiguity="unambiguous" category="time" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_words="time" mmax_level="phrase" number="sing" object="" objectFull="[]" person="per3" reference="new" related_object="no" span="(10, 12)">
+      <t>this time</t>
+    </markable>
+    <t>?</t>
+  </utterance>
+  <utterance participant="architect">
+    <!--hello builder-->
+    <t>hello</t>
+    <markable id="markable_118" ambiguity="unambiguous" category="person" gender="unspecified" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_words="builder" mmax_level="phrase" number="sing" object="builder" objectFull="builder" person="per3" reference="new" related_object="yes" related_phrase="markable_0" related_rel="poss-inv" span="(14, 15)" single_phrase_antecedent_cluster="single_phrase_antecedent_6" related_phrase_cluster="related_phrase_9">
+      <t>builder</t>
+    </markable>
+  </utterance>
+  <utterance participant="builder">.<!--.-->
+  </utterance>
+  <utterance participant="architect">
+    <!--we will start with red blocks . please build a 4x4 open window so that a 2x2 space is open in the middle-->
+    <markable id="markable_1" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_words="we" mmax_level="phrase" number="plur" order_id="1" person="per1" phrase_antecedent="single_phrase" ref_type="phrase" reference="old" related_object="no" single_phrase_antecedent="markable_0" span="(16, 17)" single_phrase_antecedent_cluster="single_phrase_antecedent_7" related_phrase_cluster="related_phrase_11">
+      <t>we</t>
+    </markable>
+    <t>will start with</t>
+    <markable id="markable_30" ambiguity="unambiguous" category="concrete" disagreement_type="no_disagreement" gender="neuter" generic="generic-yes" gram_fnc="unmarked" mark_type="phrase" min_ids="word_21" min_words="blocks" mmax_level="phrase" number="plur" order_id="30" person="per3" reference="new" related_object="no" span="(20, 22)" related_phrase_cluster="related_phrase_6">
+      <t>red blocks</t>
+    </markable>
+    <t>. please build</t>
+    <markable id="markable_31" ambiguity="unambiguous" category="concrete" disagreement_type="no_disagreement" gender="neuter" generic="operator-modal" gram_fnc="unmarked" mark_type="phrase" min_ids="word_28" min_words="window" mmax_level="phrase" number="sing" order_id="31" person="per3" reference="new" related_object="no" span="(25, 29)" related_phrase_cluster="related_phrase_5">
+      <t>a 4x4 open window</t>
+    </markable>
+    <t>so that</t>
+    <markable id="markable_32" ambiguity="unambiguous" category="space" disagreement_type="no_disagreement" gender="neuter" generic="operator-modal" gram_fnc="unmarked" mark_type="phrase" min_ids="word_33" min_words="space" mmax_level="phrase" number="sing" order_id="32" person="per3" reference="new" related_object="no" span="(31, 34)">
+      <t>a 2x2 space</t>
+    </markable>
+    <t>is open in</t>
+    <markable id="markable_117" ambiguity="unambiguous" category="space" gender="neuter" generic="operator-modal" gram_fnc="unmarked" mark_type="phrase" min_words="middle" mmax_level="phrase" number="sing" person="per3" reference="new" related_object="yes" related_phrase="markable_31" related_rel="poss" span="(37, 39)" related_phrase_cluster="related_phrase_5">
+      <t>the middle</t>
+    </markable>
+  </utterance>
+  <utterance participant="builder">
+    <!--flat on the ground ?-->
+    <t>flat on</t>
+    <markable id="markable_4" ambiguity="unambiguous" category="space" disagreement_type="no_disagreement" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_words="ground" mmax_level="phrase" number="sing" object="nb:ground" objectFull="nb:ground" order_id="4" person="per3" reference="new" related_object="no" span="(41, 43)" single_phrase_antecedent_cluster="single_phrase_antecedent_8">
+      <t>the ground</t>
+    </markable>
+    <t>?</t>
+  </utterance>
+  <utterance participant="builder">
+    <!--anywhere ?-->
+    <markable id="markable_178" gender="neuter" gram_fnc="unmarked" mark_type="phrase" min_words="anywhere" mmax_level="phrase" non_ref_type="quantifier" number="undersp-num" person="per3" reference="non_referring" span="(44, 45)">
+      <t>anywhere</t>
+    </markable>
+    <t>?</t>
+  </utterance>
+  <utterance participant="architect">
+    <!--yes flat on the ground , preferably centered in the middle-->
+    <t>yes flat on</t>
+    <markable id="markable_5" ambiguity="unambiguous" category="space" disagreement_type="no_disagreement" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_words="ground" mmax_level="phrase" number="sing" order_id="5" person="per3" phrase_antecedent="single_phrase" ref_type="phrase" reference="old" related_object="no" single_phrase_antecedent="markable_4" span="(49, 51)" single_phrase_antecedent_cluster="single_phrase_antecedent_8" related_phrase_cluster="related_phrase_10">
+      <t>the ground</t>
+    </markable>
+    <t>, preferably centered in</t>
+    <markable id="markable_33" ambiguity="unambiguous" category="space" disagreement_type="no_disagreement" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_ids="word_56" min_words="middle" mmax_level="phrase" number="sing" object="" objectFull="[]" order_id="33" person="per3" reference="new" related_object="yes" related_phrase="markable_5" related_rel="undersp-rel" span="(55, 57)" related_phrase_cluster="related_phrase_10">
+      <t>the middle</t>
+    </markable>
+  </utterance>
+  <utterance participant="builder">
+    <!--added red@1,0,-1 added red@0,0,-1 added red@-1,0,-1 added red@-2,0,-1 added red@-2,0,0 added red@-2,0,1 added red@-2,0,2 added red@-1,0,2 added red@1,0,2 added red@0,0,2 added red@1,0,1 added red@1,0,0-->
+    <t>added red@1,0,-1 added red@0,0,-1 added red@-1,0,-1 added red@-2,0,-1 added red@-2,0,0 added red@-2,0,1 added red@-2,0,2 added red@-1,0,2 added red@1,0,2 added red@0,0,2 added red@1,0,1</t>
+    <markable id="markable_170" mark_type="segment" mmax_level="phrase" span="(68, 69)" segment_antecedent_cluster="segment_antecedent_2">
+      <t>added red@1,0,0</t>
+    </markable>
+  </utterance>
+  <utterance participant="builder">
+    <!--go it-->
+    <t>go</t>
+    <markable id="markable_36" ambiguity="unambiguous" category="abstract" disagreement_type="no_disagreement" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_ids="word_70" min_words="it" mmax_level="phrase" number="sing" order_id="36" person="per3" ref_type="segment" reference="old" related_object="no" segment_antecedent="markable_170" span="(70, 71)" related_phrase_cluster="related_phrase_3" segment_antecedent_cluster="segment_antecedent_2">
+      <t>it</t>
+    </markable>
+  </utterance>
+  <utterance participant="architect">
+    <!--good job builder . i need a moment to inspect the structure .-->
+    <markable id="markable_119" ambiguity="unambiguous" category="abstract" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_words="job" mmax_level="phrase" number="sing" person="per3" reference="new" related_object="no" span="(71, 74)">
+      <t>good job</t>
+      <markable id="markable_120" ambiguity="unambiguous" category="person" gender="unspecified" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_words="builder" mmax_level="phrase" number="sing" person="per3" phrase_antecedent="single_phrase" ref_type="phrase" reference="old" related_object="no" single_phrase_antecedent="markable_118" span="(73, 74)" single_phrase_antecedent_cluster="single_phrase_antecedent_6">
+        <t>builder</t>
+      </markable>
+    </markable>
+    <t>.</t>
+    <markable id="markable_37" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_ids="word_76" min_words="i" mmax_level="phrase" number="sing" order_id="37" person="per1" reference="new" related_object="yes" related_phrase="markable_1" related_rel="poss" span="(75, 76)" single_phrase_antecedent_cluster="single_phrase_antecedent_2" related_phrase_cluster="related_phrase_11">
+      <t>i</t>
+    </markable>
+    <t>need</t>
+    <markable id="markable_121" ambiguity="unambiguous" category="time" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_words="moment" mmax_level="phrase" number="sing" person="per3" reference="new" related_object="no" span="(77, 79)">
+      <t>a moment</t>
+    </markable>
+    <t>to inspect</t>
+    <markable id="markable_6" ambiguity="unambiguous" category="concrete" disagreement_type="no_disagreement" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_words="structure" mmax_level="phrase" number="sing" object="a8,a9,a7,a6,a5,a4,a3,a2,a1,a0,b1,b0" objectFull="[[&quot;a8&quot;, [99, 196, 311, 475], [1, 0, 2], &quot;red&quot;, &quot;B1-A3-C2-1522434666266_19.png&quot;], [&quot;a9&quot;, [99, 273, 448, 605], [0, 0, 2], &quot;red&quot;, &quot;B1-A3-C2-1522434666266_19.png&quot;], [&quot;a7&quot;, [98, 272, 589, 728], [-1, 0, 2], &quot;red&quot;, &quot;B1-A3-C2-1522434666266_19.png&quot;], [&quot;a6&quot;, [98, 225, 720, 866], [-2, 0, 2], &quot;red&quot;, &quot;B1-A3-C2-1522434666266_19.png&quot;], [&quot;a5&quot;, [190, 371, 716, 888], [-2, 0, 1], &quot;red&quot;, &quot;B1-A3-C2-1522434666266_19.png&quot;], [&quot;a4&quot;, [305, 452, 719, 916], [-2, 0, 0], &quot;red&quot;, &quot;B1-A3-C2-1522434666266_19.png&quot;], [&quot;a3&quot;, [449, 645, 736, 952], [-2, 0, -1], &quot;red&quot;, &quot;B1-A3-C2-1522434666266_19.png&quot;], [&quot;a2&quot;, [450, 645, 544, 751], [-1, 0, -1], &quot;red&quot;, &quot;B1-A3-C2-1522434666266_19.png&quot;], [&quot;a1&quot;, [450, 646, 343, 564], [0, 0, -1], &quot;red&quot;, &quot;B1-A3-C2-1522434666266_19.png&quot;], [&quot;a0&quot;, [451, 646, 141, 394], [1, 0, -1], &quot;red&quot;, &quot;B1-A3-C2-1522434666266_19.png&quot;], [&quot;b1&quot;, [306, 454, 212, 479], [1, 0, 0], &quot;red&quot;, &quot;B1-A3-C2-1522434666266_19.png&quot;], [&quot;b0&quot;, [191, 368, 268, 497], [1, 0, 1], &quot;red&quot;, &quot;B1-A3-C2-1522434666266_19.png&quot;]]" order_id="6" person="per3" reference="new" related_object="yes" related_phrase="markable_36" related_rel="unmarked" span="(81, 83)" single_phrase_antecedent_cluster="single_phrase_antecedent_1" related_phrase_cluster="related_phrase_3">
+      <t>the structure</t>
+    </markable>
+    <t>.</t>
+  </utterance>
+  <utterance participant="architect">
+    <!--we will be removing this first layer in the future , but we need to build on top of it first .-->
+    <markable id="markable_2" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_words="we" mmax_level="phrase" number="plur" order_id="2" person="per1" phrase_antecedent="single_phrase" ref_type="phrase" reference="old" related_object="no" single_phrase_antecedent="markable_1" span="(84, 85)" single_phrase_antecedent_cluster="single_phrase_antecedent_7">
+      <t>we</t>
+    </markable>
+    <t>will be removing</t>
+    <markable id="markable_9" ambiguity="ambiguous" category="concrete" category_2="concrete" disagreement_type="no_disagreement" gender="neuter" generic="generic-no" generic_2="generic-no" gram_fnc="unmarked" mark_type="phrase" min_words="layer" mmax_level="phrase" number="sing" order_id="9" person="per3" phrase_antecedent="single_phrase" ref_type="phrase" ref_type_2="new" reference="old" related_object="no" related_object_2="yes" related_phrase_2="markable_6" related_rel_2="poss" single_phrase_antecedent="markable_6" span="(88, 91)" single_phrase_antecedent_cluster="single_phrase_antecedent_1">
+      <t>this first layer</t>
+    </markable>
+    <t>in</t>
+    <markable id="markable_38" ambiguity="unambiguous" category="time" disagreement_type="no_disagreement" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_ids="word_93" min_words="future" mmax_level="phrase" number="sing" order_id="38" person="per3" reference="new" related_object="no" span="(92, 94)">
+      <t>the future</t>
+    </markable>
+    <t>, but</t>
+    <markable id="markable_3" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_words="we" mmax_level="phrase" number="plur" order_id="3" person="per1" phrase_antecedent="single_phrase" ref_type="phrase" reference="old" related_object="no" single_phrase_antecedent="markable_2" span="(96, 97)" single_phrase_antecedent_cluster="single_phrase_antecedent_7">
+      <t>we</t>
+    </markable>
+    <t>need to build on</t>
+    <markable id="markable_39" ambiguity="unambiguous" category="space" disagreement_type="no_disagreement" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_ids="word_101" min_words="top" mmax_level="phrase" number="sing" order_id="39" person="per3" reference="new" related_object="no" span="(101, 104)">
+      <t>top of</t>
+      <markable id="markable_10" ambiguity="unambiguous" category="concrete" disagreement_type="no_disagreement" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_words="it" mmax_level="phrase" number="sing" order_id="10" person="per3" phrase_antecedent="single_phrase" ref_type="phrase" reference="old" related_object="no" single_phrase_antecedent="markable_9" span="(103, 104)" single_phrase_antecedent_cluster="single_phrase_antecedent_1">
+        <t>it</t>
+      </markable>
+    </markable>
+    <t>first .</t>
+  </utterance>
+  <utterance participant="architect">
+    <!--please place 2 red blocks on top of each side of the square , leaving the corners empty-->
+    <t>please place</t>
+    <markable id="markable_40" ambiguity="unambiguous" category="concrete" disagreement_type="no_disagreement" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_ids="word_110" min_words="blocks" mmax_level="phrase" number="plur" order_id="40" person="per3" reference="new" related_object="yes" related_phrase="markable_30" related_rel="subset" span="(108, 111)" related_phrase_cluster="related_phrase_6">
+      <t>2 red blocks</t>
+    </markable>
+    <t>on</t>
+    <markable id="markable_41" ambiguity="unambiguous" category="space" disagreement_type="no_disagreement" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_ids="word_112" min_words="top" mmax_level="phrase" number="sing" order_id="41" person="per3" reference="new" related_object="no" span="(112, 119)">
+      <t>top of</t>
+      <markable id="markable_42" ambiguity="unambiguous" category="space" disagreement_type="no_disagreement" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_ids="word_115" min_words="side" mmax_level="phrase" number="sing" order_id="42" person="per3" reference="new" related_object="no" span="(114, 119)">
+        <t>each side of</t>
+        <markable id="markable_43" ambiguity="unambiguous" category="concrete" disagreement_type="no_disagreement" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_ids="word_118" min_words="square" mmax_level="phrase" number="sing" order_id="43" person="per3" phrase_antecedent="single_phrase" ref_type="phrase" reference="old" related_object="no" single_phrase_antecedent="markable_10" span="(117, 119)" single_phrase_antecedent_cluster="single_phrase_antecedent_1" related_phrase_cluster="related_phrase_7">
+          <t>the square</t>
+        </markable>
+      </markable>
+    </markable>
+    <t>, leaving</t>
+    <markable id="markable_44" ambiguity="unambiguous" category="space" disagreement_type="no_disagreement" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_ids="word_122" min_words="corners" mmax_level="phrase" number="plur" order_id="44" person="per3" reference="new" related_object="yes" related_phrase="markable_43" related_rel="poss" span="(121, 123)" related_phrase_cluster="related_phrase_7">
+      <t>the corners</t>
+    </markable>
+    <t>empty</t>
+  </utterance>
+  <utterance participant="builder">added red@0,1,-1 added red@-1,1,-1 added red@-2,1,0 added red@-2,1,1 added red@-1,1,2 added red@0,1,2 added red@1,1,1 added red@1,1,0<!--added red@0,1,-1 added red@-1,1,-1 added red@-2,1,0 added red@-2,1,1 added red@-1,1,2 added red@0,1,2 added red@1,1,1 added red@1,1,0-->
+  </utterance>
+  <utterance participant="architect">perfect .<!--perfect .-->
+  </utterance>
+  <utterance participant="builder">okay<!--okay-->
+  </utterance>
+  <utterance participant="architect">
+    <!--there is a 3rd layer that is floating , so please made a 6x6 square that extends upwards of 2 blocks to support the 3rd layer-->
+    <markable id="markable_122" gender="neuter" gram_fnc="unmarked" mark_type="phrase" min_words="there" mmax_level="phrase" non_ref_type="expletive" number="undersp-num" person="per3" reference="non_referring" span="(135, 136)">
+      <t>there</t>
+    </markable>
+    <t>is</t>
+    <markable id="markable_123" ambiguity="unambiguous" category="concrete" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_words="layer" mmax_level="phrase" number="sing" person="per3" reference="new" related_object="no" span="(137, 143)" single_phrase_antecedent_cluster="single_phrase_antecedent_11">
+      <t>a 3rd layer that is floating</t>
+    </markable>
+    <t>, so please made</t>
+    <markable id="markable_124" ambiguity="unambiguous" category="concrete" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_words="square" mmax_level="phrase" number="sing" person="per3" reference="new" related_object="no" span="(147, 161)" single_phrase_antecedent_cluster="single_phrase_antecedent_9">
+      <t>a 6x6 square that extends upwards of</t>
+      <markable id="markable_47" ambiguity="unambiguous" category="concrete" disagreement_type="no_disagreement" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_ids="word_155" min_words="blocks" mmax_level="phrase" number="plur" order_id="47" person="per3" reference="new" related_object="no" span="(154, 156)" related_phrase_cluster="related_phrase_4">
+        <t>2 blocks</t>
+      </markable>
+      <t>to support</t>
+      <markable id="markable_48" ambiguity="unambiguous" category="concrete" disagreement_type="no_disagreement" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_ids="word_160" min_words="layer" mmax_level="phrase" number="sing" order_id="48" person="per3" phrase_antecedent="single_phrase" ref_type="phrase" reference="old" related_object="no" single_phrase_antecedent="markable_123" span="(158, 161)" single_phrase_antecedent_cluster="single_phrase_antecedent_11">
+        <t>the 3rd layer</t>
+      </markable>
+    </markable>
+  </utterance>
+  <utterance participant="architect">
+    <!--these will use purple blocks-->
+    <markable id="markable_125" ambiguity="unambiguous" category="concrete" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_words="these" mmax_level="phrase" number="plur" person="per3" phrase_antecedent="single_phrase" ref_type="phrase" reference="old" related_object="no" single_phrase_antecedent="markable_124" span="(161, 162)" single_phrase_antecedent_cluster="single_phrase_antecedent_9">
+      <t>these</t>
+    </markable>
+    <t>will use</t>
+    <markable id="markable_49" ambiguity="unambiguous" category="concrete" disagreement_type="no_disagreement" gender="neuter" generic="generic-yes" gram_fnc="unmarked" mark_type="phrase" min_ids="word_165" min_words="blocks" mmax_level="phrase" number="plur" order_id="49" person="per3" reference="new" related_object="yes" related_phrase="markable_47" related_rel="undersp-rel" span="(164, 166)" single_phrase_antecedent_cluster="single_phrase_antecedent_5" related_phrase_cluster="related_phrase_4">
+      <t>purple blocks</t>
+    </markable>
+  </utterance>
+  <utterance participant="builder">
+    <!--can you give me an instruction for a single purple block first ?-->
+    <t>can</t>
+    <markable id="markable_50" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_ids="word_167" min_words="you" mmax_level="phrase" number="undersp-num" order_id="50" person="per2" phrase_antecedent="single_phrase" ref_type="phrase" reference="old" related_object="no" single_phrase_antecedent="markable_37" span="(167, 168)" single_phrase_antecedent_cluster="single_phrase_antecedent_2">
+      <t>you</t>
+    </markable>
+    <t>give</t>
+    <markable id="markable_51" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_ids="word_169" min_words="me" mmax_level="phrase" number="sing" order_id="51" person="per1" phrase_antecedent="single_phrase" ref_type="phrase" reference="old" related_object="no" single_phrase_antecedent="markable_120" span="(169, 170)" single_phrase_antecedent_cluster="single_phrase_antecedent_6">
+      <t>me</t>
+    </markable>
+    <markable id="markable_52" ambiguity="unambiguous" category="abstract" disagreement_type="no_disagreement" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_ids="word_171" min_words="instruction" mmax_level="phrase" number="sing" order_id="52" person="per3" reference="new" related_object="no" span="(170, 177)">
+      <t>an instruction for</t>
+      <markable id="markable_53" ambiguity="unambiguous" category="concrete" disagreement_type="no_disagreement" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_ids="word_176" min_words="block" mmax_level="phrase" number="sing" order_id="53" person="per3" reference="new" related_object="yes" related_phrase="markable_49" related_rel="element" span="(173, 177)" related_phrase_cluster="related_phrase_4">
+        <t>a single purple block</t>
+      </markable>
+    </markable>
+    <t>first ?</t>
+  </utterance>
+  <utterance participant="architect">
+    <!--how about this , please make a 6x6 purple ring around the first layer of the red square-->
+    <t>how about</t>
+    <markable id="markable_126" ambiguity="unambiguous" category="abstract" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_words="this" mmax_level="phrase" number="sing" person="per3" reference="new" related_object="no" span="(181, 182)">
+      <t>this</t>
+    </markable>
+    <t>, please make</t>
+    <markable id="markable_54" ambiguity="unambiguous" category="concrete" disagreement_type="no_disagreement" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_ids="word_188" min_words="ring" mmax_level="phrase" number="sing" order_id="54" person="per3" phrase_antecedent="single_phrase" ref_type="phrase" reference="old" related_object="no" single_phrase_antecedent="markable_124" span="(185, 189)" single_phrase_antecedent_cluster="single_phrase_antecedent_9">
+      <t>a 6x6 purple ring</t>
+    </markable>
+    <t>around</t>
+    <markable id="markable_55" ambiguity="unambiguous" category="concrete" disagreement_type="no_disagreement" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_ids="word_192" min_words="layer" mmax_level="phrase" number="sing" order_id="55" person="per3" phrase_antecedent="single_phrase" ref_type="phrase" reference="old" related_object="no" single_phrase_antecedent="markable_10" span="(190, 197)" single_phrase_antecedent_cluster="single_phrase_antecedent_1" related_phrase_cluster="related_phrase_8">
+      <t>the first layer of</t>
+      <markable id="markable_56" ambiguity="unambiguous" category="concrete" disagreement_type="no_disagreement" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_ids="word_196" min_words="square" mmax_level="phrase" number="sing" order_id="56" person="per3" phrase_antecedent="single_phrase" ref_type="phrase" reference="old" related_object="no" single_phrase_antecedent="empty" span="(194, 197)" single_phrase_antecedent_cluster="single_phrase_antecedent_4">
+        <t>the red square</t>
+      </markable>
+    </markable>
+  </utterance>
+  <utterance participant="builder">okay<!--okay-->
+  </utterance>
+  <utterance participant="builder">added purple@1,0,-2 added purple@0,0,-2 added purple@-1,0,-2 added purple@-2,0,-2 added purple@-3,0,-2 added purple@2,0,-2 added purple@2,0,-1 added purple@2,0,0 added purple@2,0,1 added purple@2,0,2 added purple@2,0,3 added purple@1,0,3 added purple@0,0,3 added purple@-1,0,3 added purple@-3,0,3 added purple@-2,0,3 added purple@-3,0,2 added purple@-3,0,1 added purple@-3,0,0 added purple@-3,0,-1<!--added purple@1,0,-2 added purple@0,0,-2 added purple@-1,0,-2 added purple@-2,0,-2 added purple@-3,0,-2 added purple@2,0,-2 added purple@2,0,-1 added purple@2,0,0 added purple@2,0,1 added purple@2,0,2 added purple@2,0,3 added purple@1,0,3 added purple@0,0,3 added purple@-1,0,3 added purple@-3,0,3 added purple@-2,0,3 added purple@-3,0,2 added purple@-3,0,1 added purple@-3,0,0 added purple@-3,0,-1-->
+  </utterance>
+  <utterance participant="architect">yes , awesome<!--yes , awesome-->
+  </utterance>
+  <utterance participant="architect">
+    <!--. now place add another layer to that ring-->
+    <t>. now place add</t>
+    <markable id="markable_127" ambiguity="unambiguous" category="concrete" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_words="layer" mmax_level="phrase" number="sing" person="per3" reference="new" related_object="yes" related_phrase="markable_55" related_rel="other" span="(225, 227)" single_phrase_antecedent_cluster="single_phrase_antecedent_13" related_phrase_cluster="related_phrase_8">
+      <t>another layer</t>
+    </markable>
+    <t>to</t>
+    <markable id="markable_128" ambiguity="unambiguous" category="concrete" comment="can't see some of the blocks" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_words="ring" mmax_level="phrase" number="sing" object="c4,c3,c2,c1,c0,c5,c6,c7,c8,c9,d0,d1,d9,d8,d7,d6,d4,d5" objectFull="[[&quot;c4&quot;, [513, 649, 874, 1034], [-3, 0, -2], &quot;purple&quot;, &quot;B1-A3-C2-1522434666266_57.png&quot;], [&quot;c3&quot;, [512, 648, 767, 908], [-2, 0, -2], &quot;purple&quot;, &quot;B1-A3-C2-1522434666266_57.png&quot;], [&quot;c2&quot;, [514, 645, 660, 788], [-1, 0, -2], &quot;purple&quot;, &quot;B1-A3-C2-1522434666266_57.png&quot;], [&quot;c1&quot;, [513, 646, 540, 665], [0, 0, -2], &quot;purple&quot;, &quot;B1-A3-C2-1522434666266_57.png&quot;], [&quot;c0&quot;, [509, 645, 416, 559], [1, 0, -2], &quot;purple&quot;, &quot;B1-A3-C2-1522434666266_57.png&quot;], [&quot;c5&quot;, [508, 644, 294, 450], [2, 0, -2], &quot;purple&quot;, &quot;B1-A3-C2-1522434666266_57.png&quot;], [&quot;c6&quot;, [415, 511, 337, 472], [2, 0, -1], &quot;purple&quot;, &quot;B1-A3-C2-1522434666266_57.png&quot;], [&quot;c7&quot;, [338, 418, 372, 472], [2, 0, 0], &quot;purple&quot;, &quot;B1-A3-C2-1522434666266_57.png&quot;], [&quot;c8&quot;, [275, 343, 400, 464], [2, 0, 1], &quot;purple&quot;, &quot;B1-A3-C2-1522434666266_57.png&quot;], [&quot;c9&quot;, [220, 279, 424, 481], [2, 0, 2], &quot;purple&quot;, &quot;B1-A3-C2-1522434666266_57.png&quot;], [&quot;d0&quot;, [174, 225, 444, 537], [2, 0, 3], &quot;purple&quot;, &quot;B1-A3-C2-1522434666266_57.png&quot;], [&quot;d1&quot;, [174, 214, 525, 584], [1, 0, 3], &quot;purple&quot;, &quot;B1-A3-C2-1522434666266_57.png&quot;], [&quot;d9&quot;, [419, 517, 863, 997], [-3, 0, -1], &quot;purple&quot;, &quot;B1-A3-C2-1522434666266_57.png&quot;], [&quot;d8&quot;, [342, 422, 867, 967], [-3, 0, 0], &quot;purple&quot;, &quot;B1-A3-C2-1522434666266_57.png&quot;], [&quot;d7&quot;, [278, 345, 876, 943], [-3, 0, 1], &quot;purple&quot;, &quot;B1-A3-C2-1522434666266_57.png&quot;], [&quot;d6&quot;, [223, 280, 862, 922], [-3, 0, 2], &quot;purple&quot;, &quot;B1-A3-C2-1522434666266_57.png&quot;], [&quot;d4&quot;, [176, 227, 814, 905], [-3, 0, 3], &quot;purple&quot;, &quot;B1-A3-C2-1522434666266_57.png&quot;], [&quot;d5&quot;, [176, 216, 761, 824], [-2, 0, 3], &quot;purple&quot;, &quot;B1-A3-C2-1522434666266_57.png&quot;]]" person="per3" phrase_antecedent="single_phrase" ref_type="phrase" reference="old" related_object="no" single_phrase_antecedent="markable_54" span="(228, 230)" single_phrase_antecedent_cluster="single_phrase_antecedent_9" related_phrase_cluster="related_phrase_1">
+      <t>that ring</t>
+    </markable>
+  </utterance>
+  <utterance participant="architect">please *<!--please *-->
+  </utterance>
+  <utterance participant="builder">
+    <!--purple ?-->
+    <markable id="markable_62" ambiguity="unambiguous" category="concrete" disagreement_type="no_disagreement" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_ids="word_233" min_words="purple" mmax_level="phrase" number="sing" order_id="62" person="per3" phrase_antecedent="single_phrase" ref_type="phrase" reference="old" related_object="no" single_phrase_antecedent="markable_49" span="(232, 233)" single_phrase_antecedent_cluster="single_phrase_antecedent_5">
+      <t>purple</t>
+    </markable>
+    <t>?</t>
+  </utterance>
+  <utterance participant="builder">
+    <!--i am out of blocks-->
+    <markable id="markable_129" ambiguity="unambiguous" category="person" gender="unspecified" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_words="i" mmax_level="phrase" number="sing" person="per1" phrase_antecedent="single_phrase" ref_type="phrase" reference="old" related_object="no" single_phrase_antecedent="markable_51" span="(234, 235)" single_phrase_antecedent_cluster="single_phrase_antecedent_6">
+      <t>i</t>
+    </markable>
+    <t>am out of</t>
+    <markable id="markable_130" ambiguity="unambiguous" category="concrete" gender="neuter" generic="generic-yes" gram_fnc="unmarked" mark_type="phrase" min_words="blocks" mmax_level="phrase" number="plur" person="per3" phrase_antecedent="single_phrase" ref_type="phrase" reference="old" related_object="no" single_phrase_antecedent="markable_62" span="(238, 239)" single_phrase_antecedent_cluster="single_phrase_antecedent_5">
+      <t>blocks</t>
+    </markable>
+  </utterance>
+  <utterance participant="architect">
+    <!--oh , do you have any colors that are not purple or red ?-->
+    <t>oh , do</t>
+    <markable id="markable_131" ambiguity="unambiguous" category="person" gender="unspecified" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_words="you" mmax_level="phrase" number="undersp-num" person="per2" phrase_antecedent="single_phrase" ref_type="phrase" reference="old" related_object="no" single_phrase_antecedent="markable_129" span="(242, 243)" single_phrase_antecedent_cluster="single_phrase_antecedent_6">
+      <t>you</t>
+    </markable>
+    <t>have</t>
+    <markable id="markable_132" ambiguity="unambiguous" category="concrete" gender="neuter" generic="operator-question" gram_fnc="unmarked" mark_type="phrase" min_words="colors" mmax_level="phrase" number="plur" person="per3" reference="new" related_object="no" span="(244, 252)" related_phrase_cluster="related_phrase_2">
+      <t>any colors that are not purple or red</t>
+    </markable>
+    <t>?</t>
+  </utterance>
+  <utterance participant="builder">yes<!--yes-->
+  </utterance>
+  <utterance participant="architect">
+    <!--ok , my mistake . i am a failure of an architect-->
+    <t>ok ,</t>
+    <markable id="markable_133" ambiguity="unambiguous" category="abstract" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_words="mistake" mmax_level="phrase" number="sing" person="per3" reference="new" related_object="no" span="(256, 258)">
+      <t>my mistake</t>
+    </markable>
+    <t>.</t>
+    <markable id="markable_63" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_ids="word_259" min_words="i" mmax_level="phrase" number="sing" order_id="63" person="per1" phrase_antecedent="single_phrase" ref_type="phrase" reference="old" related_object="no" single_phrase_antecedent="markable_50" span="(259, 260)" single_phrase_antecedent_cluster="single_phrase_antecedent_2">
+      <t>i</t>
+    </markable>
+    <t>am</t>
+    <markable id="markable_64" disagreement_type="no_disagreement" gender="neuter" gram_fnc="unmarked" mark_type="phrase" min_ids="word_262" min_words="failure" mmax_level="phrase" non_ref_type="predicate" number="sing" order_id="64" person="per3" reference="non_referring" span="(261, 266)">
+      <t>a failure of</t>
+      <markable id="markable_65" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-yes" gram_fnc="unmarked" mark_type="phrase" min_ids="word_265" min_words="architect" mmax_level="phrase" number="sing" order_id="65" person="per3" reference="new" related_object="no" span="(264, 266)">
+        <t>an architect</t>
+      </markable>
+    </markable>
+  </utterance>
+  <utterance participant="architect">
+    <!--we will use other colors to support the final structure-->
+    <markable id="markable_66" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_ids="word_266" min_words="we" mmax_level="phrase" multiple_phrase_antecedents="markable_63;markable_131" number="plur" order_id="66" person="per1" phrase_antecedent="multiple_phrases" ref_type="phrase" reference="old" related_object="no" span="(266, 267)" single_phrase_antecedent_cluster="single_phrase_antecedent_3">
+      <t>we</t>
+    </markable>
+    <t>will use</t>
+    <markable id="markable_67" ambiguity="unambiguous" category="concrete" disagreement_type="no_disagreement" gender="neuter" generic="generic-yes" gram_fnc="unmarked" mark_type="phrase" min_ids="word_270" min_words="colors" mmax_level="phrase" number="plur" order_id="67" person="per3" reference="new" related_object="yes" related_phrase="markable_132" related_rel="other" span="(269, 271)" related_phrase_cluster="related_phrase_2">
+      <t>other colors</t>
+    </markable>
+    <t>to support</t>
+    <markable id="markable_7" ambiguity="unambiguous" category="concrete" disagreement_type="no_disagreement" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_words="structure" mmax_level="phrase" number="sing" order_id="7" person="per3" reference="new" related_object="yes" related_phrase="markable_128" related_rel="poss-inv" span="(273, 276)" single_phrase_antecedent_cluster="single_phrase_antecedent_10" related_phrase_cluster="related_phrase_1">
+      <t>the final structure</t>
+    </markable>
+  </utterance>
+  <utterance participant="builder">
+    <!--is the purple supposed to be on the third level ?-->
+    <t>is</t>
+    <markable id="markable_15" ambiguity="unambiguous" category="concrete" disagreement_type="no_disagreement" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_words="purple" mmax_level="phrase" number="sing" order_id="15" person="per3" phrase_antecedent="single_phrase" ref_type="phrase" reference="old" related_object="no" single_phrase_antecedent="markable_127" span="(277, 279)" single_phrase_antecedent_cluster="single_phrase_antecedent_13">
+      <t>the purple</t>
+    </markable>
+    <t>supposed to be on</t>
+    <markable id="markable_68" ambiguity="unambiguous" category="space" disagreement_type="no_disagreement" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_ids="word_285" min_words="level" mmax_level="phrase" number="sing" order_id="68" person="per3" reference="new" related_object="yes" related_phrase="markable_7" related_rel="undersp-rel" span="(283, 286)" related_phrase_cluster="related_phrase_1">
+      <t>the third level</t>
+    </markable>
+    <t>?</t>
+  </utterance>
+  <utterance participant="builder">
+    <!--i think i could make it float ..-->
+    <markable id="markable_69" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_ids="word_287" min_words="i" mmax_level="phrase" number="sing" order_id="69" person="per1" phrase_antecedent="single_phrase" ref_type="phrase" reference="old" related_object="no" single_phrase_antecedent="markable_131" span="(287, 288)" single_phrase_antecedent_cluster="single_phrase_antecedent_6">
+      <t>i</t>
+    </markable>
+    <t>think</t>
+    <markable id="markable_70" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_ids="word_289" min_words="i" mmax_level="phrase" number="sing" order_id="70" person="per1" phrase_antecedent="single_phrase" ref_type="phrase" reference="old" related_object="no" single_phrase_antecedent="empty" span="(289, 290)" single_phrase_antecedent_cluster="single_phrase_antecedent_4">
+      <t>i</t>
+    </markable>
+    <t>could make</t>
+    <markable id="markable_16" ambiguity="unambiguous" category="concrete" disagreement_type="no_disagreement" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_words="it" mmax_level="phrase" number="sing" order_id="16" person="per3" phrase_antecedent="single_phrase" ref_type="phrase" reference="old" related_object="no" single_phrase_antecedent="markable_15" span="(292, 293)" single_phrase_antecedent_cluster="single_phrase_antecedent_13">
+      <t>it</t>
+    </markable>
+    <t>float ..</t>
+  </utterance>
+  <utterance participant="architect">
+    <!--let 's use blue to replace the purple ring . yes purple is supposed to be the final structure-->
+    <markable id="markable_171" mark_type="segment" mmax_level="phrase" span="(295, 304)" segment_antecedent_cluster="segment_antecedent_3">
+      <t>let</t>
+      <markable id="markable_71" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_ids="word_296" min_words="'s" mmax_level="phrase" number="plur" order_id="71" person="per1" phrase_antecedent="single_phrase" ref_type="phrase" reference="old" related_object="no" single_phrase_antecedent="markable_66" span="(296, 297)" single_phrase_antecedent_cluster="single_phrase_antecedent_3">
+        <t>'s</t>
+      </markable>
+      <t>use blue to replace</t>
+      <markable id="markable_13" ambiguity="unambiguous" category="concrete" disagreement_type="no_disagreement" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_words="ring" mmax_level="phrase" number="sing" order_id="13" person="per3" phrase_antecedent="single_phrase" ref_type="phrase" reference="old" related_object="no" single_phrase_antecedent="markable_16" span="(301, 304)" single_phrase_antecedent_cluster="single_phrase_antecedent_13">
+        <t>the purple ring</t>
+      </markable>
+    </markable>
+    <t>. yes</t>
+    <markable id="markable_72" ambiguity="unambiguous" category="concrete" disagreement_type="no_disagreement" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_ids="word_306" min_words="purple" mmax_level="phrase" number="sing" order_id="72" person="per3" reference="new" related_object="no" span="(306, 307)">
+      <t>purple</t>
+    </markable>
+    <t>is supposed to be</t>
+    <markable id="markable_8" ambiguity="unambiguous" category="concrete" disagreement_type="no_disagreement" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_words="structure" mmax_level="phrase" number="sing" order_id="8" person="per3" phrase_antecedent="single_phrase" ref_type="phrase" reference="old" related_object="no" single_phrase_antecedent="markable_7" span="(311, 314)" single_phrase_antecedent_cluster="single_phrase_antecedent_10">
+      <t>the final structure</t>
+    </markable>
+  </utterance>
+  <utterance participant="builder">okay<!--okay-->
+  </utterance>
+  <utterance participant="builder">
+    <!--let me try it-->
+    <t>let</t>
+    <markable id="markable_73" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_ids="word_316" min_words="me" mmax_level="phrase" number="sing" order_id="73" person="per1" phrase_antecedent="single_phrase" ref_type="phrase" reference="old" related_object="no" single_phrase_antecedent="markable_70" span="(316, 317)" single_phrase_antecedent_cluster="single_phrase_antecedent_4">
+      <t>me</t>
+    </markable>
+    <t>try</t>
+    <markable id="markable_17" ambiguity="unambiguous" category="abstract" disagreement_type="no_disagreement" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_words="it" mmax_level="phrase" number="sing" order_id="17" person="per3" ref_type="segment" reference="old" related_object="no" segment_antecedent="markable_171" span="(318, 319)" segment_antecedent_cluster="segment_antecedent_3">
+      <t>it</t>
+    </markable>
+  </utterance>
+  <utterance participant="builder">
+    <!--removed purple@-1,0,-2 removed purple@-2,0,-2 removed purple@-3,0,-2 removed purple@-3,0,-1 removed purple@-3,0,0 removed purple@-3,0,1 removed purple@-3,0,2 removed purple@-2,0,3 removed purple@-3,0,3 removed purple@-1,0,3 removed purple@0,0,3 removed purple@1,0,3 removed purple@2,0,3 removed purple@2,0,2 removed purple@2,0,1 removed purple@2,0,0 removed purple@2,0,-1 removed purple@2,0,-2 removed purple@1,0,-2 removed purple@0,0,-2 added purple@0,2,-1 added purple@0,2,-2 removed purple@0,2,-1 added purple@-1,2,-2 added purple@-2,2,-2 added purple@-3,2,-2 added purple@-3,2,-1 added purple@-3,2,0 added purple@-3,2,1-->
+    <t>removed purple@-1,0,-2 removed purple@-2,0,-2 removed purple@-3,0,-2 removed purple@-3,0,-1 removed purple@-3,0,0 removed purple@-3,0,1 removed purple@-3,0,2 removed purple@-2,0,3 removed purple@-3,0,3 removed purple@-1,0,3 removed purple@0,0,3 removed purple@1,0,3 removed purple@2,0,3 removed purple@2,0,2 removed purple@2,0,1 removed purple@2,0,0 removed purple@2,0,-1 removed purple@2,0,-2 removed purple@1,0,-2 removed purple@0,0,-2 added purple@0,2,-1 added purple@0,2,-2 removed purple@0,2,-1 added purple@-1,2,-2 added purple@-2,2,-2 added purple@-3,2,-2 added purple@-3,2,-1 added purple@-3,2,0</t>
+    <markable id="markable_177" mark_type="segment" mmax_level="phrase" span="(347, 348)">
+      <t>added purple@-3,2,1</t>
+    </markable>
+  </utterance>
+  <utterance participant="architect">
+    <!--oh that is magnificent builder-->
+    <t>oh</t>
+    <markable id="markable_134" ambiguity="ambiguous" category="concrete" category_2="abstract" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_words="that" mmax_level="phrase" number="sing" object="e8,e7,e6,e5,e4,e3,e2,e1" objectFull="[[&quot;e8&quot;, [277, 615, 593, 921], [-3, 2, 2], &quot;purple&quot;, &quot;B1-A3-C2-1522434666266_99.png&quot;], [&quot;e7&quot;, [234, 480, 529, 768], [-3, 2, 1], &quot;purple&quot;, &quot;B1-A3-C2-1522434666266_99.png&quot;], [&quot;e6&quot;, [205, 398, 487, 676], [-3, 2, 0], &quot;purple&quot;, &quot;B1-A3-C2-1522434666266_99.png&quot;], [&quot;e5&quot;, [184, 344, 459, 615], [-3, 2, -1], &quot;purple&quot;, &quot;B1-A3-C2-1522434666266_99.png&quot;], [&quot;e4&quot;, [168, 304, 439, 571], [-3, 2, -2], &quot;purple&quot;, &quot;B1-A3-C2-1522434666266_99.png&quot;], [&quot;e3&quot;, [161, 231, 536, 665], [-2, 2, -2], &quot;purple&quot;, &quot;B1-A3-C2-1522434666266_99.png&quot;], [&quot;e2&quot;, [155, 257, 621, 743], [-1, 2, -2], &quot;purple&quot;, &quot;B1-A3-C2-1522434666266_99.png&quot;], [&quot;e1&quot;, [149, 253, 693, 811], [0, 2, -2], &quot;purple&quot;, &quot;B1-A3-C2-1522434666266_99.png&quot;]]" person="per3" ref_type_2="segment" reference="new" related_object="no" related_object_2="no" segment_antecedent_2="markable_177" span="(349, 350)">
+      <t>that</t>
+    </markable>
+    <t>is magnificent</t>
+    <markable id="markable_135" gender="unspecified" gram_fnc="unmarked" mark_type="phrase" min_words="builder" mmax_level="phrase" non_ref_type="predicate" number="sing" person="per3" reference="non_referring" span="(352, 353)">
+      <t>builder</t>
+    </markable>
+  </utterance>
+  <utterance participant="builder">added purple@-3,2,2 added purple@-3,2,3 added purple@-2,2,3 added purple@-1,2,3 added purple@0,2,3 added purple@1,2,3 added purple@2,2,3 added purple@2,2,2 added purple@2,2,1 added purple@2,2,0 added purple@2,2,-1<!--added purple@-3,2,2 added purple@-3,2,3 added purple@-2,2,3 added purple@-1,2,3 added purple@0,2,3 added purple@1,2,3 added purple@2,2,3 added purple@2,2,2 added purple@2,2,1 added purple@2,2,0 added purple@2,2,-1-->
+  </utterance>
+  <utterance participant="architect">
+    <!--i am not familiar with minecraft , so my understanding is not as great as your own-->
+    <markable id="markable_136" ambiguity="unambiguous" category="person" gender="unspecified" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_words="i" mmax_level="phrase" number="sing" person="per1" phrase_antecedent="single_phrase" ref_type="phrase" reference="old" related_object="no" single_phrase_antecedent="markable_63" span="(364, 365)" single_phrase_antecedent_cluster="single_phrase_antecedent_2">
+      <t>i</t>
+    </markable>
+    <t>am not familiar with</t>
+    <markable id="markable_137" ambiguity="unambiguous" category="undersp-onto" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_words="minecraft" mmax_level="phrase" number="sing" person="per3" reference="new" related_object="no" span="(369, 370)">
+      <t>minecraft</t>
+    </markable>
+    <t>, so</t>
+    <markable id="markable_79" ambiguity="unambiguous" category="abstract" disagreement_type="no_disagreement" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_ids="word_372" min_words="understanding" mmax_level="phrase" number="sing" order_id="79" person="per3" reference="new" related_object="no" span="(372, 374)" related_phrase_cluster="related_phrase_12">
+      <t>my understanding</t>
+    </markable>
+    <t>is not as great as</t>
+    <markable id="markable_138" ambiguity="unambiguous" category="abstract" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_words="own" mmax_level="phrase" number="sing" person="per3" reference="new" related_object="yes" related_phrase="markable_79" related_rel="undersp-rel" span="(379, 381)" related_phrase_cluster="related_phrase_12">
+      <t>your own</t>
+    </markable>
+  </utterance>
+  <utterance participant="builder">
+    <!--added purple@2,2,-2 added purple@1,2,-2-->
+    <t>added purple@2,2,-2</t>
+    <markable id="markable_176" mark_type="segment" mmax_level="phrase" span="(382, 383)">
+      <t>added purple@1,2,-2</t>
+    </markable>
+  </utterance>
+  <utterance participant="builder">
+    <!--like this ?-->
+    <markable id="markable_172" mark_type="segment" mmax_level="phrase" span="(383, 385)">
+      <t>like</t>
+      <markable id="markable_139" ambiguity="ambiguous" category="abstract" category_2="abstract" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_words="this" mmax_level="phrase" number="sing" object="e4,e3,e2,e1,g0,f9,f8,f7,f6,f5,f4,f3,f2,f1,f0,e9,e8,e7,e6,e5" objectFull="[[&quot;e4&quot;, [51, 161, 861, 980], [-3, 2, -2], &quot;purple&quot;, &quot;B1-A3-C2-1522434666266_114.png&quot;], [&quot;e3&quot;, [101, 241, 852, 1011], [-2, 2, -2], &quot;purple&quot;, &quot;B1-A3-C2-1522434666266_114.png&quot;], [&quot;e2&quot;, [162, 312, 868, 1050], [-1, 2, -2], &quot;purple&quot;, &quot;B1-A3-C2-1522434666266_114.png&quot;], [&quot;e1&quot;, [236, 398, 888, 1099], [0, 2, -2], &quot;purple&quot;, &quot;B1-A3-C2-1522434666266_114.png&quot;], [&quot;g0&quot;, [330, 457, 912, 1163], [1, 2, -2], &quot;purple&quot;, &quot;B1-A3-C2-1522434666266_114.png&quot;], [&quot;f9&quot;, [452, 642, 978, 1249], [2, 2, -2], &quot;purple&quot;, &quot;B1-A3-C2-1522434666266_114.png&quot;], [&quot;f8&quot;, [454, 644, 836, 1065], [2, 2, -1], &quot;purple&quot;, &quot;B1-A3-C2-1522434666266_114.png&quot;], [&quot;f7&quot;, [456, 646, 693, 885], [2, 2, 0], &quot;purple&quot;, &quot;B1-A3-C2-1522434666266_114.png&quot;], [&quot;f6&quot;, [458, 648, 513, 703], [2, 2, 1], &quot;purple&quot;, &quot;B1-A3-C2-1522434666266_114.png&quot;], [&quot;f5&quot;, [460, 650, 329, 553], [2, 2, 2], &quot;purple&quot;, &quot;B1-A3-C2-1522434666266_114.png&quot;], [&quot;f4&quot;, [462, 652, 143, 408], [2, 2, 3], &quot;purple&quot;, &quot;B1-A3-C2-1522434666266_114.png&quot;], [&quot;f3&quot;, [337, 467, 222, 465], [1, 2, 3], &quot;purple&quot;, &quot;B1-A3-C2-1522434666266_114.png&quot;], [&quot;f2&quot;, [242, 405, 280, 485], [0, 2, 3], &quot;purple&quot;, &quot;B1-A3-C2-1522434666266_114.png&quot;], [&quot;f1&quot;, [166, 315, 325, 501], [-1, 2, 3], &quot;purple&quot;, &quot;B1-A3-C2-1522434666266_114.png&quot;], [&quot;f0&quot;, [105, 244, 361, 515], [-2, 2, 3], &quot;purple&quot;, &quot;B1-A3-C2-1522434666266_114.png&quot;], [&quot;e9&quot;, [54, 188, 389, 518], [-3, 2, 3], &quot;purple&quot;, &quot;B1-A3-C2-1522434666266_114.png&quot;], [&quot;e8&quot;, [53, 188, 487, 603], [-3, 2, 2], &quot;purple&quot;, &quot;B1-A3-C2-1522434666266_114.png&quot;], [&quot;e7&quot;, [52, 184, 588, 688], [-3, 2, 1], &quot;purple&quot;, &quot;B1-A3-C2-1522434666266_114.png&quot;], [&quot;e6&quot;, [52, 183, 682, 785], [-3, 2, 0], &quot;purple&quot;, &quot;B1-A3-C2-1522434666266_114.png&quot;], [&quot;e5&quot;, [51, 185, 770, 883], [-3, 2, -1], &quot;purple&quot;, &quot;B1-A3-C2-1522434666266_114.png&quot;]]" person="per3" ref_type_2="segment" reference="new" related_object="no" related_object_2="no" segment_antecedent_2="markable_176" span="(384, 385)" single_phrase_antecedent_cluster="single_phrase_antecedent_12">
+        <t>this</t>
+      </markable>
+    </markable>
+    <t>?</t>
+  </utterance>
+  <utterance participant="architect">
+    <!--yes , we will need to cut some pieces form that and add a few but that is great .-->
+    <t>yes ,</t>
+    <markable id="markable_140" ambiguity="unambiguous" category="person" gender="unspecified" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_words="we" mmax_level="phrase" number="plur" person="per1" phrase_antecedent="single_phrase" ref_type="phrase" reference="old" related_object="no" single_phrase_antecedent="markable_71" span="(388, 389)" single_phrase_antecedent_cluster="single_phrase_antecedent_3">
+      <t>we</t>
+    </markable>
+    <t>will need to cut</t>
+    <markable id="markable_141" ambiguity="unambiguous" category="concrete" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_words="pieces" mmax_level="phrase" number="plur" person="per3" reference="new" related_object="no" span="(393, 395)">
+      <t>some pieces</t>
+    </markable>
+    <t>form</t>
+    <markable id="markable_142" ambiguity="unambiguous" category="concrete" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_words="that" mmax_level="phrase" number="sing" person="per3" phrase_antecedent="single_phrase" ref_type="phrase" reference="old" related_object="no" single_phrase_antecedent="markable_139" span="(396, 397)" single_phrase_antecedent_cluster="single_phrase_antecedent_12">
+      <t>that</t>
+    </markable>
+    <t>and add</t>
+    <markable id="markable_143" gender="neuter" gram_fnc="unmarked" mark_type="phrase" min_words="few" mmax_level="phrase" non_ref_type="quantifier" number="plur" person="per3" reference="non_referring" span="(399, 401)">
+      <t>a few</t>
+    </markable>
+    <t>but</t>
+    <markable id="markable_144" ambiguity="ambiguous" category="concrete" category_2="abstract" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_words="that" mmax_level="phrase" number="sing" person="per3" phrase_antecedent="single_phrase" ref_type="phrase" ref_type_2="segment" reference="old" related_object="no" related_object_2="no" segment_antecedent_2="markable_172" single_phrase_antecedent="markable_142" span="(402, 403)" single_phrase_antecedent_cluster="single_phrase_antecedent_12">
+      <t>that</t>
+    </markable>
+    <t>is great .</t>
+  </utterance>
+  <utterance participant="architect">
+    <!--can you add purple blocks at each inner corner of that structure ?-->
+    <t>can you add</t>
+    <markable id="markable_83" ambiguity="unambiguous" category="concrete" disagreement_type="no_disagreement" gender="neuter" generic="generic-yes" gram_fnc="unmarked" mark_type="phrase" min_ids="word_410" min_words="blocks" mmax_level="phrase" number="plur" order_id="83" person="per3" phrase_antecedent="single_phrase" ref_type="phrase" reference="old" related_object="no" single_phrase_antecedent="markable_130" span="(409, 411)" single_phrase_antecedent_cluster="single_phrase_antecedent_5">
+      <t>purple blocks</t>
+    </markable>
+    <t>at each</t>
+    <markable id="markable_145" ambiguity="unambiguous" category="space" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_words="corner" mmax_level="phrase" number="sing" person="per3" reference="new" related_object="no" span="(413, 418)">
+      <t>inner corner of</t>
+      <markable id="markable_14" ambiguity="unambiguous" category="concrete" disagreement_type="no_disagreement" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_words="structure" mmax_level="phrase" number="sing" order_id="14" person="per3" phrase_antecedent="single_phrase" ref_type="phrase" reference="old" related_object="no" single_phrase_antecedent="markable_13" span="(416, 418)" single_phrase_antecedent_cluster="single_phrase_antecedent_13">
+        <t>that structure</t>
+      </markable>
+    </markable>
+    <t>?</t>
+  </utterance>
+  <utterance participant="architect">
+    <!--if not , please remove the corner pieces of the purple ring-->
+    <t>if not , please remove</t>
+    <markable id="markable_146" ambiguity="unambiguous" category="concrete" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_words="pieces" mmax_level="phrase" number="plur" person="per3" reference="new" related_object="no" span="(424, 431)">
+      <t>the corner pieces of</t>
+      <markable id="markable_86" ambiguity="unambiguous" category="concrete" disagreement_type="no_disagreement" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_ids="word_429" min_words="ring" mmax_level="phrase" number="sing" order_id="86" person="per3" phrase_antecedent="single_phrase" ref_type="phrase" reference="old" related_object="no" single_phrase_antecedent="markable_13" span="(428, 431)" single_phrase_antecedent_cluster="single_phrase_antecedent_13">
+        <t>the purple ring</t>
+      </markable>
+    </markable>
+  </utterance>
+  <utterance participant="builder">
+    <!--i only have 20 blocks of each color . i used them up . okay i will remove some-->
+    <markable id="markable_147" ambiguity="unambiguous" category="person" gender="unspecified" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_words="i" mmax_level="phrase" number="sing" person="per1" phrase_antecedent="single_phrase" ref_type="phrase" reference="old" related_object="no" single_phrase_antecedent="markable_73" span="(431, 432)" single_phrase_antecedent_cluster="single_phrase_antecedent_4">
+      <t>i</t>
+    </markable>
+    <t>only have</t>
+    <markable id="markable_148" ambiguity="unambiguous" category="concrete" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_words="blocks" mmax_level="phrase" number="plur" person="per3" reference="new" related_object="no" span="(434, 439)" related_phrase_cluster="related_phrase_13">
+      <t>20 blocks of</t>
+      <markable id="markable_19" disagreement_type="no_disagreement" gender="neuter" gram_fnc="unmarked" mark_type="phrase" min_words="color" mmax_level="phrase" non_ref_type="quantifier" number="sing" order_id="19" person="per3" reference="non_referring" span="(437, 439)">
+        <t>each color</t>
+      </markable>
+    </markable>
+    <t>.</t>
+    <markable id="markable_149" ambiguity="unambiguous" category="person" gender="unspecified" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_words="i" mmax_level="phrase" number="sing" person="per1" phrase_antecedent="single_phrase" ref_type="phrase" reference="old" related_object="no" single_phrase_antecedent="markable_147" span="(440, 441)" single_phrase_antecedent_cluster="single_phrase_antecedent_4">
+      <t>i</t>
+    </markable>
+    <t>used</t>
+    <markable id="markable_150" ambiguity="unambiguous" category="concrete" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_words="them" mmax_level="phrase" number="plur" person="per3" reference="new" related_object="yes" related_phrase="markable_148" related_rel="undersp-rel" span="(442, 443)" related_phrase_cluster="related_phrase_13">
+      <t>them</t>
+    </markable>
+    <t>up . okay</t>
+    <markable id="markable_151" ambiguity="unambiguous" category="person" gender="unspecified" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_words="i" mmax_level="phrase" number="sing" person="per1" phrase_antecedent="single_phrase" ref_type="phrase" reference="old" related_object="no" single_phrase_antecedent="markable_149" span="(446, 447)" single_phrase_antecedent_cluster="single_phrase_antecedent_4">
+      <t>i</t>
+    </markable>
+    <t>will remove</t>
+    <markable id="markable_152" ambiguity="unambiguous" category="concrete" gender="unspecified" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_words="some" mmax_level="phrase" number="plur" person="per3" reference="new" related_object="yes" related_phrase="markable_150" related_rel="subset" span="(449, 450)" related_phrase_cluster="related_phrase_13">
+      <t>some</t>
+    </markable>
+  </utterance>
+  <utterance participant="builder">
+    <!--removed purple@2,2,-2 removed purple@-3,2,-2 removed purple@-3,2,3 removed purple@2,2,3 added purple@1,2,2 added purple@-2,2,2 added purple@-2,2,-1 added purple@1,2,-1-->
+    <t>removed purple@2,2,-2 removed purple@-3,2,-2 removed purple@-3,2,3 removed purple@2,2,3 added purple@1,2,2 added purple@-2,2,2 added purple@-2,2,-1</t>
+    <markable id="markable_173" mark_type="segment" mmax_level="phrase" span="(457, 458)">
+      <t>added purple@1,2,-1</t>
+    </markable>
+  </utterance>
+  <utterance participant="builder">
+    <!--like this ?-->
+    <t>like</t>
+    <markable id="markable_153" ambiguity="ambiguous" category="concrete" category_2="abstract" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_words="this" mmax_level="phrase" number="sing" object="e3,e2,e1,g0,g4,f8,f7,f6,f5,g1,f3,f2,f1,f0,g2,e8,e7,e6,e5,g3" objectFull="[[&quot;e3&quot;, [395, 719, 809, 1187], [-2, 2, -2], &quot;purple&quot;, &quot;B1-A3-C2-1522434666266_127.png&quot;], [&quot;e2&quot;, [387, 705, 549, 862], [-1, 2, -2], &quot;purple&quot;, &quot;B1-A3-C2-1522434666266_127.png&quot;], [&quot;e1&quot;, [378, 692, 252, 603], [0, 2, -2], &quot;purple&quot;, &quot;B1-A3-C2-1522434666266_127.png&quot;], [&quot;g0&quot;, [370, 678, 0, 387], [1, 2, -2], &quot;purple&quot;, &quot;B1-A3-C2-1522434666266_127.png&quot;], [&quot;g4&quot;, [258, 385, 177, 502], [1, 2, -1], &quot;purple&quot;, &quot;B1-A3-C2-1522434666266_127.png&quot;], [&quot;f8&quot;, [253, 456, 0, 297], [2, 2, -1], &quot;purple&quot;, &quot;B1-A3-C2-1522434666266_127.png&quot;], [&quot;f7&quot;, [183, 263, 136, 408], [2, 2, 0], &quot;purple&quot;, &quot;B1-A3-C2-1522434666266_127.png&quot;], [&quot;f6&quot;, [133, 264, 239, 459], [2, 2, 1], &quot;purple&quot;, &quot;B1-A3-C2-1522434666266_127.png&quot;], [&quot;f5&quot;, [97, 138, 312, 466], [2, 2, 2], &quot;purple&quot;, &quot;B1-A3-C2-1522434666266_127.png&quot;], [&quot;g1&quot;, [99, 241, 425, 579], [1, 2, 2], &quot;purple&quot;, &quot;B1-A3-C2-1522434666266_127.png&quot;], [&quot;f3&quot;, [70, 105, 464, 585], [1, 2, 3], &quot;purple&quot;, &quot;B1-A3-C2-1522434666266_127.png&quot;], [&quot;f2&quot;, [72, 198, 566, 676], [0, 2, 3], &quot;purple&quot;, &quot;B1-A3-C2-1522434666266_127.png&quot;], [&quot;f1&quot;, [73, 200, 664, 772], [-1, 2, 3], &quot;purple&quot;, &quot;B1-A3-C2-1522434666266_127.png&quot;], [&quot;f0&quot;, [74, 200, 757, 876], [-2, 2, 3], &quot;purple&quot;, &quot;B1-A3-C2-1522434666266_127.png&quot;], [&quot;g2&quot;, [104, 249, 757, 899], [-2, 2, 2], &quot;purple&quot;, &quot;B1-A3-C2-1522434666266_127.png&quot;], [&quot;e8&quot;, [106, 249, 867, 1019], [-3, 2, 2], &quot;purple&quot;, &quot;B1-A3-C2-1522434666266_127.png&quot;], [&quot;e7&quot;, [145, 278, 867, 1075], [-3, 2, 1], &quot;purple&quot;, &quot;B1-A3-C2-1522434666266_127.png&quot;], [&quot;e6&quot;, [200, 286, 901, 1156], [-3, 2, 0], &quot;purple&quot;, &quot;B1-A3-C2-1522434666266_127.png&quot;], [&quot;e5&quot;, [278, 529, 974, 1286], [-3, 2, -1], &quot;purple&quot;, &quot;B1-A3-C2-1522434666266_127.png&quot;], [&quot;g3&quot;, [273, 406, 777, 1053], [-2, 2, -1], &quot;purple&quot;, &quot;B1-A3-C2-1522434666266_127.png&quot;]]" person="per3" ref_type_2="segment" reference="new" related_object="no" related_object_2="no" segment_antecedent_2="markable_173" span="(459, 460)">
+      <t>this</t>
+    </markable>
+    <t>?</t>
+  </utterance>
+  <utterance participant="architect">
+    <!--yes , all that 's left now is removing-->
+    <t>yes ,</t>
+    <markable id="markable_154" ambiguity="unambiguous" category="abstract" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_words="that" mmax_level="phrase" number="sing" person="per3" reference="new" related_object="no" span="(463, 465)">
+      <t>all that</t>
+    </markable>
+    <t>'s left now is removing</t>
+  </utterance>
+  <utterance participant="architect">
+    <!--we need to remove the pieces that were directly next to the old corners you just removed-->
+    <markable id="markable_155" ambiguity="unambiguous" category="person" gender="unspecified" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_words="we" mmax_level="phrase" number="plur" person="per1" phrase_antecedent="single_phrase" ref_type="phrase" reference="old" related_object="no" single_phrase_antecedent="markable_140" span="(470, 471)" single_phrase_antecedent_cluster="single_phrase_antecedent_3">
+      <t>we</t>
+    </markable>
+    <t>need to remove</t>
+    <markable id="markable_91" ambiguity="unambiguous" category="concrete" disagreement_type="no_disagreement" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_ids="word_475" min_words="pieces" mmax_level="phrase" number="plur" order_id="91" person="per3" reference="new" related_object="yes" related_phrase="markable_152" related_rel="undersp-rel" span="(474, 487)" related_phrase_cluster="related_phrase_13">
+      <t>the pieces that were directly next to</t>
+      <markable id="markable_93" ambiguity="unambiguous" category="space" disagreement_type="no_disagreement" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_ids="word_484" min_words="corners" mmax_level="phrase" number="sing" order_id="93" person="per3" reference="new" related_object="yes" related_phrase="markable_152" related_rel="undersp-rel" span="(481, 487)" related_phrase_cluster="related_phrase_13">
+        <t>the old corners</t>
+        <markable id="markable_156" ambiguity="unambiguous" category="person" gender="unspecified" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_words="you" mmax_level="phrase" number="undersp-num" person="per2" phrase_antecedent="single_phrase" ref_type="phrase" reference="old" related_object="no" single_phrase_antecedent="markable_151" span="(484, 485)" single_phrase_antecedent_cluster="single_phrase_antecedent_4">
+          <t>you</t>
+        </markable>
+        <t>just removed</t>
+      </markable>
+    </markable>
+  </utterance>
+  <utterance participant="architect">
+    <!--while leaving the new inner corners intact-->
+    <t>while leaving</t>
+    <markable id="markable_94" ambiguity="unambiguous" category="concrete" disagreement_type="no_disagreement" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_ids="word_489" min_words="corners" mmax_level="phrase" number="plur" order_id="94" person="per3" reference="new" related_object="yes" related_phrase="markable_93" related_rel="undersp-rel" span="(489, 493)" related_phrase_cluster="related_phrase_13">
+      <t>the new inner corners</t>
+    </markable>
+    <t>intact</t>
+  </utterance>
+  <utterance participant="builder">added red@-2,0,0; purple@1,2,-2; purple@1,2,-1; red@0,0,2; purple@-2,2,3; red@-1,1,2; purple@-1,2,3; red@-2,1,0; red@1,0,2; purple@1,2,2; purple@1,2,3; red@0,0,-1; purple@-3,2,1; red@-2,0,-1; red@-1,0,-1; purple@2,2,2; purple@-3,2,0; purple@-3,2,-1; purple@2,2,-1; red@-1,0,2; red@-2,0,2; purple@0,2,-2; purple@0,2,3; red@0,1,-1; red@-1,1,-1; red@-2,1,1; red@1,0,0; red@0,1,2; red@1,0,1; red@1,0,-1; purple@-2,2,-2; purple@-1,2,-2; purple@-2,2,-1; red@1,1,0; red@-2,0,1; purple@-3,2,2; red@1,1,1; purple@2,2,1; purple@2,2,0; purple@-2,2,2<!--added red@-2,0,0; purple@1,2,-2; purple@1,2,-1; red@0,0,2; purple@-2,2,3; red@-1,1,2; purple@-1,2,3; red@-2,1,0; red@1,0,2; purple@1,2,2; purple@1,2,3; red@0,0,-1; purple@-3,2,1; red@-2,0,-1; red@-1,0,-1; purple@2,2,2; purple@-3,2,0; purple@-3,2,-1; purple@2,2,-1; red@-1,0,2; red@-2,0,2; purple@0,2,-2; purple@0,2,3; red@0,1,-1; red@-1,1,-1; red@-2,1,1; red@1,0,0; red@0,1,2; red@1,0,1; red@1,0,-1; purple@-2,2,-2; purple@-1,2,-2; purple@-2,2,-1; red@1,1,0; red@-2,0,1; purple@-3,2,2; red@1,1,1; purple@2,2,1; purple@2,2,0; purple@-2,2,2-->
+  </utterance>
+  <utterance participant="architect">yes<!--yes-->
+  </utterance>
+  <utterance participant="builder">removed purple@1,2,-2 removed purple@2,2,-1 removed purple@-2,2,-2 removed purple@-3,2,-1 removed purple@-3,2,2 removed purple@-2,2,3 removed purple@1,2,3 removed purple@2,2,2<!--removed purple@1,2,-2 removed purple@2,2,-1 removed purple@-2,2,-2 removed purple@-3,2,-1 removed purple@-3,2,2 removed purple@-2,2,3 removed purple@1,2,3 removed purple@2,2,2-->
+  </utterance>
+  <utterance participant="architect">
+    <!--builder , you are awesome-->
+    <markable id="markable_95" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_ids="word_507" min_words="you" mmax_level="phrase" number="undersp-num" order_id="95" person="per2" phrase_antecedent="single_phrase" ref_type="phrase" reference="old" related_object="no" single_phrase_antecedent="markable_156" span="(504, 507)" single_phrase_antecedent_cluster="single_phrase_antecedent_4">
+      <markable id="markable_157" gender="unspecified" gram_fnc="unmarked" mark_type="phrase" min_words="builder" mmax_level="phrase" non_ref_type="predicate" number="sing" person="per3" reference="non_referring" span="(504, 505)">
+        <t>builder</t>
+      </markable>
+      <t>, you</t>
+    </markable>
+    <t>are awesome</t>
+  </utterance>
+  <utterance participant="architect">
+    <!--. now all we need to do is remove the first red layer and the structure should be complete .-->
+    <t>. now</t>
+    <markable id="markable_158" gender="neuter" gram_fnc="unmarked" mark_type="phrase" min_words="all" mmax_level="phrase" non_ref_type="quantifier" number="undersp-num" person="per3" reference="non_referring" span="(511, 512)">
+      <t>all</t>
+    </markable>
+    <markable id="markable_159" ambiguity="unambiguous" category="person" gender="unspecified" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_words="we" mmax_level="phrase" number="plur" person="per1" phrase_antecedent="single_phrase" ref_type="phrase" reference="old" related_object="no" single_phrase_antecedent="markable_155" span="(512, 513)" single_phrase_antecedent_cluster="single_phrase_antecedent_3">
+      <t>we</t>
+    </markable>
+    <t>need to do is remove the</t>
+    <markable id="markable_97" ambiguity="unambiguous" category="concrete" disagreement_type="no_disagreement" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_ids="word_520" min_words="layer" mmax_level="phrase" number="sing" order_id="97" person="per3" phrase_antecedent="single_phrase" ref_type="phrase" reference="old" related_object="no" single_phrase_antecedent="markable_55" span="(519, 522)" single_phrase_antecedent_cluster="single_phrase_antecedent_1">
+      <t>first red layer</t>
+    </markable>
+    <t>and</t>
+    <markable id="markable_23" ambiguity="unambiguous" category="concrete" disagreement_type="no_disagreement" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_words="structure" mmax_level="phrase" number="sing" order_id="23" person="per1" phrase_antecedent="single_phrase" ref_type="phrase" reference="old" related_object="no" single_phrase_antecedent="markable_8" span="(523, 525)" single_phrase_antecedent_cluster="single_phrase_antecedent_10">
+      <t>the structure</t>
+    </markable>
+    <t>should be complete .</t>
+  </utterance>
+  <utterance participant="architect">
+    <!--please standby for me to inspect at the end-->
+    <t>please standby for</t>
+    <markable id="markable_160" ambiguity="unambiguous" category="person" gender="unspecified" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_words="me" mmax_level="phrase" number="sing" person="per1" phrase_antecedent="single_phrase" ref_type="phrase" reference="old" related_object="no" single_phrase_antecedent="markable_136" span="(532, 533)" single_phrase_antecedent_cluster="single_phrase_antecedent_2">
+      <t>me</t>
+    </markable>
+    <t>to inspect at</t>
+    <markable id="markable_161" ambiguity="unambiguous" category="time" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_words="end" mmax_level="phrase" number="sing" person="per3" reference="new" related_object="no" span="(536, 538)">
+      <t>the end</t>
+    </markable>
+  </utterance>
+  <utterance participant="builder">okay<!--okay-->
+  </utterance>
+  <utterance participant="builder">
+    <!--all of the first red layer ?-->
+    <markable id="markable_25" disagreement_type="no_disagreement" gender="neuter" gram_fnc="unmarked" mark_type="phrase" min_words="all" mmax_level="phrase" non_ref_type="quantifier" number="undersp-num" order_id="25" person="per3" reference="non_referring" span="(539, 545)">
+      <t>all of</t>
+      <markable id="markable_162" ambiguity="unambiguous" category="concrete" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_words="layer" mmax_level="phrase" number="sing" person="per3" phrase_antecedent="single_phrase" ref_type="phrase" reference="old" related_object="no" single_phrase_antecedent="markable_97" span="(541, 545)" single_phrase_antecedent_cluster="single_phrase_antecedent_1">
+        <t>the first red layer</t>
+      </markable>
+    </markable>
+    <t>?</t>
+  </utterance>
+  <utterance participant="builder">removed red@1,0,-1 removed red@0,0,-1 removed red@-1,0,-1 removed red@-2,0,-1 removed red@-2,0,0 removed red@-2,0,1 removed red@-2,0,2<!--removed red@1,0,-1 removed red@0,0,-1 removed red@-1,0,-1 removed red@-2,0,-1 removed red@-2,0,0 removed red@-2,0,1 removed red@-2,0,2-->
+  </utterance>
+  <utterance participant="architect">
+    <!--yes all of it-->
+    <t>yes</t>
+    <markable id="markable_163" ambiguity="unambiguous" category="concrete" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_words="it" mmax_level="phrase" number="sing" person="per3" phrase_antecedent="single_phrase" ref_type="phrase" reference="old" related_object="no" single_phrase_antecedent="markable_162" span="(554, 557)" single_phrase_antecedent_cluster="single_phrase_antecedent_1">
+      <t>all of it</t>
+    </markable>
+  </utterance>
+  <utterance participant="builder">removed red@-1,0,2 removed red@0,0,2 removed red@1,0,2 removed red@1,0,1 removed red@1,0,0<!--removed red@-1,0,2 removed red@0,0,2 removed red@1,0,2 removed red@1,0,1 removed red@1,0,0-->
+  </utterance>
+  <utterance participant="builder">
+    <!--is this it ?-->
+    <markable id="markable_174" mark_type="segment" mmax_level="phrase" span="(562, 565)" segment_antecedent_cluster="segment_antecedent_1">
+      <t>is</t>
+      <markable id="markable_164" ambiguity="unambiguous" category="concrete" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_words="this" mmax_level="phrase" number="sing" object="b6,b4,b9,b2,b3,b7,b8,b5,g4,f1,g1,e7,e6,e1,f2,e2,g3,f7,g2" objectFull="[[&quot;b6&quot;, [382, 502, 417, 563], [-1, 1, 2], &quot;red&quot;, &quot;B1-A3-C2-1522434666266_157.png&quot;], [&quot;b4&quot;, [264, 392, 649, 769], [-2, 1, 0], &quot;red&quot;, &quot;B1-A3-C2-1522434666266_157.png&quot;], [&quot;b9&quot;, [581, 744, 660, 794], [1, 1, 0], &quot;red&quot;, &quot;B1-A3-C2-1522434666266_157.png&quot;], [&quot;b2&quot;, [479, 609, 758, 909], [0, 1, -1], &quot;red&quot;, &quot;B1-A3-C2-1522434666266_157.png&quot;], [&quot;b3&quot;, [367, 489, 752, 896], [-1, 1, -1], &quot;red&quot;, &quot;B1-A3-C2-1522434666266_157.png&quot;], [&quot;b7&quot;, [489, 626, 413, 564], [0, 1, 2], &quot;red&quot;, &quot;B1-A3-C2-1522434666266_157.png&quot;], [&quot;b8&quot;, [585, 744, 538, 669], [1, 1, 1], &quot;red&quot;, &quot;B1-A3-C2-1522434666266_157.png&quot;], [&quot;b5&quot;, [269, 396, 536, 660], [-2, 1, 1], &quot;red&quot;, &quot;B1-A3-C2-1522434666266_157.png&quot;], [&quot;g4&quot;, [604, 744, 783, 988], [1, 2, -1], &quot;purple&quot;, &quot;B1-A3-C2-1522434666266_157.png&quot;], [&quot;f1&quot;, [367, 523, 186, 419], [-1, 2, 3], &quot;purple&quot;, &quot;B1-A3-C2-1522434666266_157.png&quot;], [&quot;g1&quot;, [621, 744, 330, 538], [1, 2, 2], &quot;purple&quot;, &quot;B1-A3-C2-1522434666266_157.png&quot;], [&quot;e7&quot;, [94, 272, 496, 651], [-3, 2, 1], &quot;purple&quot;, &quot;B1-A3-C2-1522434666266_157.png&quot;], [&quot;e6&quot;, [88, 268, 636, 784], [-3, 2, 0], &quot;purple&quot;, &quot;B1-A3-C2-1522434666266_157.png&quot;], [&quot;e1&quot;, [481, 650, 897, 1135], [0, 2, -2], &quot;purple&quot;, &quot;B1-A3-C2-1522434666266_157.png&quot;], [&quot;f2&quot;, [503, 687, 172, 416], [0, 2, 3], &quot;purple&quot;, &quot;B1-A3-C2-1522434666266_157.png&quot;], [&quot;e2&quot;, [336, 492, 883, 1110], [-1, 2, -2], &quot;purple&quot;, &quot;B1-A3-C2-1522434666266_157.png&quot;], [&quot;g3&quot;, [208, 373, 759, 941], [-2, 2, -1], &quot;purple&quot;, &quot;B1-A3-C2-1522434666266_157.png&quot;], [&quot;f7&quot;, [741, 744, 710, 793], [2, 2, 0], &quot;purple&quot;, &quot;B1-A3-C2-1522434666266_157.png&quot;], [&quot;g2&quot;, [225, 386, 347, 536], [-2, 2, 2], &quot;purple&quot;, &quot;B1-A3-C2-1522434666266_157.png&quot;]]" person="per3" reference="new" related_object="no" span="(563, 564)">
+        <t>this</t>
+      </markable>
+      <markable id="markable_165" gender="neuter" gram_fnc="unmarked" mark_type="phrase" min_words="it" mmax_level="phrase" non_ref_type="predicate" number="sing" person="per3" reference="non_referring" span="(564, 565)">
+        <t>it</t>
+      </markable>
+    </markable>
+    <t>?</t>
+  </utterance>
+  <utterance participant="architect">
+    <!--yes , we 've done it builder !-->
+    <t>yes ,</t>
+    <markable id="markable_175" mark_type="segment" mmax_level="phrase" span="(568, 574)">
+      <markable id="markable_166" ambiguity="unambiguous" category="person" gender="unspecified" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_words="we" mmax_level="phrase" number="plur" person="per1" phrase_antecedent="single_phrase" ref_type="phrase" reference="old" related_object="no" single_phrase_antecedent="markable_159" span="(568, 569)" single_phrase_antecedent_cluster="single_phrase_antecedent_3">
+        <t>we</t>
+      </markable>
+      <t>'ve done</t>
+      <markable id="markable_167" ambiguity="unambiguous" category="abstract" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_words="it" mmax_level="phrase" number="sing" person="per3" ref_type="segment" reference="old" related_object="no" segment_antecedent="markable_174" span="(571, 572)" segment_antecedent_cluster="segment_antecedent_1">
+        <t>it</t>
+      </markable>
+      <markable id="markable_168" gender="unspecified" gram_fnc="unmarked" mark_type="phrase" min_words="builder" mmax_level="phrase" non_ref_type="predicate" number="sing" person="per3" reference="non_referring" span="(572, 573)">
+        <t>builder</t>
+      </markable>
+      <t>!</t>
+    </markable>
+  </utterance>
+  <utterance participant="builder">
+    <!--good job !-->
+    <markable id="markable_169" ambiguity="ambiguous" category="abstract" category_2="abstract" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_words="job" mmax_level="phrase" number="sing" person="per3" ref_type_2="segment" reference="new" related_object="no" related_object_2="no" segment_antecedent_2="markable_175" span="(574, 576)">
+      <t>good job</t>
+    </markable>
+    <t>!</t>
+  </utterance>
+</dialogue>

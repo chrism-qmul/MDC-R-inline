@@ -1,12 +1,12 @@
 <dialogue id="B3-A16-C20-1523400381488">
-  <utterance participant="builder">
+  <utterance participant="builder" imageview="images/b3-a16-c20-1523400381488_0.png" amr="assertion">
     <!--Mission has started .-->
     <markable id="markable_16" ambiguity="unambiguous" category="abstract" disagreement_type="no_disagreement" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_ids="word_0" min_words="mission" mmax_level="phrase" number="sing" order_id="16" person="per3" reference="new" related_object="no" span="(0, 1)" related_phrase_cluster="related_phrase_9">
       <t>Mission</t>
     </markable>
     <t>has started .</t>
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" amr="assertion">
     <!--okay , this one is pretty tough-->
     <t>okay ,</t>
     <markable id="markable_0" ambiguity="unambiguous" category="abstract" disagreement_type="no_disagreement" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="sing" order_id="0" person="per3" reference="new" related_object="yes" related_phrase="markable_16" related_rel="undersp-rel" span="(6, 8)" related_phrase_cluster="related_phrase_9">
@@ -16,7 +16,7 @@
   </utterance>
   <utterance participant="builder">,<!--,-->
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" imageview="images/b3-a16-c20-1523400381488_1.png" amr="command">
     <!--but start by placing a red square that is 3x3x3 blocks big in the center of the field-->
     <t>but start by placing</t>
     <markable id="markable_17" ambiguity="unambiguous" category="concrete" disagreement_type="no_disagreement" gender="neuter" generic="operator-instruction" gram_fnc="unmarked" mark_type="phrase" min_ids="word_18" min_words="square" mmax_level="phrase" number="sing" order_id="17" person="per3" reference="new" related_object="no" span="(16, 30)" single_phrase_antecedent_cluster="single_phrase_antecedent_10">
@@ -42,11 +42,33 @@
   </utterance>
   <utterance participant="builder">added red@0,0,-1 added red@-1,0,-1 added red@1,0,-1 added red@1,0,-2 added red@-1,0,-2 added red@0,0,-2 added red@-1,0,0 added red@0,0,0 added red@1,0,0 added red@-1,1,0 added red@0,1,0 added red@1,1,0 added red@1,2,0 added red@0,2,0 added red@-1,2,0 added red@1,1,-1 added red@0,1,-1 added red@-1,1,-1 added red@-1,1,-2 added red@2,0,-1 removed red@2,0,-1 added red@1,1,-2<!--added red@0,0,-1 added red@-1,0,-1 added red@1,0,-1 added red@1,0,-2 added red@-1,0,-2 added red@0,0,-2 added red@-1,0,0 added red@0,0,0 added red@1,0,0 added red@-1,1,0 added red@0,1,0 added red@1,1,0 added red@1,2,0 added red@0,2,0 added red@-1,2,0 added red@1,1,-1 added red@0,1,-1 added red@-1,1,-1 added red@-1,1,-2 added red@2,0,-1 removed red@2,0,-1 added red@1,1,-2-->
   </utterance>
-  <utterance participant="architect">wait<!--wait-->
+  <utterance participant="architect" imageview="images/b3-a16-c20-1523400381488_24.png" amr="command">wait<world_state>
+      <block id="a0" x="0" y="0" z="-1" color="red" />
+      <block id="a1" x="-1" y="0" z="-1" color="red" />
+      <block id="a2" x="1" y="0" z="-1" color="red" />
+      <block id="a3" x="1" y="0" z="-2" color="red" />
+      <block id="a4" x="-1" y="0" z="-2" color="red" />
+      <block id="a5" x="0" y="0" z="-2" color="red" />
+      <block id="a6" x="-1" y="0" z="0" color="red" />
+      <block id="a7" x="0" y="0" z="0" color="red" />
+      <block id="a8" x="1" y="0" z="0" color="red" />
+      <block id="a9" x="-1" y="1" z="0" color="red" />
+      <block id="b0" x="0" y="1" z="0" color="red" />
+      <block id="b1" x="1" y="1" z="0" color="red" />
+      <block id="b2" x="1" y="2" z="0" color="red" />
+      <block id="b3" x="0" y="2" z="0" color="red" />
+      <block id="b4" x="-1" y="2" z="0" color="red" />
+      <block id="b5" x="1" y="1" z="-1" color="red" />
+      <block id="b6" x="0" y="1" z="-1" color="red" />
+      <block id="b7" x="-1" y="1" z="-1" color="red" />
+      <block id="b8" x="-1" y="1" z="-2" color="red" />
+      <block id="c0" x="1" y="1" z="-2" color="red" />
+    </world_state>
+    <!--wait-->
   </utterance>
   <utterance participant="builder">,<!--,-->
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" amr="mistake">
     <!--sorry it should only be one block high-->
     <t>sorry</t>
     <markable id="markable_249" ambiguity="unambiguous" category="concrete" gender="neuter" generic="operator-modal" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="sing" person="per3" phrase_antecedent="single_phrase" ref_type="phrase" reference="old" related_object="no" single_phrase_antecedent="markable_17" span="(55, 56)" single_phrase_antecedent_cluster="single_phrase_antecedent_10" related_phrase_cluster="related_phrase_5">
@@ -67,7 +89,7 @@
       <t>removed red@1,2,0 removed red@0,2,0 removed red@-1,2,0 removed red@-1,1,-2 removed red@1,1,-2 removed red@1,1,-1 removed red@1,1,0 removed red@0,1,-1 removed red@0,1,0 removed red@-1,1,-1 removed red@-1,1,0</t>
     </markable>
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" amr="assertion">
     <!--it 's okay-->
     <markable id="markable_252" ambiguity="unambiguous" category="abstract" gender="neuter" generic="operator-question" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="sing" person="per3" ref_type="segment" reference="old" related_object="no" segment_antecedent="markable_418" span="(73, 74)" segment_antecedent_cluster="segment_antecedent_4">
       <t>it</t>
@@ -76,7 +98,18 @@
   </utterance>
   <utterance participant="builder">,<!--,-->
   </utterance>
-  <utterance participant="builder">
+  <utterance participant="builder" imageview="images/b3-a16-c20-1523400381488_37.png" amr="question">
+    <world_state>
+      <block id="a0" x="0" y="0" z="-1" color="red" />
+      <block id="a1" x="-1" y="0" z="-1" color="red" />
+      <block id="a2" x="1" y="0" z="-1" color="red" />
+      <block id="a3" x="1" y="0" z="-2" color="red" />
+      <block id="a4" x="-1" y="0" z="-2" color="red" />
+      <block id="a5" x="0" y="0" z="-2" color="red" />
+      <block id="a6" x="-1" y="0" z="0" color="red" />
+      <block id="a7" x="0" y="0" z="0" color="red" />
+      <block id="a8" x="1" y="0" z="0" color="red" />
+    </world_state>
     <!--is my positioning right or should i center it more ?-->
     <t>is</t>
     <markable id="markable_253" ambiguity="unambiguous" category="space" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="sing" person="per3" reference="new" related_object="yes" related_phrase="markable_249" related_rel="poss" span="(78, 80)" related_phrase_cluster="related_phrase_5">
@@ -95,7 +128,18 @@
     </markable>
     <t>more ?</t>
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" imageview="images/b3-a16-c20-1523400381488_38.png" amr="assertion">
+    <world_state>
+      <block id="a0" x="0" y="0" z="-1" color="red" />
+      <block id="a1" x="-1" y="0" z="-1" color="red" />
+      <block id="a2" x="1" y="0" z="-1" color="red" />
+      <block id="a3" x="1" y="0" z="-2" color="red" />
+      <block id="a4" x="-1" y="0" z="-2" color="red" />
+      <block id="a5" x="0" y="0" z="-2" color="red" />
+      <block id="a6" x="-1" y="0" z="0" color="red" />
+      <block id="a7" x="0" y="0" z="0" color="red" />
+      <block id="a8" x="1" y="0" z="0" color="red" />
+    </world_state>
     <!--position is great , but actually it 's 4x4-->
     <markable id="markable_256" ambiguity="unambiguous" category="space" gender="neuter" generic="generic-yes" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="sing" person="per3" reference="new" related_object="yes" related_phrase="markable_253" related_rel="undersp-rel" span="(88, 89)" related_phrase_cluster="related_phrase_5">
       <t>position</t>
@@ -118,14 +162,50 @@
       <t>added red@1,0,1 added red@0,0,1 added red@-1,0,1 added red@-2,0,1 added red@-2,0,0 added red@-2,0,-1 added red@-2,0,-2</t>
     </markable>
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" imageview="images/b3-a16-c20-1523400381488_46.png" amr="regret">
+    <world_state>
+      <block id="a0" x="0" y="0" z="-1" color="red" />
+      <block id="a1" x="-1" y="0" z="-1" color="red" />
+      <block id="a2" x="1" y="0" z="-1" color="red" />
+      <block id="a3" x="1" y="0" z="-2" color="red" />
+      <block id="a4" x="-1" y="0" z="-2" color="red" />
+      <block id="a5" x="0" y="0" z="-2" color="red" />
+      <block id="a6" x="-1" y="0" z="0" color="red" />
+      <block id="a7" x="0" y="0" z="0" color="red" />
+      <block id="a8" x="1" y="0" z="0" color="red" />
+      <block id="c1" x="1" y="0" z="1" color="red" />
+      <block id="c2" x="0" y="0" z="1" color="red" />
+      <block id="c3" x="-1" y="0" z="1" color="red" />
+      <block id="c4" x="-2" y="0" z="1" color="red" />
+      <block id="c5" x="-2" y="0" z="0" color="red" />
+      <block id="c6" x="-2" y="0" z="-1" color="red" />
+      <block id="c7" x="-2" y="0" z="-2" color="red" />
+    </world_state>
     <!--sorry about that-->
     <t>sorry about</t>
     <markable id="markable_259" ambiguity="unambiguous" category="abstract" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="sing" person="per3" ref_type="segment" reference="old" related_object="no" segment_antecedent="markable_419" span="(106, 107)" segment_antecedent_cluster="segment_antecedent_5">
       <t>that</t>
     </markable>
   </utterance>
-  <utterance participant="builder">
+  <utterance participant="builder" imageview="images/b3-a16-c20-1523400381488_47.png" amr="question">
+    <world_state>
+      <block id="a0" x="0" y="0" z="-1" color="red" />
+      <block id="a1" x="-1" y="0" z="-1" color="red" />
+      <block id="a2" x="1" y="0" z="-1" color="red" />
+      <block id="a3" x="1" y="0" z="-2" color="red" />
+      <block id="a4" x="-1" y="0" z="-2" color="red" />
+      <block id="a5" x="0" y="0" z="-2" color="red" />
+      <block id="a6" x="-1" y="0" z="0" color="red" />
+      <block id="a7" x="0" y="0" z="0" color="red" />
+      <block id="a8" x="1" y="0" z="0" color="red" />
+      <block id="c1" x="1" y="0" z="1" color="red" />
+      <block id="c2" x="0" y="0" z="1" color="red" />
+      <block id="c3" x="-1" y="0" z="1" color="red" />
+      <block id="c4" x="-2" y="0" z="1" color="red" />
+      <block id="c5" x="-2" y="0" z="0" color="red" />
+      <block id="c6" x="-2" y="0" z="-1" color="red" />
+      <block id="c7" x="-2" y="0" z="-2" color="red" />
+    </world_state>
     <!--how 's that ?-->
     <markable id="markable_261" ambiguity="unambiguous" category="abstract" gender="neuter" generic="operator-question" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="sing" person="per3" reference="new" related_object="no" span="(107, 108)">
       <t>how</t>
@@ -136,14 +216,50 @@
     </markable>
     <t>?</t>
   </utterance>
-  <utterance participant="builder">
+  <utterance participant="builder" imageview="images/b3-a16-c20-1523400381488_48.png" amr="assertion">
+    <world_state>
+      <block id="a0" x="0" y="0" z="-1" color="red" />
+      <block id="a1" x="-1" y="0" z="-1" color="red" />
+      <block id="a2" x="1" y="0" z="-1" color="red" />
+      <block id="a3" x="1" y="0" z="-2" color="red" />
+      <block id="a4" x="-1" y="0" z="-2" color="red" />
+      <block id="a5" x="0" y="0" z="-2" color="red" />
+      <block id="a6" x="-1" y="0" z="0" color="red" />
+      <block id="a7" x="0" y="0" z="0" color="red" />
+      <block id="a8" x="1" y="0" z="0" color="red" />
+      <block id="c1" x="1" y="0" z="1" color="red" />
+      <block id="c2" x="0" y="0" z="1" color="red" />
+      <block id="c3" x="-1" y="0" z="1" color="red" />
+      <block id="c4" x="-2" y="0" z="1" color="red" />
+      <block id="c5" x="-2" y="0" z="0" color="red" />
+      <block id="c6" x="-2" y="0" z="-1" color="red" />
+      <block id="c7" x="-2" y="0" z="-2" color="red" />
+    </world_state>
     <!--no worries !-->
     <markable id="markable_27" disagreement_type="no_disagreement" gender="neuter" gram_fnc="unmarked" mark_type="phrase" min_ids="word_112" min_words="top" mmax_level="phrase" non_ref_type="quantifier" number="plur" order_id="27" person="per3" reference="non_referring" span="(111, 113)">
       <t>no worries</t>
     </markable>
     <t>!</t>
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" imageview="images/b3-a16-c20-1523400381488_49.png" amr="command">
+    <world_state>
+      <block id="a0" x="0" y="0" z="-1" color="red" />
+      <block id="a1" x="-1" y="0" z="-1" color="red" />
+      <block id="a2" x="1" y="0" z="-1" color="red" />
+      <block id="a3" x="1" y="0" z="-2" color="red" />
+      <block id="a4" x="-1" y="0" z="-2" color="red" />
+      <block id="a5" x="0" y="0" z="-2" color="red" />
+      <block id="a6" x="-1" y="0" z="0" color="red" />
+      <block id="a7" x="0" y="0" z="0" color="red" />
+      <block id="a8" x="1" y="0" z="0" color="red" />
+      <block id="c1" x="1" y="0" z="1" color="red" />
+      <block id="c2" x="0" y="0" z="1" color="red" />
+      <block id="c3" x="-1" y="0" z="1" color="red" />
+      <block id="c4" x="-2" y="0" z="1" color="red" />
+      <block id="c5" x="-2" y="0" z="0" color="red" />
+      <block id="c6" x="-2" y="0" z="-1" color="red" />
+      <block id="c7" x="-2" y="0" z="-2" color="red" />
+    </world_state>
     <!--now , stacking layers on top of that square , build the same thing in orange , yellow , green , and purple-->
     <markable id="markable_262" ambiguity="unambiguous" category="time" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="sing" person="per3" reference="new" related_object="no" span="(114, 115)">
       <t>now</t>
@@ -183,7 +299,28 @@
   </utterance>
   <utterance participant="builder">added orange@1,1,1 added orange@1,1,0<!--added orange@1,1,1 added orange@1,1,0-->
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" imageview="images/b3-a16-c20-1523400381488_52.png" amr="assertion">
+    <world_state>
+      <block id="a0" x="0" y="0" z="-1" color="red" />
+      <block id="a1" x="-1" y="0" z="-1" color="red" />
+      <block id="a2" x="1" y="0" z="-1" color="red" />
+      <block id="a3" x="1" y="0" z="-2" color="red" />
+      <block id="a4" x="-1" y="0" z="-2" color="red" />
+      <block id="a5" x="0" y="0" z="-2" color="red" />
+      <block id="a6" x="-1" y="0" z="0" color="red" />
+      <block id="a7" x="0" y="0" z="0" color="red" />
+      <block id="a8" x="1" y="0" z="0" color="red" />
+      <block id="c1" x="1" y="0" z="1" color="red" />
+      <block id="c2" x="0" y="0" z="1" color="red" />
+      <block id="c3" x="-1" y="0" z="1" color="red" />
+      <block id="c4" x="-2" y="0" z="1" color="red" />
+      <block id="c5" x="-2" y="0" z="0" color="red" />
+      <block id="c6" x="-2" y="0" z="-1" color="red" />
+      <block id="c7" x="-2" y="0" z="-2" color="red" />
+      <block id="c8" x="1" y="1" z="1" color="orange" />
+      <block id="c9" x="1" y="1" z="0" color="orange" />
+      <block id="d0" x="1" y="1" z="-1" color="orange" />
+    </world_state>
     <!--each color = a layer-->
     <markable id="markable_272" gender="neuter" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" non_ref_type="quantifier" number="sing" person="per3" reference="non_referring" span="(139, 141)">
       <t>each color</t>
@@ -195,7 +332,52 @@
   </utterance>
   <utterance participant="builder">added orange@1,1,-1 added orange@1,1,-2 added orange@0,1,1 added orange@-1,1,1 added orange@-2,1,1 added orange@0,1,0 added orange@-1,1,0 added orange@-2,1,0 added orange@0,1,-1 added orange@-1,1,-1 added orange@-2,1,-1 added orange@0,1,-2 added orange@-1,1,-2 added orange@-2,1,-2 added yellow@1,2,1 added yellow@0,2,1 added yellow@-1,2,1 added yellow@-2,2,1 added yellow@-2,2,0 added yellow@-1,2,0 added yellow@0,2,0 added yellow@1,2,0 added yellow@1,2,-1 added yellow@1,2,-2 added yellow@0,2,-1<!--added orange@1,1,-1 added orange@1,1,-2 added orange@0,1,1 added orange@-1,1,1 added orange@-2,1,1 added orange@0,1,0 added orange@-1,1,0 added orange@-2,1,0 added orange@0,1,-1 added orange@-1,1,-1 added orange@-2,1,-1 added orange@0,1,-2 added orange@-1,1,-2 added orange@-2,1,-2 added yellow@1,2,1 added yellow@0,2,1 added yellow@-1,2,1 added yellow@-2,2,1 added yellow@-2,2,0 added yellow@-1,2,0 added yellow@0,2,0 added yellow@1,2,0 added yellow@1,2,-1 added yellow@1,2,-2 added yellow@0,2,-1-->
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" imageview="images/b3-a16-c20-1523400381488_78.png" amr="assertion">
+    <world_state>
+      <block id="a0" x="0" y="0" z="-1" color="red" />
+      <block id="a1" x="-1" y="0" z="-1" color="red" />
+      <block id="a2" x="1" y="0" z="-1" color="red" />
+      <block id="a3" x="1" y="0" z="-2" color="red" />
+      <block id="a4" x="-1" y="0" z="-2" color="red" />
+      <block id="a5" x="0" y="0" z="-2" color="red" />
+      <block id="a6" x="-1" y="0" z="0" color="red" />
+      <block id="a7" x="0" y="0" z="0" color="red" />
+      <block id="a8" x="1" y="0" z="0" color="red" />
+      <block id="c1" x="1" y="0" z="1" color="red" />
+      <block id="c2" x="0" y="0" z="1" color="red" />
+      <block id="c3" x="-1" y="0" z="1" color="red" />
+      <block id="c4" x="-2" y="0" z="1" color="red" />
+      <block id="c5" x="-2" y="0" z="0" color="red" />
+      <block id="c6" x="-2" y="0" z="-1" color="red" />
+      <block id="c7" x="-2" y="0" z="-2" color="red" />
+      <block id="c8" x="1" y="1" z="1" color="orange" />
+      <block id="c9" x="1" y="1" z="0" color="orange" />
+      <block id="d0" x="1" y="1" z="-1" color="orange" />
+      <block id="d1" x="1" y="1" z="-2" color="orange" />
+      <block id="d2" x="0" y="1" z="1" color="orange" />
+      <block id="d3" x="-1" y="1" z="1" color="orange" />
+      <block id="d4" x="-2" y="1" z="1" color="orange" />
+      <block id="d5" x="0" y="1" z="0" color="orange" />
+      <block id="d6" x="-1" y="1" z="0" color="orange" />
+      <block id="d7" x="-2" y="1" z="0" color="orange" />
+      <block id="d8" x="0" y="1" z="-1" color="orange" />
+      <block id="d9" x="-1" y="1" z="-1" color="orange" />
+      <block id="e0" x="-2" y="1" z="-1" color="orange" />
+      <block id="e1" x="0" y="1" z="-2" color="orange" />
+      <block id="e2" x="-1" y="1" z="-2" color="orange" />
+      <block id="e3" x="-2" y="1" z="-2" color="orange" />
+      <block id="e4" x="1" y="2" z="1" color="yellow" />
+      <block id="e5" x="0" y="2" z="1" color="yellow" />
+      <block id="e6" x="-1" y="2" z="1" color="yellow" />
+      <block id="e7" x="-2" y="2" z="1" color="yellow" />
+      <block id="e8" x="-2" y="2" z="0" color="yellow" />
+      <block id="e9" x="-1" y="2" z="0" color="yellow" />
+      <block id="f0" x="0" y="2" z="0" color="yellow" />
+      <block id="f1" x="1" y="2" z="0" color="yellow" />
+      <block id="f2" x="1" y="2" z="-1" color="yellow" />
+      <block id="f3" x="1" y="2" z="-2" color="yellow" />
+      <block id="f4" x="0" y="2" z="-1" color="yellow" />
+    </world_state>
     <!--green , bklue , yellow *-->
     <markable id="markable_276" gender="neuter" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" non_ref_type="coordination" number="plur" person="per3" reference="non_referring" span="(169, 174)">
       <markable id="markable_274" ambiguity="unambiguous" category="abstract" gender="neuter" generic="generic-yes" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="sing" person="per3" phrase_antecedent="single_phrase" ref_type="phrase" reference="old" related_object="no" single_phrase_antecedent="markable_270" span="(169, 170)" single_phrase_antecedent_cluster="single_phrase_antecedent_2" related_phrase_cluster="related_phrase_4">
@@ -214,13 +396,116 @@
   </utterance>
   <utterance participant="builder">added yellow@-1,2,-1 removed yellow@-1,2,-1 removed yellow@0,2,-1 removed yellow@1,2,-2 removed yellow@1,2,0 removed yellow@1,2,1 removed yellow@0,2,1 removed yellow@-1,2,1 removed yellow@-2,2,1 removed yellow@-2,2,0 removed yellow@-1,2,0<!--added yellow@-1,2,-1 removed yellow@-1,2,-1 removed yellow@0,2,-1 removed yellow@1,2,-2 removed yellow@1,2,0 removed yellow@1,2,1 removed yellow@0,2,1 removed yellow@-1,2,1 removed yellow@-2,2,1 removed yellow@-2,2,0 removed yellow@-1,2,0-->
   </utterance>
-  <utterance participant="architect">wait<!--wait-->
+  <utterance participant="architect" imageview="images/b3-a16-c20-1523400381488_90.png" amr="command">wait<world_state>
+      <block id="a0" x="0" y="0" z="-1" color="red" />
+      <block id="a1" x="-1" y="0" z="-1" color="red" />
+      <block id="a2" x="1" y="0" z="-1" color="red" />
+      <block id="a3" x="1" y="0" z="-2" color="red" />
+      <block id="a4" x="-1" y="0" z="-2" color="red" />
+      <block id="a5" x="0" y="0" z="-2" color="red" />
+      <block id="a6" x="-1" y="0" z="0" color="red" />
+      <block id="a7" x="0" y="0" z="0" color="red" />
+      <block id="a8" x="1" y="0" z="0" color="red" />
+      <block id="c1" x="1" y="0" z="1" color="red" />
+      <block id="c2" x="0" y="0" z="1" color="red" />
+      <block id="c3" x="-1" y="0" z="1" color="red" />
+      <block id="c4" x="-2" y="0" z="1" color="red" />
+      <block id="c5" x="-2" y="0" z="0" color="red" />
+      <block id="c6" x="-2" y="0" z="-1" color="red" />
+      <block id="c7" x="-2" y="0" z="-2" color="red" />
+      <block id="c8" x="1" y="1" z="1" color="orange" />
+      <block id="c9" x="1" y="1" z="0" color="orange" />
+      <block id="d0" x="1" y="1" z="-1" color="orange" />
+      <block id="d1" x="1" y="1" z="-2" color="orange" />
+      <block id="d2" x="0" y="1" z="1" color="orange" />
+      <block id="d3" x="-1" y="1" z="1" color="orange" />
+      <block id="d4" x="-2" y="1" z="1" color="orange" />
+      <block id="d5" x="0" y="1" z="0" color="orange" />
+      <block id="d6" x="-1" y="1" z="0" color="orange" />
+      <block id="d7" x="-2" y="1" z="0" color="orange" />
+      <block id="d8" x="0" y="1" z="-1" color="orange" />
+      <block id="d9" x="-1" y="1" z="-1" color="orange" />
+      <block id="e0" x="-2" y="1" z="-1" color="orange" />
+      <block id="e1" x="0" y="1" z="-2" color="orange" />
+      <block id="e2" x="-1" y="1" z="-2" color="orange" />
+      <block id="e3" x="-2" y="1" z="-2" color="orange" />
+      <block id="f2" x="1" y="2" z="-1" color="yellow" />
+    </world_state>
+    <!--wait-->
   </utterance>
   <utterance participant="builder">removed yellow@0,2,0 removed yellow@1,2,-1<!--removed yellow@0,2,0 removed yellow@1,2,-1-->
   </utterance>
-  <utterance participant="builder">sorry<!--sorry-->
+  <utterance participant="builder" imageview="images/b3-a16-c20-1523400381488_93.png" amr="regret">sorry<world_state>
+      <block id="a0" x="0" y="0" z="-1" color="red" />
+      <block id="a1" x="-1" y="0" z="-1" color="red" />
+      <block id="a2" x="1" y="0" z="-1" color="red" />
+      <block id="a3" x="1" y="0" z="-2" color="red" />
+      <block id="a4" x="-1" y="0" z="-2" color="red" />
+      <block id="a5" x="0" y="0" z="-2" color="red" />
+      <block id="a6" x="-1" y="0" z="0" color="red" />
+      <block id="a7" x="0" y="0" z="0" color="red" />
+      <block id="a8" x="1" y="0" z="0" color="red" />
+      <block id="c1" x="1" y="0" z="1" color="red" />
+      <block id="c2" x="0" y="0" z="1" color="red" />
+      <block id="c3" x="-1" y="0" z="1" color="red" />
+      <block id="c4" x="-2" y="0" z="1" color="red" />
+      <block id="c5" x="-2" y="0" z="0" color="red" />
+      <block id="c6" x="-2" y="0" z="-1" color="red" />
+      <block id="c7" x="-2" y="0" z="-2" color="red" />
+      <block id="c8" x="1" y="1" z="1" color="orange" />
+      <block id="c9" x="1" y="1" z="0" color="orange" />
+      <block id="d0" x="1" y="1" z="-1" color="orange" />
+      <block id="d1" x="1" y="1" z="-2" color="orange" />
+      <block id="d2" x="0" y="1" z="1" color="orange" />
+      <block id="d3" x="-1" y="1" z="1" color="orange" />
+      <block id="d4" x="-2" y="1" z="1" color="orange" />
+      <block id="d5" x="0" y="1" z="0" color="orange" />
+      <block id="d6" x="-1" y="1" z="0" color="orange" />
+      <block id="d7" x="-2" y="1" z="0" color="orange" />
+      <block id="d8" x="0" y="1" z="-1" color="orange" />
+      <block id="d9" x="-1" y="1" z="-1" color="orange" />
+      <block id="e0" x="-2" y="1" z="-1" color="orange" />
+      <block id="e1" x="0" y="1" z="-2" color="orange" />
+      <block id="e2" x="-1" y="1" z="-2" color="orange" />
+      <block id="e3" x="-2" y="1" z="-2" color="orange" />
+    </world_state>
+    <!--sorry-->
   </utterance>
-  <utterance participant="builder">
+  <utterance participant="builder" imageview="images/b3-a16-c20-1523400381488_94.png" amr="question">
+    <world_state>
+      <block id="a0" x="0" y="0" z="-1" color="red" />
+      <block id="a1" x="-1" y="0" z="-1" color="red" />
+      <block id="a2" x="1" y="0" z="-1" color="red" />
+      <block id="a3" x="1" y="0" z="-2" color="red" />
+      <block id="a4" x="-1" y="0" z="-2" color="red" />
+      <block id="a5" x="0" y="0" z="-2" color="red" />
+      <block id="a6" x="-1" y="0" z="0" color="red" />
+      <block id="a7" x="0" y="0" z="0" color="red" />
+      <block id="a8" x="1" y="0" z="0" color="red" />
+      <block id="c1" x="1" y="0" z="1" color="red" />
+      <block id="c2" x="0" y="0" z="1" color="red" />
+      <block id="c3" x="-1" y="0" z="1" color="red" />
+      <block id="c4" x="-2" y="0" z="1" color="red" />
+      <block id="c5" x="-2" y="0" z="0" color="red" />
+      <block id="c6" x="-2" y="0" z="-1" color="red" />
+      <block id="c7" x="-2" y="0" z="-2" color="red" />
+      <block id="c8" x="1" y="1" z="1" color="orange" />
+      <block id="c9" x="1" y="1" z="0" color="orange" />
+      <block id="d0" x="1" y="1" z="-1" color="orange" />
+      <block id="d1" x="1" y="1" z="-2" color="orange" />
+      <block id="d2" x="0" y="1" z="1" color="orange" />
+      <block id="d3" x="-1" y="1" z="1" color="orange" />
+      <block id="d4" x="-2" y="1" z="1" color="orange" />
+      <block id="d5" x="0" y="1" z="0" color="orange" />
+      <block id="d6" x="-1" y="1" z="0" color="orange" />
+      <block id="d7" x="-2" y="1" z="0" color="orange" />
+      <block id="d8" x="0" y="1" z="-1" color="orange" />
+      <block id="d9" x="-1" y="1" z="-1" color="orange" />
+      <block id="e0" x="-2" y="1" z="-1" color="orange" />
+      <block id="e1" x="0" y="1" z="-2" color="orange" />
+      <block id="e2" x="-1" y="1" z="-2" color="orange" />
+      <block id="e3" x="-2" y="1" z="-2" color="orange" />
+    </world_state>
     <!--what s the full color spectrum from the bottom up ?-->
     <markable id="markable_279" ambiguity="unambiguous" category="abstract" gender="unspecified" generic="operator-question" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="undersp-num" person="per3" reference="new" related_object="no" span="(190, 191)">
       <t>what</t>
@@ -239,14 +524,48 @@
     </markable>
     <t>?</t>
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" amr="assertion">
     <!--no , problem !-->
     <markable id="markable_280" gender="neuter" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" non_ref_type="quantifier" number="sing" person="per3" reference="non_referring" span="(201, 204)">
       <t>no , problem</t>
     </markable>
     <t>!</t>
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" imageview="images/b3-a16-c20-1523400381488_95.png" amr="assertion">
+    <world_state>
+      <block id="a0" x="0" y="0" z="-1" color="red" />
+      <block id="a1" x="-1" y="0" z="-1" color="red" />
+      <block id="a2" x="1" y="0" z="-1" color="red" />
+      <block id="a3" x="1" y="0" z="-2" color="red" />
+      <block id="a4" x="-1" y="0" z="-2" color="red" />
+      <block id="a5" x="0" y="0" z="-2" color="red" />
+      <block id="a6" x="-1" y="0" z="0" color="red" />
+      <block id="a7" x="0" y="0" z="0" color="red" />
+      <block id="a8" x="1" y="0" z="0" color="red" />
+      <block id="c1" x="1" y="0" z="1" color="red" />
+      <block id="c2" x="0" y="0" z="1" color="red" />
+      <block id="c3" x="-1" y="0" z="1" color="red" />
+      <block id="c4" x="-2" y="0" z="1" color="red" />
+      <block id="c5" x="-2" y="0" z="0" color="red" />
+      <block id="c6" x="-2" y="0" z="-1" color="red" />
+      <block id="c7" x="-2" y="0" z="-2" color="red" />
+      <block id="c8" x="1" y="1" z="1" color="orange" />
+      <block id="c9" x="1" y="1" z="0" color="orange" />
+      <block id="d0" x="1" y="1" z="-1" color="orange" />
+      <block id="d1" x="1" y="1" z="-2" color="orange" />
+      <block id="d2" x="0" y="1" z="1" color="orange" />
+      <block id="d3" x="-1" y="1" z="1" color="orange" />
+      <block id="d4" x="-2" y="1" z="1" color="orange" />
+      <block id="d5" x="0" y="1" z="0" color="orange" />
+      <block id="d6" x="-1" y="1" z="0" color="orange" />
+      <block id="d7" x="-2" y="1" z="0" color="orange" />
+      <block id="d8" x="0" y="1" z="-1" color="orange" />
+      <block id="d9" x="-1" y="1" z="-1" color="orange" />
+      <block id="e0" x="-2" y="1" z="-1" color="orange" />
+      <block id="e1" x="0" y="1" z="-2" color="orange" />
+      <block id="e2" x="-1" y="1" z="-2" color="orange" />
+      <block id="e3" x="-2" y="1" z="-2" color="orange" />
+    </world_state>
     <!--i made a mistake , but it 's slow as you build-->
     <markable id="markable_283" ambiguity="unambiguous" category="person" gender="unspecified" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="sing" person="per1" reference="new" related_object="no" span="(205, 206)" single_phrase_antecedent_cluster="single_phrase_antecedent_3">
       <t>i</t>
@@ -265,7 +584,41 @@
     </markable>
     <t>build</t>
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" imageview="images/b3-a16-c20-1523400381488_96.png" amr="assertion">
+    <world_state>
+      <block id="a0" x="0" y="0" z="-1" color="red" />
+      <block id="a1" x="-1" y="0" z="-1" color="red" />
+      <block id="a2" x="1" y="0" z="-1" color="red" />
+      <block id="a3" x="1" y="0" z="-2" color="red" />
+      <block id="a4" x="-1" y="0" z="-2" color="red" />
+      <block id="a5" x="0" y="0" z="-2" color="red" />
+      <block id="a6" x="-1" y="0" z="0" color="red" />
+      <block id="a7" x="0" y="0" z="0" color="red" />
+      <block id="a8" x="1" y="0" z="0" color="red" />
+      <block id="c1" x="1" y="0" z="1" color="red" />
+      <block id="c2" x="0" y="0" z="1" color="red" />
+      <block id="c3" x="-1" y="0" z="1" color="red" />
+      <block id="c4" x="-2" y="0" z="1" color="red" />
+      <block id="c5" x="-2" y="0" z="0" color="red" />
+      <block id="c6" x="-2" y="0" z="-1" color="red" />
+      <block id="c7" x="-2" y="0" z="-2" color="red" />
+      <block id="c8" x="1" y="1" z="1" color="orange" />
+      <block id="c9" x="1" y="1" z="0" color="orange" />
+      <block id="d0" x="1" y="1" z="-1" color="orange" />
+      <block id="d1" x="1" y="1" z="-2" color="orange" />
+      <block id="d2" x="0" y="1" z="1" color="orange" />
+      <block id="d3" x="-1" y="1" z="1" color="orange" />
+      <block id="d4" x="-2" y="1" z="1" color="orange" />
+      <block id="d5" x="0" y="1" z="0" color="orange" />
+      <block id="d6" x="-1" y="1" z="0" color="orange" />
+      <block id="d7" x="-2" y="1" z="0" color="orange" />
+      <block id="d8" x="0" y="1" z="-1" color="orange" />
+      <block id="d9" x="-1" y="1" z="-1" color="orange" />
+      <block id="e0" x="-2" y="1" z="-1" color="orange" />
+      <block id="e1" x="0" y="1" z="-2" color="orange" />
+      <block id="e2" x="-1" y="1" z="-2" color="orange" />
+      <block id="e3" x="-2" y="1" z="-2" color="orange" />
+    </world_state>
     <!--red , orange , yellow , green , blue , purple-->
     <markable id="markable_287" gender="neuter" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" non_ref_type="coordination" number="plur" person="per3" reference="non_referring" span="(217, 228)">
       <markable id="markable_288" ambiguity="unambiguous" category="abstract" gender="neuter" generic="generic-yes" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="sing" person="per3" phrase_antecedent="single_phrase" ref_type="phrase" reference="old" related_object="no" single_phrase_antecedent="markable_246" span="(217, 218)" single_phrase_antecedent_cluster="single_phrase_antecedent_21" related_phrase_cluster="related_phrase_10">
@@ -293,7 +646,41 @@
       </markable>
     </markable>
   </utterance>
-  <utterance participant="builder">
+  <utterance participant="builder" imageview="images/b3-a16-c20-1523400381488_97.png" amr="assertion">
+    <world_state>
+      <block id="a0" x="0" y="0" z="-1" color="red" />
+      <block id="a1" x="-1" y="0" z="-1" color="red" />
+      <block id="a2" x="1" y="0" z="-1" color="red" />
+      <block id="a3" x="1" y="0" z="-2" color="red" />
+      <block id="a4" x="-1" y="0" z="-2" color="red" />
+      <block id="a5" x="0" y="0" z="-2" color="red" />
+      <block id="a6" x="-1" y="0" z="0" color="red" />
+      <block id="a7" x="0" y="0" z="0" color="red" />
+      <block id="a8" x="1" y="0" z="0" color="red" />
+      <block id="c1" x="1" y="0" z="1" color="red" />
+      <block id="c2" x="0" y="0" z="1" color="red" />
+      <block id="c3" x="-1" y="0" z="1" color="red" />
+      <block id="c4" x="-2" y="0" z="1" color="red" />
+      <block id="c5" x="-2" y="0" z="0" color="red" />
+      <block id="c6" x="-2" y="0" z="-1" color="red" />
+      <block id="c7" x="-2" y="0" z="-2" color="red" />
+      <block id="c8" x="1" y="1" z="1" color="orange" />
+      <block id="c9" x="1" y="1" z="0" color="orange" />
+      <block id="d0" x="1" y="1" z="-1" color="orange" />
+      <block id="d1" x="1" y="1" z="-2" color="orange" />
+      <block id="d2" x="0" y="1" z="1" color="orange" />
+      <block id="d3" x="-1" y="1" z="1" color="orange" />
+      <block id="d4" x="-2" y="1" z="1" color="orange" />
+      <block id="d5" x="0" y="1" z="0" color="orange" />
+      <block id="d6" x="-1" y="1" z="0" color="orange" />
+      <block id="d7" x="-2" y="1" z="0" color="orange" />
+      <block id="d8" x="0" y="1" z="-1" color="orange" />
+      <block id="d9" x="-1" y="1" z="-1" color="orange" />
+      <block id="e0" x="-2" y="1" z="-1" color="orange" />
+      <block id="e1" x="0" y="1" z="-2" color="orange" />
+      <block id="e2" x="-1" y="1" z="-2" color="orange" />
+      <block id="e3" x="-2" y="1" z="-2" color="orange" />
+    </world_state>
     <!--ok cool ! i 'll get to it-->
     <t>ok cool !</t>
     <markable id="markable_293" ambiguity="unambiguous" category="person" gender="unspecified" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="sing" person="per1" phrase_antecedent="single_phrase" ref_type="phrase" reference="old" related_object="no" single_phrase_antecedent="markable_286" span="(231, 232)" single_phrase_antecedent_cluster="single_phrase_antecedent_1">
@@ -310,7 +697,105 @@
       <t>added yellow@1,2,1 added yellow@0,2,1 added yellow@-1,2,1 added yellow@-2,2,1 added yellow@-2,2,0 added yellow@1,2,0 added yellow@0,2,0 added yellow@-1,2,0 added yellow@-2,2,-1 added yellow@-1,2,-1 added yellow@0,2,-1 added yellow@0,2,-2 added yellow@1,2,-1 added yellow@1,2,-2 added yellow@-2,2,-2 added yellow@-1,2,-2 added green@1,3,1 added green@1,3,0 added green@1,3,-1 added green@1,3,-2 added green@0,3,1 added green@-1,3,1 added green@-2,3,1 added green@0,3,0 added green@-1,3,0 added green@-2,3,0 added green@0,3,-1 added green@-1,3,-1 added green@0,3,-2 added green@-1,3,-2 added green@-2,3,-1 added green@-2,3,-2 added blue@1,4,1 added blue@0,4,1 added blue@-1,4,1 added blue@-2,4,1 added blue@-2,4,0 added blue@-2,4,-1 added blue@-2,4,-2 added blue@1,4,0 added blue@1,4,-1 added blue@1,4,-2 added blue@0,4,-2 added blue@0,4,-1 added blue@0,4,0 added blue@-1,4,0 added blue@-1,4,-1 added blue@-1,4,-2 added purple@-2,5,-2 added purple@-2,5,-1 added purple@-2,5,1 added purple@-2,5,0 added purple@1,5,1 added purple@0,5,1 added purple@-1,5,1 added purple@1,5,0 added purple@0,5,0 added purple@-1,5,0 added purple@-1,5,-1 added purple@0,5,-1 added purple@1,5,-1 added purple@1,5,-2 added purple@0,5,-2 added purple@-1,5,-2</t>
     </markable>
   </utterance>
-  <utterance participant="builder">
+  <utterance participant="builder" imageview="images/b3-a16-c20-1523400381488_162.png" amr="assertion">
+    <world_state>
+      <block id="a0" x="0" y="0" z="-1" color="red" />
+      <block id="a1" x="-1" y="0" z="-1" color="red" />
+      <block id="a2" x="1" y="0" z="-1" color="red" />
+      <block id="a3" x="1" y="0" z="-2" color="red" />
+      <block id="a4" x="-1" y="0" z="-2" color="red" />
+      <block id="a5" x="0" y="0" z="-2" color="red" />
+      <block id="a6" x="-1" y="0" z="0" color="red" />
+      <block id="a7" x="0" y="0" z="0" color="red" />
+      <block id="a8" x="1" y="0" z="0" color="red" />
+      <block id="c1" x="1" y="0" z="1" color="red" />
+      <block id="c2" x="0" y="0" z="1" color="red" />
+      <block id="c3" x="-1" y="0" z="1" color="red" />
+      <block id="c4" x="-2" y="0" z="1" color="red" />
+      <block id="c5" x="-2" y="0" z="0" color="red" />
+      <block id="c6" x="-2" y="0" z="-1" color="red" />
+      <block id="c7" x="-2" y="0" z="-2" color="red" />
+      <block id="c8" x="1" y="1" z="1" color="orange" />
+      <block id="c9" x="1" y="1" z="0" color="orange" />
+      <block id="d0" x="1" y="1" z="-1" color="orange" />
+      <block id="d1" x="1" y="1" z="-2" color="orange" />
+      <block id="d2" x="0" y="1" z="1" color="orange" />
+      <block id="d3" x="-1" y="1" z="1" color="orange" />
+      <block id="d4" x="-2" y="1" z="1" color="orange" />
+      <block id="d5" x="0" y="1" z="0" color="orange" />
+      <block id="d6" x="-1" y="1" z="0" color="orange" />
+      <block id="d7" x="-2" y="1" z="0" color="orange" />
+      <block id="d8" x="0" y="1" z="-1" color="orange" />
+      <block id="d9" x="-1" y="1" z="-1" color="orange" />
+      <block id="e0" x="-2" y="1" z="-1" color="orange" />
+      <block id="e1" x="0" y="1" z="-2" color="orange" />
+      <block id="e2" x="-1" y="1" z="-2" color="orange" />
+      <block id="e3" x="-2" y="1" z="-2" color="orange" />
+      <block id="f6" x="1" y="2" z="1" color="yellow" />
+      <block id="f7" x="0" y="2" z="1" color="yellow" />
+      <block id="f8" x="-1" y="2" z="1" color="yellow" />
+      <block id="f9" x="-2" y="2" z="1" color="yellow" />
+      <block id="g0" x="-2" y="2" z="0" color="yellow" />
+      <block id="g1" x="1" y="2" z="0" color="yellow" />
+      <block id="g2" x="0" y="2" z="0" color="yellow" />
+      <block id="g3" x="-1" y="2" z="0" color="yellow" />
+      <block id="g4" x="-2" y="2" z="-1" color="yellow" />
+      <block id="g5" x="-1" y="2" z="-1" color="yellow" />
+      <block id="g6" x="0" y="2" z="-1" color="yellow" />
+      <block id="g7" x="0" y="2" z="-2" color="yellow" />
+      <block id="g8" x="1" y="2" z="-1" color="yellow" />
+      <block id="g9" x="1" y="2" z="-2" color="yellow" />
+      <block id="h0" x="-2" y="2" z="-2" color="yellow" />
+      <block id="h1" x="-1" y="2" z="-2" color="yellow" />
+      <block id="h2" x="1" y="3" z="1" color="green" />
+      <block id="h3" x="1" y="3" z="0" color="green" />
+      <block id="h4" x="1" y="3" z="-1" color="green" />
+      <block id="h5" x="1" y="3" z="-2" color="green" />
+      <block id="h6" x="0" y="3" z="1" color="green" />
+      <block id="h7" x="-1" y="3" z="1" color="green" />
+      <block id="h8" x="-2" y="3" z="1" color="green" />
+      <block id="h9" x="0" y="3" z="0" color="green" />
+      <block id="i0" x="-1" y="3" z="0" color="green" />
+      <block id="i1" x="-2" y="3" z="0" color="green" />
+      <block id="i2" x="0" y="3" z="-1" color="green" />
+      <block id="i3" x="-1" y="3" z="-1" color="green" />
+      <block id="i4" x="0" y="3" z="-2" color="green" />
+      <block id="i5" x="-1" y="3" z="-2" color="green" />
+      <block id="i6" x="-2" y="3" z="-1" color="green" />
+      <block id="i7" x="-2" y="3" z="-2" color="green" />
+      <block id="i8" x="1" y="4" z="1" color="blue" />
+      <block id="i9" x="0" y="4" z="1" color="blue" />
+      <block id="j0" x="-1" y="4" z="1" color="blue" />
+      <block id="j1" x="-2" y="4" z="1" color="blue" />
+      <block id="j2" x="-2" y="4" z="0" color="blue" />
+      <block id="j3" x="-2" y="4" z="-1" color="blue" />
+      <block id="j4" x="-2" y="4" z="-2" color="blue" />
+      <block id="j5" x="1" y="4" z="0" color="blue" />
+      <block id="j6" x="1" y="4" z="-1" color="blue" />
+      <block id="j7" x="1" y="4" z="-2" color="blue" />
+      <block id="j8" x="0" y="4" z="-2" color="blue" />
+      <block id="j9" x="0" y="4" z="-1" color="blue" />
+      <block id="k0" x="0" y="4" z="0" color="blue" />
+      <block id="k1" x="-1" y="4" z="0" color="blue" />
+      <block id="k2" x="-1" y="4" z="-1" color="blue" />
+      <block id="k3" x="-1" y="4" z="-2" color="blue" />
+      <block id="k4" x="-2" y="5" z="-2" color="purple" />
+      <block id="k5" x="-2" y="5" z="-1" color="purple" />
+      <block id="k6" x="-2" y="5" z="1" color="purple" />
+      <block id="k7" x="-2" y="5" z="0" color="purple" />
+      <block id="k8" x="1" y="5" z="1" color="purple" />
+      <block id="k9" x="0" y="5" z="1" color="purple" />
+      <block id="l0" x="-1" y="5" z="1" color="purple" />
+      <block id="l1" x="1" y="5" z="0" color="purple" />
+      <block id="l2" x="0" y="5" z="0" color="purple" />
+      <block id="l3" x="-1" y="5" z="0" color="purple" />
+      <block id="l4" x="-1" y="5" z="-1" color="purple" />
+      <block id="l5" x="0" y="5" z="-1" color="purple" />
+      <block id="l6" x="1" y="5" z="-1" color="purple" />
+      <block id="l7" x="1" y="5" z="-2" color="purple" />
+      <block id="l8" x="0" y="5" z="-2" color="purple" />
+      <block id="l9" x="-1" y="5" z="-2" color="purple" />
+    </world_state>
     <!--rainbow box-->
     <markable id="markable_50" ambiguity="ambiguous" category="concrete" category_2="concrete" disagreement_type="no_disagreement" gender="neuter" generic="generic-no" generic_2="generic-no" gram_fnc="unmarked" mark_type="phrase" min_ids="word_301" min_words="2nd" mmax_level="phrase" number="sing" order_id="50" person="per3" ref_type="segment" ref_type_2="new" reference="old" related_object="no" related_object_2="yes" related_phrase_2="markable_421" related_rel_2="undersp-rel" segment_antecedent="markable_421" span="(300, 302)" segment_antecedent_cluster="segment_antecedent_7">
       <markable id="markable_295" ambiguity="unambiguous" category="abstract" gender="neuter" generic="generic-yes" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="sing" person="per3" reference="new" related_object="yes" related_phrase="markable_278" related_rel="undersp-rel" span="(300, 301)" related_phrase_cluster="related_phrase_8">
@@ -319,7 +804,105 @@
       <t>box</t>
     </markable>
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" imageview="images/b3-a16-c20-1523400381488_163.png" amr="assertion">
+    <world_state>
+      <block id="a0" x="0" y="0" z="-1" color="red" />
+      <block id="a1" x="-1" y="0" z="-1" color="red" />
+      <block id="a2" x="1" y="0" z="-1" color="red" />
+      <block id="a3" x="1" y="0" z="-2" color="red" />
+      <block id="a4" x="-1" y="0" z="-2" color="red" />
+      <block id="a5" x="0" y="0" z="-2" color="red" />
+      <block id="a6" x="-1" y="0" z="0" color="red" />
+      <block id="a7" x="0" y="0" z="0" color="red" />
+      <block id="a8" x="1" y="0" z="0" color="red" />
+      <block id="c1" x="1" y="0" z="1" color="red" />
+      <block id="c2" x="0" y="0" z="1" color="red" />
+      <block id="c3" x="-1" y="0" z="1" color="red" />
+      <block id="c4" x="-2" y="0" z="1" color="red" />
+      <block id="c5" x="-2" y="0" z="0" color="red" />
+      <block id="c6" x="-2" y="0" z="-1" color="red" />
+      <block id="c7" x="-2" y="0" z="-2" color="red" />
+      <block id="c8" x="1" y="1" z="1" color="orange" />
+      <block id="c9" x="1" y="1" z="0" color="orange" />
+      <block id="d0" x="1" y="1" z="-1" color="orange" />
+      <block id="d1" x="1" y="1" z="-2" color="orange" />
+      <block id="d2" x="0" y="1" z="1" color="orange" />
+      <block id="d3" x="-1" y="1" z="1" color="orange" />
+      <block id="d4" x="-2" y="1" z="1" color="orange" />
+      <block id="d5" x="0" y="1" z="0" color="orange" />
+      <block id="d6" x="-1" y="1" z="0" color="orange" />
+      <block id="d7" x="-2" y="1" z="0" color="orange" />
+      <block id="d8" x="0" y="1" z="-1" color="orange" />
+      <block id="d9" x="-1" y="1" z="-1" color="orange" />
+      <block id="e0" x="-2" y="1" z="-1" color="orange" />
+      <block id="e1" x="0" y="1" z="-2" color="orange" />
+      <block id="e2" x="-1" y="1" z="-2" color="orange" />
+      <block id="e3" x="-2" y="1" z="-2" color="orange" />
+      <block id="f6" x="1" y="2" z="1" color="yellow" />
+      <block id="f7" x="0" y="2" z="1" color="yellow" />
+      <block id="f8" x="-1" y="2" z="1" color="yellow" />
+      <block id="f9" x="-2" y="2" z="1" color="yellow" />
+      <block id="g0" x="-2" y="2" z="0" color="yellow" />
+      <block id="g1" x="1" y="2" z="0" color="yellow" />
+      <block id="g2" x="0" y="2" z="0" color="yellow" />
+      <block id="g3" x="-1" y="2" z="0" color="yellow" />
+      <block id="g4" x="-2" y="2" z="-1" color="yellow" />
+      <block id="g5" x="-1" y="2" z="-1" color="yellow" />
+      <block id="g6" x="0" y="2" z="-1" color="yellow" />
+      <block id="g7" x="0" y="2" z="-2" color="yellow" />
+      <block id="g8" x="1" y="2" z="-1" color="yellow" />
+      <block id="g9" x="1" y="2" z="-2" color="yellow" />
+      <block id="h0" x="-2" y="2" z="-2" color="yellow" />
+      <block id="h1" x="-1" y="2" z="-2" color="yellow" />
+      <block id="h2" x="1" y="3" z="1" color="green" />
+      <block id="h3" x="1" y="3" z="0" color="green" />
+      <block id="h4" x="1" y="3" z="-1" color="green" />
+      <block id="h5" x="1" y="3" z="-2" color="green" />
+      <block id="h6" x="0" y="3" z="1" color="green" />
+      <block id="h7" x="-1" y="3" z="1" color="green" />
+      <block id="h8" x="-2" y="3" z="1" color="green" />
+      <block id="h9" x="0" y="3" z="0" color="green" />
+      <block id="i0" x="-1" y="3" z="0" color="green" />
+      <block id="i1" x="-2" y="3" z="0" color="green" />
+      <block id="i2" x="0" y="3" z="-1" color="green" />
+      <block id="i3" x="-1" y="3" z="-1" color="green" />
+      <block id="i4" x="0" y="3" z="-2" color="green" />
+      <block id="i5" x="-1" y="3" z="-2" color="green" />
+      <block id="i6" x="-2" y="3" z="-1" color="green" />
+      <block id="i7" x="-2" y="3" z="-2" color="green" />
+      <block id="i8" x="1" y="4" z="1" color="blue" />
+      <block id="i9" x="0" y="4" z="1" color="blue" />
+      <block id="j0" x="-1" y="4" z="1" color="blue" />
+      <block id="j1" x="-2" y="4" z="1" color="blue" />
+      <block id="j2" x="-2" y="4" z="0" color="blue" />
+      <block id="j3" x="-2" y="4" z="-1" color="blue" />
+      <block id="j4" x="-2" y="4" z="-2" color="blue" />
+      <block id="j5" x="1" y="4" z="0" color="blue" />
+      <block id="j6" x="1" y="4" z="-1" color="blue" />
+      <block id="j7" x="1" y="4" z="-2" color="blue" />
+      <block id="j8" x="0" y="4" z="-2" color="blue" />
+      <block id="j9" x="0" y="4" z="-1" color="blue" />
+      <block id="k0" x="0" y="4" z="0" color="blue" />
+      <block id="k1" x="-1" y="4" z="0" color="blue" />
+      <block id="k2" x="-1" y="4" z="-1" color="blue" />
+      <block id="k3" x="-1" y="4" z="-2" color="blue" />
+      <block id="k4" x="-2" y="5" z="-2" color="purple" />
+      <block id="k5" x="-2" y="5" z="-1" color="purple" />
+      <block id="k6" x="-2" y="5" z="1" color="purple" />
+      <block id="k7" x="-2" y="5" z="0" color="purple" />
+      <block id="k8" x="1" y="5" z="1" color="purple" />
+      <block id="k9" x="0" y="5" z="1" color="purple" />
+      <block id="l0" x="-1" y="5" z="1" color="purple" />
+      <block id="l1" x="1" y="5" z="0" color="purple" />
+      <block id="l2" x="0" y="5" z="0" color="purple" />
+      <block id="l3" x="-1" y="5" z="0" color="purple" />
+      <block id="l4" x="-1" y="5" z="-1" color="purple" />
+      <block id="l5" x="0" y="5" z="-1" color="purple" />
+      <block id="l6" x="1" y="5" z="-1" color="purple" />
+      <block id="l7" x="1" y="5" z="-2" color="purple" />
+      <block id="l8" x="0" y="5" z="-2" color="purple" />
+      <block id="l9" x="-1" y="5" z="-2" color="purple" />
+    </world_state>
     <!--great ! now we are gon na be remove many blocks-->
     <t>great !</t>
     <markable id="markable_296" ambiguity="unambiguous" category="time" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="sing" person="per3" reference="new" related_object="no" span="(304, 305)">
@@ -333,13 +916,209 @@
       <t>many blocks</t>
     </markable>
   </utterance>
-  <utterance participant="builder">ok !<!--ok !-->
+  <utterance participant="builder" imageview="images/b3-a16-c20-1523400381488_164.png" amr="assertion">ok !<world_state>
+      <block id="a0" x="0" y="0" z="-1" color="red" />
+      <block id="a1" x="-1" y="0" z="-1" color="red" />
+      <block id="a2" x="1" y="0" z="-1" color="red" />
+      <block id="a3" x="1" y="0" z="-2" color="red" />
+      <block id="a4" x="-1" y="0" z="-2" color="red" />
+      <block id="a5" x="0" y="0" z="-2" color="red" />
+      <block id="a6" x="-1" y="0" z="0" color="red" />
+      <block id="a7" x="0" y="0" z="0" color="red" />
+      <block id="a8" x="1" y="0" z="0" color="red" />
+      <block id="c1" x="1" y="0" z="1" color="red" />
+      <block id="c2" x="0" y="0" z="1" color="red" />
+      <block id="c3" x="-1" y="0" z="1" color="red" />
+      <block id="c4" x="-2" y="0" z="1" color="red" />
+      <block id="c5" x="-2" y="0" z="0" color="red" />
+      <block id="c6" x="-2" y="0" z="-1" color="red" />
+      <block id="c7" x="-2" y="0" z="-2" color="red" />
+      <block id="c8" x="1" y="1" z="1" color="orange" />
+      <block id="c9" x="1" y="1" z="0" color="orange" />
+      <block id="d0" x="1" y="1" z="-1" color="orange" />
+      <block id="d1" x="1" y="1" z="-2" color="orange" />
+      <block id="d2" x="0" y="1" z="1" color="orange" />
+      <block id="d3" x="-1" y="1" z="1" color="orange" />
+      <block id="d4" x="-2" y="1" z="1" color="orange" />
+      <block id="d5" x="0" y="1" z="0" color="orange" />
+      <block id="d6" x="-1" y="1" z="0" color="orange" />
+      <block id="d7" x="-2" y="1" z="0" color="orange" />
+      <block id="d8" x="0" y="1" z="-1" color="orange" />
+      <block id="d9" x="-1" y="1" z="-1" color="orange" />
+      <block id="e0" x="-2" y="1" z="-1" color="orange" />
+      <block id="e1" x="0" y="1" z="-2" color="orange" />
+      <block id="e2" x="-1" y="1" z="-2" color="orange" />
+      <block id="e3" x="-2" y="1" z="-2" color="orange" />
+      <block id="f6" x="1" y="2" z="1" color="yellow" />
+      <block id="f7" x="0" y="2" z="1" color="yellow" />
+      <block id="f8" x="-1" y="2" z="1" color="yellow" />
+      <block id="f9" x="-2" y="2" z="1" color="yellow" />
+      <block id="g0" x="-2" y="2" z="0" color="yellow" />
+      <block id="g1" x="1" y="2" z="0" color="yellow" />
+      <block id="g2" x="0" y="2" z="0" color="yellow" />
+      <block id="g3" x="-1" y="2" z="0" color="yellow" />
+      <block id="g4" x="-2" y="2" z="-1" color="yellow" />
+      <block id="g5" x="-1" y="2" z="-1" color="yellow" />
+      <block id="g6" x="0" y="2" z="-1" color="yellow" />
+      <block id="g7" x="0" y="2" z="-2" color="yellow" />
+      <block id="g8" x="1" y="2" z="-1" color="yellow" />
+      <block id="g9" x="1" y="2" z="-2" color="yellow" />
+      <block id="h0" x="-2" y="2" z="-2" color="yellow" />
+      <block id="h1" x="-1" y="2" z="-2" color="yellow" />
+      <block id="h2" x="1" y="3" z="1" color="green" />
+      <block id="h3" x="1" y="3" z="0" color="green" />
+      <block id="h4" x="1" y="3" z="-1" color="green" />
+      <block id="h5" x="1" y="3" z="-2" color="green" />
+      <block id="h6" x="0" y="3" z="1" color="green" />
+      <block id="h7" x="-1" y="3" z="1" color="green" />
+      <block id="h8" x="-2" y="3" z="1" color="green" />
+      <block id="h9" x="0" y="3" z="0" color="green" />
+      <block id="i0" x="-1" y="3" z="0" color="green" />
+      <block id="i1" x="-2" y="3" z="0" color="green" />
+      <block id="i2" x="0" y="3" z="-1" color="green" />
+      <block id="i3" x="-1" y="3" z="-1" color="green" />
+      <block id="i4" x="0" y="3" z="-2" color="green" />
+      <block id="i5" x="-1" y="3" z="-2" color="green" />
+      <block id="i6" x="-2" y="3" z="-1" color="green" />
+      <block id="i7" x="-2" y="3" z="-2" color="green" />
+      <block id="i8" x="1" y="4" z="1" color="blue" />
+      <block id="i9" x="0" y="4" z="1" color="blue" />
+      <block id="j0" x="-1" y="4" z="1" color="blue" />
+      <block id="j1" x="-2" y="4" z="1" color="blue" />
+      <block id="j2" x="-2" y="4" z="0" color="blue" />
+      <block id="j3" x="-2" y="4" z="-1" color="blue" />
+      <block id="j4" x="-2" y="4" z="-2" color="blue" />
+      <block id="j5" x="1" y="4" z="0" color="blue" />
+      <block id="j6" x="1" y="4" z="-1" color="blue" />
+      <block id="j7" x="1" y="4" z="-2" color="blue" />
+      <block id="j8" x="0" y="4" z="-2" color="blue" />
+      <block id="j9" x="0" y="4" z="-1" color="blue" />
+      <block id="k0" x="0" y="4" z="0" color="blue" />
+      <block id="k1" x="-1" y="4" z="0" color="blue" />
+      <block id="k2" x="-1" y="4" z="-1" color="blue" />
+      <block id="k3" x="-1" y="4" z="-2" color="blue" />
+      <block id="k4" x="-2" y="5" z="-2" color="purple" />
+      <block id="k5" x="-2" y="5" z="-1" color="purple" />
+      <block id="k6" x="-2" y="5" z="1" color="purple" />
+      <block id="k7" x="-2" y="5" z="0" color="purple" />
+      <block id="k8" x="1" y="5" z="1" color="purple" />
+      <block id="k9" x="0" y="5" z="1" color="purple" />
+      <block id="l0" x="-1" y="5" z="1" color="purple" />
+      <block id="l1" x="1" y="5" z="0" color="purple" />
+      <block id="l2" x="0" y="5" z="0" color="purple" />
+      <block id="l3" x="-1" y="5" z="0" color="purple" />
+      <block id="l4" x="-1" y="5" z="-1" color="purple" />
+      <block id="l5" x="0" y="5" z="-1" color="purple" />
+      <block id="l6" x="1" y="5" z="-1" color="purple" />
+      <block id="l7" x="1" y="5" z="-2" color="purple" />
+      <block id="l8" x="0" y="5" z="-2" color="purple" />
+      <block id="l9" x="-1" y="5" z="-2" color="purple" />
+    </world_state>
+    <!--ok !-->
   </utterance>
-  <utterance participant="architect">okay<!--okay-->
+  <utterance participant="architect" amr="assertion">okay<!--okay-->
   </utterance>
   <utterance participant="builder">,<!--,-->
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" imageview="images/b3-a16-c20-1523400381488_165.png" amr="command">
+    <world_state>
+      <block id="a0" x="0" y="0" z="-1" color="red" />
+      <block id="a1" x="-1" y="0" z="-1" color="red" />
+      <block id="a2" x="1" y="0" z="-1" color="red" />
+      <block id="a3" x="1" y="0" z="-2" color="red" />
+      <block id="a4" x="-1" y="0" z="-2" color="red" />
+      <block id="a5" x="0" y="0" z="-2" color="red" />
+      <block id="a6" x="-1" y="0" z="0" color="red" />
+      <block id="a7" x="0" y="0" z="0" color="red" />
+      <block id="a8" x="1" y="0" z="0" color="red" />
+      <block id="c1" x="1" y="0" z="1" color="red" />
+      <block id="c2" x="0" y="0" z="1" color="red" />
+      <block id="c3" x="-1" y="0" z="1" color="red" />
+      <block id="c4" x="-2" y="0" z="1" color="red" />
+      <block id="c5" x="-2" y="0" z="0" color="red" />
+      <block id="c6" x="-2" y="0" z="-1" color="red" />
+      <block id="c7" x="-2" y="0" z="-2" color="red" />
+      <block id="c8" x="1" y="1" z="1" color="orange" />
+      <block id="c9" x="1" y="1" z="0" color="orange" />
+      <block id="d0" x="1" y="1" z="-1" color="orange" />
+      <block id="d1" x="1" y="1" z="-2" color="orange" />
+      <block id="d2" x="0" y="1" z="1" color="orange" />
+      <block id="d3" x="-1" y="1" z="1" color="orange" />
+      <block id="d4" x="-2" y="1" z="1" color="orange" />
+      <block id="d5" x="0" y="1" z="0" color="orange" />
+      <block id="d6" x="-1" y="1" z="0" color="orange" />
+      <block id="d7" x="-2" y="1" z="0" color="orange" />
+      <block id="d8" x="0" y="1" z="-1" color="orange" />
+      <block id="d9" x="-1" y="1" z="-1" color="orange" />
+      <block id="e0" x="-2" y="1" z="-1" color="orange" />
+      <block id="e1" x="0" y="1" z="-2" color="orange" />
+      <block id="e2" x="-1" y="1" z="-2" color="orange" />
+      <block id="e3" x="-2" y="1" z="-2" color="orange" />
+      <block id="f6" x="1" y="2" z="1" color="yellow" />
+      <block id="f7" x="0" y="2" z="1" color="yellow" />
+      <block id="f8" x="-1" y="2" z="1" color="yellow" />
+      <block id="f9" x="-2" y="2" z="1" color="yellow" />
+      <block id="g0" x="-2" y="2" z="0" color="yellow" />
+      <block id="g1" x="1" y="2" z="0" color="yellow" />
+      <block id="g2" x="0" y="2" z="0" color="yellow" />
+      <block id="g3" x="-1" y="2" z="0" color="yellow" />
+      <block id="g4" x="-2" y="2" z="-1" color="yellow" />
+      <block id="g5" x="-1" y="2" z="-1" color="yellow" />
+      <block id="g6" x="0" y="2" z="-1" color="yellow" />
+      <block id="g7" x="0" y="2" z="-2" color="yellow" />
+      <block id="g8" x="1" y="2" z="-1" color="yellow" />
+      <block id="g9" x="1" y="2" z="-2" color="yellow" />
+      <block id="h0" x="-2" y="2" z="-2" color="yellow" />
+      <block id="h1" x="-1" y="2" z="-2" color="yellow" />
+      <block id="h2" x="1" y="3" z="1" color="green" />
+      <block id="h3" x="1" y="3" z="0" color="green" />
+      <block id="h4" x="1" y="3" z="-1" color="green" />
+      <block id="h5" x="1" y="3" z="-2" color="green" />
+      <block id="h6" x="0" y="3" z="1" color="green" />
+      <block id="h7" x="-1" y="3" z="1" color="green" />
+      <block id="h8" x="-2" y="3" z="1" color="green" />
+      <block id="h9" x="0" y="3" z="0" color="green" />
+      <block id="i0" x="-1" y="3" z="0" color="green" />
+      <block id="i1" x="-2" y="3" z="0" color="green" />
+      <block id="i2" x="0" y="3" z="-1" color="green" />
+      <block id="i3" x="-1" y="3" z="-1" color="green" />
+      <block id="i4" x="0" y="3" z="-2" color="green" />
+      <block id="i5" x="-1" y="3" z="-2" color="green" />
+      <block id="i6" x="-2" y="3" z="-1" color="green" />
+      <block id="i7" x="-2" y="3" z="-2" color="green" />
+      <block id="i8" x="1" y="4" z="1" color="blue" />
+      <block id="i9" x="0" y="4" z="1" color="blue" />
+      <block id="j0" x="-1" y="4" z="1" color="blue" />
+      <block id="j1" x="-2" y="4" z="1" color="blue" />
+      <block id="j2" x="-2" y="4" z="0" color="blue" />
+      <block id="j3" x="-2" y="4" z="-1" color="blue" />
+      <block id="j4" x="-2" y="4" z="-2" color="blue" />
+      <block id="j5" x="1" y="4" z="0" color="blue" />
+      <block id="j6" x="1" y="4" z="-1" color="blue" />
+      <block id="j7" x="1" y="4" z="-2" color="blue" />
+      <block id="j8" x="0" y="4" z="-2" color="blue" />
+      <block id="j9" x="0" y="4" z="-1" color="blue" />
+      <block id="k0" x="0" y="4" z="0" color="blue" />
+      <block id="k1" x="-1" y="4" z="0" color="blue" />
+      <block id="k2" x="-1" y="4" z="-1" color="blue" />
+      <block id="k3" x="-1" y="4" z="-2" color="blue" />
+      <block id="k4" x="-2" y="5" z="-2" color="purple" />
+      <block id="k5" x="-2" y="5" z="-1" color="purple" />
+      <block id="k6" x="-2" y="5" z="1" color="purple" />
+      <block id="k7" x="-2" y="5" z="0" color="purple" />
+      <block id="k8" x="1" y="5" z="1" color="purple" />
+      <block id="k9" x="0" y="5" z="1" color="purple" />
+      <block id="l0" x="-1" y="5" z="1" color="purple" />
+      <block id="l1" x="1" y="5" z="0" color="purple" />
+      <block id="l2" x="0" y="5" z="0" color="purple" />
+      <block id="l3" x="-1" y="5" z="0" color="purple" />
+      <block id="l4" x="-1" y="5" z="-1" color="purple" />
+      <block id="l5" x="0" y="5" z="-1" color="purple" />
+      <block id="l6" x="1" y="5" z="-1" color="purple" />
+      <block id="l7" x="1" y="5" z="-2" color="purple" />
+      <block id="l8" x="0" y="5" z="-2" color="purple" />
+      <block id="l9" x="-1" y="5" z="-2" color="purple" />
+    </world_state>
     <!--now remove all purple blocks EXCEPT the one that is second from the right directly in front of you-->
     <markable id="markable_299" ambiguity="unambiguous" category="time" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="sing" person="per3" reference="new" related_object="no" span="(317, 318)">
       <t>now</t>
@@ -371,17 +1150,286 @@
   </utterance>
   <utterance participant="builder">removed purple@0,5,-2 removed purple@0,5,-1 removed purple@-1,5,-1 removed purple@-2,5,-1 removed purple@-2,5,-2<!--removed purple@0,5,-2 removed purple@0,5,-1 removed purple@-1,5,-1 removed purple@-2,5,-1 removed purple@-2,5,-2-->
   </utterance>
-  <utterance participant="builder">
+  <utterance participant="builder" imageview="images/b3-a16-c20-1523400381488_171.png" amr="question">
+    <world_state>
+      <block id="a0" x="0" y="0" z="-1" color="red" />
+      <block id="a1" x="-1" y="0" z="-1" color="red" />
+      <block id="a2" x="1" y="0" z="-1" color="red" />
+      <block id="a3" x="1" y="0" z="-2" color="red" />
+      <block id="a4" x="-1" y="0" z="-2" color="red" />
+      <block id="a5" x="0" y="0" z="-2" color="red" />
+      <block id="a6" x="-1" y="0" z="0" color="red" />
+      <block id="a7" x="0" y="0" z="0" color="red" />
+      <block id="a8" x="1" y="0" z="0" color="red" />
+      <block id="c1" x="1" y="0" z="1" color="red" />
+      <block id="c2" x="0" y="0" z="1" color="red" />
+      <block id="c3" x="-1" y="0" z="1" color="red" />
+      <block id="c4" x="-2" y="0" z="1" color="red" />
+      <block id="c5" x="-2" y="0" z="0" color="red" />
+      <block id="c6" x="-2" y="0" z="-1" color="red" />
+      <block id="c7" x="-2" y="0" z="-2" color="red" />
+      <block id="c8" x="1" y="1" z="1" color="orange" />
+      <block id="c9" x="1" y="1" z="0" color="orange" />
+      <block id="d0" x="1" y="1" z="-1" color="orange" />
+      <block id="d1" x="1" y="1" z="-2" color="orange" />
+      <block id="d2" x="0" y="1" z="1" color="orange" />
+      <block id="d3" x="-1" y="1" z="1" color="orange" />
+      <block id="d4" x="-2" y="1" z="1" color="orange" />
+      <block id="d5" x="0" y="1" z="0" color="orange" />
+      <block id="d6" x="-1" y="1" z="0" color="orange" />
+      <block id="d7" x="-2" y="1" z="0" color="orange" />
+      <block id="d8" x="0" y="1" z="-1" color="orange" />
+      <block id="d9" x="-1" y="1" z="-1" color="orange" />
+      <block id="e0" x="-2" y="1" z="-1" color="orange" />
+      <block id="e1" x="0" y="1" z="-2" color="orange" />
+      <block id="e2" x="-1" y="1" z="-2" color="orange" />
+      <block id="e3" x="-2" y="1" z="-2" color="orange" />
+      <block id="f6" x="1" y="2" z="1" color="yellow" />
+      <block id="f7" x="0" y="2" z="1" color="yellow" />
+      <block id="f8" x="-1" y="2" z="1" color="yellow" />
+      <block id="f9" x="-2" y="2" z="1" color="yellow" />
+      <block id="g0" x="-2" y="2" z="0" color="yellow" />
+      <block id="g1" x="1" y="2" z="0" color="yellow" />
+      <block id="g2" x="0" y="2" z="0" color="yellow" />
+      <block id="g3" x="-1" y="2" z="0" color="yellow" />
+      <block id="g4" x="-2" y="2" z="-1" color="yellow" />
+      <block id="g5" x="-1" y="2" z="-1" color="yellow" />
+      <block id="g6" x="0" y="2" z="-1" color="yellow" />
+      <block id="g7" x="0" y="2" z="-2" color="yellow" />
+      <block id="g8" x="1" y="2" z="-1" color="yellow" />
+      <block id="g9" x="1" y="2" z="-2" color="yellow" />
+      <block id="h0" x="-2" y="2" z="-2" color="yellow" />
+      <block id="h1" x="-1" y="2" z="-2" color="yellow" />
+      <block id="h2" x="1" y="3" z="1" color="green" />
+      <block id="h3" x="1" y="3" z="0" color="green" />
+      <block id="h4" x="1" y="3" z="-1" color="green" />
+      <block id="h5" x="1" y="3" z="-2" color="green" />
+      <block id="h6" x="0" y="3" z="1" color="green" />
+      <block id="h7" x="-1" y="3" z="1" color="green" />
+      <block id="h8" x="-2" y="3" z="1" color="green" />
+      <block id="h9" x="0" y="3" z="0" color="green" />
+      <block id="i0" x="-1" y="3" z="0" color="green" />
+      <block id="i1" x="-2" y="3" z="0" color="green" />
+      <block id="i2" x="0" y="3" z="-1" color="green" />
+      <block id="i3" x="-1" y="3" z="-1" color="green" />
+      <block id="i4" x="0" y="3" z="-2" color="green" />
+      <block id="i5" x="-1" y="3" z="-2" color="green" />
+      <block id="i6" x="-2" y="3" z="-1" color="green" />
+      <block id="i7" x="-2" y="3" z="-2" color="green" />
+      <block id="i8" x="1" y="4" z="1" color="blue" />
+      <block id="i9" x="0" y="4" z="1" color="blue" />
+      <block id="j0" x="-1" y="4" z="1" color="blue" />
+      <block id="j1" x="-2" y="4" z="1" color="blue" />
+      <block id="j2" x="-2" y="4" z="0" color="blue" />
+      <block id="j3" x="-2" y="4" z="-1" color="blue" />
+      <block id="j4" x="-2" y="4" z="-2" color="blue" />
+      <block id="j5" x="1" y="4" z="0" color="blue" />
+      <block id="j6" x="1" y="4" z="-1" color="blue" />
+      <block id="j7" x="1" y="4" z="-2" color="blue" />
+      <block id="j8" x="0" y="4" z="-2" color="blue" />
+      <block id="j9" x="0" y="4" z="-1" color="blue" />
+      <block id="k0" x="0" y="4" z="0" color="blue" />
+      <block id="k1" x="-1" y="4" z="0" color="blue" />
+      <block id="k2" x="-1" y="4" z="-1" color="blue" />
+      <block id="k3" x="-1" y="4" z="-2" color="blue" />
+      <block id="k6" x="-2" y="5" z="1" color="purple" />
+      <block id="k7" x="-2" y="5" z="0" color="purple" />
+      <block id="k8" x="1" y="5" z="1" color="purple" />
+      <block id="k9" x="0" y="5" z="1" color="purple" />
+      <block id="l0" x="-1" y="5" z="1" color="purple" />
+      <block id="l1" x="1" y="5" z="0" color="purple" />
+      <block id="l2" x="0" y="5" z="0" color="purple" />
+      <block id="l3" x="-1" y="5" z="0" color="purple" />
+      <block id="l6" x="1" y="5" z="-1" color="purple" />
+      <block id="l7" x="1" y="5" z="-2" color="purple" />
+      <block id="l9" x="-1" y="5" z="-2" color="purple" />
+    </world_state>
     <!--this one ?-->
     <markable id="markable_55" ambiguity="unambiguous" category="concrete" disagreement_type="no_disagreement" gender="neuter" generic="operator-question" gram_fnc="unmarked" mark_type="phrase" min_ids="word_343" min_words="one" mmax_level="phrase" number="sing" order_id="55" person="per3" phrase_antecedent="single_phrase" ref_type="phrase" reference="old" related_object="no" single_phrase_antecedent="markable_302" span="(341, 344)" single_phrase_antecedent_cluster="single_phrase_antecedent_8">
       <t>this one ?</t>
     </markable>
   </utterance>
-  <utterance participant="architect">yep ! great !<!--yep ! great !-->
+  <utterance participant="architect" imageview="images/b3-a16-c20-1523400381488_172.png" amr="assertion">yep ! great !<world_state>
+      <block id="a0" x="0" y="0" z="-1" color="red" />
+      <block id="a1" x="-1" y="0" z="-1" color="red" />
+      <block id="a2" x="1" y="0" z="-1" color="red" />
+      <block id="a3" x="1" y="0" z="-2" color="red" />
+      <block id="a4" x="-1" y="0" z="-2" color="red" />
+      <block id="a5" x="0" y="0" z="-2" color="red" />
+      <block id="a6" x="-1" y="0" z="0" color="red" />
+      <block id="a7" x="0" y="0" z="0" color="red" />
+      <block id="a8" x="1" y="0" z="0" color="red" />
+      <block id="c1" x="1" y="0" z="1" color="red" />
+      <block id="c2" x="0" y="0" z="1" color="red" />
+      <block id="c3" x="-1" y="0" z="1" color="red" />
+      <block id="c4" x="-2" y="0" z="1" color="red" />
+      <block id="c5" x="-2" y="0" z="0" color="red" />
+      <block id="c6" x="-2" y="0" z="-1" color="red" />
+      <block id="c7" x="-2" y="0" z="-2" color="red" />
+      <block id="c8" x="1" y="1" z="1" color="orange" />
+      <block id="c9" x="1" y="1" z="0" color="orange" />
+      <block id="d0" x="1" y="1" z="-1" color="orange" />
+      <block id="d1" x="1" y="1" z="-2" color="orange" />
+      <block id="d2" x="0" y="1" z="1" color="orange" />
+      <block id="d3" x="-1" y="1" z="1" color="orange" />
+      <block id="d4" x="-2" y="1" z="1" color="orange" />
+      <block id="d5" x="0" y="1" z="0" color="orange" />
+      <block id="d6" x="-1" y="1" z="0" color="orange" />
+      <block id="d7" x="-2" y="1" z="0" color="orange" />
+      <block id="d8" x="0" y="1" z="-1" color="orange" />
+      <block id="d9" x="-1" y="1" z="-1" color="orange" />
+      <block id="e0" x="-2" y="1" z="-1" color="orange" />
+      <block id="e1" x="0" y="1" z="-2" color="orange" />
+      <block id="e2" x="-1" y="1" z="-2" color="orange" />
+      <block id="e3" x="-2" y="1" z="-2" color="orange" />
+      <block id="f6" x="1" y="2" z="1" color="yellow" />
+      <block id="f7" x="0" y="2" z="1" color="yellow" />
+      <block id="f8" x="-1" y="2" z="1" color="yellow" />
+      <block id="f9" x="-2" y="2" z="1" color="yellow" />
+      <block id="g0" x="-2" y="2" z="0" color="yellow" />
+      <block id="g1" x="1" y="2" z="0" color="yellow" />
+      <block id="g2" x="0" y="2" z="0" color="yellow" />
+      <block id="g3" x="-1" y="2" z="0" color="yellow" />
+      <block id="g4" x="-2" y="2" z="-1" color="yellow" />
+      <block id="g5" x="-1" y="2" z="-1" color="yellow" />
+      <block id="g6" x="0" y="2" z="-1" color="yellow" />
+      <block id="g7" x="0" y="2" z="-2" color="yellow" />
+      <block id="g8" x="1" y="2" z="-1" color="yellow" />
+      <block id="g9" x="1" y="2" z="-2" color="yellow" />
+      <block id="h0" x="-2" y="2" z="-2" color="yellow" />
+      <block id="h1" x="-1" y="2" z="-2" color="yellow" />
+      <block id="h2" x="1" y="3" z="1" color="green" />
+      <block id="h3" x="1" y="3" z="0" color="green" />
+      <block id="h4" x="1" y="3" z="-1" color="green" />
+      <block id="h5" x="1" y="3" z="-2" color="green" />
+      <block id="h6" x="0" y="3" z="1" color="green" />
+      <block id="h7" x="-1" y="3" z="1" color="green" />
+      <block id="h8" x="-2" y="3" z="1" color="green" />
+      <block id="h9" x="0" y="3" z="0" color="green" />
+      <block id="i0" x="-1" y="3" z="0" color="green" />
+      <block id="i1" x="-2" y="3" z="0" color="green" />
+      <block id="i2" x="0" y="3" z="-1" color="green" />
+      <block id="i3" x="-1" y="3" z="-1" color="green" />
+      <block id="i4" x="0" y="3" z="-2" color="green" />
+      <block id="i5" x="-1" y="3" z="-2" color="green" />
+      <block id="i6" x="-2" y="3" z="-1" color="green" />
+      <block id="i7" x="-2" y="3" z="-2" color="green" />
+      <block id="i8" x="1" y="4" z="1" color="blue" />
+      <block id="i9" x="0" y="4" z="1" color="blue" />
+      <block id="j0" x="-1" y="4" z="1" color="blue" />
+      <block id="j1" x="-2" y="4" z="1" color="blue" />
+      <block id="j2" x="-2" y="4" z="0" color="blue" />
+      <block id="j3" x="-2" y="4" z="-1" color="blue" />
+      <block id="j4" x="-2" y="4" z="-2" color="blue" />
+      <block id="j5" x="1" y="4" z="0" color="blue" />
+      <block id="j6" x="1" y="4" z="-1" color="blue" />
+      <block id="j7" x="1" y="4" z="-2" color="blue" />
+      <block id="j8" x="0" y="4" z="-2" color="blue" />
+      <block id="j9" x="0" y="4" z="-1" color="blue" />
+      <block id="k0" x="0" y="4" z="0" color="blue" />
+      <block id="k1" x="-1" y="4" z="0" color="blue" />
+      <block id="k2" x="-1" y="4" z="-1" color="blue" />
+      <block id="k3" x="-1" y="4" z="-2" color="blue" />
+      <block id="k6" x="-2" y="5" z="1" color="purple" />
+      <block id="k7" x="-2" y="5" z="0" color="purple" />
+      <block id="k8" x="1" y="5" z="1" color="purple" />
+      <block id="k9" x="0" y="5" z="1" color="purple" />
+      <block id="l0" x="-1" y="5" z="1" color="purple" />
+      <block id="l1" x="1" y="5" z="0" color="purple" />
+      <block id="l2" x="0" y="5" z="0" color="purple" />
+      <block id="l3" x="-1" y="5" z="0" color="purple" />
+      <block id="l6" x="1" y="5" z="-1" color="purple" />
+      <block id="l7" x="1" y="5" z="-2" color="purple" />
+      <block id="l9" x="-1" y="5" z="-2" color="purple" />
+    </world_state>
+    <!--yep ! great !-->
   </utterance>
   <utterance participant="builder">removed purple@-2,5,1 removed purple@-2,5,0 removed purple@-1,5,0 removed purple@0,5,0 removed purple@0,5,1 removed purple@-1,5,1 removed purple@1,5,1 removed purple@1,5,0 removed purple@1,5,-1 removed purple@1,5,-2<!--removed purple@-2,5,1 removed purple@-2,5,0 removed purple@-1,5,0 removed purple@0,5,0 removed purple@0,5,1 removed purple@-1,5,1 removed purple@1,5,1 removed purple@1,5,0 removed purple@1,5,-1 removed purple@1,5,-2-->
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" imageview="images/b3-a16-c20-1523400381488_183.png" amr="command">
+    <world_state>
+      <block id="a0" x="0" y="0" z="-1" color="red" />
+      <block id="a1" x="-1" y="0" z="-1" color="red" />
+      <block id="a2" x="1" y="0" z="-1" color="red" />
+      <block id="a3" x="1" y="0" z="-2" color="red" />
+      <block id="a4" x="-1" y="0" z="-2" color="red" />
+      <block id="a5" x="0" y="0" z="-2" color="red" />
+      <block id="a6" x="-1" y="0" z="0" color="red" />
+      <block id="a7" x="0" y="0" z="0" color="red" />
+      <block id="a8" x="1" y="0" z="0" color="red" />
+      <block id="c1" x="1" y="0" z="1" color="red" />
+      <block id="c2" x="0" y="0" z="1" color="red" />
+      <block id="c3" x="-1" y="0" z="1" color="red" />
+      <block id="c4" x="-2" y="0" z="1" color="red" />
+      <block id="c5" x="-2" y="0" z="0" color="red" />
+      <block id="c6" x="-2" y="0" z="-1" color="red" />
+      <block id="c7" x="-2" y="0" z="-2" color="red" />
+      <block id="c8" x="1" y="1" z="1" color="orange" />
+      <block id="c9" x="1" y="1" z="0" color="orange" />
+      <block id="d0" x="1" y="1" z="-1" color="orange" />
+      <block id="d1" x="1" y="1" z="-2" color="orange" />
+      <block id="d2" x="0" y="1" z="1" color="orange" />
+      <block id="d3" x="-1" y="1" z="1" color="orange" />
+      <block id="d4" x="-2" y="1" z="1" color="orange" />
+      <block id="d5" x="0" y="1" z="0" color="orange" />
+      <block id="d6" x="-1" y="1" z="0" color="orange" />
+      <block id="d7" x="-2" y="1" z="0" color="orange" />
+      <block id="d8" x="0" y="1" z="-1" color="orange" />
+      <block id="d9" x="-1" y="1" z="-1" color="orange" />
+      <block id="e0" x="-2" y="1" z="-1" color="orange" />
+      <block id="e1" x="0" y="1" z="-2" color="orange" />
+      <block id="e2" x="-1" y="1" z="-2" color="orange" />
+      <block id="e3" x="-2" y="1" z="-2" color="orange" />
+      <block id="f6" x="1" y="2" z="1" color="yellow" />
+      <block id="f7" x="0" y="2" z="1" color="yellow" />
+      <block id="f8" x="-1" y="2" z="1" color="yellow" />
+      <block id="f9" x="-2" y="2" z="1" color="yellow" />
+      <block id="g0" x="-2" y="2" z="0" color="yellow" />
+      <block id="g1" x="1" y="2" z="0" color="yellow" />
+      <block id="g2" x="0" y="2" z="0" color="yellow" />
+      <block id="g3" x="-1" y="2" z="0" color="yellow" />
+      <block id="g4" x="-2" y="2" z="-1" color="yellow" />
+      <block id="g5" x="-1" y="2" z="-1" color="yellow" />
+      <block id="g6" x="0" y="2" z="-1" color="yellow" />
+      <block id="g7" x="0" y="2" z="-2" color="yellow" />
+      <block id="g8" x="1" y="2" z="-1" color="yellow" />
+      <block id="g9" x="1" y="2" z="-2" color="yellow" />
+      <block id="h0" x="-2" y="2" z="-2" color="yellow" />
+      <block id="h1" x="-1" y="2" z="-2" color="yellow" />
+      <block id="h2" x="1" y="3" z="1" color="green" />
+      <block id="h3" x="1" y="3" z="0" color="green" />
+      <block id="h4" x="1" y="3" z="-1" color="green" />
+      <block id="h5" x="1" y="3" z="-2" color="green" />
+      <block id="h6" x="0" y="3" z="1" color="green" />
+      <block id="h7" x="-1" y="3" z="1" color="green" />
+      <block id="h8" x="-2" y="3" z="1" color="green" />
+      <block id="h9" x="0" y="3" z="0" color="green" />
+      <block id="i0" x="-1" y="3" z="0" color="green" />
+      <block id="i1" x="-2" y="3" z="0" color="green" />
+      <block id="i2" x="0" y="3" z="-1" color="green" />
+      <block id="i3" x="-1" y="3" z="-1" color="green" />
+      <block id="i4" x="0" y="3" z="-2" color="green" />
+      <block id="i5" x="-1" y="3" z="-2" color="green" />
+      <block id="i6" x="-2" y="3" z="-1" color="green" />
+      <block id="i7" x="-2" y="3" z="-2" color="green" />
+      <block id="i8" x="1" y="4" z="1" color="blue" />
+      <block id="i9" x="0" y="4" z="1" color="blue" />
+      <block id="j0" x="-1" y="4" z="1" color="blue" />
+      <block id="j1" x="-2" y="4" z="1" color="blue" />
+      <block id="j2" x="-2" y="4" z="0" color="blue" />
+      <block id="j3" x="-2" y="4" z="-1" color="blue" />
+      <block id="j4" x="-2" y="4" z="-2" color="blue" />
+      <block id="j5" x="1" y="4" z="0" color="blue" />
+      <block id="j6" x="1" y="4" z="-1" color="blue" />
+      <block id="j7" x="1" y="4" z="-2" color="blue" />
+      <block id="j8" x="0" y="4" z="-2" color="blue" />
+      <block id="j9" x="0" y="4" z="-1" color="blue" />
+      <block id="k0" x="0" y="4" z="0" color="blue" />
+      <block id="k1" x="-1" y="4" z="0" color="blue" />
+      <block id="k2" x="-1" y="4" z="-1" color="blue" />
+      <block id="k3" x="-1" y="4" z="-2" color="blue" />
+      <block id="l9" x="-1" y="5" z="-2" color="purple" />
+    </world_state>
     <!--now remove all the blue blocks EXCEPT two : the second from the left directly in front of you , and the 2nd in from the right corner-->
     <markable id="markable_306" ambiguity="unambiguous" category="time" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="sing" person="per3" reference="new" related_object="no" span="(358, 359)">
       <t>now</t>
@@ -426,7 +1474,84 @@
   </utterance>
   <utterance participant="builder">removed blue@1,4,-2 removed blue@-2,4,-2 removed blue@0,4,-1 removed blue@-1,4,-1 removed blue@-2,4,-1 removed blue@1,4,-1<!--removed blue@1,4,-2 removed blue@-2,4,-2 removed blue@0,4,-1 removed blue@-1,4,-1 removed blue@-2,4,-1 removed blue@1,4,-1-->
   </utterance>
-  <utterance participant="builder">
+  <utterance participant="builder" imageview="images/b3-a16-c20-1523400381488_190.png" amr="question">
+    <world_state>
+      <block id="a0" x="0" y="0" z="-1" color="red" />
+      <block id="a1" x="-1" y="0" z="-1" color="red" />
+      <block id="a2" x="1" y="0" z="-1" color="red" />
+      <block id="a3" x="1" y="0" z="-2" color="red" />
+      <block id="a4" x="-1" y="0" z="-2" color="red" />
+      <block id="a5" x="0" y="0" z="-2" color="red" />
+      <block id="a6" x="-1" y="0" z="0" color="red" />
+      <block id="a7" x="0" y="0" z="0" color="red" />
+      <block id="a8" x="1" y="0" z="0" color="red" />
+      <block id="c1" x="1" y="0" z="1" color="red" />
+      <block id="c2" x="0" y="0" z="1" color="red" />
+      <block id="c3" x="-1" y="0" z="1" color="red" />
+      <block id="c4" x="-2" y="0" z="1" color="red" />
+      <block id="c5" x="-2" y="0" z="0" color="red" />
+      <block id="c6" x="-2" y="0" z="-1" color="red" />
+      <block id="c7" x="-2" y="0" z="-2" color="red" />
+      <block id="c8" x="1" y="1" z="1" color="orange" />
+      <block id="c9" x="1" y="1" z="0" color="orange" />
+      <block id="d0" x="1" y="1" z="-1" color="orange" />
+      <block id="d1" x="1" y="1" z="-2" color="orange" />
+      <block id="d2" x="0" y="1" z="1" color="orange" />
+      <block id="d3" x="-1" y="1" z="1" color="orange" />
+      <block id="d4" x="-2" y="1" z="1" color="orange" />
+      <block id="d5" x="0" y="1" z="0" color="orange" />
+      <block id="d6" x="-1" y="1" z="0" color="orange" />
+      <block id="d7" x="-2" y="1" z="0" color="orange" />
+      <block id="d8" x="0" y="1" z="-1" color="orange" />
+      <block id="d9" x="-1" y="1" z="-1" color="orange" />
+      <block id="e0" x="-2" y="1" z="-1" color="orange" />
+      <block id="e1" x="0" y="1" z="-2" color="orange" />
+      <block id="e2" x="-1" y="1" z="-2" color="orange" />
+      <block id="e3" x="-2" y="1" z="-2" color="orange" />
+      <block id="f6" x="1" y="2" z="1" color="yellow" />
+      <block id="f7" x="0" y="2" z="1" color="yellow" />
+      <block id="f8" x="-1" y="2" z="1" color="yellow" />
+      <block id="f9" x="-2" y="2" z="1" color="yellow" />
+      <block id="g0" x="-2" y="2" z="0" color="yellow" />
+      <block id="g1" x="1" y="2" z="0" color="yellow" />
+      <block id="g2" x="0" y="2" z="0" color="yellow" />
+      <block id="g3" x="-1" y="2" z="0" color="yellow" />
+      <block id="g4" x="-2" y="2" z="-1" color="yellow" />
+      <block id="g5" x="-1" y="2" z="-1" color="yellow" />
+      <block id="g6" x="0" y="2" z="-1" color="yellow" />
+      <block id="g7" x="0" y="2" z="-2" color="yellow" />
+      <block id="g8" x="1" y="2" z="-1" color="yellow" />
+      <block id="g9" x="1" y="2" z="-2" color="yellow" />
+      <block id="h0" x="-2" y="2" z="-2" color="yellow" />
+      <block id="h1" x="-1" y="2" z="-2" color="yellow" />
+      <block id="h2" x="1" y="3" z="1" color="green" />
+      <block id="h3" x="1" y="3" z="0" color="green" />
+      <block id="h4" x="1" y="3" z="-1" color="green" />
+      <block id="h5" x="1" y="3" z="-2" color="green" />
+      <block id="h6" x="0" y="3" z="1" color="green" />
+      <block id="h7" x="-1" y="3" z="1" color="green" />
+      <block id="h8" x="-2" y="3" z="1" color="green" />
+      <block id="h9" x="0" y="3" z="0" color="green" />
+      <block id="i0" x="-1" y="3" z="0" color="green" />
+      <block id="i1" x="-2" y="3" z="0" color="green" />
+      <block id="i2" x="0" y="3" z="-1" color="green" />
+      <block id="i3" x="-1" y="3" z="-1" color="green" />
+      <block id="i4" x="0" y="3" z="-2" color="green" />
+      <block id="i5" x="-1" y="3" z="-2" color="green" />
+      <block id="i6" x="-2" y="3" z="-1" color="green" />
+      <block id="i7" x="-2" y="3" z="-2" color="green" />
+      <block id="i8" x="1" y="4" z="1" color="blue" />
+      <block id="i9" x="0" y="4" z="1" color="blue" />
+      <block id="j0" x="-1" y="4" z="1" color="blue" />
+      <block id="j1" x="-2" y="4" z="1" color="blue" />
+      <block id="j2" x="-2" y="4" z="0" color="blue" />
+      <block id="j5" x="1" y="4" z="0" color="blue" />
+      <block id="j8" x="0" y="4" z="-2" color="blue" />
+      <block id="k0" x="0" y="4" z="0" color="blue" />
+      <block id="k1" x="-1" y="4" z="0" color="blue" />
+      <block id="k3" x="-1" y="4" z="-2" color="blue" />
+      <block id="l9" x="-1" y="5" z="-2" color="purple" />
+    </world_state>
     <!--those two ?-->
     <markable id="markable_315" ambiguity="unambiguous" category="concrete" gender="neuter" generic="operator-question" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" multiple_phrase_antecedents="markable_422;markable_312" number="plur" person="per3" phrase_antecedent="multiple_phrases" ref_type="phrase" reference="old" related_object="no" span="(392, 394)">
       <t>those two</t>
@@ -435,7 +1560,76 @@
   </utterance>
   <utterance participant="builder">removed blue@-1,4,0 removed blue@-1,4,1 removed blue@-2,4,1 removed blue@-2,4,0 removed blue@0,4,0 removed blue@1,4,0 removed blue@1,4,1 removed blue@0,4,1<!--removed blue@-1,4,0 removed blue@-1,4,1 removed blue@-2,4,1 removed blue@-2,4,0 removed blue@0,4,0 removed blue@1,4,0 removed blue@1,4,1 removed blue@0,4,1-->
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" imageview="images/b3-a16-c20-1523400381488_199.png" amr="command">
+    <world_state>
+      <block id="a0" x="0" y="0" z="-1" color="red" />
+      <block id="a1" x="-1" y="0" z="-1" color="red" />
+      <block id="a2" x="1" y="0" z="-1" color="red" />
+      <block id="a3" x="1" y="0" z="-2" color="red" />
+      <block id="a4" x="-1" y="0" z="-2" color="red" />
+      <block id="a5" x="0" y="0" z="-2" color="red" />
+      <block id="a6" x="-1" y="0" z="0" color="red" />
+      <block id="a7" x="0" y="0" z="0" color="red" />
+      <block id="a8" x="1" y="0" z="0" color="red" />
+      <block id="c1" x="1" y="0" z="1" color="red" />
+      <block id="c2" x="0" y="0" z="1" color="red" />
+      <block id="c3" x="-1" y="0" z="1" color="red" />
+      <block id="c4" x="-2" y="0" z="1" color="red" />
+      <block id="c5" x="-2" y="0" z="0" color="red" />
+      <block id="c6" x="-2" y="0" z="-1" color="red" />
+      <block id="c7" x="-2" y="0" z="-2" color="red" />
+      <block id="c8" x="1" y="1" z="1" color="orange" />
+      <block id="c9" x="1" y="1" z="0" color="orange" />
+      <block id="d0" x="1" y="1" z="-1" color="orange" />
+      <block id="d1" x="1" y="1" z="-2" color="orange" />
+      <block id="d2" x="0" y="1" z="1" color="orange" />
+      <block id="d3" x="-1" y="1" z="1" color="orange" />
+      <block id="d4" x="-2" y="1" z="1" color="orange" />
+      <block id="d5" x="0" y="1" z="0" color="orange" />
+      <block id="d6" x="-1" y="1" z="0" color="orange" />
+      <block id="d7" x="-2" y="1" z="0" color="orange" />
+      <block id="d8" x="0" y="1" z="-1" color="orange" />
+      <block id="d9" x="-1" y="1" z="-1" color="orange" />
+      <block id="e0" x="-2" y="1" z="-1" color="orange" />
+      <block id="e1" x="0" y="1" z="-2" color="orange" />
+      <block id="e2" x="-1" y="1" z="-2" color="orange" />
+      <block id="e3" x="-2" y="1" z="-2" color="orange" />
+      <block id="f6" x="1" y="2" z="1" color="yellow" />
+      <block id="f7" x="0" y="2" z="1" color="yellow" />
+      <block id="f8" x="-1" y="2" z="1" color="yellow" />
+      <block id="f9" x="-2" y="2" z="1" color="yellow" />
+      <block id="g0" x="-2" y="2" z="0" color="yellow" />
+      <block id="g1" x="1" y="2" z="0" color="yellow" />
+      <block id="g2" x="0" y="2" z="0" color="yellow" />
+      <block id="g3" x="-1" y="2" z="0" color="yellow" />
+      <block id="g4" x="-2" y="2" z="-1" color="yellow" />
+      <block id="g5" x="-1" y="2" z="-1" color="yellow" />
+      <block id="g6" x="0" y="2" z="-1" color="yellow" />
+      <block id="g7" x="0" y="2" z="-2" color="yellow" />
+      <block id="g8" x="1" y="2" z="-1" color="yellow" />
+      <block id="g9" x="1" y="2" z="-2" color="yellow" />
+      <block id="h0" x="-2" y="2" z="-2" color="yellow" />
+      <block id="h1" x="-1" y="2" z="-2" color="yellow" />
+      <block id="h2" x="1" y="3" z="1" color="green" />
+      <block id="h3" x="1" y="3" z="0" color="green" />
+      <block id="h4" x="1" y="3" z="-1" color="green" />
+      <block id="h5" x="1" y="3" z="-2" color="green" />
+      <block id="h6" x="0" y="3" z="1" color="green" />
+      <block id="h7" x="-1" y="3" z="1" color="green" />
+      <block id="h8" x="-2" y="3" z="1" color="green" />
+      <block id="h9" x="0" y="3" z="0" color="green" />
+      <block id="i0" x="-1" y="3" z="0" color="green" />
+      <block id="i1" x="-2" y="3" z="0" color="green" />
+      <block id="i2" x="0" y="3" z="-1" color="green" />
+      <block id="i3" x="-1" y="3" z="-1" color="green" />
+      <block id="i4" x="0" y="3" z="-2" color="green" />
+      <block id="i5" x="-1" y="3" z="-2" color="green" />
+      <block id="i6" x="-2" y="3" z="-1" color="green" />
+      <block id="i7" x="-2" y="3" z="-2" color="green" />
+      <block id="j8" x="0" y="4" z="-2" color="blue" />
+      <block id="k3" x="-1" y="4" z="-2" color="blue" />
+      <block id="l9" x="-1" y="5" z="-2" color="purple" />
+    </world_state>
     <!--remove the one under the purple and then add one in front of and to the right of the one you just deleted-->
     <t>remove</t>
     <markable id="markable_316" ambiguity="unambiguous" category="concrete" gender="neuter" generic="operator-instruction" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="sing" person="per3" reference="new" related_object="no" span="(404, 409)">
@@ -466,7 +1660,76 @@
   </utterance>
   <utterance participant="builder">removed blue@-1,4,-2 added blue@-1,4,-1<!--removed blue@-1,4,-2 added blue@-1,4,-1-->
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" imageview="images/b3-a16-c20-1523400381488_202.png" amr="command">
+    <world_state>
+      <block id="a0" x="0" y="0" z="-1" color="red" />
+      <block id="a1" x="-1" y="0" z="-1" color="red" />
+      <block id="a2" x="1" y="0" z="-1" color="red" />
+      <block id="a3" x="1" y="0" z="-2" color="red" />
+      <block id="a4" x="-1" y="0" z="-2" color="red" />
+      <block id="a5" x="0" y="0" z="-2" color="red" />
+      <block id="a6" x="-1" y="0" z="0" color="red" />
+      <block id="a7" x="0" y="0" z="0" color="red" />
+      <block id="a8" x="1" y="0" z="0" color="red" />
+      <block id="c1" x="1" y="0" z="1" color="red" />
+      <block id="c2" x="0" y="0" z="1" color="red" />
+      <block id="c3" x="-1" y="0" z="1" color="red" />
+      <block id="c4" x="-2" y="0" z="1" color="red" />
+      <block id="c5" x="-2" y="0" z="0" color="red" />
+      <block id="c6" x="-2" y="0" z="-1" color="red" />
+      <block id="c7" x="-2" y="0" z="-2" color="red" />
+      <block id="c8" x="1" y="1" z="1" color="orange" />
+      <block id="c9" x="1" y="1" z="0" color="orange" />
+      <block id="d0" x="1" y="1" z="-1" color="orange" />
+      <block id="d1" x="1" y="1" z="-2" color="orange" />
+      <block id="d2" x="0" y="1" z="1" color="orange" />
+      <block id="d3" x="-1" y="1" z="1" color="orange" />
+      <block id="d4" x="-2" y="1" z="1" color="orange" />
+      <block id="d5" x="0" y="1" z="0" color="orange" />
+      <block id="d6" x="-1" y="1" z="0" color="orange" />
+      <block id="d7" x="-2" y="1" z="0" color="orange" />
+      <block id="d8" x="0" y="1" z="-1" color="orange" />
+      <block id="d9" x="-1" y="1" z="-1" color="orange" />
+      <block id="e0" x="-2" y="1" z="-1" color="orange" />
+      <block id="e1" x="0" y="1" z="-2" color="orange" />
+      <block id="e2" x="-1" y="1" z="-2" color="orange" />
+      <block id="e3" x="-2" y="1" z="-2" color="orange" />
+      <block id="f6" x="1" y="2" z="1" color="yellow" />
+      <block id="f7" x="0" y="2" z="1" color="yellow" />
+      <block id="f8" x="-1" y="2" z="1" color="yellow" />
+      <block id="f9" x="-2" y="2" z="1" color="yellow" />
+      <block id="g0" x="-2" y="2" z="0" color="yellow" />
+      <block id="g1" x="1" y="2" z="0" color="yellow" />
+      <block id="g2" x="0" y="2" z="0" color="yellow" />
+      <block id="g3" x="-1" y="2" z="0" color="yellow" />
+      <block id="g4" x="-2" y="2" z="-1" color="yellow" />
+      <block id="g5" x="-1" y="2" z="-1" color="yellow" />
+      <block id="g6" x="0" y="2" z="-1" color="yellow" />
+      <block id="g7" x="0" y="2" z="-2" color="yellow" />
+      <block id="g8" x="1" y="2" z="-1" color="yellow" />
+      <block id="g9" x="1" y="2" z="-2" color="yellow" />
+      <block id="h0" x="-2" y="2" z="-2" color="yellow" />
+      <block id="h1" x="-1" y="2" z="-2" color="yellow" />
+      <block id="h2" x="1" y="3" z="1" color="green" />
+      <block id="h3" x="1" y="3" z="0" color="green" />
+      <block id="h4" x="1" y="3" z="-1" color="green" />
+      <block id="h5" x="1" y="3" z="-2" color="green" />
+      <block id="h6" x="0" y="3" z="1" color="green" />
+      <block id="h7" x="-1" y="3" z="1" color="green" />
+      <block id="h8" x="-2" y="3" z="1" color="green" />
+      <block id="h9" x="0" y="3" z="0" color="green" />
+      <block id="i0" x="-1" y="3" z="0" color="green" />
+      <block id="i1" x="-2" y="3" z="0" color="green" />
+      <block id="i2" x="0" y="3" z="-1" color="green" />
+      <block id="i3" x="-1" y="3" z="-1" color="green" />
+      <block id="i4" x="0" y="3" z="-2" color="green" />
+      <block id="i5" x="-1" y="3" z="-2" color="green" />
+      <block id="i6" x="-2" y="3" z="-1" color="green" />
+      <block id="i7" x="-2" y="3" z="-2" color="green" />
+      <block id="j8" x="0" y="4" z="-2" color="blue" />
+      <block id="l9" x="-1" y="5" z="-2" color="purple" />
+      <block id="m0" x="-1" y="4" z="-1" color="blue" />
+    </world_state>
     <!--that one has to be moved over to your righ t-->
     <markable id="markable_323" ambiguity="unambiguous" category="concrete" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="sing" object="m0" objectFull="[[&quot;m0&quot;, [224, 365, 687, 819], [-1, 4, -1], &quot;blue&quot;, &quot;B3-A16-C20-1523400381488_202.png&quot;]]" person="per3" reference="new" related_object="no" span="(428, 430)" single_phrase_antecedent_cluster="single_phrase_antecedent_4">
       <t>that one</t>
@@ -485,9 +1748,147 @@
       <t>removed blue@-1,4,-1 added blue@-2,4,-1</t>
     </markable>
   </utterance>
-  <utterance participant="builder">sorry<!--sorry-->
+  <utterance participant="builder" imageview="images/b3-a16-c20-1523400381488_205.png" amr="mistake">sorry<world_state>
+      <block id="a0" x="0" y="0" z="-1" color="red" />
+      <block id="a1" x="-1" y="0" z="-1" color="red" />
+      <block id="a2" x="1" y="0" z="-1" color="red" />
+      <block id="a3" x="1" y="0" z="-2" color="red" />
+      <block id="a4" x="-1" y="0" z="-2" color="red" />
+      <block id="a5" x="0" y="0" z="-2" color="red" />
+      <block id="a6" x="-1" y="0" z="0" color="red" />
+      <block id="a7" x="0" y="0" z="0" color="red" />
+      <block id="a8" x="1" y="0" z="0" color="red" />
+      <block id="c1" x="1" y="0" z="1" color="red" />
+      <block id="c2" x="0" y="0" z="1" color="red" />
+      <block id="c3" x="-1" y="0" z="1" color="red" />
+      <block id="c4" x="-2" y="0" z="1" color="red" />
+      <block id="c5" x="-2" y="0" z="0" color="red" />
+      <block id="c6" x="-2" y="0" z="-1" color="red" />
+      <block id="c7" x="-2" y="0" z="-2" color="red" />
+      <block id="c8" x="1" y="1" z="1" color="orange" />
+      <block id="c9" x="1" y="1" z="0" color="orange" />
+      <block id="d0" x="1" y="1" z="-1" color="orange" />
+      <block id="d1" x="1" y="1" z="-2" color="orange" />
+      <block id="d2" x="0" y="1" z="1" color="orange" />
+      <block id="d3" x="-1" y="1" z="1" color="orange" />
+      <block id="d4" x="-2" y="1" z="1" color="orange" />
+      <block id="d5" x="0" y="1" z="0" color="orange" />
+      <block id="d6" x="-1" y="1" z="0" color="orange" />
+      <block id="d7" x="-2" y="1" z="0" color="orange" />
+      <block id="d8" x="0" y="1" z="-1" color="orange" />
+      <block id="d9" x="-1" y="1" z="-1" color="orange" />
+      <block id="e0" x="-2" y="1" z="-1" color="orange" />
+      <block id="e1" x="0" y="1" z="-2" color="orange" />
+      <block id="e2" x="-1" y="1" z="-2" color="orange" />
+      <block id="e3" x="-2" y="1" z="-2" color="orange" />
+      <block id="f6" x="1" y="2" z="1" color="yellow" />
+      <block id="f7" x="0" y="2" z="1" color="yellow" />
+      <block id="f8" x="-1" y="2" z="1" color="yellow" />
+      <block id="f9" x="-2" y="2" z="1" color="yellow" />
+      <block id="g0" x="-2" y="2" z="0" color="yellow" />
+      <block id="g1" x="1" y="2" z="0" color="yellow" />
+      <block id="g2" x="0" y="2" z="0" color="yellow" />
+      <block id="g3" x="-1" y="2" z="0" color="yellow" />
+      <block id="g4" x="-2" y="2" z="-1" color="yellow" />
+      <block id="g5" x="-1" y="2" z="-1" color="yellow" />
+      <block id="g6" x="0" y="2" z="-1" color="yellow" />
+      <block id="g7" x="0" y="2" z="-2" color="yellow" />
+      <block id="g8" x="1" y="2" z="-1" color="yellow" />
+      <block id="g9" x="1" y="2" z="-2" color="yellow" />
+      <block id="h0" x="-2" y="2" z="-2" color="yellow" />
+      <block id="h1" x="-1" y="2" z="-2" color="yellow" />
+      <block id="h2" x="1" y="3" z="1" color="green" />
+      <block id="h3" x="1" y="3" z="0" color="green" />
+      <block id="h4" x="1" y="3" z="-1" color="green" />
+      <block id="h5" x="1" y="3" z="-2" color="green" />
+      <block id="h6" x="0" y="3" z="1" color="green" />
+      <block id="h7" x="-1" y="3" z="1" color="green" />
+      <block id="h8" x="-2" y="3" z="1" color="green" />
+      <block id="h9" x="0" y="3" z="0" color="green" />
+      <block id="i0" x="-1" y="3" z="0" color="green" />
+      <block id="i1" x="-2" y="3" z="0" color="green" />
+      <block id="i2" x="0" y="3" z="-1" color="green" />
+      <block id="i3" x="-1" y="3" z="-1" color="green" />
+      <block id="i4" x="0" y="3" z="-2" color="green" />
+      <block id="i5" x="-1" y="3" z="-2" color="green" />
+      <block id="i6" x="-2" y="3" z="-1" color="green" />
+      <block id="i7" x="-2" y="3" z="-2" color="green" />
+      <block id="j8" x="0" y="4" z="-2" color="blue" />
+      <block id="l9" x="-1" y="5" z="-2" color="purple" />
+      <block id="m1" x="-2" y="4" z="-1" color="blue" />
+    </world_state>
+    <!--sorry-->
   </utterance>
-  <utterance participant="builder">
+  <utterance participant="builder" imageview="images/b3-a16-c20-1523400381488_206.png" amr="question">
+    <world_state>
+      <block id="a0" x="0" y="0" z="-1" color="red" />
+      <block id="a1" x="-1" y="0" z="-1" color="red" />
+      <block id="a2" x="1" y="0" z="-1" color="red" />
+      <block id="a3" x="1" y="0" z="-2" color="red" />
+      <block id="a4" x="-1" y="0" z="-2" color="red" />
+      <block id="a5" x="0" y="0" z="-2" color="red" />
+      <block id="a6" x="-1" y="0" z="0" color="red" />
+      <block id="a7" x="0" y="0" z="0" color="red" />
+      <block id="a8" x="1" y="0" z="0" color="red" />
+      <block id="c1" x="1" y="0" z="1" color="red" />
+      <block id="c2" x="0" y="0" z="1" color="red" />
+      <block id="c3" x="-1" y="0" z="1" color="red" />
+      <block id="c4" x="-2" y="0" z="1" color="red" />
+      <block id="c5" x="-2" y="0" z="0" color="red" />
+      <block id="c6" x="-2" y="0" z="-1" color="red" />
+      <block id="c7" x="-2" y="0" z="-2" color="red" />
+      <block id="c8" x="1" y="1" z="1" color="orange" />
+      <block id="c9" x="1" y="1" z="0" color="orange" />
+      <block id="d0" x="1" y="1" z="-1" color="orange" />
+      <block id="d1" x="1" y="1" z="-2" color="orange" />
+      <block id="d2" x="0" y="1" z="1" color="orange" />
+      <block id="d3" x="-1" y="1" z="1" color="orange" />
+      <block id="d4" x="-2" y="1" z="1" color="orange" />
+      <block id="d5" x="0" y="1" z="0" color="orange" />
+      <block id="d6" x="-1" y="1" z="0" color="orange" />
+      <block id="d7" x="-2" y="1" z="0" color="orange" />
+      <block id="d8" x="0" y="1" z="-1" color="orange" />
+      <block id="d9" x="-1" y="1" z="-1" color="orange" />
+      <block id="e0" x="-2" y="1" z="-1" color="orange" />
+      <block id="e1" x="0" y="1" z="-2" color="orange" />
+      <block id="e2" x="-1" y="1" z="-2" color="orange" />
+      <block id="e3" x="-2" y="1" z="-2" color="orange" />
+      <block id="f6" x="1" y="2" z="1" color="yellow" />
+      <block id="f7" x="0" y="2" z="1" color="yellow" />
+      <block id="f8" x="-1" y="2" z="1" color="yellow" />
+      <block id="f9" x="-2" y="2" z="1" color="yellow" />
+      <block id="g0" x="-2" y="2" z="0" color="yellow" />
+      <block id="g1" x="1" y="2" z="0" color="yellow" />
+      <block id="g2" x="0" y="2" z="0" color="yellow" />
+      <block id="g3" x="-1" y="2" z="0" color="yellow" />
+      <block id="g4" x="-2" y="2" z="-1" color="yellow" />
+      <block id="g5" x="-1" y="2" z="-1" color="yellow" />
+      <block id="g6" x="0" y="2" z="-1" color="yellow" />
+      <block id="g7" x="0" y="2" z="-2" color="yellow" />
+      <block id="g8" x="1" y="2" z="-1" color="yellow" />
+      <block id="g9" x="1" y="2" z="-2" color="yellow" />
+      <block id="h0" x="-2" y="2" z="-2" color="yellow" />
+      <block id="h1" x="-1" y="2" z="-2" color="yellow" />
+      <block id="h2" x="1" y="3" z="1" color="green" />
+      <block id="h3" x="1" y="3" z="0" color="green" />
+      <block id="h4" x="1" y="3" z="-1" color="green" />
+      <block id="h5" x="1" y="3" z="-2" color="green" />
+      <block id="h6" x="0" y="3" z="1" color="green" />
+      <block id="h7" x="-1" y="3" z="1" color="green" />
+      <block id="h8" x="-2" y="3" z="1" color="green" />
+      <block id="h9" x="0" y="3" z="0" color="green" />
+      <block id="i0" x="-1" y="3" z="0" color="green" />
+      <block id="i1" x="-2" y="3" z="0" color="green" />
+      <block id="i2" x="0" y="3" z="-1" color="green" />
+      <block id="i3" x="-1" y="3" z="-1" color="green" />
+      <block id="i4" x="0" y="3" z="-2" color="green" />
+      <block id="i5" x="-1" y="3" z="-2" color="green" />
+      <block id="i6" x="-2" y="3" z="-1" color="green" />
+      <block id="i7" x="-2" y="3" z="-2" color="green" />
+      <block id="j8" x="0" y="4" z="-2" color="blue" />
+      <block id="l9" x="-1" y="5" z="-2" color="purple" />
+      <block id="m1" x="-2" y="4" z="-1" color="blue" />
+    </world_state>
     <!--how 's that ?-->
     <markable id="markable_326" ambiguity="unambiguous" category="abstract" gender="neuter" generic="operator-question" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="sing" person="per3" reference="new" related_object="no" span="(442, 443)">
       <t>how</t>
@@ -498,9 +1899,147 @@
     </markable>
     <t>?</t>
   </utterance>
-  <utterance participant="architect">yay !<!--yay !-->
+  <utterance participant="architect" imageview="images/b3-a16-c20-1523400381488_207.png" amr="assertion">yay !<world_state>
+      <block id="a0" x="0" y="0" z="-1" color="red" />
+      <block id="a1" x="-1" y="0" z="-1" color="red" />
+      <block id="a2" x="1" y="0" z="-1" color="red" />
+      <block id="a3" x="1" y="0" z="-2" color="red" />
+      <block id="a4" x="-1" y="0" z="-2" color="red" />
+      <block id="a5" x="0" y="0" z="-2" color="red" />
+      <block id="a6" x="-1" y="0" z="0" color="red" />
+      <block id="a7" x="0" y="0" z="0" color="red" />
+      <block id="a8" x="1" y="0" z="0" color="red" />
+      <block id="c1" x="1" y="0" z="1" color="red" />
+      <block id="c2" x="0" y="0" z="1" color="red" />
+      <block id="c3" x="-1" y="0" z="1" color="red" />
+      <block id="c4" x="-2" y="0" z="1" color="red" />
+      <block id="c5" x="-2" y="0" z="0" color="red" />
+      <block id="c6" x="-2" y="0" z="-1" color="red" />
+      <block id="c7" x="-2" y="0" z="-2" color="red" />
+      <block id="c8" x="1" y="1" z="1" color="orange" />
+      <block id="c9" x="1" y="1" z="0" color="orange" />
+      <block id="d0" x="1" y="1" z="-1" color="orange" />
+      <block id="d1" x="1" y="1" z="-2" color="orange" />
+      <block id="d2" x="0" y="1" z="1" color="orange" />
+      <block id="d3" x="-1" y="1" z="1" color="orange" />
+      <block id="d4" x="-2" y="1" z="1" color="orange" />
+      <block id="d5" x="0" y="1" z="0" color="orange" />
+      <block id="d6" x="-1" y="1" z="0" color="orange" />
+      <block id="d7" x="-2" y="1" z="0" color="orange" />
+      <block id="d8" x="0" y="1" z="-1" color="orange" />
+      <block id="d9" x="-1" y="1" z="-1" color="orange" />
+      <block id="e0" x="-2" y="1" z="-1" color="orange" />
+      <block id="e1" x="0" y="1" z="-2" color="orange" />
+      <block id="e2" x="-1" y="1" z="-2" color="orange" />
+      <block id="e3" x="-2" y="1" z="-2" color="orange" />
+      <block id="f6" x="1" y="2" z="1" color="yellow" />
+      <block id="f7" x="0" y="2" z="1" color="yellow" />
+      <block id="f8" x="-1" y="2" z="1" color="yellow" />
+      <block id="f9" x="-2" y="2" z="1" color="yellow" />
+      <block id="g0" x="-2" y="2" z="0" color="yellow" />
+      <block id="g1" x="1" y="2" z="0" color="yellow" />
+      <block id="g2" x="0" y="2" z="0" color="yellow" />
+      <block id="g3" x="-1" y="2" z="0" color="yellow" />
+      <block id="g4" x="-2" y="2" z="-1" color="yellow" />
+      <block id="g5" x="-1" y="2" z="-1" color="yellow" />
+      <block id="g6" x="0" y="2" z="-1" color="yellow" />
+      <block id="g7" x="0" y="2" z="-2" color="yellow" />
+      <block id="g8" x="1" y="2" z="-1" color="yellow" />
+      <block id="g9" x="1" y="2" z="-2" color="yellow" />
+      <block id="h0" x="-2" y="2" z="-2" color="yellow" />
+      <block id="h1" x="-1" y="2" z="-2" color="yellow" />
+      <block id="h2" x="1" y="3" z="1" color="green" />
+      <block id="h3" x="1" y="3" z="0" color="green" />
+      <block id="h4" x="1" y="3" z="-1" color="green" />
+      <block id="h5" x="1" y="3" z="-2" color="green" />
+      <block id="h6" x="0" y="3" z="1" color="green" />
+      <block id="h7" x="-1" y="3" z="1" color="green" />
+      <block id="h8" x="-2" y="3" z="1" color="green" />
+      <block id="h9" x="0" y="3" z="0" color="green" />
+      <block id="i0" x="-1" y="3" z="0" color="green" />
+      <block id="i1" x="-2" y="3" z="0" color="green" />
+      <block id="i2" x="0" y="3" z="-1" color="green" />
+      <block id="i3" x="-1" y="3" z="-1" color="green" />
+      <block id="i4" x="0" y="3" z="-2" color="green" />
+      <block id="i5" x="-1" y="3" z="-2" color="green" />
+      <block id="i6" x="-2" y="3" z="-1" color="green" />
+      <block id="i7" x="-2" y="3" z="-2" color="green" />
+      <block id="j8" x="0" y="4" z="-2" color="blue" />
+      <block id="l9" x="-1" y="5" z="-2" color="purple" />
+      <block id="m1" x="-2" y="4" z="-1" color="blue" />
+    </world_state>
+    <!--yay !-->
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" imageview="images/b3-a16-c20-1523400381488_208.png" amr="assertion">
+    <world_state>
+      <block id="a0" x="0" y="0" z="-1" color="red" />
+      <block id="a1" x="-1" y="0" z="-1" color="red" />
+      <block id="a2" x="1" y="0" z="-1" color="red" />
+      <block id="a3" x="1" y="0" z="-2" color="red" />
+      <block id="a4" x="-1" y="0" z="-2" color="red" />
+      <block id="a5" x="0" y="0" z="-2" color="red" />
+      <block id="a6" x="-1" y="0" z="0" color="red" />
+      <block id="a7" x="0" y="0" z="0" color="red" />
+      <block id="a8" x="1" y="0" z="0" color="red" />
+      <block id="c1" x="1" y="0" z="1" color="red" />
+      <block id="c2" x="0" y="0" z="1" color="red" />
+      <block id="c3" x="-1" y="0" z="1" color="red" />
+      <block id="c4" x="-2" y="0" z="1" color="red" />
+      <block id="c5" x="-2" y="0" z="0" color="red" />
+      <block id="c6" x="-2" y="0" z="-1" color="red" />
+      <block id="c7" x="-2" y="0" z="-2" color="red" />
+      <block id="c8" x="1" y="1" z="1" color="orange" />
+      <block id="c9" x="1" y="1" z="0" color="orange" />
+      <block id="d0" x="1" y="1" z="-1" color="orange" />
+      <block id="d1" x="1" y="1" z="-2" color="orange" />
+      <block id="d2" x="0" y="1" z="1" color="orange" />
+      <block id="d3" x="-1" y="1" z="1" color="orange" />
+      <block id="d4" x="-2" y="1" z="1" color="orange" />
+      <block id="d5" x="0" y="1" z="0" color="orange" />
+      <block id="d6" x="-1" y="1" z="0" color="orange" />
+      <block id="d7" x="-2" y="1" z="0" color="orange" />
+      <block id="d8" x="0" y="1" z="-1" color="orange" />
+      <block id="d9" x="-1" y="1" z="-1" color="orange" />
+      <block id="e0" x="-2" y="1" z="-1" color="orange" />
+      <block id="e1" x="0" y="1" z="-2" color="orange" />
+      <block id="e2" x="-1" y="1" z="-2" color="orange" />
+      <block id="e3" x="-2" y="1" z="-2" color="orange" />
+      <block id="f6" x="1" y="2" z="1" color="yellow" />
+      <block id="f7" x="0" y="2" z="1" color="yellow" />
+      <block id="f8" x="-1" y="2" z="1" color="yellow" />
+      <block id="f9" x="-2" y="2" z="1" color="yellow" />
+      <block id="g0" x="-2" y="2" z="0" color="yellow" />
+      <block id="g1" x="1" y="2" z="0" color="yellow" />
+      <block id="g2" x="0" y="2" z="0" color="yellow" />
+      <block id="g3" x="-1" y="2" z="0" color="yellow" />
+      <block id="g4" x="-2" y="2" z="-1" color="yellow" />
+      <block id="g5" x="-1" y="2" z="-1" color="yellow" />
+      <block id="g6" x="0" y="2" z="-1" color="yellow" />
+      <block id="g7" x="0" y="2" z="-2" color="yellow" />
+      <block id="g8" x="1" y="2" z="-1" color="yellow" />
+      <block id="g9" x="1" y="2" z="-2" color="yellow" />
+      <block id="h0" x="-2" y="2" z="-2" color="yellow" />
+      <block id="h1" x="-1" y="2" z="-2" color="yellow" />
+      <block id="h2" x="1" y="3" z="1" color="green" />
+      <block id="h3" x="1" y="3" z="0" color="green" />
+      <block id="h4" x="1" y="3" z="-1" color="green" />
+      <block id="h5" x="1" y="3" z="-2" color="green" />
+      <block id="h6" x="0" y="3" z="1" color="green" />
+      <block id="h7" x="-1" y="3" z="1" color="green" />
+      <block id="h8" x="-2" y="3" z="1" color="green" />
+      <block id="h9" x="0" y="3" z="0" color="green" />
+      <block id="i0" x="-1" y="3" z="0" color="green" />
+      <block id="i1" x="-2" y="3" z="0" color="green" />
+      <block id="i2" x="0" y="3" z="-1" color="green" />
+      <block id="i3" x="-1" y="3" z="-1" color="green" />
+      <block id="i4" x="0" y="3" z="-2" color="green" />
+      <block id="i5" x="-1" y="3" z="-2" color="green" />
+      <block id="i6" x="-2" y="3" z="-1" color="green" />
+      <block id="i7" x="-2" y="3" z="-2" color="green" />
+      <block id="j8" x="0" y="4" z="-2" color="blue" />
+      <block id="l9" x="-1" y="5" z="-2" color="purple" />
+      <block id="m1" x="-2" y="4" z="-1" color="blue" />
+    </world_state>
     <!--okay let me figure out how to phrase this one-->
     <t>okay let</t>
     <markable id="markable_328" ambiguity="unambiguous" category="person" gender="unspecified" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="sing" person="per1" phrase_antecedent="single_phrase" ref_type="phrase" reference="old" related_object="no" single_phrase_antecedent="markable_283" span="(450, 451)" single_phrase_antecedent_cluster="single_phrase_antecedent_3">
@@ -511,7 +2050,76 @@
       <t>this one</t>
     </markable>
   </utterance>
-  <utterance participant="builder">
+  <utterance participant="builder" imageview="images/b3-a16-c20-1523400381488_209.png" amr="assertion">
+    <world_state>
+      <block id="a0" x="0" y="0" z="-1" color="red" />
+      <block id="a1" x="-1" y="0" z="-1" color="red" />
+      <block id="a2" x="1" y="0" z="-1" color="red" />
+      <block id="a3" x="1" y="0" z="-2" color="red" />
+      <block id="a4" x="-1" y="0" z="-2" color="red" />
+      <block id="a5" x="0" y="0" z="-2" color="red" />
+      <block id="a6" x="-1" y="0" z="0" color="red" />
+      <block id="a7" x="0" y="0" z="0" color="red" />
+      <block id="a8" x="1" y="0" z="0" color="red" />
+      <block id="c1" x="1" y="0" z="1" color="red" />
+      <block id="c2" x="0" y="0" z="1" color="red" />
+      <block id="c3" x="-1" y="0" z="1" color="red" />
+      <block id="c4" x="-2" y="0" z="1" color="red" />
+      <block id="c5" x="-2" y="0" z="0" color="red" />
+      <block id="c6" x="-2" y="0" z="-1" color="red" />
+      <block id="c7" x="-2" y="0" z="-2" color="red" />
+      <block id="c8" x="1" y="1" z="1" color="orange" />
+      <block id="c9" x="1" y="1" z="0" color="orange" />
+      <block id="d0" x="1" y="1" z="-1" color="orange" />
+      <block id="d1" x="1" y="1" z="-2" color="orange" />
+      <block id="d2" x="0" y="1" z="1" color="orange" />
+      <block id="d3" x="-1" y="1" z="1" color="orange" />
+      <block id="d4" x="-2" y="1" z="1" color="orange" />
+      <block id="d5" x="0" y="1" z="0" color="orange" />
+      <block id="d6" x="-1" y="1" z="0" color="orange" />
+      <block id="d7" x="-2" y="1" z="0" color="orange" />
+      <block id="d8" x="0" y="1" z="-1" color="orange" />
+      <block id="d9" x="-1" y="1" z="-1" color="orange" />
+      <block id="e0" x="-2" y="1" z="-1" color="orange" />
+      <block id="e1" x="0" y="1" z="-2" color="orange" />
+      <block id="e2" x="-1" y="1" z="-2" color="orange" />
+      <block id="e3" x="-2" y="1" z="-2" color="orange" />
+      <block id="f6" x="1" y="2" z="1" color="yellow" />
+      <block id="f7" x="0" y="2" z="1" color="yellow" />
+      <block id="f8" x="-1" y="2" z="1" color="yellow" />
+      <block id="f9" x="-2" y="2" z="1" color="yellow" />
+      <block id="g0" x="-2" y="2" z="0" color="yellow" />
+      <block id="g1" x="1" y="2" z="0" color="yellow" />
+      <block id="g2" x="0" y="2" z="0" color="yellow" />
+      <block id="g3" x="-1" y="2" z="0" color="yellow" />
+      <block id="g4" x="-2" y="2" z="-1" color="yellow" />
+      <block id="g5" x="-1" y="2" z="-1" color="yellow" />
+      <block id="g6" x="0" y="2" z="-1" color="yellow" />
+      <block id="g7" x="0" y="2" z="-2" color="yellow" />
+      <block id="g8" x="1" y="2" z="-1" color="yellow" />
+      <block id="g9" x="1" y="2" z="-2" color="yellow" />
+      <block id="h0" x="-2" y="2" z="-2" color="yellow" />
+      <block id="h1" x="-1" y="2" z="-2" color="yellow" />
+      <block id="h2" x="1" y="3" z="1" color="green" />
+      <block id="h3" x="1" y="3" z="0" color="green" />
+      <block id="h4" x="1" y="3" z="-1" color="green" />
+      <block id="h5" x="1" y="3" z="-2" color="green" />
+      <block id="h6" x="0" y="3" z="1" color="green" />
+      <block id="h7" x="-1" y="3" z="1" color="green" />
+      <block id="h8" x="-2" y="3" z="1" color="green" />
+      <block id="h9" x="0" y="3" z="0" color="green" />
+      <block id="i0" x="-1" y="3" z="0" color="green" />
+      <block id="i1" x="-2" y="3" z="0" color="green" />
+      <block id="i2" x="0" y="3" z="-1" color="green" />
+      <block id="i3" x="-1" y="3" z="-1" color="green" />
+      <block id="i4" x="0" y="3" z="-2" color="green" />
+      <block id="i5" x="-1" y="3" z="-2" color="green" />
+      <block id="i6" x="-2" y="3" z="-1" color="green" />
+      <block id="i7" x="-2" y="3" z="-2" color="green" />
+      <block id="j8" x="0" y="4" z="-2" color="blue" />
+      <block id="l9" x="-1" y="5" z="-2" color="purple" />
+      <block id="m1" x="-2" y="4" z="-1" color="blue" />
+    </world_state>
     <!--okay you got this-->
     <t>okay</t>
     <markable id="markable_330" ambiguity="unambiguous" category="person" gender="unspecified" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="undersp-num" person="per2" phrase_antecedent="single_phrase" ref_type="phrase" reference="old" related_object="no" single_phrase_antecedent="markable_328" span="(459, 460)" single_phrase_antecedent_cluster="single_phrase_antecedent_3">
@@ -522,11 +2130,80 @@
       <t>this</t>
     </markable>
   </utterance>
-  <utterance participant="architect">okay<!--okay-->
+  <utterance participant="architect" amr="assertion">okay<!--okay-->
   </utterance>
   <utterance participant="builder">,<!--,-->
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" imageview="images/b3-a16-c20-1523400381488_210.png" amr="command">
+    <world_state>
+      <block id="a0" x="0" y="0" z="-1" color="red" />
+      <block id="a1" x="-1" y="0" z="-1" color="red" />
+      <block id="a2" x="1" y="0" z="-1" color="red" />
+      <block id="a3" x="1" y="0" z="-2" color="red" />
+      <block id="a4" x="-1" y="0" z="-2" color="red" />
+      <block id="a5" x="0" y="0" z="-2" color="red" />
+      <block id="a6" x="-1" y="0" z="0" color="red" />
+      <block id="a7" x="0" y="0" z="0" color="red" />
+      <block id="a8" x="1" y="0" z="0" color="red" />
+      <block id="c1" x="1" y="0" z="1" color="red" />
+      <block id="c2" x="0" y="0" z="1" color="red" />
+      <block id="c3" x="-1" y="0" z="1" color="red" />
+      <block id="c4" x="-2" y="0" z="1" color="red" />
+      <block id="c5" x="-2" y="0" z="0" color="red" />
+      <block id="c6" x="-2" y="0" z="-1" color="red" />
+      <block id="c7" x="-2" y="0" z="-2" color="red" />
+      <block id="c8" x="1" y="1" z="1" color="orange" />
+      <block id="c9" x="1" y="1" z="0" color="orange" />
+      <block id="d0" x="1" y="1" z="-1" color="orange" />
+      <block id="d1" x="1" y="1" z="-2" color="orange" />
+      <block id="d2" x="0" y="1" z="1" color="orange" />
+      <block id="d3" x="-1" y="1" z="1" color="orange" />
+      <block id="d4" x="-2" y="1" z="1" color="orange" />
+      <block id="d5" x="0" y="1" z="0" color="orange" />
+      <block id="d6" x="-1" y="1" z="0" color="orange" />
+      <block id="d7" x="-2" y="1" z="0" color="orange" />
+      <block id="d8" x="0" y="1" z="-1" color="orange" />
+      <block id="d9" x="-1" y="1" z="-1" color="orange" />
+      <block id="e0" x="-2" y="1" z="-1" color="orange" />
+      <block id="e1" x="0" y="1" z="-2" color="orange" />
+      <block id="e2" x="-1" y="1" z="-2" color="orange" />
+      <block id="e3" x="-2" y="1" z="-2" color="orange" />
+      <block id="f6" x="1" y="2" z="1" color="yellow" />
+      <block id="f7" x="0" y="2" z="1" color="yellow" />
+      <block id="f8" x="-1" y="2" z="1" color="yellow" />
+      <block id="f9" x="-2" y="2" z="1" color="yellow" />
+      <block id="g0" x="-2" y="2" z="0" color="yellow" />
+      <block id="g1" x="1" y="2" z="0" color="yellow" />
+      <block id="g2" x="0" y="2" z="0" color="yellow" />
+      <block id="g3" x="-1" y="2" z="0" color="yellow" />
+      <block id="g4" x="-2" y="2" z="-1" color="yellow" />
+      <block id="g5" x="-1" y="2" z="-1" color="yellow" />
+      <block id="g6" x="0" y="2" z="-1" color="yellow" />
+      <block id="g7" x="0" y="2" z="-2" color="yellow" />
+      <block id="g8" x="1" y="2" z="-1" color="yellow" />
+      <block id="g9" x="1" y="2" z="-2" color="yellow" />
+      <block id="h0" x="-2" y="2" z="-2" color="yellow" />
+      <block id="h1" x="-1" y="2" z="-2" color="yellow" />
+      <block id="h2" x="1" y="3" z="1" color="green" />
+      <block id="h3" x="1" y="3" z="0" color="green" />
+      <block id="h4" x="1" y="3" z="-1" color="green" />
+      <block id="h5" x="1" y="3" z="-2" color="green" />
+      <block id="h6" x="0" y="3" z="1" color="green" />
+      <block id="h7" x="-1" y="3" z="1" color="green" />
+      <block id="h8" x="-2" y="3" z="1" color="green" />
+      <block id="h9" x="0" y="3" z="0" color="green" />
+      <block id="i0" x="-1" y="3" z="0" color="green" />
+      <block id="i1" x="-2" y="3" z="0" color="green" />
+      <block id="i2" x="0" y="3" z="-1" color="green" />
+      <block id="i3" x="-1" y="3" z="-1" color="green" />
+      <block id="i4" x="0" y="3" z="-2" color="green" />
+      <block id="i5" x="-1" y="3" z="-2" color="green" />
+      <block id="i6" x="-2" y="3" z="-1" color="green" />
+      <block id="i7" x="-2" y="3" z="-2" color="green" />
+      <block id="j8" x="0" y="4" z="-2" color="blue" />
+      <block id="l9" x="-1" y="5" z="-2" color="purple" />
+      <block id="m1" x="-2" y="4" z="-1" color="blue" />
+    </world_state>
     <!--now remove all of the green blocks EXCEPT two : the one directly in from of the blue on your right side , and the green block that is diagonal ( but closer to the left side ) to the blue above it-->
     <markable id="markable_332" ambiguity="unambiguous" category="time" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="sing" person="per3" reference="new" related_object="no" span="(464, 465)">
       <t>now</t>
@@ -591,7 +2268,62 @@
       <t>removed green@-2,3,1 removed green@0,3,-1 removed green@-1,3,0 removed green@-1,3,1 removed green@0,3,0 removed green@0,3,1 removed green@1,3,1 removed green@1,3,0 removed green@1,3,-1 removed green@1,3,-2 removed green@-1,3,-2 removed green@-2,3,-2 removed green@-2,3,-1 removed green@0,3,-2</t>
     </markable>
   </utterance>
-  <utterance participant="builder">
+  <utterance participant="builder" imageview="images/b3-a16-c20-1523400381488_225.png" amr="question">
+    <world_state>
+      <block id="a0" x="0" y="0" z="-1" color="red" />
+      <block id="a1" x="-1" y="0" z="-1" color="red" />
+      <block id="a2" x="1" y="0" z="-1" color="red" />
+      <block id="a3" x="1" y="0" z="-2" color="red" />
+      <block id="a4" x="-1" y="0" z="-2" color="red" />
+      <block id="a5" x="0" y="0" z="-2" color="red" />
+      <block id="a6" x="-1" y="0" z="0" color="red" />
+      <block id="a7" x="0" y="0" z="0" color="red" />
+      <block id="a8" x="1" y="0" z="0" color="red" />
+      <block id="c1" x="1" y="0" z="1" color="red" />
+      <block id="c2" x="0" y="0" z="1" color="red" />
+      <block id="c3" x="-1" y="0" z="1" color="red" />
+      <block id="c4" x="-2" y="0" z="1" color="red" />
+      <block id="c5" x="-2" y="0" z="0" color="red" />
+      <block id="c6" x="-2" y="0" z="-1" color="red" />
+      <block id="c7" x="-2" y="0" z="-2" color="red" />
+      <block id="c8" x="1" y="1" z="1" color="orange" />
+      <block id="c9" x="1" y="1" z="0" color="orange" />
+      <block id="d0" x="1" y="1" z="-1" color="orange" />
+      <block id="d1" x="1" y="1" z="-2" color="orange" />
+      <block id="d2" x="0" y="1" z="1" color="orange" />
+      <block id="d3" x="-1" y="1" z="1" color="orange" />
+      <block id="d4" x="-2" y="1" z="1" color="orange" />
+      <block id="d5" x="0" y="1" z="0" color="orange" />
+      <block id="d6" x="-1" y="1" z="0" color="orange" />
+      <block id="d7" x="-2" y="1" z="0" color="orange" />
+      <block id="d8" x="0" y="1" z="-1" color="orange" />
+      <block id="d9" x="-1" y="1" z="-1" color="orange" />
+      <block id="e0" x="-2" y="1" z="-1" color="orange" />
+      <block id="e1" x="0" y="1" z="-2" color="orange" />
+      <block id="e2" x="-1" y="1" z="-2" color="orange" />
+      <block id="e3" x="-2" y="1" z="-2" color="orange" />
+      <block id="f6" x="1" y="2" z="1" color="yellow" />
+      <block id="f7" x="0" y="2" z="1" color="yellow" />
+      <block id="f8" x="-1" y="2" z="1" color="yellow" />
+      <block id="f9" x="-2" y="2" z="1" color="yellow" />
+      <block id="g0" x="-2" y="2" z="0" color="yellow" />
+      <block id="g1" x="1" y="2" z="0" color="yellow" />
+      <block id="g2" x="0" y="2" z="0" color="yellow" />
+      <block id="g3" x="-1" y="2" z="0" color="yellow" />
+      <block id="g4" x="-2" y="2" z="-1" color="yellow" />
+      <block id="g5" x="-1" y="2" z="-1" color="yellow" />
+      <block id="g6" x="0" y="2" z="-1" color="yellow" />
+      <block id="g7" x="0" y="2" z="-2" color="yellow" />
+      <block id="g8" x="1" y="2" z="-1" color="yellow" />
+      <block id="g9" x="1" y="2" z="-2" color="yellow" />
+      <block id="h0" x="-2" y="2" z="-2" color="yellow" />
+      <block id="h1" x="-1" y="2" z="-2" color="yellow" />
+      <block id="i1" x="-2" y="3" z="0" color="green" />
+      <block id="i3" x="-1" y="3" z="-1" color="green" />
+      <block id="j8" x="0" y="4" z="-2" color="blue" />
+      <block id="l9" x="-1" y="5" z="-2" color="purple" />
+      <block id="m1" x="-2" y="4" z="-1" color="blue" />
+    </world_state>
     <!--like that ?-->
     <t>like</t>
     <markable id="markable_348" ambiguity="unambiguous" category="abstract" gender="neuter" generic="operator-question" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="sing" person="per3" ref_type="segment" reference="old" related_object="no" segment_antecedent="markable_427" span="(522, 523)" segment_antecedent_cluster="segment_antecedent_2">
@@ -599,7 +2331,62 @@
     </markable>
     <t>?</t>
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" imageview="images/b3-a16-c20-1523400381488_226.png" amr="command">
+    <world_state>
+      <block id="a0" x="0" y="0" z="-1" color="red" />
+      <block id="a1" x="-1" y="0" z="-1" color="red" />
+      <block id="a2" x="1" y="0" z="-1" color="red" />
+      <block id="a3" x="1" y="0" z="-2" color="red" />
+      <block id="a4" x="-1" y="0" z="-2" color="red" />
+      <block id="a5" x="0" y="0" z="-2" color="red" />
+      <block id="a6" x="-1" y="0" z="0" color="red" />
+      <block id="a7" x="0" y="0" z="0" color="red" />
+      <block id="a8" x="1" y="0" z="0" color="red" />
+      <block id="c1" x="1" y="0" z="1" color="red" />
+      <block id="c2" x="0" y="0" z="1" color="red" />
+      <block id="c3" x="-1" y="0" z="1" color="red" />
+      <block id="c4" x="-2" y="0" z="1" color="red" />
+      <block id="c5" x="-2" y="0" z="0" color="red" />
+      <block id="c6" x="-2" y="0" z="-1" color="red" />
+      <block id="c7" x="-2" y="0" z="-2" color="red" />
+      <block id="c8" x="1" y="1" z="1" color="orange" />
+      <block id="c9" x="1" y="1" z="0" color="orange" />
+      <block id="d0" x="1" y="1" z="-1" color="orange" />
+      <block id="d1" x="1" y="1" z="-2" color="orange" />
+      <block id="d2" x="0" y="1" z="1" color="orange" />
+      <block id="d3" x="-1" y="1" z="1" color="orange" />
+      <block id="d4" x="-2" y="1" z="1" color="orange" />
+      <block id="d5" x="0" y="1" z="0" color="orange" />
+      <block id="d6" x="-1" y="1" z="0" color="orange" />
+      <block id="d7" x="-2" y="1" z="0" color="orange" />
+      <block id="d8" x="0" y="1" z="-1" color="orange" />
+      <block id="d9" x="-1" y="1" z="-1" color="orange" />
+      <block id="e0" x="-2" y="1" z="-1" color="orange" />
+      <block id="e1" x="0" y="1" z="-2" color="orange" />
+      <block id="e2" x="-1" y="1" z="-2" color="orange" />
+      <block id="e3" x="-2" y="1" z="-2" color="orange" />
+      <block id="f6" x="1" y="2" z="1" color="yellow" />
+      <block id="f7" x="0" y="2" z="1" color="yellow" />
+      <block id="f8" x="-1" y="2" z="1" color="yellow" />
+      <block id="f9" x="-2" y="2" z="1" color="yellow" />
+      <block id="g0" x="-2" y="2" z="0" color="yellow" />
+      <block id="g1" x="1" y="2" z="0" color="yellow" />
+      <block id="g2" x="0" y="2" z="0" color="yellow" />
+      <block id="g3" x="-1" y="2" z="0" color="yellow" />
+      <block id="g4" x="-2" y="2" z="-1" color="yellow" />
+      <block id="g5" x="-1" y="2" z="-1" color="yellow" />
+      <block id="g6" x="0" y="2" z="-1" color="yellow" />
+      <block id="g7" x="0" y="2" z="-2" color="yellow" />
+      <block id="g8" x="1" y="2" z="-1" color="yellow" />
+      <block id="g9" x="1" y="2" z="-2" color="yellow" />
+      <block id="h0" x="-2" y="2" z="-2" color="yellow" />
+      <block id="h1" x="-1" y="2" z="-2" color="yellow" />
+      <block id="i1" x="-2" y="3" z="0" color="green" />
+      <block id="i3" x="-1" y="3" z="-1" color="green" />
+      <block id="j8" x="0" y="4" z="-2" color="blue" />
+      <block id="l9" x="-1" y="5" z="-2" color="purple" />
+      <block id="m1" x="-2" y="4" z="-1" color="blue" />
+    </world_state>
     <!--almost , move over to the other side please-->
     <t>almost , move over to</t>
     <markable id="markable_349" ambiguity="unambiguous" category="space" gender="neuter" generic="operator-instruction" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="sing" person="per3" reference="new" related_object="no" span="(529, 532)" related_phrase_cluster="related_phrase_3">
@@ -607,7 +2394,62 @@
     </markable>
     <t>please</t>
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" imageview="images/b3-a16-c20-1523400381488_227.png" amr="command">
+    <world_state>
+      <block id="a0" x="0" y="0" z="-1" color="red" />
+      <block id="a1" x="-1" y="0" z="-1" color="red" />
+      <block id="a2" x="1" y="0" z="-1" color="red" />
+      <block id="a3" x="1" y="0" z="-2" color="red" />
+      <block id="a4" x="-1" y="0" z="-2" color="red" />
+      <block id="a5" x="0" y="0" z="-2" color="red" />
+      <block id="a6" x="-1" y="0" z="0" color="red" />
+      <block id="a7" x="0" y="0" z="0" color="red" />
+      <block id="a8" x="1" y="0" z="0" color="red" />
+      <block id="c1" x="1" y="0" z="1" color="red" />
+      <block id="c2" x="0" y="0" z="1" color="red" />
+      <block id="c3" x="-1" y="0" z="1" color="red" />
+      <block id="c4" x="-2" y="0" z="1" color="red" />
+      <block id="c5" x="-2" y="0" z="0" color="red" />
+      <block id="c6" x="-2" y="0" z="-1" color="red" />
+      <block id="c7" x="-2" y="0" z="-2" color="red" />
+      <block id="c8" x="1" y="1" z="1" color="orange" />
+      <block id="c9" x="1" y="1" z="0" color="orange" />
+      <block id="d0" x="1" y="1" z="-1" color="orange" />
+      <block id="d1" x="1" y="1" z="-2" color="orange" />
+      <block id="d2" x="0" y="1" z="1" color="orange" />
+      <block id="d3" x="-1" y="1" z="1" color="orange" />
+      <block id="d4" x="-2" y="1" z="1" color="orange" />
+      <block id="d5" x="0" y="1" z="0" color="orange" />
+      <block id="d6" x="-1" y="1" z="0" color="orange" />
+      <block id="d7" x="-2" y="1" z="0" color="orange" />
+      <block id="d8" x="0" y="1" z="-1" color="orange" />
+      <block id="d9" x="-1" y="1" z="-1" color="orange" />
+      <block id="e0" x="-2" y="1" z="-1" color="orange" />
+      <block id="e1" x="0" y="1" z="-2" color="orange" />
+      <block id="e2" x="-1" y="1" z="-2" color="orange" />
+      <block id="e3" x="-2" y="1" z="-2" color="orange" />
+      <block id="f6" x="1" y="2" z="1" color="yellow" />
+      <block id="f7" x="0" y="2" z="1" color="yellow" />
+      <block id="f8" x="-1" y="2" z="1" color="yellow" />
+      <block id="f9" x="-2" y="2" z="1" color="yellow" />
+      <block id="g0" x="-2" y="2" z="0" color="yellow" />
+      <block id="g1" x="1" y="2" z="0" color="yellow" />
+      <block id="g2" x="0" y="2" z="0" color="yellow" />
+      <block id="g3" x="-1" y="2" z="0" color="yellow" />
+      <block id="g4" x="-2" y="2" z="-1" color="yellow" />
+      <block id="g5" x="-1" y="2" z="-1" color="yellow" />
+      <block id="g6" x="0" y="2" z="-1" color="yellow" />
+      <block id="g7" x="0" y="2" z="-2" color="yellow" />
+      <block id="g8" x="1" y="2" z="-1" color="yellow" />
+      <block id="g9" x="1" y="2" z="-2" color="yellow" />
+      <block id="h0" x="-2" y="2" z="-2" color="yellow" />
+      <block id="h1" x="-1" y="2" z="-2" color="yellow" />
+      <block id="i1" x="-2" y="3" z="0" color="green" />
+      <block id="i3" x="-1" y="3" z="-1" color="green" />
+      <block id="j8" x="0" y="4" z="-2" color="blue" />
+      <block id="l9" x="-1" y="5" z="-2" color="purple" />
+      <block id="m1" x="-2" y="4" z="-1" color="blue" />
+    </world_state>
     <!--so move the green block that is currently in front of the purple block two space over so that it is on the right edge-->
     <t>so move</t>
     <markable id="markable_350" ambiguity="unambiguous" category="concrete" gender="neuter" generic="operator-instruction" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="sing" object="i3" objectFull="[[&quot;i3&quot;, [263, 428, 542, 685], [-1, 3, -1], &quot;green&quot;, &quot;B3-A16-C20-1523400381488_227.png&quot;]]" person="per3" phrase_antecedent="single_phrase" ref_type="phrase" reference="old" related_object="no" single_phrase_antecedent="markable_339" span="(535, 547)" single_phrase_antecedent_cluster="single_phrase_antecedent_7">
@@ -648,20 +2490,185 @@
   </utterance>
   <utterance participant="builder">removed green@-1,3,-1 added green@1,3,-1<!--removed green@-1,3,-1 added green@1,3,-1-->
   </utterance>
-  <utterance participant="builder">
+  <utterance participant="builder" imageview="images/b3-a16-c20-1523400381488_230.png" amr="question">
+    <world_state>
+      <block id="a0" x="0" y="0" z="-1" color="red" />
+      <block id="a1" x="-1" y="0" z="-1" color="red" />
+      <block id="a2" x="1" y="0" z="-1" color="red" />
+      <block id="a3" x="1" y="0" z="-2" color="red" />
+      <block id="a4" x="-1" y="0" z="-2" color="red" />
+      <block id="a5" x="0" y="0" z="-2" color="red" />
+      <block id="a6" x="-1" y="0" z="0" color="red" />
+      <block id="a7" x="0" y="0" z="0" color="red" />
+      <block id="a8" x="1" y="0" z="0" color="red" />
+      <block id="c1" x="1" y="0" z="1" color="red" />
+      <block id="c2" x="0" y="0" z="1" color="red" />
+      <block id="c3" x="-1" y="0" z="1" color="red" />
+      <block id="c4" x="-2" y="0" z="1" color="red" />
+      <block id="c5" x="-2" y="0" z="0" color="red" />
+      <block id="c6" x="-2" y="0" z="-1" color="red" />
+      <block id="c7" x="-2" y="0" z="-2" color="red" />
+      <block id="c8" x="1" y="1" z="1" color="orange" />
+      <block id="c9" x="1" y="1" z="0" color="orange" />
+      <block id="d0" x="1" y="1" z="-1" color="orange" />
+      <block id="d1" x="1" y="1" z="-2" color="orange" />
+      <block id="d2" x="0" y="1" z="1" color="orange" />
+      <block id="d3" x="-1" y="1" z="1" color="orange" />
+      <block id="d4" x="-2" y="1" z="1" color="orange" />
+      <block id="d5" x="0" y="1" z="0" color="orange" />
+      <block id="d6" x="-1" y="1" z="0" color="orange" />
+      <block id="d7" x="-2" y="1" z="0" color="orange" />
+      <block id="d8" x="0" y="1" z="-1" color="orange" />
+      <block id="d9" x="-1" y="1" z="-1" color="orange" />
+      <block id="e0" x="-2" y="1" z="-1" color="orange" />
+      <block id="e1" x="0" y="1" z="-2" color="orange" />
+      <block id="e2" x="-1" y="1" z="-2" color="orange" />
+      <block id="e3" x="-2" y="1" z="-2" color="orange" />
+      <block id="f6" x="1" y="2" z="1" color="yellow" />
+      <block id="f7" x="0" y="2" z="1" color="yellow" />
+      <block id="f8" x="-1" y="2" z="1" color="yellow" />
+      <block id="f9" x="-2" y="2" z="1" color="yellow" />
+      <block id="g0" x="-2" y="2" z="0" color="yellow" />
+      <block id="g1" x="1" y="2" z="0" color="yellow" />
+      <block id="g2" x="0" y="2" z="0" color="yellow" />
+      <block id="g3" x="-1" y="2" z="0" color="yellow" />
+      <block id="g4" x="-2" y="2" z="-1" color="yellow" />
+      <block id="g5" x="-1" y="2" z="-1" color="yellow" />
+      <block id="g6" x="0" y="2" z="-1" color="yellow" />
+      <block id="g7" x="0" y="2" z="-2" color="yellow" />
+      <block id="g8" x="1" y="2" z="-1" color="yellow" />
+      <block id="g9" x="1" y="2" z="-2" color="yellow" />
+      <block id="h0" x="-2" y="2" z="-2" color="yellow" />
+      <block id="h1" x="-1" y="2" z="-2" color="yellow" />
+      <block id="i1" x="-2" y="3" z="0" color="green" />
+      <block id="j8" x="0" y="4" z="-2" color="blue" />
+      <block id="l9" x="-1" y="5" z="-2" color="purple" />
+      <block id="m1" x="-2" y="4" z="-1" color="blue" />
+      <block id="m2" x="1" y="3" z="-1" color="green" />
+    </world_state>
     <!--there ?-->
     <markable id="markable_360" ambiguity="unambiguous" category="space" gender="neuter" generic="operator-question" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="sing" person="per3" reference="new" related_object="yes" related_phrase="markable_358" related_rel="undersp-rel" span="(560, 561)" related_phrase_cluster="related_phrase_3">
       <t>there</t>
     </markable>
     <t>?</t>
   </utterance>
-  <utterance participant="architect">yep !<!--yep !-->
+  <utterance participant="architect" imageview="images/b3-a16-c20-1523400381488_231.png" amr="assertion">yep !<world_state>
+      <block id="a0" x="0" y="0" z="-1" color="red" />
+      <block id="a1" x="-1" y="0" z="-1" color="red" />
+      <block id="a2" x="1" y="0" z="-1" color="red" />
+      <block id="a3" x="1" y="0" z="-2" color="red" />
+      <block id="a4" x="-1" y="0" z="-2" color="red" />
+      <block id="a5" x="0" y="0" z="-2" color="red" />
+      <block id="a6" x="-1" y="0" z="0" color="red" />
+      <block id="a7" x="0" y="0" z="0" color="red" />
+      <block id="a8" x="1" y="0" z="0" color="red" />
+      <block id="c1" x="1" y="0" z="1" color="red" />
+      <block id="c2" x="0" y="0" z="1" color="red" />
+      <block id="c3" x="-1" y="0" z="1" color="red" />
+      <block id="c4" x="-2" y="0" z="1" color="red" />
+      <block id="c5" x="-2" y="0" z="0" color="red" />
+      <block id="c6" x="-2" y="0" z="-1" color="red" />
+      <block id="c7" x="-2" y="0" z="-2" color="red" />
+      <block id="c8" x="1" y="1" z="1" color="orange" />
+      <block id="c9" x="1" y="1" z="0" color="orange" />
+      <block id="d0" x="1" y="1" z="-1" color="orange" />
+      <block id="d1" x="1" y="1" z="-2" color="orange" />
+      <block id="d2" x="0" y="1" z="1" color="orange" />
+      <block id="d3" x="-1" y="1" z="1" color="orange" />
+      <block id="d4" x="-2" y="1" z="1" color="orange" />
+      <block id="d5" x="0" y="1" z="0" color="orange" />
+      <block id="d6" x="-1" y="1" z="0" color="orange" />
+      <block id="d7" x="-2" y="1" z="0" color="orange" />
+      <block id="d8" x="0" y="1" z="-1" color="orange" />
+      <block id="d9" x="-1" y="1" z="-1" color="orange" />
+      <block id="e0" x="-2" y="1" z="-1" color="orange" />
+      <block id="e1" x="0" y="1" z="-2" color="orange" />
+      <block id="e2" x="-1" y="1" z="-2" color="orange" />
+      <block id="e3" x="-2" y="1" z="-2" color="orange" />
+      <block id="f6" x="1" y="2" z="1" color="yellow" />
+      <block id="f7" x="0" y="2" z="1" color="yellow" />
+      <block id="f8" x="-1" y="2" z="1" color="yellow" />
+      <block id="f9" x="-2" y="2" z="1" color="yellow" />
+      <block id="g0" x="-2" y="2" z="0" color="yellow" />
+      <block id="g1" x="1" y="2" z="0" color="yellow" />
+      <block id="g2" x="0" y="2" z="0" color="yellow" />
+      <block id="g3" x="-1" y="2" z="0" color="yellow" />
+      <block id="g4" x="-2" y="2" z="-1" color="yellow" />
+      <block id="g5" x="-1" y="2" z="-1" color="yellow" />
+      <block id="g6" x="0" y="2" z="-1" color="yellow" />
+      <block id="g7" x="0" y="2" z="-2" color="yellow" />
+      <block id="g8" x="1" y="2" z="-1" color="yellow" />
+      <block id="g9" x="1" y="2" z="-2" color="yellow" />
+      <block id="h0" x="-2" y="2" z="-2" color="yellow" />
+      <block id="h1" x="-1" y="2" z="-2" color="yellow" />
+      <block id="i1" x="-2" y="3" z="0" color="green" />
+      <block id="j8" x="0" y="4" z="-2" color="blue" />
+      <block id="l9" x="-1" y="5" z="-2" color="purple" />
+      <block id="m1" x="-2" y="4" z="-1" color="blue" />
+      <block id="m2" x="1" y="3" z="-1" color="green" />
+    </world_state>
+    <!--yep !-->
   </utterance>
-  <utterance participant="architect">okay<!--okay-->
+  <utterance participant="architect" amr="assertion">okay<!--okay-->
   </utterance>
   <utterance participant="builder">,<!--,-->
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" imageview="images/b3-a16-c20-1523400381488_232.png" amr="command">
+    <world_state>
+      <block id="a0" x="0" y="0" z="-1" color="red" />
+      <block id="a1" x="-1" y="0" z="-1" color="red" />
+      <block id="a2" x="1" y="0" z="-1" color="red" />
+      <block id="a3" x="1" y="0" z="-2" color="red" />
+      <block id="a4" x="-1" y="0" z="-2" color="red" />
+      <block id="a5" x="0" y="0" z="-2" color="red" />
+      <block id="a6" x="-1" y="0" z="0" color="red" />
+      <block id="a7" x="0" y="0" z="0" color="red" />
+      <block id="a8" x="1" y="0" z="0" color="red" />
+      <block id="c1" x="1" y="0" z="1" color="red" />
+      <block id="c2" x="0" y="0" z="1" color="red" />
+      <block id="c3" x="-1" y="0" z="1" color="red" />
+      <block id="c4" x="-2" y="0" z="1" color="red" />
+      <block id="c5" x="-2" y="0" z="0" color="red" />
+      <block id="c6" x="-2" y="0" z="-1" color="red" />
+      <block id="c7" x="-2" y="0" z="-2" color="red" />
+      <block id="c8" x="1" y="1" z="1" color="orange" />
+      <block id="c9" x="1" y="1" z="0" color="orange" />
+      <block id="d0" x="1" y="1" z="-1" color="orange" />
+      <block id="d1" x="1" y="1" z="-2" color="orange" />
+      <block id="d2" x="0" y="1" z="1" color="orange" />
+      <block id="d3" x="-1" y="1" z="1" color="orange" />
+      <block id="d4" x="-2" y="1" z="1" color="orange" />
+      <block id="d5" x="0" y="1" z="0" color="orange" />
+      <block id="d6" x="-1" y="1" z="0" color="orange" />
+      <block id="d7" x="-2" y="1" z="0" color="orange" />
+      <block id="d8" x="0" y="1" z="-1" color="orange" />
+      <block id="d9" x="-1" y="1" z="-1" color="orange" />
+      <block id="e0" x="-2" y="1" z="-1" color="orange" />
+      <block id="e1" x="0" y="1" z="-2" color="orange" />
+      <block id="e2" x="-1" y="1" z="-2" color="orange" />
+      <block id="e3" x="-2" y="1" z="-2" color="orange" />
+      <block id="f6" x="1" y="2" z="1" color="yellow" />
+      <block id="f7" x="0" y="2" z="1" color="yellow" />
+      <block id="f8" x="-1" y="2" z="1" color="yellow" />
+      <block id="f9" x="-2" y="2" z="1" color="yellow" />
+      <block id="g0" x="-2" y="2" z="0" color="yellow" />
+      <block id="g1" x="1" y="2" z="0" color="yellow" />
+      <block id="g2" x="0" y="2" z="0" color="yellow" />
+      <block id="g3" x="-1" y="2" z="0" color="yellow" />
+      <block id="g4" x="-2" y="2" z="-1" color="yellow" />
+      <block id="g5" x="-1" y="2" z="-1" color="yellow" />
+      <block id="g6" x="0" y="2" z="-1" color="yellow" />
+      <block id="g7" x="0" y="2" z="-2" color="yellow" />
+      <block id="g8" x="1" y="2" z="-1" color="yellow" />
+      <block id="g9" x="1" y="2" z="-2" color="yellow" />
+      <block id="h0" x="-2" y="2" z="-2" color="yellow" />
+      <block id="h1" x="-1" y="2" z="-2" color="yellow" />
+      <block id="i1" x="-2" y="3" z="0" color="green" />
+      <block id="j8" x="0" y="4" z="-2" color="blue" />
+      <block id="l9" x="-1" y="5" z="-2" color="purple" />
+      <block id="m1" x="-2" y="4" z="-1" color="blue" />
+      <block id="m2" x="1" y="3" z="-1" color="green" />
+    </world_state>
     <!--now remove all the yellow except two : the one directly in front of the green block on your right , and the yellow block in front of and space to the right of the green block on the left side-->
     <markable id="markable_361" ambiguity="unambiguous" category="time" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="sing" person="per3" reference="new" related_object="no" span="(566, 567)">
       <t>now</t>
@@ -733,7 +2740,48 @@
       <t>removed yellow@0,2,0 removed yellow@0,2,1 removed yellow@1,2,1 removed yellow@-2,2,1 removed yellow@-1,2,1 removed yellow@-2,2,0 removed yellow@-1,2,-1 removed yellow@0,2,-1 removed yellow@-2,2,-1 removed yellow@-2,2,-2 removed yellow@-1,2,-2 removed yellow@0,2,-2 removed yellow@1,2,-2 removed yellow@1,2,-1</t>
     </markable>
   </utterance>
-  <utterance participant="builder">
+  <utterance participant="builder" imageview="images/b3-a16-c20-1523400381488_247.png" amr="question">
+    <world_state>
+      <block id="a0" x="0" y="0" z="-1" color="red" />
+      <block id="a1" x="-1" y="0" z="-1" color="red" />
+      <block id="a2" x="1" y="0" z="-1" color="red" />
+      <block id="a3" x="1" y="0" z="-2" color="red" />
+      <block id="a4" x="-1" y="0" z="-2" color="red" />
+      <block id="a5" x="0" y="0" z="-2" color="red" />
+      <block id="a6" x="-1" y="0" z="0" color="red" />
+      <block id="a7" x="0" y="0" z="0" color="red" />
+      <block id="a8" x="1" y="0" z="0" color="red" />
+      <block id="c1" x="1" y="0" z="1" color="red" />
+      <block id="c2" x="0" y="0" z="1" color="red" />
+      <block id="c3" x="-1" y="0" z="1" color="red" />
+      <block id="c4" x="-2" y="0" z="1" color="red" />
+      <block id="c5" x="-2" y="0" z="0" color="red" />
+      <block id="c6" x="-2" y="0" z="-1" color="red" />
+      <block id="c7" x="-2" y="0" z="-2" color="red" />
+      <block id="c8" x="1" y="1" z="1" color="orange" />
+      <block id="c9" x="1" y="1" z="0" color="orange" />
+      <block id="d0" x="1" y="1" z="-1" color="orange" />
+      <block id="d1" x="1" y="1" z="-2" color="orange" />
+      <block id="d2" x="0" y="1" z="1" color="orange" />
+      <block id="d3" x="-1" y="1" z="1" color="orange" />
+      <block id="d4" x="-2" y="1" z="1" color="orange" />
+      <block id="d5" x="0" y="1" z="0" color="orange" />
+      <block id="d6" x="-1" y="1" z="0" color="orange" />
+      <block id="d7" x="-2" y="1" z="0" color="orange" />
+      <block id="d8" x="0" y="1" z="-1" color="orange" />
+      <block id="d9" x="-1" y="1" z="-1" color="orange" />
+      <block id="e0" x="-2" y="1" z="-1" color="orange" />
+      <block id="e1" x="0" y="1" z="-2" color="orange" />
+      <block id="e2" x="-1" y="1" z="-2" color="orange" />
+      <block id="e3" x="-2" y="1" z="-2" color="orange" />
+      <block id="g1" x="1" y="2" z="0" color="yellow" />
+      <block id="g3" x="-1" y="2" z="0" color="yellow" />
+      <block id="i1" x="-2" y="3" z="0" color="green" />
+      <block id="j8" x="0" y="4" z="-2" color="blue" />
+      <block id="l9" x="-1" y="5" z="-2" color="purple" />
+      <block id="m1" x="-2" y="4" z="-1" color="blue" />
+      <block id="m2" x="1" y="3" z="-1" color="green" />
+    </world_state>
     <!--like that ?-->
     <t>like</t>
     <markable id="markable_364" ambiguity="unambiguous" category="abstract" gender="neuter" generic="operator-question" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="sing" person="per3" ref_type="segment" reference="old" related_object="no" segment_antecedent="markable_428" span="(622, 623)" segment_antecedent_cluster="segment_antecedent_3">
@@ -741,9 +2789,91 @@
     </markable>
     <t>?</t>
   </utterance>
-  <utterance participant="architect">almost !<!--almost !-->
+  <utterance participant="architect" imageview="images/b3-a16-c20-1523400381488_248.png" amr="assertion">almost !<world_state>
+      <block id="a0" x="0" y="0" z="-1" color="red" />
+      <block id="a1" x="-1" y="0" z="-1" color="red" />
+      <block id="a2" x="1" y="0" z="-1" color="red" />
+      <block id="a3" x="1" y="0" z="-2" color="red" />
+      <block id="a4" x="-1" y="0" z="-2" color="red" />
+      <block id="a5" x="0" y="0" z="-2" color="red" />
+      <block id="a6" x="-1" y="0" z="0" color="red" />
+      <block id="a7" x="0" y="0" z="0" color="red" />
+      <block id="a8" x="1" y="0" z="0" color="red" />
+      <block id="c1" x="1" y="0" z="1" color="red" />
+      <block id="c2" x="0" y="0" z="1" color="red" />
+      <block id="c3" x="-1" y="0" z="1" color="red" />
+      <block id="c4" x="-2" y="0" z="1" color="red" />
+      <block id="c5" x="-2" y="0" z="0" color="red" />
+      <block id="c6" x="-2" y="0" z="-1" color="red" />
+      <block id="c7" x="-2" y="0" z="-2" color="red" />
+      <block id="c8" x="1" y="1" z="1" color="orange" />
+      <block id="c9" x="1" y="1" z="0" color="orange" />
+      <block id="d0" x="1" y="1" z="-1" color="orange" />
+      <block id="d1" x="1" y="1" z="-2" color="orange" />
+      <block id="d2" x="0" y="1" z="1" color="orange" />
+      <block id="d3" x="-1" y="1" z="1" color="orange" />
+      <block id="d4" x="-2" y="1" z="1" color="orange" />
+      <block id="d5" x="0" y="1" z="0" color="orange" />
+      <block id="d6" x="-1" y="1" z="0" color="orange" />
+      <block id="d7" x="-2" y="1" z="0" color="orange" />
+      <block id="d8" x="0" y="1" z="-1" color="orange" />
+      <block id="d9" x="-1" y="1" z="-1" color="orange" />
+      <block id="e0" x="-2" y="1" z="-1" color="orange" />
+      <block id="e1" x="0" y="1" z="-2" color="orange" />
+      <block id="e2" x="-1" y="1" z="-2" color="orange" />
+      <block id="e3" x="-2" y="1" z="-2" color="orange" />
+      <block id="g1" x="1" y="2" z="0" color="yellow" />
+      <block id="g3" x="-1" y="2" z="0" color="yellow" />
+      <block id="i1" x="-2" y="3" z="0" color="green" />
+      <block id="j8" x="0" y="4" z="-2" color="blue" />
+      <block id="l9" x="-1" y="5" z="-2" color="purple" />
+      <block id="m1" x="-2" y="4" z="-1" color="blue" />
+      <block id="m2" x="1" y="3" z="-1" color="green" />
+    </world_state>
+    <!--almost !-->
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" imageview="images/b3-a16-c20-1523400381488_249.png" amr="assertion">
+    <world_state>
+      <block id="a0" x="0" y="0" z="-1" color="red" />
+      <block id="a1" x="-1" y="0" z="-1" color="red" />
+      <block id="a2" x="1" y="0" z="-1" color="red" />
+      <block id="a3" x="1" y="0" z="-2" color="red" />
+      <block id="a4" x="-1" y="0" z="-2" color="red" />
+      <block id="a5" x="0" y="0" z="-2" color="red" />
+      <block id="a6" x="-1" y="0" z="0" color="red" />
+      <block id="a7" x="0" y="0" z="0" color="red" />
+      <block id="a8" x="1" y="0" z="0" color="red" />
+      <block id="c1" x="1" y="0" z="1" color="red" />
+      <block id="c2" x="0" y="0" z="1" color="red" />
+      <block id="c3" x="-1" y="0" z="1" color="red" />
+      <block id="c4" x="-2" y="0" z="1" color="red" />
+      <block id="c5" x="-2" y="0" z="0" color="red" />
+      <block id="c6" x="-2" y="0" z="-1" color="red" />
+      <block id="c7" x="-2" y="0" z="-2" color="red" />
+      <block id="c8" x="1" y="1" z="1" color="orange" />
+      <block id="c9" x="1" y="1" z="0" color="orange" />
+      <block id="d0" x="1" y="1" z="-1" color="orange" />
+      <block id="d1" x="1" y="1" z="-2" color="orange" />
+      <block id="d2" x="0" y="1" z="1" color="orange" />
+      <block id="d3" x="-1" y="1" z="1" color="orange" />
+      <block id="d4" x="-2" y="1" z="1" color="orange" />
+      <block id="d5" x="0" y="1" z="0" color="orange" />
+      <block id="d6" x="-1" y="1" z="0" color="orange" />
+      <block id="d7" x="-2" y="1" z="0" color="orange" />
+      <block id="d8" x="0" y="1" z="-1" color="orange" />
+      <block id="d9" x="-1" y="1" z="-1" color="orange" />
+      <block id="e0" x="-2" y="1" z="-1" color="orange" />
+      <block id="e1" x="0" y="1" z="-2" color="orange" />
+      <block id="e2" x="-1" y="1" z="-2" color="orange" />
+      <block id="e3" x="-2" y="1" z="-2" color="orange" />
+      <block id="g1" x="1" y="2" z="0" color="yellow" />
+      <block id="g3" x="-1" y="2" z="0" color="yellow" />
+      <block id="i1" x="-2" y="3" z="0" color="green" />
+      <block id="j8" x="0" y="4" z="-2" color="blue" />
+      <block id="l9" x="-1" y="5" z="-2" color="purple" />
+      <block id="m1" x="-2" y="4" z="-1" color="blue" />
+      <block id="m2" x="1" y="3" z="-1" color="green" />
+    </world_state>
     <!--the yellow block on the left should be moved one space closer to you-->
     <markable id="markable_382" ambiguity="unambiguous" category="concrete" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="sing" person="per3" phrase_antecedent="single_phrase" ref_type="phrase" reference="old" related_object="no" single_phrase_antecedent="markable_366" span="(626, 632)" single_phrase_antecedent_cluster="single_phrase_antecedent_14">
       <t>the</t>
@@ -768,7 +2898,48 @@
   </utterance>
   <utterance participant="builder">removed yellow@-1,2,0 added yellow@-1,2,1<!--removed yellow@-1,2,0 added yellow@-1,2,1-->
   </utterance>
-  <utterance participant="builder">
+  <utterance participant="builder" imageview="images/b3-a16-c20-1523400381488_252.png" amr="mistake">
+    <world_state>
+      <block id="a0" x="0" y="0" z="-1" color="red" />
+      <block id="a1" x="-1" y="0" z="-1" color="red" />
+      <block id="a2" x="1" y="0" z="-1" color="red" />
+      <block id="a3" x="1" y="0" z="-2" color="red" />
+      <block id="a4" x="-1" y="0" z="-2" color="red" />
+      <block id="a5" x="0" y="0" z="-2" color="red" />
+      <block id="a6" x="-1" y="0" z="0" color="red" />
+      <block id="a7" x="0" y="0" z="0" color="red" />
+      <block id="a8" x="1" y="0" z="0" color="red" />
+      <block id="c1" x="1" y="0" z="1" color="red" />
+      <block id="c2" x="0" y="0" z="1" color="red" />
+      <block id="c3" x="-1" y="0" z="1" color="red" />
+      <block id="c4" x="-2" y="0" z="1" color="red" />
+      <block id="c5" x="-2" y="0" z="0" color="red" />
+      <block id="c6" x="-2" y="0" z="-1" color="red" />
+      <block id="c7" x="-2" y="0" z="-2" color="red" />
+      <block id="c8" x="1" y="1" z="1" color="orange" />
+      <block id="c9" x="1" y="1" z="0" color="orange" />
+      <block id="d0" x="1" y="1" z="-1" color="orange" />
+      <block id="d1" x="1" y="1" z="-2" color="orange" />
+      <block id="d2" x="0" y="1" z="1" color="orange" />
+      <block id="d3" x="-1" y="1" z="1" color="orange" />
+      <block id="d4" x="-2" y="1" z="1" color="orange" />
+      <block id="d5" x="0" y="1" z="0" color="orange" />
+      <block id="d6" x="-1" y="1" z="0" color="orange" />
+      <block id="d7" x="-2" y="1" z="0" color="orange" />
+      <block id="d8" x="0" y="1" z="-1" color="orange" />
+      <block id="d9" x="-1" y="1" z="-1" color="orange" />
+      <block id="e0" x="-2" y="1" z="-1" color="orange" />
+      <block id="e1" x="0" y="1" z="-2" color="orange" />
+      <block id="e2" x="-1" y="1" z="-2" color="orange" />
+      <block id="e3" x="-2" y="1" z="-2" color="orange" />
+      <block id="g1" x="1" y="2" z="0" color="yellow" />
+      <block id="i1" x="-2" y="3" z="0" color="green" />
+      <block id="j8" x="0" y="4" z="-2" color="blue" />
+      <block id="l9" x="-1" y="5" z="-2" color="purple" />
+      <block id="m1" x="-2" y="4" z="-1" color="blue" />
+      <block id="m2" x="1" y="3" z="-1" color="green" />
+      <block id="m3" x="-1" y="2" z="1" color="yellow" />
+    </world_state>
     <!--ok sorry , i thought so but wanted to wait for confirmation-->
     <t>ok sorry ,</t>
     <markable id="markable_388" ambiguity="unambiguous" category="person" gender="unspecified" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="sing" person="per1" phrase_antecedent="single_phrase" ref_type="phrase" reference="old" related_object="no" single_phrase_antecedent="markable_387" span="(645, 646)" single_phrase_antecedent_cluster="single_phrase_antecedent_1">
@@ -779,7 +2950,48 @@
       <t>confirmation</t>
     </markable>
   </utterance>
-  <utterance participant="builder">
+  <utterance participant="builder" imageview="images/b3-a16-c20-1523400381488_253.png" amr="assertion">
+    <world_state>
+      <block id="a0" x="0" y="0" z="-1" color="red" />
+      <block id="a1" x="-1" y="0" z="-1" color="red" />
+      <block id="a2" x="1" y="0" z="-1" color="red" />
+      <block id="a3" x="1" y="0" z="-2" color="red" />
+      <block id="a4" x="-1" y="0" z="-2" color="red" />
+      <block id="a5" x="0" y="0" z="-2" color="red" />
+      <block id="a6" x="-1" y="0" z="0" color="red" />
+      <block id="a7" x="0" y="0" z="0" color="red" />
+      <block id="a8" x="1" y="0" z="0" color="red" />
+      <block id="c1" x="1" y="0" z="1" color="red" />
+      <block id="c2" x="0" y="0" z="1" color="red" />
+      <block id="c3" x="-1" y="0" z="1" color="red" />
+      <block id="c4" x="-2" y="0" z="1" color="red" />
+      <block id="c5" x="-2" y="0" z="0" color="red" />
+      <block id="c6" x="-2" y="0" z="-1" color="red" />
+      <block id="c7" x="-2" y="0" z="-2" color="red" />
+      <block id="c8" x="1" y="1" z="1" color="orange" />
+      <block id="c9" x="1" y="1" z="0" color="orange" />
+      <block id="d0" x="1" y="1" z="-1" color="orange" />
+      <block id="d1" x="1" y="1" z="-2" color="orange" />
+      <block id="d2" x="0" y="1" z="1" color="orange" />
+      <block id="d3" x="-1" y="1" z="1" color="orange" />
+      <block id="d4" x="-2" y="1" z="1" color="orange" />
+      <block id="d5" x="0" y="1" z="0" color="orange" />
+      <block id="d6" x="-1" y="1" z="0" color="orange" />
+      <block id="d7" x="-2" y="1" z="0" color="orange" />
+      <block id="d8" x="0" y="1" z="-1" color="orange" />
+      <block id="d9" x="-1" y="1" z="-1" color="orange" />
+      <block id="e0" x="-2" y="1" z="-1" color="orange" />
+      <block id="e1" x="0" y="1" z="-2" color="orange" />
+      <block id="e2" x="-1" y="1" z="-2" color="orange" />
+      <block id="e3" x="-2" y="1" z="-2" color="orange" />
+      <block id="g1" x="1" y="2" z="0" color="yellow" />
+      <block id="i1" x="-2" y="3" z="0" color="green" />
+      <block id="j8" x="0" y="4" z="-2" color="blue" />
+      <block id="l9" x="-1" y="5" z="-2" color="purple" />
+      <block id="m1" x="-2" y="4" z="-1" color="blue" />
+      <block id="m2" x="1" y="3" z="-1" color="green" />
+      <block id="m3" x="-1" y="2" z="1" color="yellow" />
+    </world_state>
     <!--on to the next one !-->
     <t>on to</t>
     <markable id="markable_390" ambiguity="unambiguous" category="abstract" gender="neuter" generic="operator-modal" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="sing" person="per3" reference="new" related_object="yes" related_phrase="markable_329" related_rel="undersp-rel" span="(656, 659)" related_phrase_cluster="related_phrase_1">
@@ -787,9 +2999,91 @@
     </markable>
     <t>!</t>
   </utterance>
-  <utterance participant="architect">great !<!--great !-->
+  <utterance participant="architect" imageview="images/b3-a16-c20-1523400381488_254.png" amr="assertion">great !<world_state>
+      <block id="a0" x="0" y="0" z="-1" color="red" />
+      <block id="a1" x="-1" y="0" z="-1" color="red" />
+      <block id="a2" x="1" y="0" z="-1" color="red" />
+      <block id="a3" x="1" y="0" z="-2" color="red" />
+      <block id="a4" x="-1" y="0" z="-2" color="red" />
+      <block id="a5" x="0" y="0" z="-2" color="red" />
+      <block id="a6" x="-1" y="0" z="0" color="red" />
+      <block id="a7" x="0" y="0" z="0" color="red" />
+      <block id="a8" x="1" y="0" z="0" color="red" />
+      <block id="c1" x="1" y="0" z="1" color="red" />
+      <block id="c2" x="0" y="0" z="1" color="red" />
+      <block id="c3" x="-1" y="0" z="1" color="red" />
+      <block id="c4" x="-2" y="0" z="1" color="red" />
+      <block id="c5" x="-2" y="0" z="0" color="red" />
+      <block id="c6" x="-2" y="0" z="-1" color="red" />
+      <block id="c7" x="-2" y="0" z="-2" color="red" />
+      <block id="c8" x="1" y="1" z="1" color="orange" />
+      <block id="c9" x="1" y="1" z="0" color="orange" />
+      <block id="d0" x="1" y="1" z="-1" color="orange" />
+      <block id="d1" x="1" y="1" z="-2" color="orange" />
+      <block id="d2" x="0" y="1" z="1" color="orange" />
+      <block id="d3" x="-1" y="1" z="1" color="orange" />
+      <block id="d4" x="-2" y="1" z="1" color="orange" />
+      <block id="d5" x="0" y="1" z="0" color="orange" />
+      <block id="d6" x="-1" y="1" z="0" color="orange" />
+      <block id="d7" x="-2" y="1" z="0" color="orange" />
+      <block id="d8" x="0" y="1" z="-1" color="orange" />
+      <block id="d9" x="-1" y="1" z="-1" color="orange" />
+      <block id="e0" x="-2" y="1" z="-1" color="orange" />
+      <block id="e1" x="0" y="1" z="-2" color="orange" />
+      <block id="e2" x="-1" y="1" z="-2" color="orange" />
+      <block id="e3" x="-2" y="1" z="-2" color="orange" />
+      <block id="g1" x="1" y="2" z="0" color="yellow" />
+      <block id="i1" x="-2" y="3" z="0" color="green" />
+      <block id="j8" x="0" y="4" z="-2" color="blue" />
+      <block id="l9" x="-1" y="5" z="-2" color="purple" />
+      <block id="m1" x="-2" y="4" z="-1" color="blue" />
+      <block id="m2" x="1" y="3" z="-1" color="green" />
+      <block id="m3" x="-1" y="2" z="1" color="yellow" />
+    </world_state>
+    <!--great !-->
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" imageview="images/b3-a16-c20-1523400381488_255.png" amr="assertion">
+    <world_state>
+      <block id="a0" x="0" y="0" z="-1" color="red" />
+      <block id="a1" x="-1" y="0" z="-1" color="red" />
+      <block id="a2" x="1" y="0" z="-1" color="red" />
+      <block id="a3" x="1" y="0" z="-2" color="red" />
+      <block id="a4" x="-1" y="0" z="-2" color="red" />
+      <block id="a5" x="0" y="0" z="-2" color="red" />
+      <block id="a6" x="-1" y="0" z="0" color="red" />
+      <block id="a7" x="0" y="0" z="0" color="red" />
+      <block id="a8" x="1" y="0" z="0" color="red" />
+      <block id="c1" x="1" y="0" z="1" color="red" />
+      <block id="c2" x="0" y="0" z="1" color="red" />
+      <block id="c3" x="-1" y="0" z="1" color="red" />
+      <block id="c4" x="-2" y="0" z="1" color="red" />
+      <block id="c5" x="-2" y="0" z="0" color="red" />
+      <block id="c6" x="-2" y="0" z="-1" color="red" />
+      <block id="c7" x="-2" y="0" z="-2" color="red" />
+      <block id="c8" x="1" y="1" z="1" color="orange" />
+      <block id="c9" x="1" y="1" z="0" color="orange" />
+      <block id="d0" x="1" y="1" z="-1" color="orange" />
+      <block id="d1" x="1" y="1" z="-2" color="orange" />
+      <block id="d2" x="0" y="1" z="1" color="orange" />
+      <block id="d3" x="-1" y="1" z="1" color="orange" />
+      <block id="d4" x="-2" y="1" z="1" color="orange" />
+      <block id="d5" x="0" y="1" z="0" color="orange" />
+      <block id="d6" x="-1" y="1" z="0" color="orange" />
+      <block id="d7" x="-2" y="1" z="0" color="orange" />
+      <block id="d8" x="0" y="1" z="-1" color="orange" />
+      <block id="d9" x="-1" y="1" z="-1" color="orange" />
+      <block id="e0" x="-2" y="1" z="-1" color="orange" />
+      <block id="e1" x="0" y="1" z="-2" color="orange" />
+      <block id="e2" x="-1" y="1" z="-2" color="orange" />
+      <block id="e3" x="-2" y="1" z="-2" color="orange" />
+      <block id="g1" x="1" y="2" z="0" color="yellow" />
+      <block id="i1" x="-2" y="3" z="0" color="green" />
+      <block id="j8" x="0" y="4" z="-2" color="blue" />
+      <block id="l9" x="-1" y="5" z="-2" color="purple" />
+      <block id="m1" x="-2" y="4" z="-1" color="blue" />
+      <block id="m2" x="1" y="3" z="-1" color="green" />
+      <block id="m3" x="-1" y="2" z="1" color="yellow" />
+    </world_state>
     <!--now we want to remove all of the orange blocks except ONE : the orange block that is to the right of the yellow block on the edge closest to you right now-->
     <markable id="markable_392" ambiguity="unambiguous" category="time" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="sing" person="per3" reference="new" related_object="no" span="(662, 663)">
       <t>now</t>
@@ -841,7 +3135,43 @@
   </utterance>
   <utterance participant="builder">removed orange@-1,1,1 removed orange@1,1,1 removed orange@-1,1,0 removed orange@0,1,0 removed orange@1,1,0<!--removed orange@-1,1,1 removed orange@1,1,1 removed orange@-1,1,0 removed orange@0,1,0 removed orange@1,1,0-->
   </utterance>
-  <utterance participant="builder">
+  <utterance participant="builder" imageview="images/b3-a16-c20-1523400381488_261.png" amr="question">
+    <world_state>
+      <block id="a0" x="0" y="0" z="-1" color="red" />
+      <block id="a1" x="-1" y="0" z="-1" color="red" />
+      <block id="a2" x="1" y="0" z="-1" color="red" />
+      <block id="a3" x="1" y="0" z="-2" color="red" />
+      <block id="a4" x="-1" y="0" z="-2" color="red" />
+      <block id="a5" x="0" y="0" z="-2" color="red" />
+      <block id="a6" x="-1" y="0" z="0" color="red" />
+      <block id="a7" x="0" y="0" z="0" color="red" />
+      <block id="a8" x="1" y="0" z="0" color="red" />
+      <block id="c1" x="1" y="0" z="1" color="red" />
+      <block id="c2" x="0" y="0" z="1" color="red" />
+      <block id="c3" x="-1" y="0" z="1" color="red" />
+      <block id="c4" x="-2" y="0" z="1" color="red" />
+      <block id="c5" x="-2" y="0" z="0" color="red" />
+      <block id="c6" x="-2" y="0" z="-1" color="red" />
+      <block id="c7" x="-2" y="0" z="-2" color="red" />
+      <block id="d0" x="1" y="1" z="-1" color="orange" />
+      <block id="d1" x="1" y="1" z="-2" color="orange" />
+      <block id="d2" x="0" y="1" z="1" color="orange" />
+      <block id="d4" x="-2" y="1" z="1" color="orange" />
+      <block id="d7" x="-2" y="1" z="0" color="orange" />
+      <block id="d8" x="0" y="1" z="-1" color="orange" />
+      <block id="d9" x="-1" y="1" z="-1" color="orange" />
+      <block id="e0" x="-2" y="1" z="-1" color="orange" />
+      <block id="e1" x="0" y="1" z="-2" color="orange" />
+      <block id="e2" x="-1" y="1" z="-2" color="orange" />
+      <block id="e3" x="-2" y="1" z="-2" color="orange" />
+      <block id="g1" x="1" y="2" z="0" color="yellow" />
+      <block id="i1" x="-2" y="3" z="0" color="green" />
+      <block id="j8" x="0" y="4" z="-2" color="blue" />
+      <block id="l9" x="-1" y="5" z="-2" color="purple" />
+      <block id="m1" x="-2" y="4" z="-1" color="blue" />
+      <block id="m2" x="1" y="3" z="-1" color="green" />
+      <block id="m3" x="-1" y="2" z="1" color="yellow" />
+    </world_state>
     <!--that one ?-->
     <markable id="markable_405" ambiguity="unambiguous" category="concrete" gender="neuter" generic="operator-question" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="sing" person="per3" phrase_antecedent="single_phrase" ref_type="phrase" reference="old" related_object="no" single_phrase_antecedent="markable_397" span="(700, 702)" single_phrase_antecedent_cluster="single_phrase_antecedent_24">
       <t>that one</t>
@@ -850,7 +3180,33 @@
   </utterance>
   <utterance participant="builder">removed orange@-2,1,1 removed orange@-2,1,0 removed orange@-1,1,-1 removed orange@1,1,-2 removed orange@1,1,-1 removed orange@0,1,-1 removed orange@0,1,-2 removed orange@-1,1,-2 removed orange@-2,1,-2 removed orange@-2,1,-1<!--removed orange@-2,1,1 removed orange@-2,1,0 removed orange@-1,1,-1 removed orange@1,1,-2 removed orange@1,1,-1 removed orange@0,1,-1 removed orange@0,1,-2 removed orange@-1,1,-2 removed orange@-2,1,-2 removed orange@-2,1,-1-->
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" imageview="images/b3-a16-c20-1523400381488_272.png" amr="assertion">
+    <world_state>
+      <block id="a0" x="0" y="0" z="-1" color="red" />
+      <block id="a1" x="-1" y="0" z="-1" color="red" />
+      <block id="a2" x="1" y="0" z="-1" color="red" />
+      <block id="a3" x="1" y="0" z="-2" color="red" />
+      <block id="a4" x="-1" y="0" z="-2" color="red" />
+      <block id="a5" x="0" y="0" z="-2" color="red" />
+      <block id="a6" x="-1" y="0" z="0" color="red" />
+      <block id="a7" x="0" y="0" z="0" color="red" />
+      <block id="a8" x="1" y="0" z="0" color="red" />
+      <block id="c1" x="1" y="0" z="1" color="red" />
+      <block id="c2" x="0" y="0" z="1" color="red" />
+      <block id="c3" x="-1" y="0" z="1" color="red" />
+      <block id="c4" x="-2" y="0" z="1" color="red" />
+      <block id="c5" x="-2" y="0" z="0" color="red" />
+      <block id="c6" x="-2" y="0" z="-1" color="red" />
+      <block id="c7" x="-2" y="0" z="-2" color="red" />
+      <block id="d2" x="0" y="1" z="1" color="orange" />
+      <block id="g1" x="1" y="2" z="0" color="yellow" />
+      <block id="i1" x="-2" y="3" z="0" color="green" />
+      <block id="j8" x="0" y="4" z="-2" color="blue" />
+      <block id="l9" x="-1" y="5" z="-2" color="purple" />
+      <block id="m1" x="-2" y="4" z="-1" color="blue" />
+      <block id="m2" x="1" y="3" z="-1" color="green" />
+      <block id="m3" x="-1" y="2" z="1" color="yellow" />
+    </world_state>
     <!--yeah ! great job !-->
     <t>yeah !</t>
     <markable id="markable_406" ambiguity="unambiguous" category="abstract" gender="neuter" generic="operator-question" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="sing" person="per3" reference="new" related_object="no" span="(715, 717)">
@@ -858,7 +3214,33 @@
     </markable>
     <t>!</t>
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" imageview="images/b3-a16-c20-1523400381488_273.png" amr="assertion">
+    <world_state>
+      <block id="a0" x="0" y="0" z="-1" color="red" />
+      <block id="a1" x="-1" y="0" z="-1" color="red" />
+      <block id="a2" x="1" y="0" z="-1" color="red" />
+      <block id="a3" x="1" y="0" z="-2" color="red" />
+      <block id="a4" x="-1" y="0" z="-2" color="red" />
+      <block id="a5" x="0" y="0" z="-2" color="red" />
+      <block id="a6" x="-1" y="0" z="0" color="red" />
+      <block id="a7" x="0" y="0" z="0" color="red" />
+      <block id="a8" x="1" y="0" z="0" color="red" />
+      <block id="c1" x="1" y="0" z="1" color="red" />
+      <block id="c2" x="0" y="0" z="1" color="red" />
+      <block id="c3" x="-1" y="0" z="1" color="red" />
+      <block id="c4" x="-2" y="0" z="1" color="red" />
+      <block id="c5" x="-2" y="0" z="0" color="red" />
+      <block id="c6" x="-2" y="0" z="-1" color="red" />
+      <block id="c7" x="-2" y="0" z="-2" color="red" />
+      <block id="d2" x="0" y="1" z="1" color="orange" />
+      <block id="g1" x="1" y="2" z="0" color="yellow" />
+      <block id="i1" x="-2" y="3" z="0" color="green" />
+      <block id="j8" x="0" y="4" z="-2" color="blue" />
+      <block id="l9" x="-1" y="5" z="-2" color="purple" />
+      <block id="m1" x="-2" y="4" z="-1" color="blue" />
+      <block id="m2" x="1" y="3" z="-1" color="green" />
+      <block id="m3" x="-1" y="2" z="1" color="yellow" />
+    </world_state>
     <!--now we just remove all of the red except the one directly below the yellow on the edge nearest you again-->
     <markable id="markable_407" ambiguity="unambiguous" category="time" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="sing" person="per3" reference="new" related_object="no" span="(718, 719)">
       <t>now</t>
@@ -889,7 +3271,18 @@
   </utterance>
   <utterance participant="builder">removed red@-2,0,1 removed red@-2,0,0 removed red@-1,0,0 removed red@0,0,1 removed red@1,0,1 removed red@0,0,0 removed red@1,0,0 removed red@1,0,-1 removed red@0,0,-1 removed red@-1,0,-1 removed red@-1,0,-2 removed red@-2,0,-1 removed red@-2,0,-2 removed red@0,0,-2 removed red@1,0,-2<!--removed red@-2,0,1 removed red@-2,0,0 removed red@-1,0,0 removed red@0,0,1 removed red@1,0,1 removed red@0,0,0 removed red@1,0,0 removed red@1,0,-1 removed red@0,0,-1 removed red@-1,0,-1 removed red@-1,0,-2 removed red@-2,0,-1 removed red@-2,0,-2 removed red@0,0,-2 removed red@1,0,-2-->
   </utterance>
-  <utterance participant="builder">
+  <utterance participant="builder" imageview="images/b3-a16-c20-1523400381488_289.png" amr="question">
+    <world_state>
+      <block id="c3" x="-1" y="0" z="1" color="red" />
+      <block id="d2" x="0" y="1" z="1" color="orange" />
+      <block id="g1" x="1" y="2" z="0" color="yellow" />
+      <block id="i1" x="-2" y="3" z="0" color="green" />
+      <block id="j8" x="0" y="4" z="-2" color="blue" />
+      <block id="l9" x="-1" y="5" z="-2" color="purple" />
+      <block id="m1" x="-2" y="4" z="-1" color="blue" />
+      <block id="m2" x="1" y="3" z="-1" color="green" />
+      <block id="m3" x="-1" y="2" z="1" color="yellow" />
+    </world_state>
     <!--is it complete ?-->
     <t>is</t>
     <markable id="markable_415" ambiguity="unambiguous" category="concrete" gender="neuter" generic="operator-question" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="sing" person="per3" reference="new" related_object="yes" related_phrase="markable_390" related_rel="undersp-rel" span="(755, 756)" related_phrase_cluster="related_phrase_1">
@@ -897,7 +3290,18 @@
     </markable>
     <t>complete ?</t>
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" imageview="images/b3-a16-c20-1523400381488_290.png" amr="assertion">
+    <world_state>
+      <block id="c3" x="-1" y="0" z="1" color="red" />
+      <block id="d2" x="0" y="1" z="1" color="orange" />
+      <block id="g1" x="1" y="2" z="0" color="yellow" />
+      <block id="i1" x="-2" y="3" z="0" color="green" />
+      <block id="j8" x="0" y="4" z="-2" color="blue" />
+      <block id="l9" x="-1" y="5" z="-2" color="purple" />
+      <block id="m1" x="-2" y="4" z="-1" color="blue" />
+      <block id="m2" x="1" y="3" z="-1" color="green" />
+      <block id="m3" x="-1" y="2" z="1" color="yellow" />
+    </world_state>
     <!--yeah ! we we 're good-->
     <t>yeah !</t>
     <markable id="markable_416" ambiguity="unambiguous" category="person" gender="unspecified" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="plur" person="per1" phrase_antecedent="single_phrase" ref_type="phrase" reference="old" related_object="no" single_phrase_antecedent="markable_408" span="(760, 761)" single_phrase_antecedent_cluster="single_phrase_antecedent_19">

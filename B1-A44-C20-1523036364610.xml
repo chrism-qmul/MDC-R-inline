@@ -1,14 +1,14 @@
 <dialogue id="B1-A44-C20-1523036364610">
-  <utterance participant="builder">
+  <utterance participant="builder" imageview="images/b1-a44-c20-1523036364610_0.png" amr="assertion">
     <!--Mission has started .-->
     <markable id="markable_10" ambiguity="unambiguous" category="abstract" disagreement_type="no_disagreement" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_ids="word_0" min_words="mission" mmax_level="phrase" number="sing" order_id="10" person="per1" reference="new" related_object="no" span="(0, 1)" related_phrase_cluster="related_phrase_1">
       <t>Mission</t>
     </markable>
     <t>has started .</t>
   </utterance>
-  <utterance participant="builder">hello<!--hello-->
+  <utterance participant="builder" imageview="images/b1-a44-c20-1523036364610_1.png" amr="greeting">hello<!--hello-->
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" imageview="images/b1-a44-c20-1523036364610_2.png" amr="assertion">
     <!--ok this one is not 2 dimensional so its gon na be a bit challenging-->
     <t>ok</t>
     <markable id="markable_0" ambiguity="ambiguous" category="concrete" category_2="abstract" disagreement_type="no_disagreement" gender="neuter" generic="generic-no" generic_2="generic-no" gram_fnc="unmarked" mark_type="phrase" min_words="one" mmax_level="phrase" number="sing" object="" objectFull="[]" order_id="0" person="per3" phrase_antecedent_2="single_phrase" ref_type_2="phrase" reference="new" related_object="no" related_object_2="no" single_phrase_antecedent_2="markable_10" span="(6, 8)" single_phrase_antecedent_cluster="single_phrase_antecedent_3">
@@ -22,14 +22,14 @@
       <t>gon na be a bit challenging</t>
     </markable>
   </utterance>
-  <utterance participant="builder">
+  <utterance participant="builder" imageview="images/b1-a44-c20-1523036364610_3.png" amr="assertion">
     <!--got it-->
     <t>got</t>
     <markable id="markable_2" ambiguity="ambiguous" category="abstract" disagreement_type="no_disagreement" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_words="it" mmax_level="phrase" non_ref_type_2="idiom" number="undersp-num" order_id="2" person="per1" ref_type="segment" ref_type_2="non_referring" reference="old" related_object="no" segment_antecedent="markable_101" span="(21, 22)" segment_antecedent_cluster="segment_antecedent_4">
       <t>it</t>
     </markable>
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" imageview="images/b1-a44-c20-1523036364610_4.png" amr="assertion">
     <!--but lets start with a 2 dimensional 2 column drawing anyways-->
     <t>but lets start with</t>
     <markable id="markable_12" ambiguity="unambiguous" category="concrete" disagreement_type="no_disagreement" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_ids="word_31" min_words="drawing" mmax_level="phrase" number="sing" order_id="12" person="per3" reference="new" related_object="no" span="(26, 32)" single_phrase_antecedent_cluster="single_phrase_antecedent_4">
@@ -37,7 +37,7 @@
     </markable>
     <t>anyways</t>
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" imageview="images/b1-a44-c20-1523036364610_5.png" amr="command">
     <!--red , empty , yellow-->
     <markable id="markable_66" gender="neuter" gram_fnc="unmarked" mark_type="phrase" min_words="coord" mmax_level="phrase" non_ref_type="coordination" number="plur" person="per3" reference="non_referring" span="(33, 38)">
       <markable id="markable_67" ambiguity="unambiguous" category="concrete" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_words="red" mmax_level="phrase" number="sing" person="per3" reference="new" related_object="no" span="(33, 34)">
@@ -53,13 +53,13 @@
       </markable>
     </markable>
   </utterance>
-  <utterance participant="builder">
+  <utterance participant="builder" imageview="images/b1-a44-c20-1523036364610_6.png" amr="command">
     <!--anywhere ?-->
     <markable id="markable_70" gender="neuter" gram_fnc="unmarked" mark_type="phrase" min_words="anywhere" mmax_level="phrase" non_ref_type="quantifier" number="sing" person="per3" reference="non_referring" span="(38, 40)">
       <t>anywhere ?</t>
     </markable>
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" imageview="images/b1-a44-c20-1523036364610_7.png" amr="assertion">
     <!--anywhere-->
     <markable id="markable_71" ambiguity="unambiguous" category="abstract" gender="neuter" generic="operator-iquant" gram_fnc="unmarked" mark_type="phrase" min_words="anywhere" mmax_level="phrase" number="sing" person="per3" reference="new" related_object="no" span="(40, 41)" segment_antecedent_cluster="segment_antecedent_5">
       <t>anywhere</t>
@@ -67,7 +67,11 @@
   </utterance>
   <utterance participant="builder">added red@5,0,-5 added yellow@5,1,-5 added yellow@5,2,-5 removed yellow@5,1,-5<!--added red@5,0,-5 added yellow@5,1,-5 added yellow@5,2,-5 removed yellow@5,1,-5-->
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" imageview="images/b1-a44-c20-1523036364610_12.png" amr="mistake">
+    <world_state>
+      <block id="a0" x="5" y="0" z="-5" color="red" />
+      <block id="a2" x="5" y="2" z="-5" color="yellow" />
+    </world_state>
     <!--ok I take that back-->
     <t>ok</t>
     <markable id="markable_72" gender="unmarked" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="unmarked" person="unmarked" reference="unmarked" span="(46, 47)">
@@ -79,7 +83,7 @@
     </markable>
     <t>back</t>
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" amr="command">
     <!--place it in the middle-->
     <t>place</t>
     <markable id="markable_3" ambiguity="unambiguous" category="concrete" disagreement_type="no_disagreement" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_words="it" mmax_level="phrase" number="sing" object="a0,a2" objectFull="[[&quot;a0&quot;, [388, 654, 553, 778], [5, 0, -5], &quot;red&quot;, &quot;B1-A44-C20-1523036364610_11.png&quot;], [&quot;a2&quot;, [0, 338, 459, 846], [5, 2, -5], &quot;yellow&quot;, &quot;B1-A44-C20-1523036364610_11.png&quot;]]" order_id="3" person="per3" phrase_antecedent="single_phrase" ref_type="phrase" reference="old" related_object="no" single_phrase_antecedent="markable_12" span="(51, 52)" single_phrase_antecedent_cluster="single_phrase_antecedent_4">
@@ -92,15 +96,24 @@
   </utterance>
   <utterance participant="builder">removed yellow@5,2,-5 removed red@5,0,-5<!--removed yellow@5,2,-5 removed red@5,0,-5-->
   </utterance>
-  <utterance participant="builder">ok<!--ok-->
+  <utterance participant="builder" imageview="images/b1-a44-c20-1523036364610_15.png" amr="assertion">ok<!--ok-->
   </utterance>
   <utterance participant="builder">added red@1,0,-1 added red@1,1,-1 added yellow@1,2,-1 removed red@1,1,-1<!--added red@1,0,-1 added red@1,1,-1 added yellow@1,2,-1 removed red@1,1,-1-->
   </utterance>
-  <utterance participant="architect">2nd column : empty , orange<!--2nd column : empty , orange-->
+  <utterance participant="architect" imageview="images/b1-a44-c20-1523036364610_20.png" amr="command">2nd column : empty , orange<world_state>
+      <block id="a3" x="1" y="0" z="-1" color="red" />
+      <block id="a5" x="1" y="2" z="-1" color="yellow" />
+    </world_state>
+    <!--2nd column : empty , orange-->
   </utterance>
   <utterance participant="builder">added orange@0,0,-1 added orange@0,1,-1 removed orange@0,0,-1<!--added orange@0,0,-1 added orange@0,1,-1 removed orange@0,0,-1-->
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" imageview="images/b1-a44-c20-1523036364610_24.png" amr="request">
+    <world_state>
+      <block id="a3" x="1" y="0" z="-1" color="red" />
+      <block id="a5" x="1" y="2" z="-1" color="yellow" />
+      <block id="a7" x="0" y="1" z="-1" color="orange" />
+    </world_state>
     <!--ok allow me some time to think of instructions-->
     <t>ok allow</t>
     <markable id="markable_73" ambiguity="unambiguous" category="person" gender="unspecified" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_words="me" mmax_level="phrase" number="sing" object="nb:architect" objectFull="nb:architect" person="per1" reference="new" related_object="no" span="(73, 74)" single_phrase_antecedent_cluster="single_phrase_antecedent_2">
@@ -114,7 +127,12 @@
       <t>instructions</t>
     </markable>
   </utterance>
-  <utterance participant="builder">
+  <utterance participant="builder" imageview="images/b1-a44-c20-1523036364610_25.png" amr="question">
+    <world_state>
+      <block id="a3" x="1" y="0" z="-1" color="red" />
+      <block id="a5" x="1" y="2" z="-1" color="yellow" />
+      <block id="a7" x="0" y="1" z="-1" color="orange" />
+    </world_state>
     <!--it might be easier to describe all one color ?-->
     <markable id="markable_76" gender="neuter" gram_fnc="unmarked" mark_type="phrase" min_words="it" mmax_level="phrase" non_ref_type="expletive" number="sing" person="per3" reference="non_referring" span="(80, 81)">
       <t>it</t>
@@ -128,7 +146,12 @@
     </markable>
     <t>?</t>
   </utterance>
-  <utterance participant="builder">
+  <utterance participant="builder" imageview="images/b1-a44-c20-1523036364610_26.png" amr="question">
+    <world_state>
+      <block id="a3" x="1" y="0" z="-1" color="red" />
+      <block id="a5" x="1" y="2" z="-1" color="yellow" />
+      <block id="a7" x="0" y="1" z="-1" color="orange" />
+    </world_state>
     <!--then build from there ?-->
     <t>then build from</t>
     <markable id="markable_77" ambiguity="unambiguous" category="abstract" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_words="there" mmax_level="phrase" number="sing" person="per3" ref_type="segment" reference="old" related_object="no" segment_antecedent="markable_102" span="(93, 94)" segment_antecedent_cluster="segment_antecedent_3">
@@ -136,7 +159,12 @@
     </markable>
     <t>?</t>
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" imageview="images/b1-a44-c20-1523036364610_27.png" amr="assertion">
+    <world_state>
+      <block id="a3" x="1" y="0" z="-1" color="red" />
+      <block id="a5" x="1" y="2" z="-1" color="yellow" />
+      <block id="a7" x="0" y="1" z="-1" color="orange" />
+    </world_state>
     <!--ok lets finish up the yellows then-->
     <t>ok lets finish up</t>
     <markable id="markable_22" ambiguity="unambiguous" category="concrete" disagreement_type="no_disagreement" gender="neuter" generic="operator-instruction" gram_fnc="unmarked" mark_type="phrase" min_ids="word_100" min_words="yellows" mmax_level="phrase" number="plur" order_id="22" person="per3" reference="new" related_object="yes" related_phrase="markable_69" related_rel="element-inv" span="(99, 101)" related_phrase_cluster="related_phrase_2">
@@ -144,7 +172,12 @@
     </markable>
     <t>then</t>
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" imageview="images/b1-a44-c20-1523036364610_28.png" amr="command">
+    <world_state>
+      <block id="a3" x="1" y="0" z="-1" color="red" />
+      <block id="a5" x="1" y="2" z="-1" color="yellow" />
+      <block id="a7" x="0" y="1" z="-1" color="orange" />
+    </world_state>
     <!--place one yellow a column to the right of the orange block , 1 space higher , and 1 space further back-->
     <t>place</t>
     <markable id="markable_23" ambiguity="unambiguous" category="concrete" disagreement_type="no_disagreement" gender="neuter" generic="operator-instruction" gram_fnc="unmarked" mark_type="phrase" min_ids="word_104" min_words="yellow" mmax_level="phrase" number="sing" order_id="23" person="per3" reference="new" related_object="yes" related_phrase="markable_22" related_rel="element" span="(103, 105)" related_phrase_cluster="related_phrase_2">
@@ -170,9 +203,19 @@
       </markable>
     </markable>
   </utterance>
-  <utterance participant="builder">back meaning away ?<!--back meaning away ?-->
+  <utterance participant="builder" imageview="images/b1-a44-c20-1523036364610_29.png" amr="question">back meaning away ?<world_state>
+      <block id="a3" x="1" y="0" z="-1" color="red" />
+      <block id="a5" x="1" y="2" z="-1" color="yellow" />
+      <block id="a7" x="0" y="1" z="-1" color="orange" />
+    </world_state>
+    <!--back meaning away ?-->
   </utterance>
-  <utterance participant="builder">
+  <utterance participant="builder" imageview="images/b1-a44-c20-1523036364610_30.png" amr="question">
+    <world_state>
+      <block id="a3" x="1" y="0" z="-1" color="red" />
+      <block id="a5" x="1" y="2" z="-1" color="yellow" />
+      <block id="a7" x="0" y="1" z="-1" color="orange" />
+    </world_state>
     <!--or towards me ?-->
     <t>or towards</t>
     <markable id="markable_27" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_ids="word_130" min_words="me" mmax_level="phrase" number="sing" object="nb:builder" objectFull="nb:builder" order_id="27" person="per1" reference="new" related_object="no" span="(130, 131)" single_phrase_antecedent_cluster="single_phrase_antecedent_1">
@@ -180,20 +223,45 @@
     </markable>
     <t>?</t>
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" imageview="images/b1-a44-c20-1523036364610_31.png" amr="command">
+    <world_state>
+      <block id="a3" x="1" y="0" z="-1" color="red" />
+      <block id="a5" x="1" y="2" z="-1" color="yellow" />
+      <block id="a7" x="0" y="1" z="-1" color="orange" />
+    </world_state>
     <!--into the page-->
     <t>into</t>
     <markable id="markable_28" ambiguity="unambiguous" category="concrete" disagreement_type="no_disagreement" gender="neuter" generic="operator-instruction" gram_fnc="unmarked" mark_type="phrase" min_ids="word_134" min_words="page" mmax_level="phrase" number="sing" order_id="28" person="per3" reference="new" related_object="no" span="(133, 135)">
       <t>the page</t>
     </markable>
   </utterance>
-  <utterance participant="architect">lol<!--lol-->
+  <utterance participant="architect" imageview="images/b1-a44-c20-1523036364610_32.png" amr="assertion">lol<world_state>
+      <block id="a3" x="1" y="0" z="-1" color="red" />
+      <block id="a5" x="1" y="2" z="-1" color="yellow" />
+      <block id="a7" x="0" y="1" z="-1" color="orange" />
+    </world_state>
+    <!--lol-->
   </utterance>
-  <utterance participant="architect">away yes<!--away yes-->
+  <utterance participant="architect" imageview="images/b1-a44-c20-1523036364610_33.png" amr="assertion">away yes<world_state>
+      <block id="a3" x="1" y="0" z="-1" color="red" />
+      <block id="a5" x="1" y="2" z="-1" color="yellow" />
+      <block id="a7" x="0" y="1" z="-1" color="orange" />
+    </world_state>
+    <!--away yes-->
   </utterance>
-  <utterance participant="builder">away ?<!--away ?-->
+  <utterance participant="builder" imageview="images/b1-a44-c20-1523036364610_34.png" amr="question">away ?<world_state>
+      <block id="a3" x="1" y="0" z="-1" color="red" />
+      <block id="a5" x="1" y="2" z="-1" color="yellow" />
+      <block id="a7" x="0" y="1" z="-1" color="orange" />
+    </world_state>
+    <!--away ?-->
   </utterance>
-  <utterance participant="builder">ok<!--ok-->
+  <utterance participant="builder" imageview="images/b1-a44-c20-1523036364610_35.png" amr="assertion">ok<world_state>
+      <block id="a3" x="1" y="0" z="-1" color="red" />
+      <block id="a5" x="1" y="2" z="-1" color="yellow" />
+      <block id="a7" x="0" y="1" z="-1" color="orange" />
+    </world_state>
+    <!--ok-->
   </utterance>
   <utterance participant="builder">
     <!--added yellow@0,2,-1 added yellow@-1,2,-1 added yellow@-2,2,-1 removed yellow@-2,2,-1 added yellow@-1,2,0 added yellow@-1,2,1 removed yellow@0,2,-1 removed yellow@-1,2,-1 removed yellow@-1,2,1-->
@@ -202,14 +270,26 @@
       <t>removed yellow@-1,2,1</t>
     </markable>
   </utterance>
-  <utterance participant="builder">
+  <utterance participant="builder" imageview="images/b1-a44-c20-1523036364610_45.png" amr="question">
+    <world_state>
+      <block id="a3" x="1" y="0" z="-1" color="red" />
+      <block id="a5" x="1" y="2" z="-1" color="yellow" />
+      <block id="a7" x="0" y="1" z="-1" color="orange" />
+      <block id="b1" x="-1" y="2" z="0" color="yellow" />
+    </world_state>
     <!--here ?-->
     <markable id="markable_30" ambiguity="ambiguous" category="space" category_2="abstract" disagreement_type="no_disagreement" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_ids="word_150" min_words="here" mmax_level="phrase" number="sing" order_id="30" person="per3" ref_type_2="segment" reference="new" related_object="no" related_object_2="no" segment_antecedent_2="markable_104" span="(150, 151)">
       <t>here</t>
     </markable>
     <t>?</t>
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" imageview="images/b1-a44-c20-1523036364610_46.png" amr="assertion">
+    <world_state>
+      <block id="a3" x="1" y="0" z="-1" color="red" />
+      <block id="a5" x="1" y="2" z="-1" color="yellow" />
+      <block id="a7" x="0" y="1" z="-1" color="orange" />
+      <block id="b1" x="-1" y="2" z="0" color="yellow" />
+    </world_state>
     <!--ok that 's it-->
     <t>ok</t>
     <markable id="markable_31" ambiguity="unambiguous" category="abstract" disagreement_type="no_disagreement" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_ids="word_157" min_words="that" mmax_level="phrase" number="sing" order_id="31" person="per3" ref_type="segment" reference="old" related_object="no" segment_antecedent="markable_104" span="(153, 154)" segment_antecedent_cluster="segment_antecedent_1">
@@ -220,7 +300,13 @@
       <t>it</t>
     </markable>
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" imageview="images/b1-a44-c20-1523036364610_47.png" amr="assertion">
+    <world_state>
+      <block id="a3" x="1" y="0" z="-1" color="red" />
+      <block id="a5" x="1" y="2" z="-1" color="yellow" />
+      <block id="a7" x="0" y="1" z="-1" color="orange" />
+      <block id="b1" x="-1" y="2" z="0" color="yellow" />
+    </world_state>
     <!--ok lets do greens now-->
     <t>ok lets do</t>
     <markable id="markable_32" ambiguity="unambiguous" category="concrete" disagreement_type="no_disagreement" gender="neuter" generic="generic-yes" gram_fnc="unmarked" mark_type="phrase" min_ids="word_163" min_words="greens" mmax_level="phrase" number="plur" order_id="32" person="per3" reference="new" related_object="no" span="(159, 160)" single_phrase_antecedent_cluster="single_phrase_antecedent_8" related_phrase_cluster="related_phrase_4">
@@ -230,7 +316,13 @@
       <t>now</t>
     </markable>
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" imageview="images/b1-a44-c20-1523036364610_48.png" amr="command">
+    <world_state>
+      <block id="a3" x="1" y="0" z="-1" color="red" />
+      <block id="a5" x="1" y="2" z="-1" color="yellow" />
+      <block id="a7" x="0" y="1" z="-1" color="orange" />
+      <block id="b1" x="-1" y="2" z="0" color="yellow" />
+    </world_state>
     <!--place 1 green block a single space behind , and a single space above the yellow block you just placed-->
     <t>place</t>
     <markable id="markable_82" ambiguity="unambiguous" category="concrete" gender="neuter" generic="operator-instruction" gram_fnc="unmarked" mark_type="phrase" min_words="block" mmax_level="phrase" number="sing" person="per3" reference="new" related_object="yes" related_phrase="markable_32" related_rel="element" span="(162, 165)" single_phrase_antecedent_cluster="single_phrase_antecedent_6" related_phrase_cluster="related_phrase_4">
@@ -258,16 +350,37 @@
       <t>removed green@-1,3,0</t>
     </markable>
   </utterance>
-  <utterance participant="architect">yep<!--yep-->
+  <utterance participant="architect" imageview="images/b1-a44-c20-1523036364610_52.png" amr="assertion">yep<world_state>
+      <block id="a3" x="1" y="0" z="-1" color="red" />
+      <block id="a5" x="1" y="2" z="-1" color="yellow" />
+      <block id="a7" x="0" y="1" z="-1" color="orange" />
+      <block id="b1" x="-1" y="2" z="0" color="yellow" />
+      <block id="b4" x="-1" y="3" z="1" color="green" />
+    </world_state>
+    <!--yep-->
   </utterance>
-  <utterance participant="builder">
+  <utterance participant="builder" imageview="images/b1-a44-c20-1523036364610_53.png" amr="question">
+    <world_state>
+      <block id="a3" x="1" y="0" z="-1" color="red" />
+      <block id="a5" x="1" y="2" z="-1" color="yellow" />
+      <block id="a7" x="0" y="1" z="-1" color="orange" />
+      <block id="b1" x="-1" y="2" z="0" color="yellow" />
+      <block id="b4" x="-1" y="3" z="1" color="green" />
+    </world_state>
     <!--here ?-->
     <markable id="markable_36" ambiguity="unambiguous" category="space" disagreement_type="no_disagreement" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_ids="word_185" min_words="here" mmax_level="phrase" number="sing" order_id="36" person="per3" ref_type="segment" reference="old" related_object="no" segment_antecedent="markable_105" span="(185, 186)" segment_antecedent_cluster="segment_antecedent_2">
       <t>here</t>
     </markable>
     <t>?</t>
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" imageview="images/b1-a44-c20-1523036364610_54.png" amr="request">
+    <world_state>
+      <block id="a3" x="1" y="0" z="-1" color="red" />
+      <block id="a5" x="1" y="2" z="-1" color="yellow" />
+      <block id="a7" x="0" y="1" z="-1" color="orange" />
+      <block id="b1" x="-1" y="2" z="0" color="yellow" />
+      <block id="b4" x="-1" y="3" z="1" color="green" />
+    </world_state>
     <!--if you could return to the front of the structure every time , it wouldh elp with the instructions I think-->
     <t>if</t>
     <markable id="markable_84" ambiguity="unambiguous" category="person" gender="unspecified" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_words="you" mmax_level="phrase" number="undersp-num" person="per2" phrase_antecedent="single_phrase" ref_type="phrase" reference="old" related_object="no" single_phrase_antecedent="markable_35" span="(188, 189)" single_phrase_antecedent_cluster="single_phrase_antecedent_1">
@@ -296,7 +409,14 @@
     </markable>
     <t>think</t>
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" imageview="images/b1-a44-c20-1523036364610_55.png" amr="assertion">
+    <world_state>
+      <block id="a3" x="1" y="0" z="-1" color="red" />
+      <block id="a5" x="1" y="2" z="-1" color="yellow" />
+      <block id="a7" x="0" y="1" z="-1" color="orange" />
+      <block id="b1" x="-1" y="2" z="0" color="yellow" />
+      <block id="b4" x="-1" y="3" z="1" color="green" />
+    </world_state>
     <!--the other green block is 3 spaces to the left and 1 space up of the last yellow block you placed-->
     <markable id="markable_41" ambiguity="unambiguous" category="concrete" disagreement_type="no_disagreement" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_ids="word_211" min_words="block" mmax_level="phrase" number="sing" order_id="41" person="per3" reference="new" related_object="yes" related_phrase="markable_82" related_rel="other" span="(208, 212)" single_phrase_antecedent_cluster="single_phrase_antecedent_9" related_phrase_cluster="related_phrase_4">
       <t>the other green block</t>
@@ -322,11 +442,30 @@
   </utterance>
   <utterance participant="builder">added green@0,2,0 added green@1,2,0 added green@2,2,0 added green@2,3,0<!--added green@0,2,0 added green@1,2,0 added green@2,2,0 added green@2,3,0-->
   </utterance>
-  <utterance participant="architect">yep<!--yep-->
+  <utterance participant="architect" imageview="images/b1-a44-c20-1523036364610_60.png" amr="assertion">yep<world_state>
+      <block id="a3" x="1" y="0" z="-1" color="red" />
+      <block id="a5" x="1" y="2" z="-1" color="yellow" />
+      <block id="a7" x="0" y="1" z="-1" color="orange" />
+      <block id="b1" x="-1" y="2" z="0" color="yellow" />
+      <block id="b4" x="-1" y="3" z="1" color="green" />
+      <block id="b5" x="0" y="2" z="0" color="green" />
+      <block id="b6" x="1" y="2" z="0" color="green" />
+      <block id="b7" x="2" y="2" z="0" color="green" />
+      <block id="b8" x="2" y="3" z="0" color="green" />
+    </world_state>
+    <!--yep-->
   </utterance>
   <utterance participant="builder">removed green@2,2,0 removed green@1,2,0 removed green@0,2,0<!--removed green@2,2,0 removed green@1,2,0 removed green@0,2,0-->
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" imageview="images/b1-a44-c20-1523036364610_64.png" amr="assertion">
+    <world_state>
+      <block id="a3" x="1" y="0" z="-1" color="red" />
+      <block id="a5" x="1" y="2" z="-1" color="yellow" />
+      <block id="a7" x="0" y="1" z="-1" color="orange" />
+      <block id="b1" x="-1" y="2" z="0" color="yellow" />
+      <block id="b4" x="-1" y="3" z="1" color="green" />
+      <block id="b8" x="2" y="3" z="0" color="green" />
+    </world_state>
     <!--ok we 're done with greens lets do blue-->
     <t>ok</t>
     <markable id="markable_47" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_ids="word_239" min_words="we" mmax_level="phrase" multiple_phrase_antecedents="markable_45;markable_87" number="plur" order_id="47" person="per1" phrase_antecedent="multiple_phrases" ref_type="phrase" reference="old" related_object="no" span="(238, 239)" single_phrase_antecedent_cluster="single_phrase_antecedent_7">
@@ -341,7 +480,15 @@
       <t>blue</t>
     </markable>
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" imageview="images/b1-a44-c20-1523036364610_65.png" amr="request">
+    <world_state>
+      <block id="a3" x="1" y="0" z="-1" color="red" />
+      <block id="a5" x="1" y="2" z="-1" color="yellow" />
+      <block id="a7" x="0" y="1" z="-1" color="orange" />
+      <block id="b1" x="-1" y="2" z="0" color="yellow" />
+      <block id="b4" x="-1" y="3" z="1" color="green" />
+      <block id="b8" x="2" y="3" z="0" color="green" />
+    </world_state>
     <!--thers a blue block 1 space above and 1 space away from the last green block you placed-->
     <t>thers</t>
     <markable id="markable_106" ambiguity="unambiguous" category="concrete" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_words="block" mmax_level="phrase" number="sing" person="per3" reference="new" related_object="yes" related_phrase="markable_89" related_rel="element" span="(247, 250)" related_phrase_cluster="related_phrase_3">
@@ -360,16 +507,43 @@
   </utterance>
   <utterance participant="builder">added blue@2,4,0 added blue@2,4,1 removed blue@2,4,0<!--added blue@2,4,0 added blue@2,4,1 removed blue@2,4,0-->
   </utterance>
-  <utterance participant="builder">
+  <utterance participant="builder" imageview="images/b1-a44-c20-1523036364610_69.png" amr="question">
+    <world_state>
+      <block id="a3" x="1" y="0" z="-1" color="red" />
+      <block id="a5" x="1" y="2" z="-1" color="yellow" />
+      <block id="a7" x="0" y="1" z="-1" color="orange" />
+      <block id="b1" x="-1" y="2" z="0" color="yellow" />
+      <block id="b4" x="-1" y="3" z="1" color="green" />
+      <block id="b8" x="2" y="3" z="0" color="green" />
+      <block id="c0" x="2" y="4" z="1" color="blue" />
+    </world_state>
     <!--here ?-->
     <markable id="markable_90" gender="unmarked" gram_fnc="unmarked" mark_type="phrase" min_words="here" mmax_level="phrase" number="unmarked" person="unmarked" reference="unmarked" span="(267, 268)">
       <t>here</t>
     </markable>
     <t>?</t>
   </utterance>
-  <utterance participant="architect">yes<!--yes-->
+  <utterance participant="architect" imageview="images/b1-a44-c20-1523036364610_70.png" amr="assertion">yes<world_state>
+      <block id="a3" x="1" y="0" z="-1" color="red" />
+      <block id="a5" x="1" y="2" z="-1" color="yellow" />
+      <block id="a7" x="0" y="1" z="-1" color="orange" />
+      <block id="b1" x="-1" y="2" z="0" color="yellow" />
+      <block id="b4" x="-1" y="3" z="1" color="green" />
+      <block id="b8" x="2" y="3" z="0" color="green" />
+      <block id="c0" x="2" y="4" z="1" color="blue" />
+    </world_state>
+    <!--yes-->
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" imageview="images/b1-a44-c20-1523036364610_71.png" amr="command">
+    <world_state>
+      <block id="a3" x="1" y="0" z="-1" color="red" />
+      <block id="a5" x="1" y="2" z="-1" color="yellow" />
+      <block id="a7" x="0" y="1" z="-1" color="orange" />
+      <block id="b1" x="-1" y="2" z="0" color="yellow" />
+      <block id="b4" x="-1" y="3" z="1" color="green" />
+      <block id="b8" x="2" y="3" z="0" color="green" />
+      <block id="c0" x="2" y="4" z="1" color="blue" />
+    </world_state>
     <!--the other blue block is 1 space to the left , 1 space up , 1 space behind the first green block you placed-->
     <markable id="markable_50" ambiguity="unambiguous" category="concrete" disagreement_type="no_disagreement" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_ids="word_273" min_words="block" mmax_level="phrase" number="sing" order_id="50" person="per3" reference="new" related_object="yes" related_phrase="markable_106" related_rel="other" span="(270, 274)" single_phrase_antecedent_cluster="single_phrase_antecedent_5" related_phrase_cluster="related_phrase_3">
       <t>the other blue block</t>
@@ -396,14 +570,32 @@
       </markable>
     </markable>
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" imageview="images/b1-a44-c20-1523036364610_72.png" amr="assertion">
+    <world_state>
+      <block id="a3" x="1" y="0" z="-1" color="red" />
+      <block id="a5" x="1" y="2" z="-1" color="yellow" />
+      <block id="a7" x="0" y="1" z="-1" color="orange" />
+      <block id="b1" x="-1" y="2" z="0" color="yellow" />
+      <block id="b4" x="-1" y="3" z="1" color="green" />
+      <block id="b8" x="2" y="3" z="0" color="green" />
+      <block id="c0" x="2" y="4" z="1" color="blue" />
+    </world_state>
     <!--the left green block *-->
     <markable id="markable_95" ambiguity="unambiguous" category="concrete" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_words="block" mmax_level="phrase" number="sing" person="per3" phrase_antecedent="single_phrase" ref_type="phrase" reference="old" related_object="no" single_phrase_antecedent="markable_54" span="(294, 298)" single_phrase_antecedent_cluster="single_phrase_antecedent_6">
       <t>the left green block</t>
     </markable>
     <t>*</t>
   </utterance>
-  <utterance participant="builder">
+  <utterance participant="builder" imageview="images/b1-a44-c20-1523036364610_73.png" amr="question">
+    <world_state>
+      <block id="a3" x="1" y="0" z="-1" color="red" />
+      <block id="a5" x="1" y="2" z="-1" color="yellow" />
+      <block id="a7" x="0" y="1" z="-1" color="orange" />
+      <block id="b1" x="-1" y="2" z="0" color="yellow" />
+      <block id="b4" x="-1" y="3" z="1" color="green" />
+      <block id="b8" x="2" y="3" z="0" color="green" />
+      <block id="c0" x="2" y="4" z="1" color="blue" />
+    </world_state>
     <!--diagonal step ?-->
     <markable id="markable_96" ambiguity="unambiguous" category="abstract" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_words="step" mmax_level="phrase" number="sing" person="per3" reference="new" related_object="no" span="(299, 301)">
       <t>diagonal step</t>
@@ -412,7 +604,18 @@
   </utterance>
   <utterance participant="builder">added blue@-1,4,1 added blue@-1,4,2 added blue@0,4,2 removed blue@-1,4,2 removed blue@-1,4,1 added blue@0,4,1<!--added blue@-1,4,1 added blue@-1,4,2 added blue@0,4,2 removed blue@-1,4,2 removed blue@-1,4,1 added blue@0,4,1-->
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" imageview="images/b1-a44-c20-1523036364610_80.png" amr="command">
+    <world_state>
+      <block id="a3" x="1" y="0" z="-1" color="red" />
+      <block id="a5" x="1" y="2" z="-1" color="yellow" />
+      <block id="a7" x="0" y="1" z="-1" color="orange" />
+      <block id="b1" x="-1" y="2" z="0" color="yellow" />
+      <block id="b4" x="-1" y="3" z="1" color="green" />
+      <block id="b8" x="2" y="3" z="0" color="green" />
+      <block id="c0" x="2" y="4" z="1" color="blue" />
+      <block id="c3" x="0" y="4" z="2" color="blue" />
+      <block id="c4" x="0" y="4" z="1" color="blue" />
+    </world_state>
     <!--remove that last blue one-->
     <t>remove</t>
     <markable id="markable_57" ambiguity="unambiguous" category="concrete" disagreement_type="no_disagreement" gender="neuter" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_ids="word_311" min_words="one" mmax_level="phrase" number="sing" object="c3" objectFull="[[&quot;c3&quot;, [247, 439, 425, 653], [0, 4, 2], &quot;blue&quot;, &quot;B1-A44-C20-1523036364610_80.png&quot;]]" order_id="57" person="per3" reference="new" related_object="no" span="(309, 313)">
@@ -421,9 +624,29 @@
   </utterance>
   <utterance participant="builder">removed blue@0,4,1<!--removed blue@0,4,1-->
   </utterance>
-  <utterance participant="architect">ok last is purple<!--ok last is purple-->
+  <utterance participant="architect" imageview="images/b1-a44-c20-1523036364610_82.png" amr="assertion">ok last is purple<world_state>
+      <block id="a3" x="1" y="0" z="-1" color="red" />
+      <block id="a5" x="1" y="2" z="-1" color="yellow" />
+      <block id="a7" x="0" y="1" z="-1" color="orange" />
+      <block id="b1" x="-1" y="2" z="0" color="yellow" />
+      <block id="b4" x="-1" y="3" z="1" color="green" />
+      <block id="b8" x="2" y="3" z="0" color="green" />
+      <block id="c0" x="2" y="4" z="1" color="blue" />
+      <block id="c3" x="0" y="4" z="2" color="blue" />
+    </world_state>
+    <!--ok last is purple-->
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" imageview="images/b1-a44-c20-1523036364610_83.png" amr="command">
+    <world_state>
+      <block id="a3" x="1" y="0" z="-1" color="red" />
+      <block id="a5" x="1" y="2" z="-1" color="yellow" />
+      <block id="a7" x="0" y="1" z="-1" color="orange" />
+      <block id="b1" x="-1" y="2" z="0" color="yellow" />
+      <block id="b4" x="-1" y="3" z="1" color="green" />
+      <block id="b8" x="2" y="3" z="0" color="green" />
+      <block id="c0" x="2" y="4" z="1" color="blue" />
+      <block id="c3" x="0" y="4" z="2" color="blue" />
+    </world_state>
     <!--place a purple 1 space left , 1 space up of the last blue block you placed-->
     <t>place</t>
     <markable id="markable_59" ambiguity="unambiguous" category="concrete" disagreement_type="no_disagreement" gender="neuter" generic="operator-instruction" gram_fnc="unmarked" mark_type="phrase" min_ids="word_319" min_words="purple" mmax_level="phrase" number="sing" order_id="59" person="per3" reference="new" related_object="no" span="(319, 321)">
@@ -448,7 +671,18 @@
   </utterance>
   <utterance participant="builder">added purple@1,4,2 added purple@1,5,2 removed purple@1,4,2<!--added purple@1,4,2 added purple@1,5,2 removed purple@1,4,2-->
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" imageview="images/b1-a44-c20-1523036364610_87.png" amr="assertion">
+    <world_state>
+      <block id="a3" x="1" y="0" z="-1" color="red" />
+      <block id="a5" x="1" y="2" z="-1" color="yellow" />
+      <block id="a7" x="0" y="1" z="-1" color="orange" />
+      <block id="b1" x="-1" y="2" z="0" color="yellow" />
+      <block id="b4" x="-1" y="3" z="1" color="green" />
+      <block id="b8" x="2" y="3" z="0" color="green" />
+      <block id="c0" x="2" y="4" z="1" color="blue" />
+      <block id="c3" x="0" y="4" z="2" color="blue" />
+      <block id="c6" x="1" y="5" z="2" color="purple" />
+    </world_state>
     <!--ok we 're done-->
     <t>ok</t>
     <markable id="markable_98" ambiguity="unambiguous" category="person" gender="unspecified" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_words="we" mmax_level="phrase" number="plur" person="per1" phrase_antecedent="single_phrase" ref_type="phrase" reference="old" related_object="no" single_phrase_antecedent="markable_47" span="(339, 340)" single_phrase_antecedent_cluster="single_phrase_antecedent_7">
@@ -456,7 +690,18 @@
     </markable>
     <t>'re done</t>
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" imageview="images/b1-a44-c20-1523036364610_88.png" amr="question">
+    <world_state>
+      <block id="a3" x="1" y="0" z="-1" color="red" />
+      <block id="a5" x="1" y="2" z="-1" color="yellow" />
+      <block id="a7" x="0" y="1" z="-1" color="orange" />
+      <block id="b1" x="-1" y="2" z="0" color="yellow" />
+      <block id="b4" x="-1" y="3" z="1" color="green" />
+      <block id="b8" x="2" y="3" z="0" color="green" />
+      <block id="c0" x="2" y="4" z="1" color="blue" />
+      <block id="c3" x="0" y="4" z="2" color="blue" />
+      <block id="c6" x="1" y="5" z="2" color="purple" />
+    </world_state>
     <!--would you like for me to start using those terms ?-->
     <t>would</t>
     <markable id="markable_99" ambiguity="unambiguous" category="person" gender="unspecified" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_words="you" mmax_level="phrase" number="undersp-num" person="per2" phrase_antecedent="single_phrase" ref_type="phrase" reference="old" related_object="no" single_phrase_antecedent="markable_62" span="(343, 344)" single_phrase_antecedent_cluster="single_phrase_antecedent_1">
@@ -472,8 +717,30 @@
     </markable>
     <t>?</t>
   </utterance>
-  <utterance participant="builder">just to confirm<!--just to confirm-->
+  <utterance participant="builder" imageview="images/b1-a44-c20-1523036364610_89.png" amr="assertion">just to confirm<world_state>
+      <block id="a3" x="1" y="0" z="-1" color="red" />
+      <block id="a5" x="1" y="2" z="-1" color="yellow" />
+      <block id="a7" x="0" y="1" z="-1" color="orange" />
+      <block id="b1" x="-1" y="2" z="0" color="yellow" />
+      <block id="b4" x="-1" y="3" z="1" color="green" />
+      <block id="b8" x="2" y="3" z="0" color="green" />
+      <block id="c0" x="2" y="4" z="1" color="blue" />
+      <block id="c3" x="0" y="4" z="2" color="blue" />
+      <block id="c6" x="1" y="5" z="2" color="purple" />
+    </world_state>
+    <!--just to confirm-->
   </utterance>
-  <utterance participant="architect">ah ok<!--ah ok-->
+  <utterance participant="architect" imageview="images/b1-a44-c20-1523036364610_90.png" amr="assertion">ah ok<world_state>
+      <block id="a3" x="1" y="0" z="-1" color="red" />
+      <block id="a5" x="1" y="2" z="-1" color="yellow" />
+      <block id="a7" x="0" y="1" z="-1" color="orange" />
+      <block id="b1" x="-1" y="2" z="0" color="yellow" />
+      <block id="b4" x="-1" y="3" z="1" color="green" />
+      <block id="b8" x="2" y="3" z="0" color="green" />
+      <block id="c0" x="2" y="4" z="1" color="blue" />
+      <block id="c3" x="0" y="4" z="2" color="blue" />
+      <block id="c6" x="1" y="5" z="2" color="purple" />
+    </world_state>
+    <!--ah ok-->
   </utterance>
 </dialogue>

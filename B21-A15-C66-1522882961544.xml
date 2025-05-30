@@ -1,16 +1,16 @@
 <dialogue id="B21-A15-C66-1522882961544">
-  <utterance participant="builder">
+  <utterance participant="builder" imageview="images/b21-a15-c66-1522882961544_0.png" amr="question">
     <!--Mission has started .-->
     <markable id="markable_7" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_ids="word_0" min_words="mission" mmax_level="phrase" number="undersp-num" order_id="7" person="per1" ref_type="phrase" reference="new" related_object="no" span="(0, 1)">
       <t>Mission</t>
     </markable>
     <t>has started .</t>
   </utterance>
-  <utterance participant="architect">ready ?<!--ready ?-->
+  <utterance participant="architect" imageview="images/b21-a15-c66-1522882961544_1.png" amr="question">ready ?<!--ready ?-->
   </utterance>
-  <utterance participant="builder">good to go<!--good to go-->
+  <utterance participant="builder" imageview="images/b21-a15-c66-1522882961544_2.png" amr="assertion">good to go<!--good to go-->
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" imageview="images/b21-a15-c66-1522882961544_3.png" amr="assertion">
     <!--okay , so , you 're gon na want to start by placing 5 orange blocks in a row near the center-->
     <t>okay , so ,</t>
     <markable id="markable_8" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" min_ids="word_13" min_words="you" mmax_level="phrase" number="undersp-num" order_id="8" person="per1" ref_type="phrase" reference="new" related_object="no" span="(13, 14)">
@@ -31,7 +31,14 @@
   </utterance>
   <utterance participant="builder">added orange@2,0,-2 added orange@1,0,-2 added orange@0,0,-2 added orange@-1,0,-2<!--added orange@2,0,-2 added orange@1,0,-2 added orange@0,0,-2 added orange@-1,0,-2-->
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" imageview="images/b21-a15-c66-1522882961544_8.png" amr="assertion">
+    <world_state>
+      <block id="a0" x="2" y="0" z="-2" color="orange" />
+      <block id="a1" x="1" y="0" z="-2" color="orange" />
+      <block id="a2" x="0" y="0" z="-2" color="orange" />
+      <block id="a3" x="-1" y="0" z="-2" color="orange" />
+      <block id="a4" x="-2" y="0" z="-2" color="orange" />
+    </world_state>
     <!--yep ! now , you 're gon na build a 2d pyramid-->
     <t>yep ! now ,</t>
     <markable id="markable_12" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" min_ids="word_39" min_words="you" mmax_level="phrase" number="undersp-num" order_id="12" person="per1" ref_type="phrase" reference="new" related_object="no" span="(39, 40)">
@@ -44,7 +51,14 @@
   </utterance>
   <utterance participant="builder">added orange@-2,0,-2<!--added orange@-2,0,-2-->
   </utterance>
-  <utterance participant="builder">
+  <utterance participant="builder" imageview="images/b21-a15-c66-1522882961544_9.png" amr="question">
+    <world_state>
+      <block id="a0" x="2" y="0" z="-2" color="orange" />
+      <block id="a1" x="1" y="0" z="-2" color="orange" />
+      <block id="a2" x="0" y="0" z="-2" color="orange" />
+      <block id="a3" x="-1" y="0" z="-2" color="orange" />
+      <block id="a4" x="-2" y="0" z="-2" color="orange" />
+    </world_state>
     <!--is that close enought-->
     <t>is</t>
     <markable id="markable_90" gender="unmarked" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="unmarked" person="unmarked" reference="unmarked" span="(49, 50)">
@@ -52,7 +66,14 @@
     </markable>
     <t>close enought</t>
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" imageview="images/b21-a15-c66-1522882961544_10.png" amr="assertion">
+    <world_state>
+      <block id="a0" x="2" y="0" z="-2" color="orange" />
+      <block id="a1" x="1" y="0" z="-2" color="orange" />
+      <block id="a2" x="0" y="0" z="-2" color="orange" />
+      <block id="a3" x="-1" y="0" z="-2" color="orange" />
+      <block id="a4" x="-2" y="0" z="-2" color="orange" />
+    </world_state>
     <!--yeah , it 's fine-->
     <t>yeah ,</t>
     <markable id="markable_14" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_ids="word_54" min_words="it" mmax_level="phrase" number="undersp-num" order_id="14" person="per1" ref_type="phrase" reference="new" related_object="no" span="(54, 55)">
@@ -60,7 +81,14 @@
     </markable>
     <t>'s fine</t>
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" imageview="images/b21-a15-c66-1522882961544_11.png" amr="command">
+    <world_state>
+      <block id="a0" x="2" y="0" z="-2" color="orange" />
+      <block id="a1" x="1" y="0" z="-2" color="orange" />
+      <block id="a2" x="0" y="0" z="-2" color="orange" />
+      <block id="a3" x="-1" y="0" z="-2" color="orange" />
+      <block id="a4" x="-2" y="0" z="-2" color="orange" />
+    </world_state>
     <!--so , two orange blocks on either end-->
     <t>so ,</t>
     <markable id="markable_15" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_ids="word_61" min_words="blocks" mmax_level="phrase" number="undersp-num" order_id="15" person="per1" ref_type="phrase" reference="new" related_object="no" span="(59, 62)">
@@ -71,7 +99,14 @@
       <t>either end</t>
     </markable>
   </utterance>
-  <utterance participant="builder">
+  <utterance participant="builder" imageview="images/b21-a15-c66-1522882961544_12.png" amr="question">
+    <world_state>
+      <block id="a0" x="2" y="0" z="-2" color="orange" />
+      <block id="a1" x="1" y="0" z="-2" color="orange" />
+      <block id="a2" x="0" y="0" z="-2" color="orange" />
+      <block id="a3" x="-1" y="0" z="-2" color="orange" />
+      <block id="a4" x="-2" y="0" z="-2" color="orange" />
+    </world_state>
     <!--on top ?-->
     <t>on</t>
     <markable id="markable_17" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" min_ids="word_66" min_words="top" mmax_level="phrase" number="undersp-num" order_id="17" person="per1" ref_type="phrase" reference="new" related_object="no" span="(66, 67)">
@@ -79,7 +114,14 @@
     </markable>
     <t>?</t>
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" imageview="images/b21-a15-c66-1522882961544_13.png" amr="assertion">
+    <world_state>
+      <block id="a0" x="2" y="0" z="-2" color="orange" />
+      <block id="a1" x="1" y="0" z="-2" color="orange" />
+      <block id="a2" x="0" y="0" z="-2" color="orange" />
+      <block id="a3" x="-1" y="0" z="-2" color="orange" />
+      <block id="a4" x="-2" y="0" z="-2" color="orange" />
+    </world_state>
     <!--yeah on top , sorry-->
     <t>yeah on</t>
     <markable id="markable_18" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" min_ids="word_70" min_words="top" mmax_level="phrase" number="undersp-num" order_id="18" person="per1" ref_type="phrase" reference="new" related_object="no" span="(70, 71)">
@@ -89,7 +131,16 @@
   </utterance>
   <utterance participant="builder">added orange@2,1,-2<!--added orange@2,1,-2-->
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" imageview="images/b21-a15-c66-1522882961544_16.png" amr="assertion">
+    <world_state>
+      <block id="a0" x="2" y="0" z="-2" color="orange" />
+      <block id="a1" x="1" y="0" z="-2" color="orange" />
+      <block id="a2" x="0" y="0" z="-2" color="orange" />
+      <block id="a3" x="-1" y="0" z="-2" color="orange" />
+      <block id="a4" x="-2" y="0" z="-2" color="orange" />
+      <block id="a5" x="2" y="1" z="-2" color="orange" />
+      <block id="a6" x="-2" y="1" z="-2" color="orange" />
+    </world_state>
     <!--it 'll be a vertical pyramid-->
     <markable id="markable_91" gender="unmarked" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="unmarked" person="unmarked" reference="unmarked" span="(74, 75)">
       <t>it</t>
@@ -101,7 +152,16 @@
   </utterance>
   <utterance participant="builder">added orange@-2,1,-2<!--added orange@-2,1,-2-->
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" imageview="images/b21-a15-c66-1522882961544_17.png" amr="assertion">
+    <world_state>
+      <block id="a0" x="2" y="0" z="-2" color="orange" />
+      <block id="a1" x="1" y="0" z="-2" color="orange" />
+      <block id="a2" x="0" y="0" z="-2" color="orange" />
+      <block id="a3" x="-1" y="0" z="-2" color="orange" />
+      <block id="a4" x="-2" y="0" z="-2" color="orange" />
+      <block id="a5" x="2" y="1" z="-2" color="orange" />
+      <block id="a6" x="-2" y="1" z="-2" color="orange" />
+    </world_state>
     <!--and then two more blocks up and diagonally inwards from those two-->
     <t>and then</t>
     <markable id="markable_20" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_ids="word_84" min_words="blocks" mmax_level="phrase" number="undersp-num" order_id="20" person="per1" ref_type="phrase" reference="new" related_object="no" span="(83, 86)">
@@ -114,7 +174,18 @@
   </utterance>
   <utterance participant="builder">added orange@2,2,-2 added orange@1,2,-2 removed orange@2,2,-2 added orange@-2,2,-2 added orange@-1,2,-2<!--added orange@2,2,-2 added orange@1,2,-2 removed orange@2,2,-2 added orange@-2,2,-2 added orange@-1,2,-2-->
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" imageview="images/b21-a15-c66-1522882961544_24.png" amr="assertion">
+    <world_state>
+      <block id="a0" x="2" y="0" z="-2" color="orange" />
+      <block id="a1" x="1" y="0" z="-2" color="orange" />
+      <block id="a2" x="0" y="0" z="-2" color="orange" />
+      <block id="a3" x="-1" y="0" z="-2" color="orange" />
+      <block id="a4" x="-2" y="0" z="-2" color="orange" />
+      <block id="a5" x="2" y="1" z="-2" color="orange" />
+      <block id="a6" x="-2" y="1" z="-2" color="orange" />
+      <block id="a8" x="1" y="2" z="-2" color="orange" />
+      <block id="b0" x="-1" y="2" z="-2" color="orange" />
+    </world_state>
     <!--and one more to complete it !-->
     <t>and</t>
     <markable id="markable_93" gender="unmarked" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="unmarked" person="unmarked" reference="unmarked" span="(99, 101)">
@@ -128,11 +199,35 @@
   </utterance>
   <utterance participant="builder">removed orange@-2,2,-2 added orange@1,3,-2 added orange@0,3,-2<!--removed orange@-2,2,-2 added orange@1,3,-2 added orange@0,3,-2-->
   </utterance>
-  <utterance participant="architect">perfect<!--perfect-->
+  <utterance participant="architect" imageview="images/b21-a15-c66-1522882961544_28.png" amr="assertion">perfect<world_state>
+      <block id="a0" x="2" y="0" z="-2" color="orange" />
+      <block id="a1" x="1" y="0" z="-2" color="orange" />
+      <block id="a2" x="0" y="0" z="-2" color="orange" />
+      <block id="a3" x="-1" y="0" z="-2" color="orange" />
+      <block id="a4" x="-2" y="0" z="-2" color="orange" />
+      <block id="a5" x="2" y="1" z="-2" color="orange" />
+      <block id="a6" x="-2" y="1" z="-2" color="orange" />
+      <block id="a8" x="1" y="2" z="-2" color="orange" />
+      <block id="b0" x="-1" y="2" z="-2" color="orange" />
+      <block id="b2" x="0" y="3" z="-2" color="orange" />
+    </world_state>
+    <!--perfect-->
   </utterance>
   <utterance participant="builder">removed orange@1,3,-2<!--removed orange@1,3,-2-->
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" imageview="images/b21-a15-c66-1522882961544_29.png" amr="command">
+    <world_state>
+      <block id="a0" x="2" y="0" z="-2" color="orange" />
+      <block id="a1" x="1" y="0" z="-2" color="orange" />
+      <block id="a2" x="0" y="0" z="-2" color="orange" />
+      <block id="a3" x="-1" y="0" z="-2" color="orange" />
+      <block id="a4" x="-2" y="0" z="-2" color="orange" />
+      <block id="a5" x="2" y="1" z="-2" color="orange" />
+      <block id="a6" x="-2" y="1" z="-2" color="orange" />
+      <block id="a8" x="1" y="2" z="-2" color="orange" />
+      <block id="b0" x="-1" y="2" z="-2" color="orange" />
+      <block id="b2" x="0" y="3" z="-2" color="orange" />
+    </world_state>
     <!--now move to the other side of the structure-->
     <t>now move to</t>
     <markable id="markable_22" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_ids="word_114" min_words="structure" mmax_level="phrase" number="undersp-num" order_id="22" person="per1" ref_type="phrase" reference="new" related_object="no" span="(113, 119)">
@@ -142,16 +237,52 @@
       </markable>
     </markable>
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" imageview="images/b21-a15-c66-1522882961544_30.png" amr="assertion">
+    <world_state>
+      <block id="a0" x="2" y="0" z="-2" color="orange" />
+      <block id="a1" x="1" y="0" z="-2" color="orange" />
+      <block id="a2" x="0" y="0" z="-2" color="orange" />
+      <block id="a3" x="-1" y="0" z="-2" color="orange" />
+      <block id="a4" x="-2" y="0" z="-2" color="orange" />
+      <block id="a5" x="2" y="1" z="-2" color="orange" />
+      <block id="a6" x="-2" y="1" z="-2" color="orange" />
+      <block id="a8" x="1" y="2" z="-2" color="orange" />
+      <block id="b0" x="-1" y="2" z="-2" color="orange" />
+      <block id="b2" x="0" y="3" z="-2" color="orange" />
+    </world_state>
     <!--sorry , trying to figure out how to explain this-->
     <t>sorry , trying to figure out how to explain</t>
     <markable id="markable_96" gender="unmarked" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="unmarked" person="unmarked" reference="unmarked" span="(128, 129)">
       <t>this</t>
     </markable>
   </utterance>
-  <utterance participant="architect">okay , stand right there and face right<!--okay , stand right there and face right-->
+  <utterance participant="architect" imageview="images/b21-a15-c66-1522882961544_31.png" amr="command">okay , stand right there and face right<world_state>
+      <block id="a0" x="2" y="0" z="-2" color="orange" />
+      <block id="a1" x="1" y="0" z="-2" color="orange" />
+      <block id="a2" x="0" y="0" z="-2" color="orange" />
+      <block id="a3" x="-1" y="0" z="-2" color="orange" />
+      <block id="a4" x="-2" y="0" z="-2" color="orange" />
+      <block id="a5" x="2" y="1" z="-2" color="orange" />
+      <block id="a6" x="-2" y="1" z="-2" color="orange" />
+      <block id="a8" x="1" y="2" z="-2" color="orange" />
+      <block id="b0" x="-1" y="2" z="-2" color="orange" />
+      <block id="b2" x="0" y="3" z="-2" color="orange" />
+    </world_state>
+    <!--okay , stand right there and face right-->
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" imageview="images/b21-a15-c66-1522882961544_32.png" amr="command">
+    <world_state>
+      <block id="a0" x="2" y="0" z="-2" color="orange" />
+      <block id="a1" x="1" y="0" z="-2" color="orange" />
+      <block id="a2" x="0" y="0" z="-2" color="orange" />
+      <block id="a3" x="-1" y="0" z="-2" color="orange" />
+      <block id="a4" x="-2" y="0" z="-2" color="orange" />
+      <block id="a5" x="2" y="1" z="-2" color="orange" />
+      <block id="a6" x="-2" y="1" z="-2" color="orange" />
+      <block id="a8" x="1" y="2" z="-2" color="orange" />
+      <block id="b0" x="-1" y="2" z="-2" color="orange" />
+      <block id="b2" x="0" y="3" z="-2" color="orange" />
+    </world_state>
     <!--put a green block three spaces in front of you-->
     <t>put</t>
     <markable id="markable_23" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" min_ids="word_140" min_words="block" mmax_level="phrase" number="undersp-num" order_id="23" person="per1" ref_type="phrase" reference="new" related_object="no" span="(138, 141)">
@@ -170,9 +301,35 @@
   </utterance>
   <utterance participant="builder">added green@2,0,2<!--added green@2,0,2-->
   </utterance>
-  <utterance participant="builder">there ?<!--there ?-->
+  <utterance participant="builder" imageview="images/b21-a15-c66-1522882961544_35.png" amr="question">there ?<world_state>
+      <block id="a0" x="2" y="0" z="-2" color="orange" />
+      <block id="a1" x="1" y="0" z="-2" color="orange" />
+      <block id="a2" x="0" y="0" z="-2" color="orange" />
+      <block id="a3" x="-1" y="0" z="-2" color="orange" />
+      <block id="a4" x="-2" y="0" z="-2" color="orange" />
+      <block id="a5" x="2" y="1" z="-2" color="orange" />
+      <block id="a6" x="-2" y="1" z="-2" color="orange" />
+      <block id="a8" x="1" y="2" z="-2" color="orange" />
+      <block id="b0" x="-1" y="2" z="-2" color="orange" />
+      <block id="b2" x="0" y="3" z="-2" color="orange" />
+      <block id="b3" x="2" y="0" z="2" color="green" />
+    </world_state>
+    <!--there ?-->
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" imageview="images/b21-a15-c66-1522882961544_36.png" amr="command">
+    <world_state>
+      <block id="a0" x="2" y="0" z="-2" color="orange" />
+      <block id="a1" x="1" y="0" z="-2" color="orange" />
+      <block id="a2" x="0" y="0" z="-2" color="orange" />
+      <block id="a3" x="-1" y="0" z="-2" color="orange" />
+      <block id="a4" x="-2" y="0" z="-2" color="orange" />
+      <block id="a5" x="2" y="1" z="-2" color="orange" />
+      <block id="a6" x="-2" y="1" z="-2" color="orange" />
+      <block id="a8" x="1" y="2" z="-2" color="orange" />
+      <block id="b0" x="-1" y="2" z="-2" color="orange" />
+      <block id="b2" x="0" y="3" z="-2" color="orange" />
+      <block id="b3" x="2" y="0" z="2" color="green" />
+    </world_state>
     <!--now another on top of that-->
     <t>now</t>
     <markable id="markable_97" gender="unmarked" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="unmarked" person="unmarked" reference="unmarked" span="(151, 152)">
@@ -185,7 +342,21 @@
   </utterance>
   <utterance participant="builder">added green@2,1,2<!--added green@2,1,2-->
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" imageview="images/b21-a15-c66-1522882961544_38.png" amr="command">
+    <world_state>
+      <block id="a0" x="2" y="0" z="-2" color="orange" />
+      <block id="a1" x="1" y="0" z="-2" color="orange" />
+      <block id="a2" x="0" y="0" z="-2" color="orange" />
+      <block id="a3" x="-1" y="0" z="-2" color="orange" />
+      <block id="a4" x="-2" y="0" z="-2" color="orange" />
+      <block id="a5" x="2" y="1" z="-2" color="orange" />
+      <block id="a6" x="-2" y="1" z="-2" color="orange" />
+      <block id="a8" x="1" y="2" z="-2" color="orange" />
+      <block id="b0" x="-1" y="2" z="-2" color="orange" />
+      <block id="b2" x="0" y="3" z="-2" color="orange" />
+      <block id="b3" x="2" y="0" z="2" color="green" />
+      <block id="b4" x="2" y="1" z="2" color="green" />
+    </world_state>
     <!--now two green blocks on either side , paralell to the orange pyramid-->
     <t>now</t>
     <markable id="markable_29" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_ids="word_161" min_words="side" mmax_level="phrase" number="undersp-num" order_id="29" person="per1" ref_type="phrase" reference="new" related_object="no" span="(158, 161)">
@@ -202,11 +373,41 @@
   </utterance>
   <utterance participant="builder">added green@1,0,2 added green@3,0,2<!--added green@1,0,2 added green@3,0,2-->
   </utterance>
-  <utterance participant="architect">whoops , my bad<!--whoops , my bad-->
+  <utterance participant="architect" imageview="images/b21-a15-c66-1522882961544_41.png" amr="assertion">whoops , my bad<world_state>
+      <block id="a0" x="2" y="0" z="-2" color="orange" />
+      <block id="a1" x="1" y="0" z="-2" color="orange" />
+      <block id="a2" x="0" y="0" z="-2" color="orange" />
+      <block id="a3" x="-1" y="0" z="-2" color="orange" />
+      <block id="a4" x="-2" y="0" z="-2" color="orange" />
+      <block id="a5" x="2" y="1" z="-2" color="orange" />
+      <block id="a6" x="-2" y="1" z="-2" color="orange" />
+      <block id="a8" x="1" y="2" z="-2" color="orange" />
+      <block id="b0" x="-1" y="2" z="-2" color="orange" />
+      <block id="b2" x="0" y="3" z="-2" color="orange" />
+      <block id="b3" x="2" y="0" z="2" color="green" />
+      <block id="b4" x="2" y="1" z="2" color="green" />
+      <block id="b5" x="1" y="0" z="2" color="green" />
+      <block id="b6" x="3" y="0" z="2" color="green" />
+    </world_state>
+    <!--whoops , my bad-->
   </utterance>
   <utterance participant="builder">removed green@1,0,2<!--removed green@1,0,2-->
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" imageview="images/b21-a15-c66-1522882961544_43.png" amr="assertion">
+    <world_state>
+      <block id="a0" x="2" y="0" z="-2" color="orange" />
+      <block id="a1" x="1" y="0" z="-2" color="orange" />
+      <block id="a2" x="0" y="0" z="-2" color="orange" />
+      <block id="a3" x="-1" y="0" z="-2" color="orange" />
+      <block id="a4" x="-2" y="0" z="-2" color="orange" />
+      <block id="a5" x="2" y="1" z="-2" color="orange" />
+      <block id="a6" x="-2" y="1" z="-2" color="orange" />
+      <block id="a8" x="1" y="2" z="-2" color="orange" />
+      <block id="b0" x="-1" y="2" z="-2" color="orange" />
+      <block id="b2" x="0" y="3" z="-2" color="orange" />
+      <block id="b3" x="2" y="0" z="2" color="green" />
+      <block id="b4" x="2" y="1" z="2" color="green" />
+    </world_state>
     <!--those should both be connected to the top block-->
     <markable id="markable_100" gender="unmarked" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="unmarked" person="unmarked" reference="unmarked" span="(177, 178)">
       <t>those</t>
@@ -218,7 +419,23 @@
   </utterance>
   <utterance participant="builder">removed green@3,0,2 added green@1,1,2<!--removed green@3,0,2 added green@1,1,2-->
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" imageview="images/b21-a15-c66-1522882961544_46.png" amr="command">
+    <world_state>
+      <block id="a0" x="2" y="0" z="-2" color="orange" />
+      <block id="a1" x="1" y="0" z="-2" color="orange" />
+      <block id="a2" x="0" y="0" z="-2" color="orange" />
+      <block id="a3" x="-1" y="0" z="-2" color="orange" />
+      <block id="a4" x="-2" y="0" z="-2" color="orange" />
+      <block id="a5" x="2" y="1" z="-2" color="orange" />
+      <block id="a6" x="-2" y="1" z="-2" color="orange" />
+      <block id="a8" x="1" y="2" z="-2" color="orange" />
+      <block id="b0" x="-1" y="2" z="-2" color="orange" />
+      <block id="b2" x="0" y="3" z="-2" color="orange" />
+      <block id="b3" x="2" y="0" z="2" color="green" />
+      <block id="b4" x="2" y="1" z="2" color="green" />
+      <block id="b7" x="1" y="1" z="2" color="green" />
+      <block id="b8" x="3" y="1" z="2" color="green" />
+    </world_state>
     <!--alright , now two more green blocks extending to the right of the top row-->
     <t>alright , now</t>
     <markable id="markable_33" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_ids="word_195" min_words="right" mmax_level="phrase" number="undersp-num" order_id="33" person="per1" ref_type="phrase" reference="new" related_object="no" span="(191, 195)">
@@ -234,7 +451,25 @@
   </utterance>
   <utterance participant="builder">added green@3,1,2 added green@4,1,2<!--added green@3,1,2 added green@4,1,2-->
   </utterance>
-  <utterance participant="builder">
+  <utterance participant="builder" imageview="images/b21-a15-c66-1522882961544_49.png" amr="question">
+    <world_state>
+      <block id="a0" x="2" y="0" z="-2" color="orange" />
+      <block id="a1" x="1" y="0" z="-2" color="orange" />
+      <block id="a2" x="0" y="0" z="-2" color="orange" />
+      <block id="a3" x="-1" y="0" z="-2" color="orange" />
+      <block id="a4" x="-2" y="0" z="-2" color="orange" />
+      <block id="a5" x="2" y="1" z="-2" color="orange" />
+      <block id="a6" x="-2" y="1" z="-2" color="orange" />
+      <block id="a8" x="1" y="2" z="-2" color="orange" />
+      <block id="b0" x="-1" y="2" z="-2" color="orange" />
+      <block id="b2" x="0" y="3" z="-2" color="orange" />
+      <block id="b3" x="2" y="0" z="2" color="green" />
+      <block id="b4" x="2" y="1" z="2" color="green" />
+      <block id="b7" x="1" y="1" z="2" color="green" />
+      <block id="b8" x="3" y="1" z="2" color="green" />
+      <block id="b9" x="4" y="1" z="2" color="green" />
+      <block id="c0" x="5" y="1" z="2" color="green" />
+    </world_state>
     <!--like that ?-->
     <t>like</t>
     <markable id="markable_103" gender="unmarked" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="unmarked" person="unmarked" reference="unmarked" span="(206, 207)">
@@ -244,9 +479,45 @@
   </utterance>
   <utterance participant="builder">added green@5,1,2<!--added green@5,1,2-->
   </utterance>
-  <utterance participant="architect">perfect !<!--perfect !-->
+  <utterance participant="architect" imageview="images/b21-a15-c66-1522882961544_51.png" amr="assertion">perfect !<world_state>
+      <block id="a0" x="2" y="0" z="-2" color="orange" />
+      <block id="a1" x="1" y="0" z="-2" color="orange" />
+      <block id="a2" x="0" y="0" z="-2" color="orange" />
+      <block id="a3" x="-1" y="0" z="-2" color="orange" />
+      <block id="a4" x="-2" y="0" z="-2" color="orange" />
+      <block id="a5" x="2" y="1" z="-2" color="orange" />
+      <block id="a6" x="-2" y="1" z="-2" color="orange" />
+      <block id="a8" x="1" y="2" z="-2" color="orange" />
+      <block id="b0" x="-1" y="2" z="-2" color="orange" />
+      <block id="b2" x="0" y="3" z="-2" color="orange" />
+      <block id="b3" x="2" y="0" z="2" color="green" />
+      <block id="b4" x="2" y="1" z="2" color="green" />
+      <block id="b7" x="1" y="1" z="2" color="green" />
+      <block id="b8" x="3" y="1" z="2" color="green" />
+      <block id="b9" x="4" y="1" z="2" color="green" />
+      <block id="c0" x="5" y="1" z="2" color="green" />
+    </world_state>
+    <!--perfect !-->
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" imageview="images/b21-a15-c66-1522882961544_52.png" amr="command">
+    <world_state>
+      <block id="a0" x="2" y="0" z="-2" color="orange" />
+      <block id="a1" x="1" y="0" z="-2" color="orange" />
+      <block id="a2" x="0" y="0" z="-2" color="orange" />
+      <block id="a3" x="-1" y="0" z="-2" color="orange" />
+      <block id="a4" x="-2" y="0" z="-2" color="orange" />
+      <block id="a5" x="2" y="1" z="-2" color="orange" />
+      <block id="a6" x="-2" y="1" z="-2" color="orange" />
+      <block id="a8" x="1" y="2" z="-2" color="orange" />
+      <block id="b0" x="-1" y="2" z="-2" color="orange" />
+      <block id="b2" x="0" y="3" z="-2" color="orange" />
+      <block id="b3" x="2" y="0" z="2" color="green" />
+      <block id="b4" x="2" y="1" z="2" color="green" />
+      <block id="b7" x="1" y="1" z="2" color="green" />
+      <block id="b8" x="3" y="1" z="2" color="green" />
+      <block id="b9" x="4" y="1" z="2" color="green" />
+      <block id="c0" x="5" y="1" z="2" color="green" />
+    </world_state>
     <!--now remove the bottom block-->
     <t>now remove</t>
     <markable id="markable_104" gender="unmarked" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="unmarked" person="unmarked" reference="unmarked" span="(213, 216)">
@@ -255,7 +526,24 @@
   </utterance>
   <utterance participant="builder">removed green@2,0,2<!--removed green@2,0,2-->
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" imageview="images/b21-a15-c66-1522882961544_54.png" amr="command">
+    <world_state>
+      <block id="a0" x="2" y="0" z="-2" color="orange" />
+      <block id="a1" x="1" y="0" z="-2" color="orange" />
+      <block id="a2" x="0" y="0" z="-2" color="orange" />
+      <block id="a3" x="-1" y="0" z="-2" color="orange" />
+      <block id="a4" x="-2" y="0" z="-2" color="orange" />
+      <block id="a5" x="2" y="1" z="-2" color="orange" />
+      <block id="a6" x="-2" y="1" z="-2" color="orange" />
+      <block id="a8" x="1" y="2" z="-2" color="orange" />
+      <block id="b0" x="-1" y="2" z="-2" color="orange" />
+      <block id="b2" x="0" y="3" z="-2" color="orange" />
+      <block id="b4" x="2" y="1" z="2" color="green" />
+      <block id="b7" x="1" y="1" z="2" color="green" />
+      <block id="b8" x="3" y="1" z="2" color="green" />
+      <block id="b9" x="4" y="1" z="2" color="green" />
+      <block id="c0" x="5" y="1" z="2" color="green" />
+    </world_state>
     <!--and build the exact same pyramid structure on top of those green blocks-->
     <t>and build</t>
     <markable id="markable_37" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_ids="word_221" min_words="top" mmax_level="phrase" number="undersp-num" order_id="37" person="per1" ref_type="phrase" reference="new" related_object="no" span="(219, 224)">
@@ -266,7 +554,25 @@
       <t>those green blocks</t>
     </markable>
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" imageview="images/b21-a15-c66-1522882961544_55.png" amr="assertion">
+    <world_state>
+      <block id="a0" x="2" y="0" z="-2" color="orange" />
+      <block id="a1" x="1" y="0" z="-2" color="orange" />
+      <block id="a2" x="0" y="0" z="-2" color="orange" />
+      <block id="a3" x="-1" y="0" z="-2" color="orange" />
+      <block id="a4" x="-2" y="0" z="-2" color="orange" />
+      <block id="a5" x="2" y="1" z="-2" color="orange" />
+      <block id="a6" x="-2" y="1" z="-2" color="orange" />
+      <block id="a8" x="1" y="2" z="-2" color="orange" />
+      <block id="b0" x="-1" y="2" z="-2" color="orange" />
+      <block id="b2" x="0" y="3" z="-2" color="orange" />
+      <block id="b4" x="2" y="1" z="2" color="green" />
+      <block id="b7" x="1" y="1" z="2" color="green" />
+      <block id="b8" x="3" y="1" z="2" color="green" />
+      <block id="b9" x="4" y="1" z="2" color="green" />
+      <block id="c0" x="5" y="1" z="2" color="green" />
+      <block id="c1" x="1" y="2" z="2" color="green" />
+    </world_state>
     <!--so it should look like the orange one-->
     <t>so</t>
     <markable id="markable_105" gender="unmarked" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="unmarked" person="unmarked" reference="unmarked" span="(231, 232)">
@@ -279,7 +585,29 @@
   </utterance>
   <utterance participant="builder">added green@1,2,2 added orange@-1,2,-2; green@1,2,2; green@2,1,2; green@5,1,2; orange@-2,1,-2; green@1,1,2; orange@1,0,-2; orange@2,0,-2; orange@1,2,-2; orange@0,0,-2; green@3,1,2; green@4,1,2; green@5,2,2; orange@-1,0,-2; orange@-2,0,-2; orange@2,1,-2; orange@0,3,-2 added green@5,3,2 added green@4,3,2 removed green@5,3,2 added green@1,3,2 added green@2,3,2 removed green@1,3,2 added green@2,4,2 added green@3,4,2 removed green@2,4,2<!--added green@1,2,2 added orange@-1,2,-2; green@1,2,2; green@2,1,2; green@5,1,2; orange@-2,1,-2; green@1,1,2; orange@1,0,-2; orange@2,0,-2; orange@1,2,-2; orange@0,0,-2; green@3,1,2; green@4,1,2; green@5,2,2; orange@-1,0,-2; orange@-2,0,-2; orange@2,1,-2; orange@0,3,-2 added green@5,3,2 added green@4,3,2 removed green@5,3,2 added green@1,3,2 added green@2,3,2 removed green@1,3,2 added green@2,4,2 added green@3,4,2 removed green@2,4,2-->
   </utterance>
-  <utterance participant="builder">
+  <utterance participant="builder" imageview="images/b21-a15-c66-1522882961544_66.png" amr="question">
+    <world_state>
+      <block id="a0" x="2" y="0" z="-2" color="orange" />
+      <block id="a1" x="1" y="0" z="-2" color="orange" />
+      <block id="a2" x="0" y="0" z="-2" color="orange" />
+      <block id="a3" x="-1" y="0" z="-2" color="orange" />
+      <block id="a4" x="-2" y="0" z="-2" color="orange" />
+      <block id="a5" x="2" y="1" z="-2" color="orange" />
+      <block id="a6" x="-2" y="1" z="-2" color="orange" />
+      <block id="a8" x="1" y="2" z="-2" color="orange" />
+      <block id="b0" x="-1" y="2" z="-2" color="orange" />
+      <block id="b2" x="0" y="3" z="-2" color="orange" />
+      <block id="b4" x="2" y="1" z="2" color="green" />
+      <block id="b7" x="1" y="1" z="2" color="green" />
+      <block id="b8" x="3" y="1" z="2" color="green" />
+      <block id="b9" x="4" y="1" z="2" color="green" />
+      <block id="c0" x="5" y="1" z="2" color="green" />
+      <block id="c1" x="1" y="2" z="2" color="green" />
+      <block id="c2" x="5" y="2" z="2" color="green" />
+      <block id="c4" x="4" y="3" z="2" color="green" />
+      <block id="c6" x="2" y="3" z="2" color="green" />
+      <block id="c8" x="3" y="4" z="2" color="green" />
+    </world_state>
     <!--is that good ?-->
     <t>is</t>
     <markable id="markable_41" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_ids="word_252" min_words="block" mmax_level="phrase" number="undersp-num" order_id="41" person="per1" ref_type="phrase" reference="new" related_object="no" span="(250, 251)">
@@ -287,9 +615,53 @@
     </markable>
     <t>good ?</t>
   </utterance>
-  <utterance participant="architect">perfect !<!--perfect !-->
+  <utterance participant="architect" imageview="images/b21-a15-c66-1522882961544_67.png" amr="assertion">perfect !<world_state>
+      <block id="a0" x="2" y="0" z="-2" color="orange" />
+      <block id="a1" x="1" y="0" z="-2" color="orange" />
+      <block id="a2" x="0" y="0" z="-2" color="orange" />
+      <block id="a3" x="-1" y="0" z="-2" color="orange" />
+      <block id="a4" x="-2" y="0" z="-2" color="orange" />
+      <block id="a5" x="2" y="1" z="-2" color="orange" />
+      <block id="a6" x="-2" y="1" z="-2" color="orange" />
+      <block id="a8" x="1" y="2" z="-2" color="orange" />
+      <block id="b0" x="-1" y="2" z="-2" color="orange" />
+      <block id="b2" x="0" y="3" z="-2" color="orange" />
+      <block id="b4" x="2" y="1" z="2" color="green" />
+      <block id="b7" x="1" y="1" z="2" color="green" />
+      <block id="b8" x="3" y="1" z="2" color="green" />
+      <block id="b9" x="4" y="1" z="2" color="green" />
+      <block id="c0" x="5" y="1" z="2" color="green" />
+      <block id="c1" x="1" y="2" z="2" color="green" />
+      <block id="c2" x="5" y="2" z="2" color="green" />
+      <block id="c4" x="4" y="3" z="2" color="green" />
+      <block id="c6" x="2" y="3" z="2" color="green" />
+      <block id="c8" x="3" y="4" z="2" color="green" />
+    </world_state>
+    <!--perfect !-->
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" imageview="images/b21-a15-c66-1522882961544_68.png" amr="command">
+    <world_state>
+      <block id="a0" x="2" y="0" z="-2" color="orange" />
+      <block id="a1" x="1" y="0" z="-2" color="orange" />
+      <block id="a2" x="0" y="0" z="-2" color="orange" />
+      <block id="a3" x="-1" y="0" z="-2" color="orange" />
+      <block id="a4" x="-2" y="0" z="-2" color="orange" />
+      <block id="a5" x="2" y="1" z="-2" color="orange" />
+      <block id="a6" x="-2" y="1" z="-2" color="orange" />
+      <block id="a8" x="1" y="2" z="-2" color="orange" />
+      <block id="b0" x="-1" y="2" z="-2" color="orange" />
+      <block id="b2" x="0" y="3" z="-2" color="orange" />
+      <block id="b4" x="2" y="1" z="2" color="green" />
+      <block id="b7" x="1" y="1" z="2" color="green" />
+      <block id="b8" x="3" y="1" z="2" color="green" />
+      <block id="b9" x="4" y="1" z="2" color="green" />
+      <block id="c0" x="5" y="1" z="2" color="green" />
+      <block id="c1" x="1" y="2" z="2" color="green" />
+      <block id="c2" x="5" y="2" z="2" color="green" />
+      <block id="c4" x="4" y="3" z="2" color="green" />
+      <block id="c6" x="2" y="3" z="2" color="green" />
+      <block id="c8" x="3" y="4" z="2" color="green" />
+    </world_state>
     <!--okay , so now , place a red block on top and in front of the topmost green block , from your current perspective-->
     <t>okay , so now , place</t>
     <markable id="markable_44" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_ids="word_262" min_words="block" mmax_level="phrase" number="undersp-num" order_id="44" person="per1" ref_type="phrase" reference="new" related_object="no" span="(261, 264)">
@@ -318,9 +690,55 @@
   </utterance>
   <utterance participant="builder">added red@1,3,2 added red@1,3,3 removed red@1,3,2<!--added red@1,3,2 added red@1,3,3 removed red@1,3,2-->
   </utterance>
-  <utterance participant="builder">there ?<!--there ?-->
+  <utterance participant="builder" imageview="images/b21-a15-c66-1522882961544_72.png" amr="question">there ?<world_state>
+      <block id="a0" x="2" y="0" z="-2" color="orange" />
+      <block id="a1" x="1" y="0" z="-2" color="orange" />
+      <block id="a2" x="0" y="0" z="-2" color="orange" />
+      <block id="a3" x="-1" y="0" z="-2" color="orange" />
+      <block id="a4" x="-2" y="0" z="-2" color="orange" />
+      <block id="a5" x="2" y="1" z="-2" color="orange" />
+      <block id="a6" x="-2" y="1" z="-2" color="orange" />
+      <block id="a8" x="1" y="2" z="-2" color="orange" />
+      <block id="b0" x="-1" y="2" z="-2" color="orange" />
+      <block id="b2" x="0" y="3" z="-2" color="orange" />
+      <block id="b4" x="2" y="1" z="2" color="green" />
+      <block id="b7" x="1" y="1" z="2" color="green" />
+      <block id="b8" x="3" y="1" z="2" color="green" />
+      <block id="b9" x="4" y="1" z="2" color="green" />
+      <block id="c0" x="5" y="1" z="2" color="green" />
+      <block id="c1" x="1" y="2" z="2" color="green" />
+      <block id="c2" x="5" y="2" z="2" color="green" />
+      <block id="c4" x="4" y="3" z="2" color="green" />
+      <block id="c6" x="2" y="3" z="2" color="green" />
+      <block id="c8" x="3" y="4" z="2" color="green" />
+      <block id="d0" x="1" y="3" z="3" color="red" />
+    </world_state>
+    <!--there ?-->
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" imageview="images/b21-a15-c66-1522882961544_73.png" amr="assertion">
+    <world_state>
+      <block id="a0" x="2" y="0" z="-2" color="orange" />
+      <block id="a1" x="1" y="0" z="-2" color="orange" />
+      <block id="a2" x="0" y="0" z="-2" color="orange" />
+      <block id="a3" x="-1" y="0" z="-2" color="orange" />
+      <block id="a4" x="-2" y="0" z="-2" color="orange" />
+      <block id="a5" x="2" y="1" z="-2" color="orange" />
+      <block id="a6" x="-2" y="1" z="-2" color="orange" />
+      <block id="a8" x="1" y="2" z="-2" color="orange" />
+      <block id="b0" x="-1" y="2" z="-2" color="orange" />
+      <block id="b2" x="0" y="3" z="-2" color="orange" />
+      <block id="b4" x="2" y="1" z="2" color="green" />
+      <block id="b7" x="1" y="1" z="2" color="green" />
+      <block id="b8" x="3" y="1" z="2" color="green" />
+      <block id="b9" x="4" y="1" z="2" color="green" />
+      <block id="c0" x="5" y="1" z="2" color="green" />
+      <block id="c1" x="1" y="2" z="2" color="green" />
+      <block id="c2" x="5" y="2" z="2" color="green" />
+      <block id="c4" x="4" y="3" z="2" color="green" />
+      <block id="c6" x="2" y="3" z="2" color="green" />
+      <block id="c8" x="3" y="4" z="2" color="green" />
+      <block id="d0" x="1" y="3" z="3" color="red" />
+    </world_state>
     <!--no , sorry , the top of the pyramid-->
     <t>no , sorry ,</t>
     <markable id="markable_2" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="undersp-num" order_id="2" person="per1" ref_type="phrase" reference="new" related_object="no" span="(288, 293)" single_phrase_antecedent_cluster="single_phrase_antecedent_1">
@@ -332,7 +750,31 @@
   </utterance>
   <utterance participant="builder">removed red@1,3,3 added red@3,5,2<!--removed red@1,3,3 added red@3,5,2-->
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" imageview="images/b21-a15-c66-1522882961544_76.png" amr="command">
+    <world_state>
+      <block id="a0" x="2" y="0" z="-2" color="orange" />
+      <block id="a1" x="1" y="0" z="-2" color="orange" />
+      <block id="a2" x="0" y="0" z="-2" color="orange" />
+      <block id="a3" x="-1" y="0" z="-2" color="orange" />
+      <block id="a4" x="-2" y="0" z="-2" color="orange" />
+      <block id="a5" x="2" y="1" z="-2" color="orange" />
+      <block id="a6" x="-2" y="1" z="-2" color="orange" />
+      <block id="a8" x="1" y="2" z="-2" color="orange" />
+      <block id="b0" x="-1" y="2" z="-2" color="orange" />
+      <block id="b2" x="0" y="3" z="-2" color="orange" />
+      <block id="b4" x="2" y="1" z="2" color="green" />
+      <block id="b7" x="1" y="1" z="2" color="green" />
+      <block id="b8" x="3" y="1" z="2" color="green" />
+      <block id="b9" x="4" y="1" z="2" color="green" />
+      <block id="c0" x="5" y="1" z="2" color="green" />
+      <block id="c1" x="1" y="2" z="2" color="green" />
+      <block id="c2" x="5" y="2" z="2" color="green" />
+      <block id="c4" x="4" y="3" z="2" color="green" />
+      <block id="c6" x="2" y="3" z="2" color="green" />
+      <block id="c8" x="3" y="4" z="2" color="green" />
+      <block id="d1" x="3" y="5" z="2" color="red" />
+      <block id="d2" x="3" y="5" z="3" color="red" />
+    </world_state>
     <!--start with a red block on top of the pyramid-->
     <t>start with</t>
     <markable id="markable_3" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="undersp-num" order_id="3" person="per1" phrase_antecedent="single_phrase" ref_type="phrase" reference="old" related_object="no" single_phrase_antecedent="markable_2" span="(297, 300)" single_phrase_antecedent_cluster="single_phrase_antecedent_1">
@@ -348,7 +790,30 @@
   </utterance>
   <utterance participant="builder">added red@3,5,3 removed red@3,5,2<!--added red@3,5,3 removed red@3,5,2-->
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" imageview="images/b21-a15-c66-1522882961544_79.png" amr="command">
+    <world_state>
+      <block id="a0" x="2" y="0" z="-2" color="orange" />
+      <block id="a1" x="1" y="0" z="-2" color="orange" />
+      <block id="a2" x="0" y="0" z="-2" color="orange" />
+      <block id="a3" x="-1" y="0" z="-2" color="orange" />
+      <block id="a4" x="-2" y="0" z="-2" color="orange" />
+      <block id="a5" x="2" y="1" z="-2" color="orange" />
+      <block id="a6" x="-2" y="1" z="-2" color="orange" />
+      <block id="a8" x="1" y="2" z="-2" color="orange" />
+      <block id="b0" x="-1" y="2" z="-2" color="orange" />
+      <block id="b2" x="0" y="3" z="-2" color="orange" />
+      <block id="b4" x="2" y="1" z="2" color="green" />
+      <block id="b7" x="1" y="1" z="2" color="green" />
+      <block id="b8" x="3" y="1" z="2" color="green" />
+      <block id="b9" x="4" y="1" z="2" color="green" />
+      <block id="c0" x="5" y="1" z="2" color="green" />
+      <block id="c1" x="1" y="2" z="2" color="green" />
+      <block id="c2" x="5" y="2" z="2" color="green" />
+      <block id="c4" x="4" y="3" z="2" color="green" />
+      <block id="c6" x="2" y="3" z="2" color="green" />
+      <block id="c8" x="3" y="4" z="2" color="green" />
+      <block id="d2" x="3" y="5" z="3" color="red" />
+    </world_state>
     <!--like that , but on the other side !-->
     <t>like</t>
     <markable id="markable_114" gender="unmarked" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="unmarked" person="unmarked" reference="unmarked" span="(308, 309)">
@@ -362,9 +827,55 @@
   </utterance>
   <utterance participant="builder">removed red@3,5,3 added red@3,5,2 added red@3,5,1 removed red@3,5,2<!--removed red@3,5,3 added red@3,5,2 added red@3,5,1 removed red@3,5,2-->
   </utterance>
-  <utterance participant="architect">perfect !<!--perfect !-->
+  <utterance participant="architect" imageview="images/b21-a15-c66-1522882961544_84.png" amr="assertion">perfect !<world_state>
+      <block id="a0" x="2" y="0" z="-2" color="orange" />
+      <block id="a1" x="1" y="0" z="-2" color="orange" />
+      <block id="a2" x="0" y="0" z="-2" color="orange" />
+      <block id="a3" x="-1" y="0" z="-2" color="orange" />
+      <block id="a4" x="-2" y="0" z="-2" color="orange" />
+      <block id="a5" x="2" y="1" z="-2" color="orange" />
+      <block id="a6" x="-2" y="1" z="-2" color="orange" />
+      <block id="a8" x="1" y="2" z="-2" color="orange" />
+      <block id="b0" x="-1" y="2" z="-2" color="orange" />
+      <block id="b2" x="0" y="3" z="-2" color="orange" />
+      <block id="b4" x="2" y="1" z="2" color="green" />
+      <block id="b7" x="1" y="1" z="2" color="green" />
+      <block id="b8" x="3" y="1" z="2" color="green" />
+      <block id="b9" x="4" y="1" z="2" color="green" />
+      <block id="c0" x="5" y="1" z="2" color="green" />
+      <block id="c1" x="1" y="2" z="2" color="green" />
+      <block id="c2" x="5" y="2" z="2" color="green" />
+      <block id="c4" x="4" y="3" z="2" color="green" />
+      <block id="c6" x="2" y="3" z="2" color="green" />
+      <block id="c8" x="3" y="4" z="2" color="green" />
+      <block id="d4" x="3" y="5" z="1" color="red" />
+    </world_state>
+    <!--perfect !-->
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" imageview="images/b21-a15-c66-1522882961544_85.png" amr="command">
+    <world_state>
+      <block id="a0" x="2" y="0" z="-2" color="orange" />
+      <block id="a1" x="1" y="0" z="-2" color="orange" />
+      <block id="a2" x="0" y="0" z="-2" color="orange" />
+      <block id="a3" x="-1" y="0" z="-2" color="orange" />
+      <block id="a4" x="-2" y="0" z="-2" color="orange" />
+      <block id="a5" x="2" y="1" z="-2" color="orange" />
+      <block id="a6" x="-2" y="1" z="-2" color="orange" />
+      <block id="a8" x="1" y="2" z="-2" color="orange" />
+      <block id="b0" x="-1" y="2" z="-2" color="orange" />
+      <block id="b2" x="0" y="3" z="-2" color="orange" />
+      <block id="b4" x="2" y="1" z="2" color="green" />
+      <block id="b7" x="1" y="1" z="2" color="green" />
+      <block id="b8" x="3" y="1" z="2" color="green" />
+      <block id="b9" x="4" y="1" z="2" color="green" />
+      <block id="c0" x="5" y="1" z="2" color="green" />
+      <block id="c1" x="1" y="2" z="2" color="green" />
+      <block id="c2" x="5" y="2" z="2" color="green" />
+      <block id="c4" x="4" y="3" z="2" color="green" />
+      <block id="c6" x="2" y="3" z="2" color="green" />
+      <block id="c8" x="3" y="4" z="2" color="green" />
+      <block id="d4" x="3" y="5" z="1" color="red" />
+    </world_state>
     <!--now extend that to a row of 5 red blocks , making a line towards the orange pyramid-->
     <t>now extend</t>
     <markable id="markable_116" gender="unmarked" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="unmarked" person="unmarked" reference="unmarked" span="(324, 325)">
@@ -388,7 +899,34 @@
   </utterance>
   <utterance participant="builder">added red@3,5,0 added red@3,5,-1 added red@3,5,-2<!--added red@3,5,0 added red@3,5,-1 added red@3,5,-2-->
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" imageview="images/b21-a15-c66-1522882961544_89.png" amr="assertion">
+    <world_state>
+      <block id="a0" x="2" y="0" z="-2" color="orange" />
+      <block id="a1" x="1" y="0" z="-2" color="orange" />
+      <block id="a2" x="0" y="0" z="-2" color="orange" />
+      <block id="a3" x="-1" y="0" z="-2" color="orange" />
+      <block id="a4" x="-2" y="0" z="-2" color="orange" />
+      <block id="a5" x="2" y="1" z="-2" color="orange" />
+      <block id="a6" x="-2" y="1" z="-2" color="orange" />
+      <block id="a8" x="1" y="2" z="-2" color="orange" />
+      <block id="b0" x="-1" y="2" z="-2" color="orange" />
+      <block id="b2" x="0" y="3" z="-2" color="orange" />
+      <block id="b4" x="2" y="1" z="2" color="green" />
+      <block id="b7" x="1" y="1" z="2" color="green" />
+      <block id="b8" x="3" y="1" z="2" color="green" />
+      <block id="b9" x="4" y="1" z="2" color="green" />
+      <block id="c0" x="5" y="1" z="2" color="green" />
+      <block id="c1" x="1" y="2" z="2" color="green" />
+      <block id="c2" x="5" y="2" z="2" color="green" />
+      <block id="c4" x="4" y="3" z="2" color="green" />
+      <block id="c6" x="2" y="3" z="2" color="green" />
+      <block id="c8" x="3" y="4" z="2" color="green" />
+      <block id="d4" x="3" y="5" z="1" color="red" />
+      <block id="d5" x="3" y="5" z="0" color="red" />
+      <block id="d6" x="3" y="5" z="-1" color="red" />
+      <block id="d7" x="3" y="5" z="-2" color="red" />
+      <block id="d8" x="3" y="5" z="-3" color="red" />
+    </world_state>
     <!--okay , now , you 're gon na want to build an UPSIDE DOWN pyramid structure-->
     <t>okay , now ,</t>
     <markable id="markable_118" gender="unmarked" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="unmarked" person="unmarked" reference="unmarked" span="(347, 348)">
@@ -401,7 +939,34 @@
   </utterance>
   <utterance participant="builder">added red@3,5,-3<!--added red@3,5,-3-->
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" imageview="images/b21-a15-c66-1522882961544_90.png" amr="assertion">
+    <world_state>
+      <block id="a0" x="2" y="0" z="-2" color="orange" />
+      <block id="a1" x="1" y="0" z="-2" color="orange" />
+      <block id="a2" x="0" y="0" z="-2" color="orange" />
+      <block id="a3" x="-1" y="0" z="-2" color="orange" />
+      <block id="a4" x="-2" y="0" z="-2" color="orange" />
+      <block id="a5" x="2" y="1" z="-2" color="orange" />
+      <block id="a6" x="-2" y="1" z="-2" color="orange" />
+      <block id="a8" x="1" y="2" z="-2" color="orange" />
+      <block id="b0" x="-1" y="2" z="-2" color="orange" />
+      <block id="b2" x="0" y="3" z="-2" color="orange" />
+      <block id="b4" x="2" y="1" z="2" color="green" />
+      <block id="b7" x="1" y="1" z="2" color="green" />
+      <block id="b8" x="3" y="1" z="2" color="green" />
+      <block id="b9" x="4" y="1" z="2" color="green" />
+      <block id="c0" x="5" y="1" z="2" color="green" />
+      <block id="c1" x="1" y="2" z="2" color="green" />
+      <block id="c2" x="5" y="2" z="2" color="green" />
+      <block id="c4" x="4" y="3" z="2" color="green" />
+      <block id="c6" x="2" y="3" z="2" color="green" />
+      <block id="c8" x="3" y="4" z="2" color="green" />
+      <block id="d4" x="3" y="5" z="1" color="red" />
+      <block id="d5" x="3" y="5" z="0" color="red" />
+      <block id="d6" x="3" y="5" z="-1" color="red" />
+      <block id="d7" x="3" y="5" z="-2" color="red" />
+      <block id="d8" x="3" y="5" z="-3" color="red" />
+    </world_state>
     <!--so just like the other two , but upside down-->
     <t>so just like</t>
     <markable id="markable_120" gender="unmarked" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="unmarked" person="unmarked" reference="unmarked" span="(363, 366)">
@@ -411,7 +976,39 @@
   </utterance>
   <utterance participant="builder">added red@3,4,-3 added red@3,4,1 added red@3,3,-3 added red@3,3,-2 removed red@3,3,-3 added red@3,3,1 removed red@3,3,1 added red@3,3,1 added red@3,3,0 removed red@3,3,1 added red@3,2,-2 added red@3,2,-1 removed red@3,2,-2<!--added red@3,4,-3 added red@3,4,1 added red@3,3,-3 added red@3,3,-2 removed red@3,3,-3 added red@3,3,1 removed red@3,3,1 added red@3,3,1 added red@3,3,0 removed red@3,3,1 added red@3,2,-2 added red@3,2,-1 removed red@3,2,-2-->
   </utterance>
-  <utterance participant="builder">
+  <utterance participant="builder" imageview="images/b21-a15-c66-1522882961544_105.png" amr="question">
+    <world_state>
+      <block id="a0" x="2" y="0" z="-2" color="orange" />
+      <block id="a1" x="1" y="0" z="-2" color="orange" />
+      <block id="a2" x="0" y="0" z="-2" color="orange" />
+      <block id="a3" x="-1" y="0" z="-2" color="orange" />
+      <block id="a4" x="-2" y="0" z="-2" color="orange" />
+      <block id="a5" x="2" y="1" z="-2" color="orange" />
+      <block id="a6" x="-2" y="1" z="-2" color="orange" />
+      <block id="a8" x="1" y="2" z="-2" color="orange" />
+      <block id="b0" x="-1" y="2" z="-2" color="orange" />
+      <block id="b2" x="0" y="3" z="-2" color="orange" />
+      <block id="b4" x="2" y="1" z="2" color="green" />
+      <block id="b7" x="1" y="1" z="2" color="green" />
+      <block id="b8" x="3" y="1" z="2" color="green" />
+      <block id="b9" x="4" y="1" z="2" color="green" />
+      <block id="c0" x="5" y="1" z="2" color="green" />
+      <block id="c1" x="1" y="2" z="2" color="green" />
+      <block id="c2" x="5" y="2" z="2" color="green" />
+      <block id="c4" x="4" y="3" z="2" color="green" />
+      <block id="c6" x="2" y="3" z="2" color="green" />
+      <block id="c8" x="3" y="4" z="2" color="green" />
+      <block id="d4" x="3" y="5" z="1" color="red" />
+      <block id="d5" x="3" y="5" z="0" color="red" />
+      <block id="d6" x="3" y="5" z="-1" color="red" />
+      <block id="d7" x="3" y="5" z="-2" color="red" />
+      <block id="d8" x="3" y="5" z="-3" color="red" />
+      <block id="d9" x="3" y="4" z="-3" color="red" />
+      <block id="e0" x="3" y="4" z="1" color="red" />
+      <block id="e2" x="3" y="3" z="-2" color="red" />
+      <block id="e5" x="3" y="3" z="0" color="red" />
+      <block id="e7" x="3" y="2" z="-1" color="red" />
+    </world_state>
     <!--like that ?-->
     <t>like</t>
     <markable id="markable_121" gender="unmarked" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="unmarked" person="unmarked" reference="unmarked" span="(384, 385)">
@@ -419,25 +1016,185 @@
     </markable>
     <t>?</t>
   </utterance>
-  <utterance participant="architect">yes , perfect !<!--yes , perfect !-->
+  <utterance participant="architect" imageview="images/b21-a15-c66-1522882961544_106.png" amr="assertion">yes , perfect !<world_state>
+      <block id="a0" x="2" y="0" z="-2" color="orange" />
+      <block id="a1" x="1" y="0" z="-2" color="orange" />
+      <block id="a2" x="0" y="0" z="-2" color="orange" />
+      <block id="a3" x="-1" y="0" z="-2" color="orange" />
+      <block id="a4" x="-2" y="0" z="-2" color="orange" />
+      <block id="a5" x="2" y="1" z="-2" color="orange" />
+      <block id="a6" x="-2" y="1" z="-2" color="orange" />
+      <block id="a8" x="1" y="2" z="-2" color="orange" />
+      <block id="b0" x="-1" y="2" z="-2" color="orange" />
+      <block id="b2" x="0" y="3" z="-2" color="orange" />
+      <block id="b4" x="2" y="1" z="2" color="green" />
+      <block id="b7" x="1" y="1" z="2" color="green" />
+      <block id="b8" x="3" y="1" z="2" color="green" />
+      <block id="b9" x="4" y="1" z="2" color="green" />
+      <block id="c0" x="5" y="1" z="2" color="green" />
+      <block id="c1" x="1" y="2" z="2" color="green" />
+      <block id="c2" x="5" y="2" z="2" color="green" />
+      <block id="c4" x="4" y="3" z="2" color="green" />
+      <block id="c6" x="2" y="3" z="2" color="green" />
+      <block id="c8" x="3" y="4" z="2" color="green" />
+      <block id="d4" x="3" y="5" z="1" color="red" />
+      <block id="d5" x="3" y="5" z="0" color="red" />
+      <block id="d6" x="3" y="5" z="-1" color="red" />
+      <block id="d7" x="3" y="5" z="-2" color="red" />
+      <block id="d8" x="3" y="5" z="-3" color="red" />
+      <block id="d9" x="3" y="4" z="-3" color="red" />
+      <block id="e0" x="3" y="4" z="1" color="red" />
+      <block id="e2" x="3" y="3" z="-2" color="red" />
+      <block id="e5" x="3" y="3" z="0" color="red" />
+      <block id="e7" x="3" y="2" z="-1" color="red" />
+    </world_state>
+    <!--yes , perfect !-->
   </utterance>
-  <utterance participant="builder">solid<!--solid-->
+  <utterance participant="builder" imageview="images/b21-a15-c66-1522882961544_107.png" amr="assertion">solid<world_state>
+      <block id="a0" x="2" y="0" z="-2" color="orange" />
+      <block id="a1" x="1" y="0" z="-2" color="orange" />
+      <block id="a2" x="0" y="0" z="-2" color="orange" />
+      <block id="a3" x="-1" y="0" z="-2" color="orange" />
+      <block id="a4" x="-2" y="0" z="-2" color="orange" />
+      <block id="a5" x="2" y="1" z="-2" color="orange" />
+      <block id="a6" x="-2" y="1" z="-2" color="orange" />
+      <block id="a8" x="1" y="2" z="-2" color="orange" />
+      <block id="b0" x="-1" y="2" z="-2" color="orange" />
+      <block id="b2" x="0" y="3" z="-2" color="orange" />
+      <block id="b4" x="2" y="1" z="2" color="green" />
+      <block id="b7" x="1" y="1" z="2" color="green" />
+      <block id="b8" x="3" y="1" z="2" color="green" />
+      <block id="b9" x="4" y="1" z="2" color="green" />
+      <block id="c0" x="5" y="1" z="2" color="green" />
+      <block id="c1" x="1" y="2" z="2" color="green" />
+      <block id="c2" x="5" y="2" z="2" color="green" />
+      <block id="c4" x="4" y="3" z="2" color="green" />
+      <block id="c6" x="2" y="3" z="2" color="green" />
+      <block id="c8" x="3" y="4" z="2" color="green" />
+      <block id="d4" x="3" y="5" z="1" color="red" />
+      <block id="d5" x="3" y="5" z="0" color="red" />
+      <block id="d6" x="3" y="5" z="-1" color="red" />
+      <block id="d7" x="3" y="5" z="-2" color="red" />
+      <block id="d8" x="3" y="5" z="-3" color="red" />
+      <block id="d9" x="3" y="4" z="-3" color="red" />
+      <block id="e0" x="3" y="4" z="1" color="red" />
+      <block id="e2" x="3" y="3" z="-2" color="red" />
+      <block id="e5" x="3" y="3" z="0" color="red" />
+      <block id="e7" x="3" y="2" z="-1" color="red" />
+    </world_state>
+    <!--solid-->
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" imageview="images/b21-a15-c66-1522882961544_108.png" amr="assertion">
+    <world_state>
+      <block id="a0" x="2" y="0" z="-2" color="orange" />
+      <block id="a1" x="1" y="0" z="-2" color="orange" />
+      <block id="a2" x="0" y="0" z="-2" color="orange" />
+      <block id="a3" x="-1" y="0" z="-2" color="orange" />
+      <block id="a4" x="-2" y="0" z="-2" color="orange" />
+      <block id="a5" x="2" y="1" z="-2" color="orange" />
+      <block id="a6" x="-2" y="1" z="-2" color="orange" />
+      <block id="a8" x="1" y="2" z="-2" color="orange" />
+      <block id="b0" x="-1" y="2" z="-2" color="orange" />
+      <block id="b2" x="0" y="3" z="-2" color="orange" />
+      <block id="b4" x="2" y="1" z="2" color="green" />
+      <block id="b7" x="1" y="1" z="2" color="green" />
+      <block id="b8" x="3" y="1" z="2" color="green" />
+      <block id="b9" x="4" y="1" z="2" color="green" />
+      <block id="c0" x="5" y="1" z="2" color="green" />
+      <block id="c1" x="1" y="2" z="2" color="green" />
+      <block id="c2" x="5" y="2" z="2" color="green" />
+      <block id="c4" x="4" y="3" z="2" color="green" />
+      <block id="c6" x="2" y="3" z="2" color="green" />
+      <block id="c8" x="3" y="4" z="2" color="green" />
+      <block id="d4" x="3" y="5" z="1" color="red" />
+      <block id="d5" x="3" y="5" z="0" color="red" />
+      <block id="d6" x="3" y="5" z="-1" color="red" />
+      <block id="d7" x="3" y="5" z="-2" color="red" />
+      <block id="d8" x="3" y="5" z="-3" color="red" />
+      <block id="d9" x="3" y="4" z="-3" color="red" />
+      <block id="e0" x="3" y="4" z="1" color="red" />
+      <block id="e2" x="3" y="3" z="-2" color="red" />
+      <block id="e5" x="3" y="3" z="0" color="red" />
+      <block id="e7" x="3" y="2" z="-1" color="red" />
+    </world_state>
     <!--i messed up though-->
     <markable id="markable_122" gender="unmarked" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="unmarked" person="unmarked" reference="unmarked" span="(391, 392)">
       <t>i</t>
     </markable>
     <t>messed up though</t>
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" imageview="images/b21-a15-c66-1522882961544_109.png" amr="assertion">
+    <world_state>
+      <block id="a0" x="2" y="0" z="-2" color="orange" />
+      <block id="a1" x="1" y="0" z="-2" color="orange" />
+      <block id="a2" x="0" y="0" z="-2" color="orange" />
+      <block id="a3" x="-1" y="0" z="-2" color="orange" />
+      <block id="a4" x="-2" y="0" z="-2" color="orange" />
+      <block id="a5" x="2" y="1" z="-2" color="orange" />
+      <block id="a6" x="-2" y="1" z="-2" color="orange" />
+      <block id="a8" x="1" y="2" z="-2" color="orange" />
+      <block id="b0" x="-1" y="2" z="-2" color="orange" />
+      <block id="b2" x="0" y="3" z="-2" color="orange" />
+      <block id="b4" x="2" y="1" z="2" color="green" />
+      <block id="b7" x="1" y="1" z="2" color="green" />
+      <block id="b8" x="3" y="1" z="2" color="green" />
+      <block id="b9" x="4" y="1" z="2" color="green" />
+      <block id="c0" x="5" y="1" z="2" color="green" />
+      <block id="c1" x="1" y="2" z="2" color="green" />
+      <block id="c2" x="5" y="2" z="2" color="green" />
+      <block id="c4" x="4" y="3" z="2" color="green" />
+      <block id="c6" x="2" y="3" z="2" color="green" />
+      <block id="c8" x="3" y="4" z="2" color="green" />
+      <block id="d4" x="3" y="5" z="1" color="red" />
+      <block id="d5" x="3" y="5" z="0" color="red" />
+      <block id="d6" x="3" y="5" z="-1" color="red" />
+      <block id="d7" x="3" y="5" z="-2" color="red" />
+      <block id="d8" x="3" y="5" z="-3" color="red" />
+      <block id="d9" x="3" y="4" z="-3" color="red" />
+      <block id="e0" x="3" y="4" z="1" color="red" />
+      <block id="e2" x="3" y="3" z="-2" color="red" />
+      <block id="e5" x="3" y="3" z="0" color="red" />
+      <block id="e7" x="3" y="2" z="-1" color="red" />
+    </world_state>
     <!--i apologized-->
     <markable id="markable_6" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="undersp-num" order_id="6" person="per1" phrase_antecedent="single_phrase" ref_type="phrase" reference="old" related_object="no" single_phrase_antecedent="empty" span="(395, 396)" single_phrase_antecedent_cluster="single_phrase_antecedent_2">
       <t>i</t>
     </markable>
     <t>apologized</t>
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" imageview="images/b21-a15-c66-1522882961544_110.png" amr="assertion">
+    <world_state>
+      <block id="a0" x="2" y="0" z="-2" color="orange" />
+      <block id="a1" x="1" y="0" z="-2" color="orange" />
+      <block id="a2" x="0" y="0" z="-2" color="orange" />
+      <block id="a3" x="-1" y="0" z="-2" color="orange" />
+      <block id="a4" x="-2" y="0" z="-2" color="orange" />
+      <block id="a5" x="2" y="1" z="-2" color="orange" />
+      <block id="a6" x="-2" y="1" z="-2" color="orange" />
+      <block id="a8" x="1" y="2" z="-2" color="orange" />
+      <block id="b0" x="-1" y="2" z="-2" color="orange" />
+      <block id="b2" x="0" y="3" z="-2" color="orange" />
+      <block id="b4" x="2" y="1" z="2" color="green" />
+      <block id="b7" x="1" y="1" z="2" color="green" />
+      <block id="b8" x="3" y="1" z="2" color="green" />
+      <block id="b9" x="4" y="1" z="2" color="green" />
+      <block id="c0" x="5" y="1" z="2" color="green" />
+      <block id="c1" x="1" y="2" z="2" color="green" />
+      <block id="c2" x="5" y="2" z="2" color="green" />
+      <block id="c4" x="4" y="3" z="2" color="green" />
+      <block id="c6" x="2" y="3" z="2" color="green" />
+      <block id="c8" x="3" y="4" z="2" color="green" />
+      <block id="d4" x="3" y="5" z="1" color="red" />
+      <block id="d5" x="3" y="5" z="0" color="red" />
+      <block id="d6" x="3" y="5" z="-1" color="red" />
+      <block id="d7" x="3" y="5" z="-2" color="red" />
+      <block id="d8" x="3" y="5" z="-3" color="red" />
+      <block id="d9" x="3" y="4" z="-3" color="red" />
+      <block id="e0" x="3" y="4" z="1" color="red" />
+      <block id="e2" x="3" y="3" z="-2" color="red" />
+      <block id="e5" x="3" y="3" z="0" color="red" />
+      <block id="e7" x="3" y="2" z="-1" color="red" />
+    </world_state>
     <!--the orange pyramid should be one tile to the right of where it currently is , so it 's directly underneath the red pyramid 's ip-->
     <markable id="markable_123" gender="unmarked" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="unmarked" person="unmarked" reference="unmarked" span="(397, 400)">
       <t>the orange pyramid</t>
@@ -469,38 +1226,266 @@
       <t>ip</t>
     </markable>
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" imageview="images/b21-a15-c66-1522882961544_111.png" amr="assertion">
+    <world_state>
+      <block id="a0" x="2" y="0" z="-2" color="orange" />
+      <block id="a1" x="1" y="0" z="-2" color="orange" />
+      <block id="a2" x="0" y="0" z="-2" color="orange" />
+      <block id="a3" x="-1" y="0" z="-2" color="orange" />
+      <block id="a4" x="-2" y="0" z="-2" color="orange" />
+      <block id="a5" x="2" y="1" z="-2" color="orange" />
+      <block id="a6" x="-2" y="1" z="-2" color="orange" />
+      <block id="a8" x="1" y="2" z="-2" color="orange" />
+      <block id="b0" x="-1" y="2" z="-2" color="orange" />
+      <block id="b2" x="0" y="3" z="-2" color="orange" />
+      <block id="b4" x="2" y="1" z="2" color="green" />
+      <block id="b7" x="1" y="1" z="2" color="green" />
+      <block id="b8" x="3" y="1" z="2" color="green" />
+      <block id="b9" x="4" y="1" z="2" color="green" />
+      <block id="c0" x="5" y="1" z="2" color="green" />
+      <block id="c1" x="1" y="2" z="2" color="green" />
+      <block id="c2" x="5" y="2" z="2" color="green" />
+      <block id="c4" x="4" y="3" z="2" color="green" />
+      <block id="c6" x="2" y="3" z="2" color="green" />
+      <block id="c8" x="3" y="4" z="2" color="green" />
+      <block id="d4" x="3" y="5" z="1" color="red" />
+      <block id="d5" x="3" y="5" z="0" color="red" />
+      <block id="d6" x="3" y="5" z="-1" color="red" />
+      <block id="d7" x="3" y="5" z="-2" color="red" />
+      <block id="d8" x="3" y="5" z="-3" color="red" />
+      <block id="d9" x="3" y="4" z="-3" color="red" />
+      <block id="e0" x="3" y="4" z="1" color="red" />
+      <block id="e2" x="3" y="3" z="-2" color="red" />
+      <block id="e5" x="3" y="3" z="0" color="red" />
+      <block id="e7" x="3" y="2" z="-1" color="red" />
+    </world_state>
     <!--tip *-->
     <markable id="markable_130" gender="unmarked" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="unmarked" person="unmarked" reference="unmarked" span="(423, 424)">
       <t>tip</t>
     </markable>
     <t>*</t>
   </utterance>
-  <utterance participant="builder">aight<!--aight-->
+  <utterance participant="builder" imageview="images/b21-a15-c66-1522882961544_112.png" amr="assertion">aight<world_state>
+      <block id="a0" x="2" y="0" z="-2" color="orange" />
+      <block id="a1" x="1" y="0" z="-2" color="orange" />
+      <block id="a2" x="0" y="0" z="-2" color="orange" />
+      <block id="a3" x="-1" y="0" z="-2" color="orange" />
+      <block id="a4" x="-2" y="0" z="-2" color="orange" />
+      <block id="a5" x="2" y="1" z="-2" color="orange" />
+      <block id="a6" x="-2" y="1" z="-2" color="orange" />
+      <block id="a8" x="1" y="2" z="-2" color="orange" />
+      <block id="b0" x="-1" y="2" z="-2" color="orange" />
+      <block id="b2" x="0" y="3" z="-2" color="orange" />
+      <block id="b4" x="2" y="1" z="2" color="green" />
+      <block id="b7" x="1" y="1" z="2" color="green" />
+      <block id="b8" x="3" y="1" z="2" color="green" />
+      <block id="b9" x="4" y="1" z="2" color="green" />
+      <block id="c0" x="5" y="1" z="2" color="green" />
+      <block id="c1" x="1" y="2" z="2" color="green" />
+      <block id="c2" x="5" y="2" z="2" color="green" />
+      <block id="c4" x="4" y="3" z="2" color="green" />
+      <block id="c6" x="2" y="3" z="2" color="green" />
+      <block id="c8" x="3" y="4" z="2" color="green" />
+      <block id="d4" x="3" y="5" z="1" color="red" />
+      <block id="d5" x="3" y="5" z="0" color="red" />
+      <block id="d6" x="3" y="5" z="-1" color="red" />
+      <block id="d7" x="3" y="5" z="-2" color="red" />
+      <block id="d8" x="3" y="5" z="-3" color="red" />
+      <block id="d9" x="3" y="4" z="-3" color="red" />
+      <block id="e0" x="3" y="4" z="1" color="red" />
+      <block id="e2" x="3" y="3" z="-2" color="red" />
+      <block id="e5" x="3" y="3" z="0" color="red" />
+      <block id="e7" x="3" y="2" z="-1" color="red" />
+    </world_state>
+    <!--aight-->
   </utterance>
   <utterance participant="builder">added orange@3,0,-2 added orange@3,1,-2<!--added orange@3,0,-2 added orange@3,1,-2-->
   </utterance>
-  <utterance participant="architect">no<!--no-->
+  <utterance participant="architect" imageview="images/b21-a15-c66-1522882961544_115.png" amr="assertion">no<world_state>
+      <block id="a0" x="2" y="0" z="-2" color="orange" />
+      <block id="a1" x="1" y="0" z="-2" color="orange" />
+      <block id="a2" x="0" y="0" z="-2" color="orange" />
+      <block id="a3" x="-1" y="0" z="-2" color="orange" />
+      <block id="a4" x="-2" y="0" z="-2" color="orange" />
+      <block id="a5" x="2" y="1" z="-2" color="orange" />
+      <block id="a6" x="-2" y="1" z="-2" color="orange" />
+      <block id="a8" x="1" y="2" z="-2" color="orange" />
+      <block id="b0" x="-1" y="2" z="-2" color="orange" />
+      <block id="b2" x="0" y="3" z="-2" color="orange" />
+      <block id="b4" x="2" y="1" z="2" color="green" />
+      <block id="b7" x="1" y="1" z="2" color="green" />
+      <block id="b8" x="3" y="1" z="2" color="green" />
+      <block id="b9" x="4" y="1" z="2" color="green" />
+      <block id="c0" x="5" y="1" z="2" color="green" />
+      <block id="c1" x="1" y="2" z="2" color="green" />
+      <block id="c2" x="5" y="2" z="2" color="green" />
+      <block id="c4" x="4" y="3" z="2" color="green" />
+      <block id="c6" x="2" y="3" z="2" color="green" />
+      <block id="c8" x="3" y="4" z="2" color="green" />
+      <block id="d4" x="3" y="5" z="1" color="red" />
+      <block id="d5" x="3" y="5" z="0" color="red" />
+      <block id="d6" x="3" y="5" z="-1" color="red" />
+      <block id="d7" x="3" y="5" z="-2" color="red" />
+      <block id="d8" x="3" y="5" z="-3" color="red" />
+      <block id="d9" x="3" y="4" z="-3" color="red" />
+      <block id="e0" x="3" y="4" z="1" color="red" />
+      <block id="e2" x="3" y="3" z="-2" color="red" />
+      <block id="e5" x="3" y="3" z="0" color="red" />
+      <block id="e7" x="3" y="2" z="-1" color="red" />
+      <block id="e8" x="3" y="0" z="-2" color="orange" />
+      <block id="e9" x="3" y="1" z="-2" color="orange" />
+    </world_state>
+    <!--no-->
   </utterance>
-  <utterance participant="architect">sorry<!--sorry-->
+  <utterance participant="architect" imageview="images/b21-a15-c66-1522882961544_116.png" amr="assertion">sorry<world_state>
+      <block id="a0" x="2" y="0" z="-2" color="orange" />
+      <block id="a1" x="1" y="0" z="-2" color="orange" />
+      <block id="a2" x="0" y="0" z="-2" color="orange" />
+      <block id="a3" x="-1" y="0" z="-2" color="orange" />
+      <block id="a4" x="-2" y="0" z="-2" color="orange" />
+      <block id="a5" x="2" y="1" z="-2" color="orange" />
+      <block id="a6" x="-2" y="1" z="-2" color="orange" />
+      <block id="a8" x="1" y="2" z="-2" color="orange" />
+      <block id="b0" x="-1" y="2" z="-2" color="orange" />
+      <block id="b2" x="0" y="3" z="-2" color="orange" />
+      <block id="b4" x="2" y="1" z="2" color="green" />
+      <block id="b7" x="1" y="1" z="2" color="green" />
+      <block id="b8" x="3" y="1" z="2" color="green" />
+      <block id="b9" x="4" y="1" z="2" color="green" />
+      <block id="c0" x="5" y="1" z="2" color="green" />
+      <block id="c1" x="1" y="2" z="2" color="green" />
+      <block id="c2" x="5" y="2" z="2" color="green" />
+      <block id="c4" x="4" y="3" z="2" color="green" />
+      <block id="c6" x="2" y="3" z="2" color="green" />
+      <block id="c8" x="3" y="4" z="2" color="green" />
+      <block id="d4" x="3" y="5" z="1" color="red" />
+      <block id="d5" x="3" y="5" z="0" color="red" />
+      <block id="d6" x="3" y="5" z="-1" color="red" />
+      <block id="d7" x="3" y="5" z="-2" color="red" />
+      <block id="d8" x="3" y="5" z="-3" color="red" />
+      <block id="d9" x="3" y="4" z="-3" color="red" />
+      <block id="e0" x="3" y="4" z="1" color="red" />
+      <block id="e2" x="3" y="3" z="-2" color="red" />
+      <block id="e5" x="3" y="3" z="0" color="red" />
+      <block id="e7" x="3" y="2" z="-1" color="red" />
+      <block id="e8" x="3" y="0" z="-2" color="orange" />
+      <block id="e9" x="3" y="1" z="-2" color="orange" />
+    </world_state>
+    <!--sorry-->
   </utterance>
   <utterance participant="builder">removed orange@3,1,-2 removed orange@3,0,-2<!--removed orange@3,1,-2 removed orange@3,0,-2-->
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" imageview="images/b21-a15-c66-1522882961544_119.png" amr="command">
+    <world_state>
+      <block id="a0" x="2" y="0" z="-2" color="orange" />
+      <block id="a1" x="1" y="0" z="-2" color="orange" />
+      <block id="a2" x="0" y="0" z="-2" color="orange" />
+      <block id="a3" x="-1" y="0" z="-2" color="orange" />
+      <block id="a4" x="-2" y="0" z="-2" color="orange" />
+      <block id="a5" x="2" y="1" z="-2" color="orange" />
+      <block id="a6" x="-2" y="1" z="-2" color="orange" />
+      <block id="a8" x="1" y="2" z="-2" color="orange" />
+      <block id="b0" x="-1" y="2" z="-2" color="orange" />
+      <block id="b2" x="0" y="3" z="-2" color="orange" />
+      <block id="b4" x="2" y="1" z="2" color="green" />
+      <block id="b7" x="1" y="1" z="2" color="green" />
+      <block id="b8" x="3" y="1" z="2" color="green" />
+      <block id="b9" x="4" y="1" z="2" color="green" />
+      <block id="c0" x="5" y="1" z="2" color="green" />
+      <block id="c1" x="1" y="2" z="2" color="green" />
+      <block id="c2" x="5" y="2" z="2" color="green" />
+      <block id="c4" x="4" y="3" z="2" color="green" />
+      <block id="c6" x="2" y="3" z="2" color="green" />
+      <block id="c8" x="3" y="4" z="2" color="green" />
+      <block id="d4" x="3" y="5" z="1" color="red" />
+      <block id="d5" x="3" y="5" z="0" color="red" />
+      <block id="d6" x="3" y="5" z="-1" color="red" />
+      <block id="d7" x="3" y="5" z="-2" color="red" />
+      <block id="d8" x="3" y="5" z="-3" color="red" />
+      <block id="d9" x="3" y="4" z="-3" color="red" />
+      <block id="e0" x="3" y="4" z="1" color="red" />
+      <block id="e2" x="3" y="3" z="-2" color="red" />
+      <block id="e5" x="3" y="3" z="0" color="red" />
+      <block id="e7" x="3" y="2" z="-1" color="red" />
+    </world_state>
     <!--move one space left-->
     <t>move</t>
     <markable id="markable_131" gender="unmarked" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="unmarked" person="unmarked" reference="unmarked" span="(433, 436)">
       <t>one space left</t>
     </markable>
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" imageview="images/b21-a15-c66-1522882961544_120.png" amr="command">
+    <world_state>
+      <block id="a0" x="2" y="0" z="-2" color="orange" />
+      <block id="a1" x="1" y="0" z="-2" color="orange" />
+      <block id="a2" x="0" y="0" z="-2" color="orange" />
+      <block id="a3" x="-1" y="0" z="-2" color="orange" />
+      <block id="a4" x="-2" y="0" z="-2" color="orange" />
+      <block id="a5" x="2" y="1" z="-2" color="orange" />
+      <block id="a6" x="-2" y="1" z="-2" color="orange" />
+      <block id="a8" x="1" y="2" z="-2" color="orange" />
+      <block id="b0" x="-1" y="2" z="-2" color="orange" />
+      <block id="b2" x="0" y="3" z="-2" color="orange" />
+      <block id="b4" x="2" y="1" z="2" color="green" />
+      <block id="b7" x="1" y="1" z="2" color="green" />
+      <block id="b8" x="3" y="1" z="2" color="green" />
+      <block id="b9" x="4" y="1" z="2" color="green" />
+      <block id="c0" x="5" y="1" z="2" color="green" />
+      <block id="c1" x="1" y="2" z="2" color="green" />
+      <block id="c2" x="5" y="2" z="2" color="green" />
+      <block id="c4" x="4" y="3" z="2" color="green" />
+      <block id="c6" x="2" y="3" z="2" color="green" />
+      <block id="c8" x="3" y="4" z="2" color="green" />
+      <block id="d4" x="3" y="5" z="1" color="red" />
+      <block id="d5" x="3" y="5" z="0" color="red" />
+      <block id="d6" x="3" y="5" z="-1" color="red" />
+      <block id="d7" x="3" y="5" z="-2" color="red" />
+      <block id="d8" x="3" y="5" z="-3" color="red" />
+      <block id="d9" x="3" y="4" z="-3" color="red" />
+      <block id="e0" x="3" y="4" z="1" color="red" />
+      <block id="e2" x="3" y="3" z="-2" color="red" />
+      <block id="e5" x="3" y="3" z="0" color="red" />
+      <block id="e7" x="3" y="2" z="-1" color="red" />
+    </world_state>
     <!--walk up against the orange pyramid-->
     <t>walk up against</t>
     <markable id="markable_132" gender="unmarked" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="unmarked" person="unmarked" reference="unmarked" span="(439, 442)">
       <t>the orange pyramid</t>
     </markable>
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" imageview="images/b21-a15-c66-1522882961544_121.png" amr="command">
+    <world_state>
+      <block id="a0" x="2" y="0" z="-2" color="orange" />
+      <block id="a1" x="1" y="0" z="-2" color="orange" />
+      <block id="a2" x="0" y="0" z="-2" color="orange" />
+      <block id="a3" x="-1" y="0" z="-2" color="orange" />
+      <block id="a4" x="-2" y="0" z="-2" color="orange" />
+      <block id="a5" x="2" y="1" z="-2" color="orange" />
+      <block id="a6" x="-2" y="1" z="-2" color="orange" />
+      <block id="a8" x="1" y="2" z="-2" color="orange" />
+      <block id="b0" x="-1" y="2" z="-2" color="orange" />
+      <block id="b2" x="0" y="3" z="-2" color="orange" />
+      <block id="b4" x="2" y="1" z="2" color="green" />
+      <block id="b7" x="1" y="1" z="2" color="green" />
+      <block id="b8" x="3" y="1" z="2" color="green" />
+      <block id="b9" x="4" y="1" z="2" color="green" />
+      <block id="c0" x="5" y="1" z="2" color="green" />
+      <block id="c1" x="1" y="2" z="2" color="green" />
+      <block id="c2" x="5" y="2" z="2" color="green" />
+      <block id="c4" x="4" y="3" z="2" color="green" />
+      <block id="c6" x="2" y="3" z="2" color="green" />
+      <block id="c8" x="3" y="4" z="2" color="green" />
+      <block id="d4" x="3" y="5" z="1" color="red" />
+      <block id="d5" x="3" y="5" z="0" color="red" />
+      <block id="d6" x="3" y="5" z="-1" color="red" />
+      <block id="d7" x="3" y="5" z="-2" color="red" />
+      <block id="d8" x="3" y="5" z="-3" color="red" />
+      <block id="d9" x="3" y="4" z="-3" color="red" />
+      <block id="e0" x="3" y="4" z="1" color="red" />
+      <block id="e2" x="3" y="3" z="-2" color="red" />
+      <block id="e5" x="3" y="3" z="0" color="red" />
+      <block id="e7" x="3" y="2" z="-1" color="red" />
+    </world_state>
     <!--okay , place an orange block right in front of you-->
     <t>okay , place</t>
     <markable id="markable_133" gender="unmarked" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="unmarked" person="unmarked" reference="unmarked" span="(445, 448)">
@@ -516,7 +1501,40 @@
   </utterance>
   <utterance participant="builder">added orange@2,1,-1<!--added orange@2,1,-1-->
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" imageview="images/b21-a15-c66-1522882961544_123.png" amr="command">
+    <world_state>
+      <block id="a0" x="2" y="0" z="-2" color="orange" />
+      <block id="a1" x="1" y="0" z="-2" color="orange" />
+      <block id="a2" x="0" y="0" z="-2" color="orange" />
+      <block id="a3" x="-1" y="0" z="-2" color="orange" />
+      <block id="a4" x="-2" y="0" z="-2" color="orange" />
+      <block id="a5" x="2" y="1" z="-2" color="orange" />
+      <block id="a6" x="-2" y="1" z="-2" color="orange" />
+      <block id="a8" x="1" y="2" z="-2" color="orange" />
+      <block id="b0" x="-1" y="2" z="-2" color="orange" />
+      <block id="b2" x="0" y="3" z="-2" color="orange" />
+      <block id="b4" x="2" y="1" z="2" color="green" />
+      <block id="b7" x="1" y="1" z="2" color="green" />
+      <block id="b8" x="3" y="1" z="2" color="green" />
+      <block id="b9" x="4" y="1" z="2" color="green" />
+      <block id="c0" x="5" y="1" z="2" color="green" />
+      <block id="c1" x="1" y="2" z="2" color="green" />
+      <block id="c2" x="5" y="2" z="2" color="green" />
+      <block id="c4" x="4" y="3" z="2" color="green" />
+      <block id="c6" x="2" y="3" z="2" color="green" />
+      <block id="c8" x="3" y="4" z="2" color="green" />
+      <block id="d4" x="3" y="5" z="1" color="red" />
+      <block id="d5" x="3" y="5" z="0" color="red" />
+      <block id="d6" x="3" y="5" z="-1" color="red" />
+      <block id="d7" x="3" y="5" z="-2" color="red" />
+      <block id="d8" x="3" y="5" z="-3" color="red" />
+      <block id="d9" x="3" y="4" z="-3" color="red" />
+      <block id="e0" x="3" y="4" z="1" color="red" />
+      <block id="e2" x="3" y="3" z="-2" color="red" />
+      <block id="e5" x="3" y="3" z="0" color="red" />
+      <block id="e7" x="3" y="2" z="-1" color="red" />
+      <block id="f0" x="2" y="1" z="-1" color="orange" />
+    </world_state>
     <!--and one space down-->
     <t>and</t>
     <markable id="markable_135" gender="unmarked" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="unmarked" person="unmarked" reference="unmarked" span="(455, 458)">
@@ -525,14 +1543,82 @@
   </utterance>
   <utterance participant="builder">added orange@2,0,-1<!--added orange@2,0,-1-->
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" imageview="images/b21-a15-c66-1522882961544_125.png" amr="command">
+    <world_state>
+      <block id="a0" x="2" y="0" z="-2" color="orange" />
+      <block id="a1" x="1" y="0" z="-2" color="orange" />
+      <block id="a2" x="0" y="0" z="-2" color="orange" />
+      <block id="a3" x="-1" y="0" z="-2" color="orange" />
+      <block id="a4" x="-2" y="0" z="-2" color="orange" />
+      <block id="a5" x="2" y="1" z="-2" color="orange" />
+      <block id="a6" x="-2" y="1" z="-2" color="orange" />
+      <block id="a8" x="1" y="2" z="-2" color="orange" />
+      <block id="b0" x="-1" y="2" z="-2" color="orange" />
+      <block id="b2" x="0" y="3" z="-2" color="orange" />
+      <block id="b4" x="2" y="1" z="2" color="green" />
+      <block id="b7" x="1" y="1" z="2" color="green" />
+      <block id="b8" x="3" y="1" z="2" color="green" />
+      <block id="b9" x="4" y="1" z="2" color="green" />
+      <block id="c0" x="5" y="1" z="2" color="green" />
+      <block id="c1" x="1" y="2" z="2" color="green" />
+      <block id="c2" x="5" y="2" z="2" color="green" />
+      <block id="c4" x="4" y="3" z="2" color="green" />
+      <block id="c6" x="2" y="3" z="2" color="green" />
+      <block id="c8" x="3" y="4" z="2" color="green" />
+      <block id="d4" x="3" y="5" z="1" color="red" />
+      <block id="d5" x="3" y="5" z="0" color="red" />
+      <block id="d6" x="3" y="5" z="-1" color="red" />
+      <block id="d7" x="3" y="5" z="-2" color="red" />
+      <block id="d8" x="3" y="5" z="-3" color="red" />
+      <block id="d9" x="3" y="4" z="-3" color="red" />
+      <block id="e0" x="3" y="4" z="1" color="red" />
+      <block id="e2" x="3" y="3" z="-2" color="red" />
+      <block id="e5" x="3" y="3" z="0" color="red" />
+      <block id="e7" x="3" y="2" z="-1" color="red" />
+      <block id="f0" x="2" y="1" z="-1" color="orange" />
+      <block id="f1" x="2" y="0" z="-1" color="orange" />
+    </world_state>
     <!--so underneath that-->
     <t>so underneath</t>
     <markable id="markable_67" ambiguity="unambiguous" category="person" disagreement_type="no_disagreement" gender="unspecified" generic="generic-no" gram_fnc="unmarked" mark_type="phrase" min_ids="word_461" min_words="row" mmax_level="phrase" number="undersp-num" order_id="67" person="per1" ref_type="phrase" reference="new" related_object="no" span="(461, 462)">
       <t>that</t>
     </markable>
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" imageview="images/b21-a15-c66-1522882961544_126.png" amr="assertion">
+    <world_state>
+      <block id="a0" x="2" y="0" z="-2" color="orange" />
+      <block id="a1" x="1" y="0" z="-2" color="orange" />
+      <block id="a2" x="0" y="0" z="-2" color="orange" />
+      <block id="a3" x="-1" y="0" z="-2" color="orange" />
+      <block id="a4" x="-2" y="0" z="-2" color="orange" />
+      <block id="a5" x="2" y="1" z="-2" color="orange" />
+      <block id="a6" x="-2" y="1" z="-2" color="orange" />
+      <block id="a8" x="1" y="2" z="-2" color="orange" />
+      <block id="b0" x="-1" y="2" z="-2" color="orange" />
+      <block id="b2" x="0" y="3" z="-2" color="orange" />
+      <block id="b4" x="2" y="1" z="2" color="green" />
+      <block id="b7" x="1" y="1" z="2" color="green" />
+      <block id="b8" x="3" y="1" z="2" color="green" />
+      <block id="b9" x="4" y="1" z="2" color="green" />
+      <block id="c0" x="5" y="1" z="2" color="green" />
+      <block id="c1" x="1" y="2" z="2" color="green" />
+      <block id="c2" x="5" y="2" z="2" color="green" />
+      <block id="c4" x="4" y="3" z="2" color="green" />
+      <block id="c6" x="2" y="3" z="2" color="green" />
+      <block id="c8" x="3" y="4" z="2" color="green" />
+      <block id="d4" x="3" y="5" z="1" color="red" />
+      <block id="d5" x="3" y="5" z="0" color="red" />
+      <block id="d6" x="3" y="5" z="-1" color="red" />
+      <block id="d7" x="3" y="5" z="-2" color="red" />
+      <block id="d8" x="3" y="5" z="-3" color="red" />
+      <block id="d9" x="3" y="4" z="-3" color="red" />
+      <block id="e0" x="3" y="4" z="1" color="red" />
+      <block id="e2" x="3" y="3" z="-2" color="red" />
+      <block id="e5" x="3" y="3" z="0" color="red" />
+      <block id="e7" x="3" y="2" z="-1" color="red" />
+      <block id="f0" x="2" y="1" z="-1" color="orange" />
+      <block id="f1" x="2" y="0" z="-1" color="orange" />
+    </world_state>
     <!--yeah , that 's the row you should rebuild the orange pyramid on-->
     <t>yeah ,</t>
     <markable id="markable_136" gender="unmarked" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="unmarked" person="unmarked" reference="unmarked" span="(464, 465)">
@@ -551,11 +1637,77 @@
       <t>on</t>
     </markable>
   </utterance>
-  <utterance participant="builder">okie dokie<!--okie dokie-->
+  <utterance participant="builder" imageview="images/b21-a15-c66-1522882961544_127.png" amr="assertion">okie dokie<world_state>
+      <block id="a0" x="2" y="0" z="-2" color="orange" />
+      <block id="a1" x="1" y="0" z="-2" color="orange" />
+      <block id="a2" x="0" y="0" z="-2" color="orange" />
+      <block id="a3" x="-1" y="0" z="-2" color="orange" />
+      <block id="a4" x="-2" y="0" z="-2" color="orange" />
+      <block id="a5" x="2" y="1" z="-2" color="orange" />
+      <block id="a6" x="-2" y="1" z="-2" color="orange" />
+      <block id="a8" x="1" y="2" z="-2" color="orange" />
+      <block id="b0" x="-1" y="2" z="-2" color="orange" />
+      <block id="b2" x="0" y="3" z="-2" color="orange" />
+      <block id="b4" x="2" y="1" z="2" color="green" />
+      <block id="b7" x="1" y="1" z="2" color="green" />
+      <block id="b8" x="3" y="1" z="2" color="green" />
+      <block id="b9" x="4" y="1" z="2" color="green" />
+      <block id="c0" x="5" y="1" z="2" color="green" />
+      <block id="c1" x="1" y="2" z="2" color="green" />
+      <block id="c2" x="5" y="2" z="2" color="green" />
+      <block id="c4" x="4" y="3" z="2" color="green" />
+      <block id="c6" x="2" y="3" z="2" color="green" />
+      <block id="c8" x="3" y="4" z="2" color="green" />
+      <block id="d4" x="3" y="5" z="1" color="red" />
+      <block id="d5" x="3" y="5" z="0" color="red" />
+      <block id="d6" x="3" y="5" z="-1" color="red" />
+      <block id="d7" x="3" y="5" z="-2" color="red" />
+      <block id="d8" x="3" y="5" z="-3" color="red" />
+      <block id="d9" x="3" y="4" z="-3" color="red" />
+      <block id="e0" x="3" y="4" z="1" color="red" />
+      <block id="e2" x="3" y="3" z="-2" color="red" />
+      <block id="e5" x="3" y="3" z="0" color="red" />
+      <block id="e7" x="3" y="2" z="-1" color="red" />
+      <block id="f0" x="2" y="1" z="-1" color="orange" />
+      <block id="f1" x="2" y="0" z="-1" color="orange" />
+    </world_state>
+    <!--okie dokie-->
   </utterance>
   <utterance participant="builder">removed orange@2,1,-2 removed orange@2,0,-2 added orange@1,2,-1 added orange@1,0,-1 removed orange@1,2,-2 removed orange@1,0,-2 added orange@0,3,-1 removed orange@0,3,-2 added orange@-1,2,-1 removed orange@-1,2,-2 added orange@-2,1,-1 removed orange@-2,1,-2 added orange@-2,0,-1 added orange@-1,0,-1 added orange@0,0,-1 removed orange@-2,0,-2 removed orange@-1,0,-2 removed orange@0,0,-2<!--removed orange@2,1,-2 removed orange@2,0,-2 added orange@1,2,-1 added orange@1,0,-1 removed orange@1,2,-2 removed orange@1,0,-2 added orange@0,3,-1 removed orange@0,3,-2 added orange@-1,2,-1 removed orange@-1,2,-2 added orange@-2,1,-1 removed orange@-2,1,-2 added orange@-2,0,-1 added orange@-1,0,-1 added orange@0,0,-1 removed orange@-2,0,-2 removed orange@-1,0,-2 removed orange@0,0,-2-->
   </utterance>
-  <utterance participant="builder">
+  <utterance participant="builder" imageview="images/b21-a15-c66-1522882961544_146.png" amr="question">
+    <world_state>
+      <block id="b4" x="2" y="1" z="2" color="green" />
+      <block id="b7" x="1" y="1" z="2" color="green" />
+      <block id="b8" x="3" y="1" z="2" color="green" />
+      <block id="b9" x="4" y="1" z="2" color="green" />
+      <block id="c0" x="5" y="1" z="2" color="green" />
+      <block id="c1" x="1" y="2" z="2" color="green" />
+      <block id="c2" x="5" y="2" z="2" color="green" />
+      <block id="c4" x="4" y="3" z="2" color="green" />
+      <block id="c6" x="2" y="3" z="2" color="green" />
+      <block id="c8" x="3" y="4" z="2" color="green" />
+      <block id="d4" x="3" y="5" z="1" color="red" />
+      <block id="d5" x="3" y="5" z="0" color="red" />
+      <block id="d6" x="3" y="5" z="-1" color="red" />
+      <block id="d7" x="3" y="5" z="-2" color="red" />
+      <block id="d8" x="3" y="5" z="-3" color="red" />
+      <block id="d9" x="3" y="4" z="-3" color="red" />
+      <block id="e0" x="3" y="4" z="1" color="red" />
+      <block id="e2" x="3" y="3" z="-2" color="red" />
+      <block id="e5" x="3" y="3" z="0" color="red" />
+      <block id="e7" x="3" y="2" z="-1" color="red" />
+      <block id="f0" x="2" y="1" z="-1" color="orange" />
+      <block id="f1" x="2" y="0" z="-1" color="orange" />
+      <block id="f2" x="1" y="2" z="-1" color="orange" />
+      <block id="f3" x="1" y="0" z="-1" color="orange" />
+      <block id="f4" x="0" y="3" z="-1" color="orange" />
+      <block id="f5" x="-1" y="2" z="-1" color="orange" />
+      <block id="f6" x="-2" y="1" z="-1" color="orange" />
+      <block id="f7" x="-2" y="0" z="-1" color="orange" />
+      <block id="f8" x="-1" y="0" z="-1" color="orange" />
+      <block id="f9" x="0" y="0" z="-1" color="orange" />
+    </world_state>
     <!--is that good-->
     <t>is</t>
     <markable id="markable_140" gender="unmarked" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="unmarked" person="unmarked" reference="unmarked" span="(496, 497)">
@@ -563,7 +1715,39 @@
     </markable>
     <t>good</t>
   </utterance>
-  <utterance participant="architect">
+  <utterance participant="architect" imageview="images/b21-a15-c66-1522882961544_147.png" amr="assertion">
+    <world_state>
+      <block id="b4" x="2" y="1" z="2" color="green" />
+      <block id="b7" x="1" y="1" z="2" color="green" />
+      <block id="b8" x="3" y="1" z="2" color="green" />
+      <block id="b9" x="4" y="1" z="2" color="green" />
+      <block id="c0" x="5" y="1" z="2" color="green" />
+      <block id="c1" x="1" y="2" z="2" color="green" />
+      <block id="c2" x="5" y="2" z="2" color="green" />
+      <block id="c4" x="4" y="3" z="2" color="green" />
+      <block id="c6" x="2" y="3" z="2" color="green" />
+      <block id="c8" x="3" y="4" z="2" color="green" />
+      <block id="d4" x="3" y="5" z="1" color="red" />
+      <block id="d5" x="3" y="5" z="0" color="red" />
+      <block id="d6" x="3" y="5" z="-1" color="red" />
+      <block id="d7" x="3" y="5" z="-2" color="red" />
+      <block id="d8" x="3" y="5" z="-3" color="red" />
+      <block id="d9" x="3" y="4" z="-3" color="red" />
+      <block id="e0" x="3" y="4" z="1" color="red" />
+      <block id="e2" x="3" y="3" z="-2" color="red" />
+      <block id="e5" x="3" y="3" z="0" color="red" />
+      <block id="e7" x="3" y="2" z="-1" color="red" />
+      <block id="f0" x="2" y="1" z="-1" color="orange" />
+      <block id="f1" x="2" y="0" z="-1" color="orange" />
+      <block id="f2" x="1" y="2" z="-1" color="orange" />
+      <block id="f3" x="1" y="0" z="-1" color="orange" />
+      <block id="f4" x="0" y="3" z="-1" color="orange" />
+      <block id="f5" x="-1" y="2" z="-1" color="orange" />
+      <block id="f6" x="-2" y="1" z="-1" color="orange" />
+      <block id="f7" x="-2" y="0" z="-1" color="orange" />
+      <block id="f8" x="-1" y="0" z="-1" color="orange" />
+      <block id="f9" x="0" y="0" z="-1" color="orange" />
+    </world_state>
     <!--alright , looks perfect ! sorry about that :(-->
     <t>alright , looks perfect ! sorry about</t>
     <markable id="markable_141" gender="unmarked" gram_fnc="unmarked" mark_type="phrase" mmax_level="phrase" number="unmarked" person="unmarked" reference="unmarked" span="(505, 506)">
@@ -571,6 +1755,38 @@
     </markable>
     <t>:(</t>
   </utterance>
-  <utterance participant="builder">no problemo<!--no problemo-->
+  <utterance participant="builder" imageview="images/b21-a15-c66-1522882961544_148.png" amr="assertion">no problemo<world_state>
+      <block id="b4" x="2" y="1" z="2" color="green" />
+      <block id="b7" x="1" y="1" z="2" color="green" />
+      <block id="b8" x="3" y="1" z="2" color="green" />
+      <block id="b9" x="4" y="1" z="2" color="green" />
+      <block id="c0" x="5" y="1" z="2" color="green" />
+      <block id="c1" x="1" y="2" z="2" color="green" />
+      <block id="c2" x="5" y="2" z="2" color="green" />
+      <block id="c4" x="4" y="3" z="2" color="green" />
+      <block id="c6" x="2" y="3" z="2" color="green" />
+      <block id="c8" x="3" y="4" z="2" color="green" />
+      <block id="d4" x="3" y="5" z="1" color="red" />
+      <block id="d5" x="3" y="5" z="0" color="red" />
+      <block id="d6" x="3" y="5" z="-1" color="red" />
+      <block id="d7" x="3" y="5" z="-2" color="red" />
+      <block id="d8" x="3" y="5" z="-3" color="red" />
+      <block id="d9" x="3" y="4" z="-3" color="red" />
+      <block id="e0" x="3" y="4" z="1" color="red" />
+      <block id="e2" x="3" y="3" z="-2" color="red" />
+      <block id="e5" x="3" y="3" z="0" color="red" />
+      <block id="e7" x="3" y="2" z="-1" color="red" />
+      <block id="f0" x="2" y="1" z="-1" color="orange" />
+      <block id="f1" x="2" y="0" z="-1" color="orange" />
+      <block id="f2" x="1" y="2" z="-1" color="orange" />
+      <block id="f3" x="1" y="0" z="-1" color="orange" />
+      <block id="f4" x="0" y="3" z="-1" color="orange" />
+      <block id="f5" x="-1" y="2" z="-1" color="orange" />
+      <block id="f6" x="-2" y="1" z="-1" color="orange" />
+      <block id="f7" x="-2" y="0" z="-1" color="orange" />
+      <block id="f8" x="-1" y="0" z="-1" color="orange" />
+      <block id="f9" x="0" y="0" z="-1" color="orange" />
+    </world_state>
+    <!--no problemo-->
   </utterance>
 </dialogue>
